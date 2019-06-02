@@ -2738,11 +2738,19 @@ southern_african = {
 		}
 	}
 	zulu = {
-		color = {0 0 0}
+		color = {0 10 10}
 		first_names = { Cetshwayo Ntshingwayo Dabulamanzi Sikukuni Sihayo Mavumengwana Mbilini Mnyamana Hamu Gawozi Mgojana Zibhebhu Hehlokazulu Manyonyoba Mahubulwana Mkhosana Dingiswayo Senzagkhona Sekhukhune Sekethwayo Somopho
 		}
 
 		last_names = { kaMpande kaMahole KaMdlela waMswati Buthelezei Khoza kaSihayo kaMvundlana kaZikhala kaMaphitha
+		}
+	}
+	nigger = {
+		color = {0 0 0}
+		first_names = { Marquis "D'Shauwn" King Jakub The Xavier Zion DeAndre Darnell Treyvon Demetrius Jamal Cassius Ceaser Gangster Golden Diamond
+		}
+
+		last_names = { Phaerroe Nefertiti Black Pope Savage Titus Diaz Arceneaux Ice Diamond King Dick Shabazz Nix Doe Cato Mohammed Mingo "D'Mariqus"
 		}
 	}
 }

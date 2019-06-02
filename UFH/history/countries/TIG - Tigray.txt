@@ -1,7 +1,5 @@
 capital = 1857
-primary_culture = tigray
-culture = amhara
-culture = oromo
+primary_culture = nigger
 religion = coptic
 government = absolute_monarchy
 plurality = 0.0

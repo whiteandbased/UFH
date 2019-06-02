@@ -1,7 +1,5 @@
 capital = 1865
-primary_culture = harari
-culture = somali
-culture = oromo
+primary_culture = nigger
 religion = sunni
 government = absolute_monarchy
 plurality = 0.0

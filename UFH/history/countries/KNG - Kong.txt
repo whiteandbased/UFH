@@ -1,6 +1,5 @@
 capital = 1898
-primary_culture = dyula
-culture = senufo
+primary_culture = nigger
 religion = sunni
 government = absolute_monarchy
 plurality = 0.0

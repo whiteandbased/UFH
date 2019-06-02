@@ -1,6 +1,5 @@
 capital = 2001
-primary_culture = bakongo
-culture = african_minor
+primary_culture = nigger
 religion = catholic
 government = absolute_monarchy
 plurality = 0.0

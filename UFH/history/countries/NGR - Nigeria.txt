@@ -1,9 +1,6 @@
 capital = 1923
 primary_culture = british 
-culture = yoruba
-culture = edo
-culture = fulbe
-culture = african_minor
+culture = nigger
 religion = protestant
 government = democracy
 plurality = 0.0

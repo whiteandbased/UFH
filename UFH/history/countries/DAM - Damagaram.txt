@@ -1,7 +1,6 @@
 capital = 1815
-primary_culture = hausa
+primary_culture = nigger
 culture = tuareg
-culture = african_minor
 religion = sunni
 government = absolute_monarchy
 plurality = 0.0

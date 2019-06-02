@@ -103,7 +103,7 @@
 	}
 
 	slaves = {
-		culture = african_minor
+		culture = nigger
 		religion = animist
 		size = 400
 	}
@@ -141,7 +141,7 @@
 	}
 	
 	slaves = {
-		culture = african_minor
+		culture = nigger
 		religion = animist
 		size = 200
 	}
@@ -193,7 +193,7 @@
 	}
 
 	slaves = {
-		culture = african_minor
+		culture = nigger
 		religion = animist
 		size = 800
 	}

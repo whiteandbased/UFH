@@ -1,14 +1,5 @@
 capital = 1982
-primary_culture = bakongo
-culture = mongo
-culture = lunda
-culture = luba
-culture = lendu
-culture = kuba
-culture = kingwana
-culture = azande
-culture = chokwe
-culture = african_minor
+primary_culture = nigger
 religion = catholic
 government = absolute_monarchy
 plurality = 0.0

@@ -3,139 +3,139 @@
 #Niamey (288000/72000 POPS)
 1808 = {
 	aristocrats = {
-		culture = fulbe
+		culture = nigger
 		religion = sunni
 		size = 350
 	}
 
 	clergymen = {
-		culture = fulbe
+		culture = nigger
 		religion = sunni
 		size = 200
 	}
 
 	artisans = {
-		culture = fulbe
+		culture = nigger
 		religion = sunni
 		size = 800
 	}
 
 	soldiers = {
-		culture = fulbe
+		culture = nigger
 		religion = sunni
 		size = 200
 	}
 
 	farmers = {
-		culture = fulbe
+		culture = nigger
 		religion = sunni
 		size = 16450
 	}
 
 	aristocrats = {
-		culture = dyula
+		culture = nigger
 		religion = sunni
 		size = 150
 	}
 
 	clergymen = {
-		culture = dyula
+		culture = nigger
 		religion = sunni
 		size = 100
 	}
 
 	artisans = {
-		culture = dyula
+		culture = nigger
 		religion = sunni
 		size = 500
 	}
 
 	soldiers = {
-		culture = dyula
+		culture = nigger
 		religion = sunni
 		size = 100
 	}
 
 	farmers = {
-		culture = dyula
+		culture = nigger
 		religion = sunni
 		size = 9150
 	}
 
 	aristocrats = {
-		culture = songhai
+		culture = nigger
 		religion = sunni
 		size = 450
 	}
 	
 	bureaucrats = {
-		culture = songhai
+		culture = nigger
 		religion = sunni
 		size = 450
 	}
 	
 	bureaucrats = {
-		culture = hausa
+		culture = nigger
 		religion = sunni
 		size = 25
 	}
 
 	clergymen = {
-		culture = songhai
+		culture = nigger
 		religion = sunni
 		size = 250
 	}
 
 	artisans = {
-		culture = songhai
+		culture = nigger
 		religion = sunni
 		size = 1050
 	}
 
 	soldiers = {
-		culture = songhai
+		culture = nigger
 		religion = sunni
 		size = 2250
 	}
 
 	farmers = {
-		culture = songhai
+		culture = nigger
 		religion = sunni
 		size = 20000
 	}
 
 	aristocrats = {
-		culture = african_minor
+		culture = nigger
 		religion = animist
 		size = 20
 	}
 
 	clergymen = {
-		culture = african_minor
+		culture = nigger
 		religion = animist
 		size = 50
 	}
 
 	artisans = {
-		culture = african_minor
+		culture = nigger
 		religion = animist
 		size = 100
 	}
 
 	soldiers = {
-		culture = african_minor
+		culture = nigger
 		religion = animist
 		size = 30
 	}
 
 	farmers = {
-		culture = african_minor
+		culture = nigger
 		religion = animist
 		size = 1800
 	}
 
 	slaves = {
-		culture = african_minor
+		culture = nigger
 		religion = animist
 		size = 6000
 	}
@@ -173,127 +173,127 @@
 #Say (136000/34000 POPS)
 1809 = {
 	aristocrats = {
-		culture = fulbe
+		culture = nigger
 		religion = sunni
 		size = 150
 	}
 
 	clergymen = {
-		culture = fulbe
+		culture = nigger
 		religion = sunni
 		size = 100
 	}
 
 	artisans = {
-		culture = fulbe
+		culture = nigger
 		religion = sunni
 		size = 500
 	}
 
 	soldiers = {
-		culture = fulbe
+		culture = nigger
 		religion = sunni
 		size = 100
 	}
 
 	farmers = {
-		culture = fulbe
+		culture = nigger
 		religion = sunni
 		size = 7150
 	}
 
 	aristocrats = {
-		culture = dyula
+		culture = nigger
 		religion = sunni
 		size = 50
 	}
 
 	clergymen = {
-		culture = dyula
+		culture = nigger
 		religion = sunni
 		size = 100
 	}
 
 	artisans = {
-		culture = dyula
+		culture = nigger
 		religion = sunni
 		size = 200
 	}
 
 	soldiers = {
-		culture = dyula
+		culture = nigger
 		religion = sunni
 		size = 50
 	}
 
 	farmers = {
-		culture = dyula
+		culture = nigger
 		religion = sunni
 		size = 3600
 	}
 
 	aristocrats = {
-		culture = songhai
+		culture = nigger
 		religion = sunni
 		size = 200
 	}
 
 	clergymen = {
-		culture = songhai
+		culture = nigger
 		religion = sunni
 		size = 100
 	}
 
 	artisans = {
-		culture = songhai
+		culture = nigger
 		religion = sunni
 		size = 600
 	}
 
 	soldiers = {
-		culture = songhai
+		culture = nigger
 		religion = sunni
 		size = 1100
 	}
 
 	farmers = {
-		culture = songhai
+		culture = nigger
 		religion = sunni
 		size = 8000
 	}
 
 	aristocrats = {
-		culture = african_minor
+		culture = nigger
 		religion = animist
 		size = 150
 	}
 
 	clergymen = {
-		culture = african_minor
+		culture = nigger
 		religion = animist
 		size = 100
 	}
 
 	artisans = {
-		culture = african_minor
+		culture = nigger
 		religion = animist
 		size = 400
 	}
 
 	soldiers = {
-		culture = african_minor
+		culture = nigger
 		religion = animist
 		size = 100
 	}
 
 	farmers = {
-		culture = african_minor
+		culture = nigger
 		religion = animist
 		size = 7250
 	}
 
 	slaves = {
-		culture = african_minor
+		culture = nigger
 		religion = animist
 		size = 4000
 	}
@@ -301,97 +301,97 @@
 #Dosso (280000/70000 POPS)
 1810 = {
 	aristocrats = {
-		culture = fulbe
+		culture = nigger
 		religion = sunni
 		size = 100
 	}
 
 	clergymen = {
-		culture = fulbe
+		culture = nigger
 		religion = sunni
 		size = 150
 	}
 
 	artisans = {
-		culture = fulbe
+		culture = nigger
 		religion = sunni
 		size = 350
 	}
 
 	soldiers = {
-		culture = fulbe
+		culture = nigger
 		religion = sunni
 		size = 100
 	}
 
 	farmers = {
-		culture = fulbe
+		culture = nigger
 		religion = sunni
 		size = 5300
 	}
 
 	aristocrats = {
-		culture = hausa
+		culture = nigger
 		religion = sunni
 		size = 700
 	}
 
 	clergymen = {
-		culture = hausa
+		culture = nigger
 		religion = sunni
 		size = 400
 	}
 
 	artisans = {
-		culture = hausa
+		culture = nigger
 		religion = sunni
 		size = 2200
 	}
 
 	soldiers = {
-		culture = hausa
+		culture = nigger
 		religion = sunni
 		size = 1000
 	}
 
 	farmers = {
-		culture = hausa
+		culture = nigger
 		religion = sunni
 		size = 31900
 	}
 
 	aristocrats = {
-		culture = african_minor
+		culture = nigger
 		religion = animist
 		size = 50
 	}
 
 	clergymen = {
-		culture = african_minor
+		culture = nigger
 		religion = animist
 		size = 100
 	}
 
 	artisans = {
-		culture = african_minor
+		culture = nigger
 		religion = animist
 		size = 200
 	}
 
 	soldiers = {
-		culture = african_minor
+		culture = nigger
 		religion = animist
 		size = 50
 	}
 
 	farmers = {
-		culture = african_minor
+		culture = nigger
 		religion = animist
 		size = 3600
 	}
 
 	slaves = {
-		culture = african_minor
+		culture = nigger
 		religion = animist
 		size = 5800
 	}
@@ -429,97 +429,97 @@
 #Maradi (280000/70000 POPS)
 1811 = {
 	aristocrats = {
-		culture = fulbe
+		culture = nigger
 		religion = sunni
 		size = 20
 	}
 
 	clergymen = {
-		culture = fulbe
+		culture = nigger
 		religion = sunni
 		size = 50
 	}
 
 	artisans = {
-		culture = fulbe
+		culture = nigger
 		religion = sunni
 		size = 100
 	}
 
 	soldiers = {
-		culture = fulbe
+		culture = nigger
 		religion = sunni
 		size = 30
 	}
 
 	farmers = {
-		culture = fulbe
+		culture = nigger
 		religion = sunni
 		size = 1800
 	}
 
 	aristocrats = {
-		culture = hausa
+		culture = nigger
 		religion = sunni
 		size = 900
 	}
 
 	clergymen = {
-		culture = hausa
+		culture = nigger
 		religion = sunni
 		size = 500
 	}
 
 	artisans = {
-		culture = hausa
+		culture = nigger
 		religion = sunni
 		size = 2500
 	}
 
 	soldiers = {
-		culture = hausa
+		culture = nigger
 		religion = sunni
 		size = 1100
 	}
 
 	farmers = {
-		culture = hausa
+		culture = nigger
 		religion = sunni
 		size = 37000
 	}
 
 	aristocrats = {
-		culture = african_minor
+		culture = nigger
 		religion = animist
 		size = 300
 	}
 
 	clergymen = {
-		culture = african_minor
+		culture = nigger
 		religion = animist
 		size = 150
 	}
 
 	artisans = {
-		culture = african_minor
+		culture = nigger
 		religion = animist
 		size = 800
 	}
 
 	soldiers = {
-		culture = african_minor
+		culture = nigger
 		religion = animist
 		size = 150
 	}
 
 	farmers = {
-		culture = african_minor
+		culture = nigger
 		religion = animist
 		size = 14600
 	}
 
 	slaves = {
-		culture = african_minor
+		culture = nigger
 		religion = animist
 		size = 8000
 	}
@@ -589,37 +589,37 @@
 	}
 
 	aristocrats = {
-		culture = hausa
+		culture = nigger
 		religion = sunni
 		size = 250
 	}
 
 	clergymen = {
-		culture = hausa
+		culture = nigger
 		religion = sunni
 		size = 150
 	}
 
 	artisans = {
-		culture = hausa
+		culture = nigger
 		religion = sunni
 		size = 700
 	}
 
 	soldiers = {
-		culture = hausa
+		culture = nigger
 		religion = sunni
 		size = 150
 	}
 
 	farmers = {
-		culture = hausa
+		culture = nigger
 		religion = sunni
 		size = 8750
 	}
 
 	slaves = {
-		culture = african_minor
+		culture = nigger
 		religion = animist
 		size = 12000
 	}
@@ -689,7 +689,7 @@
 	}
 
 	slaves = {
-		culture = african_minor
+		culture = nigger
 		religion = animist
 		size = 4000
 	}
@@ -699,73 +699,73 @@
 #Zinder (464000/116000 POPS)
 1815 = {
 	aristocrats = {
-		culture = hausa
+		culture = nigger
 		religion = sunni
 		size = 1500
 	}
 	
 	bureaucrats = {
-		culture = hausa
+		culture = nigger
 		religion = sunni
 		size = 600
 	}
 
 	clergymen = {
-		culture = hausa
+		culture = nigger
 		religion = sunni
 		size = 800
 	}
 
 	artisans = {
-		culture = hausa
+		culture = nigger
 		religion = sunni
 		size = 4000
 	}
 
 	soldiers = {
-		culture = hausa
+		culture = nigger
 		religion = sunni
 		size = 1300
 	}
 
 	farmers = {
-		culture = hausa
+		culture = nigger
 		religion = sunni
 		size = 62900
 	}
 
 	aristocrats = {
-		culture = african_minor
+		culture = nigger
 		religion = animist
 		size = 650
 	}
 
 	clergymen = {
-		culture = african_minor
+		culture = nigger
 		religion = animist
 		size = 350
 	}
 
 	artisans = {
-		culture = african_minor
+		culture = nigger
 		religion = animist
 		size = 1800
 	}
 
 	soldiers = {
-		culture = african_minor
+		culture = nigger
 		religion = animist
 		size = 2150
 	}
 
 	farmers = {
-		culture = african_minor
+		culture = nigger
 		religion = animist
 		size = 20850
 	}
 
 	slaves = {
-		culture = african_minor
+		culture = nigger
 		religion = animist
 		size = 12000
 	}
@@ -804,31 +804,31 @@
 #Kufe (384000/96000 POPS)
 1816 = {
 	aristocrats = {
-		culture = kanuri
+		culture = nigger
 		religion = sunni
 		size = 1800
 	}
 
 	clergymen = {
-		culture = kanuri
+		culture = nigger
 		religion = sunni
 		size = 900
 	}
 
 	artisans = {
-		culture = kanuri
+		culture = nigger
 		religion = sunni
 		size = 3700
 	}
 
 	soldiers = {
-		culture = kanuri
+		culture = nigger
 		religion = sunni
 		size = 1000
 	}
 
 	farmers = {
-		culture = kanuri
+		culture = nigger
 		religion = sunni
 		size = 56600
 	}
@@ -864,7 +864,7 @@
 	}
 
 	slaves = {
-		culture = african_minor
+		culture = nigger
 		religion = animist
 		size = 28000
 	}
@@ -902,37 +902,37 @@
 	}
 
 	aristocrats = {
-		culture = teda
+		culture = nigger
 		religion = sunni
 		size = 25
 	}
 
 	clergymen = {
-		culture = teda
+		culture = nigger
 		religion = sunni
 		size = 50
 	}
 
 	artisans = {
-		culture = teda
+		culture = nigger
 		religion = sunni
 		size = 100
 	}
 
 	soldiers = {
-		culture = teda
+		culture = nigger
 		religion = sunni
 		size = 25
 	}
 
 	farmers = {
-		culture = teda
+		culture = nigger
 		religion = sunni
 		size = 1800
 	}
 
 	slaves = {
-		culture = african_minor
+		culture = nigger
 		religion = animist
 		size = 2000
 	}

@@ -45,7 +45,7 @@
 	}
 
 	slaves = {
-		culture = african_minor
+		culture = nigger
 		religion = animist
 		size = 3000
 	}
@@ -83,7 +83,7 @@
 	}
 
 	slaves = {
-		culture = african_minor
+		culture = nigger
 		religion = animist
 		size = 5000
 	}
@@ -134,7 +134,7 @@
 	}
 
 	slaves = {
-		culture = african_minor
+		culture = nigger
 		religion = animist
 		size = 6000
 	}
@@ -172,7 +172,7 @@
 	}
 
 	slaves = {
-		culture = african_minor
+		culture = nigger
 		religion = animist
 		size = 3000
 	}
@@ -257,31 +257,31 @@
 	}
 
 	aristocrats = {
-		culture = mande
+		culture = nigger
 		religion = sunni
 		size = 75
 	}
 
 	clergymen = {
-		culture = mande
+		culture = nigger
 		religion = sunni
 		size = 100
 	}
 
 	artisans = {
-		culture = mande
+		culture = nigger
 		religion = sunni
 		size = 200
 	}
 
 	soldiers = {
-		culture = mande
+		culture = nigger
 		religion = sunni
 		size = 50
 	}
 
 	farmers = {
-		culture = mande
+		culture = nigger
 		religion = sunni
 		size = 3675
 	}

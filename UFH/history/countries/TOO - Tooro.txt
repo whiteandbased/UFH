@@ -1,6 +1,5 @@
 capital = 1789
-primary_culture = fulbe
-culture = african_minor
+primary_culture = nigger
 religion = sunni
 government = theocracy
 plurality = 0.0

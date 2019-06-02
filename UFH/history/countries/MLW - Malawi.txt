@@ -1,8 +1,6 @@
 capital = 2067
 primary_culture = british 
-culture = chewa
-culture = lomwe
-culture = african_minor
+culture = nigger
 religion = protestant
 government = democracy
 plurality = 0.0

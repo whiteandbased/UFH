@@ -1,5 +1,5 @@
 capital = 1827
-primary_culture = sudanese
+primary_culture = nigger
 religion = sunni
 government = absolute_monarchy
 plurality = 0.0

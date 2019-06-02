@@ -1,14 +1,5 @@
 capital = 1794
-primary_culture = fulbe
-culture = bambara
-culture = songhai
-culture = tuareg
-culture = wolof
-culture = mande
-culture = dyula
-culture = senufo
-culture = mossi
-culture = african_minor
+primary_culture = nigger
 religion = sunni
 government = absolute_monarchy
 plurality = 0.0

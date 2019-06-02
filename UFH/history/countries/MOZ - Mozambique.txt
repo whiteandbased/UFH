@@ -1,8 +1,6 @@
 capital = 2049
 primary_culture = portuguese
-culture = swahili
-culture = nguni
-culture = shona
+culture = nigger
 religion = catholic
 government = presidential_dictatorship
 plurality = 0.0
