@@ -1,7 +1,5 @@
 capital = 2078
-primary_culture = herero
-culture = khoisan
-culture = african_minor
+primary_culture = nigger
 religion = animist
 government = absolute_monarchy
 plurality = 0.0
