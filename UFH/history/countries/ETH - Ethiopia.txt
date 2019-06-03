@@ -48,6 +48,10 @@ upper_house = {
 consciousness = 0
 nonstate_consciousness = 0
 
+# Inventions
+bottling_process = yes
+modern_winemaking = yes
+
 1861.1.1 = {
 	oob = "/1861/ETH_oob.txt"
 	set_global_flag = is_negusa_nagast

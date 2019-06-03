@@ -706,7 +706,7 @@ darwinism = {
 		}
 		modifier = {
 			factor = 2
-			invention = genetics:_heredity
+			invention = genetics_heredity
 		}
 		modifier = {
 			factor = 1
@@ -1220,7 +1220,6 @@ populism_vs._establishment = {
 clericalism_vs._anticlericalism = {
 	limit = {
 		state_n_government = 1
-		 
 	}
 	news = no
 	chance = {
@@ -1260,7 +1259,6 @@ bureaucracy_vs._nepotism = {
 meritocracy_vs._aristocracy = {
 	limit = {
 		state_n_government = 1
-		 
 	}
 	news = no
 	chance = {

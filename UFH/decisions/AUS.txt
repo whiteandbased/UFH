@@ -441,6 +441,25 @@ political_decisions = {
 				tag = AUS
 				tag = KUK
 				tag = DNB
+				AND = {
+					is_greater_power = yes
+					OR = {
+						AND = {
+							owns = 774
+							owns = 782
+							owns = 780
+						}
+						AND = {
+							owns = 771
+							owns = 779
+						}
+						AND = {
+							owns = 794
+							owns = 804
+							owns = 2577
+						}
+					}
+				}
 			}
 			BOS = {
 				ai = yes

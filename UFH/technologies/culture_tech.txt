@@ -430,7 +430,7 @@ positivism = {
 			capital_scope = { continent = europe }
 			NOT = { tag = TUR }
 			OR = {
-				not = { literacy = 0.30 }
+				not = { literacy = 0.40 }
 				tag = ENG
 			}
 			OR = {
@@ -481,7 +481,7 @@ functionalism = {
 			capital_scope = { continent = europe }
 			NOT = { tag = TUR }
 			OR = {
-				not = { literacy = 0.30 }
+				not = { literacy = 0.50 }
 				tag = ENG
 			}
 			OR = {
@@ -532,7 +532,8 @@ biologism = {
 			capital_scope = { continent = europe }
 			NOT = { tag = TUR }
 			OR = {
-				not = { literacy = 0.50 }
+				not = { literacy = 0.75 }
+				year = 1870
 				tag = ENG
 			}
 			OR = {
@@ -578,6 +579,22 @@ social_science = {
 			factor = 2 #2
 			not = { literacy = 0.25 }
 		}
+		
+		modifier = {
+			factor = 10
+			capital_scope = { continent = europe }
+			NOT = { tag = TUR }
+			OR = {
+				not = { literacy = 0.75 }
+				year = 1890
+				tag = ENG
+			}
+			OR = {
+				is_greater_power = yes
+				is_secondary_power = yes
+			}
+		}
+		
 		modifier = {
 			factor = 1.02
 			tech_school = culture_tech_school

@@ -293,6 +293,10 @@ political_decisions = {
 		
 		effect = {
 			set_country_flag = ucastatehood_we_have_applied
+			random_owned = {
+				limit = { owner = { accepted_culture = north_andean } }
+				owner = { remove_accepted_culture = north_andean }
+			}
 			UCA = { war_exhaustion = -5 }
 			random_country = {
 				limit = {

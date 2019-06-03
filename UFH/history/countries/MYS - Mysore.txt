@@ -53,6 +53,8 @@ flintlock_rifles = 1
 bronze_muzzle_loaded_artillery = 1
 
 # Inventions
+bottling_process = yes
+modern_winemaking = yes
 
 # Starting Consciousness
 consciousness = 0

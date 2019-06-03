@@ -836,6 +836,7 @@ claim_holy_land = {
 		}
 		is_vassal = no
 		NOT = { is_canal_enabled = 2 }
+		NOT = { is_greater_power = yes }
 		any_owned_province = {
 			OR = {
 				is_core = PLS
@@ -4515,6 +4516,7 @@ annex_africa = {
 	always = yes
 	
 	can_use = {
+		NOT = { has_country_flag = congo_master }
 		OR = {
 			AND = { 
 				THIS = { num_of_ports = 1 } 
@@ -4607,6 +4609,7 @@ annex_africa_full = {
 	always = yes
 	
 	can_use = {
+		NOT = { has_country_flag = congo_master }
 		OR = {
 			AND = { 
 				THIS = { num_of_ports = 1 } 
@@ -4664,6 +4667,8 @@ annex_africa_full = {
 			value = 0.1
 		}
 	}
+	
+	on_po_accepted = { tech_school = unciv_tech_school }
 }
 
 # Establish Protectorate
@@ -4792,6 +4797,7 @@ establish_protectorate_casus_belli = {
 			value = 0.1
 		}
 	}
+	on_po_accepted = { tech_school = unciv_tech_school }
 }
 
 establish_protectorate_NI_casus_belli = {
@@ -4905,6 +4911,7 @@ establish_protectorate_NI_casus_belli = {
 			value = 0.1
 		}
 	}
+	on_po_accepted = { tech_school = unciv_tech_school }
 }
 
 establish_protectorate_BC_casus_belli = {
@@ -5016,6 +5023,7 @@ establish_protectorate_BC_casus_belli = {
 			value = 0.1
 		}
 	}
+	on_po_accepted = { tech_school = unciv_tech_school }
 }
 
 #Status Quo
@@ -6084,6 +6092,7 @@ treaty_port_casus_belli = {
 			owns = 2048 #Zanzibar
 			owns = 1637 #Cheju
 			owns = 2589 #Tsushima
+			owns = 12 #Sado
 		}
 	}
 	
@@ -6126,6 +6135,7 @@ treaty_port_casus_belli = {
 						owns = 2048 #Zanzibar
 						owns = 1637 #Cheju
 						owns = 2589 #Tsushima
+						owns = 12 #Sado
 					}
 				}
 				THIS = {

@@ -364,49 +364,44 @@ political_decisions = {
 		ai_will_do = { factor = 1 }
 	}
 	
-	rename_the_falklands_argentina = {
-		picture = falklands_map
-		potential = {
-			primary_culture = platinean
-			NOT = { has_global_flag = falklands_are_the_malvinas }
-			owns = 2131
-		}
-		
-		allow = {
-			war = no
-		}
-		
-		effect = {
-			set_global_flag = falklands_are_the_malvinas
-			2131 = { change_province_name = "Islas Malvinas" }
-			prestige = 2
-		}
-		ai_will_do = { factor = 1 }
-	}
-	
-	rename_the_falklands_england = {
+	rename_the_falklands = {
 		picture = falklands_map
 		potential = {
 			OR = {
-				tag = ENG
-				tag = ENL
+				AND = {
+					primary_culture = platinean
+					NOT = { has_global_flag = falklands_are_the_malvinas }
+				}
+				AND = {
+					primary_culture = british
+					has_global_flag = falklands_are_the_malvinas
+				}
 			}
-			has_global_flag = falklands_are_the_malvinas
+			owns = 2131
 		}
 		
 		allow = {
 			war = no
-			owns = 2131
 		}
 		
 		effect = {
-			clr_global_flag = falklands_are_the_malvinas
-			2131 = { change_province_name = "Falkland Islands" }
-			prestige = 2
+			random_owned = { 
+				limit = { owner = { primary_culture = platinean } } 
+				owner = { 
+					set_global_flag = falklands_are_the_malvinas
+					2131 = { change_province_name = "Islas Malvinas" } 
+				} 
+			}
+			random_owned = { 
+				limit = { owner = { primary_culture = british } } 
+				owner = { 
+					clr_global_flag = falklands_are_the_malvinas
+					2131 = { change_province_name = "Falkland Islands" } 
+				} 
+			}
 		}
 		ai_will_do = { factor = 1 }
 	}
-	
 	
 	create_argentina = {
 		picture = argentina_chile_border_treaty
@@ -509,6 +504,36 @@ political_decisions = {
 			2366 = { add_core = THIS }
 			2367 = { add_core = THIS }
 			2554 = { add_core = THIS }
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	found_la_plata = {
+		picture = la_plata_foundation
+		potential = {
+			primary_culture = platinean
+			NOT = { has_global_flag = la_plata_founded }
+			owns = 2351
+			capital = 2348
+			realism = 1
+		}
+		
+		allow = {
+			war = no
+			money = 5000
+			analytic_philosophy = 1
+		}
+
+		effect = {
+			set_global_flag = la_plata_founded
+			treasury = -5000
+			2351 = { change_province_name = "La Plata" }
+			2351 = {
+				add_province_modifier = {
+					name = recently_built_city
+					duration = 365
+				}
+			}
 		}
 		ai_will_do = { factor = 1 }
 	}

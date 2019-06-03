@@ -47,8 +47,7 @@ country_event = {
 	option = {
 		name = "EVTOPTA60000"
 		government = proletarian_dictatorship
-		remove_country_modifier = islamic_law
-		clr_country_flag = islamic_law
+
 		political_reform = none_voting
 		political_reform = party_appointed
 		political_reform = no_meeting
@@ -335,8 +334,6 @@ country_event = {
 		remove_country_modifier = fight_the_power
 		government = democracy
 		election = yes
-		remove_country_modifier = islamic_law
-		clr_country_flag = islamic_law
 		random_owned = { limit = { owner = { border_policy = closed_borders } } owner = { political_reform = open_borders } }
 	}
 }
@@ -463,8 +460,6 @@ country_event = {
 		clr_country_flag = presidential_dictatorship_gov
 		clr_country_flag = fascist_gov
 		clr_country_flag = anarcho_liberal_gov
-		remove_country_modifier = islamic_law
-		clr_country_flag = islamic_law
 		government = hms_government
 		random_owned = { limit = { owner = { border_policy = closed_borders } } owner = { political_reform = open_borders } }
 	}
@@ -549,8 +544,6 @@ country_event = {
 		clr_country_flag = presidential_dictatorship_gov
 		clr_country_flag = fascist_gov
 		set_country_flag = anarcho_liberal_gov
-		remove_country_modifier = islamic_law
-		clr_country_flag = islamic_law
 		clr_country_flag = everywhere_genocide_only
 		clr_country_flag = non_colonial_genocide_only
 		clr_country_flag = colonial_genocide_only
@@ -592,8 +585,6 @@ country_event = {
 		clr_country_flag = presidential_dictatorship_gov
 		clr_country_flag = fascist_gov
 		clr_country_flag = anarcho_liberal_gov
-		remove_country_modifier = islamic_law
-		clr_country_flag = islamic_law
 		clr_country_flag = everywhere_genocide_only
 		clr_country_flag = non_colonial_genocide_only
 		clr_country_flag = colonial_genocide_only
@@ -775,6 +766,35 @@ country_event = {
 	option = {
 		name = "EVTOPTA60140"
 		political_reform = appointed
+	}
+}
+
+country_event = {
+	id = 60141
+	title = "EVTNAME60141"
+	desc = "EVTDESC60141"
+	picture = "communist_congress"
+	
+	trigger = {
+		civilized = yes
+		trade_unions = no_trade_unions
+		revolution_n_counterrevolution = 1
+		OR = {
+			AND = {
+				ruling_party_ideology = communist
+				NOT = { government = proletarian_dictatorship }
+			}
+			ruling_party_ideology = socialist
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 100
+	}
+	
+	option = {
+		name = "EVTOPTA60141"
+		political_reform = state_controlled
 	}
 }
 
@@ -1347,31 +1367,30 @@ country_event = {
 	}
 }
 
-#Set up on how crisis will be
+#Occitania Cleanup Event
 country_event = {
 	id = 6016807
 	title = "EVTNAME6016807"
 	desc = "EVTDESC6016807"
-	picture = "abraham_speech"
 		
-	trigger = {
-		ai = no
-		NOT = { has_global_flag = crisis_set_up }
-	}
+	is_triggered_only = yes
 	
-	fire_only_once = yes
-	mean_time_to_happen = { days = 1 }
+	immediate = {
+		any_owned = {
+			limit = {
+				is_core = OCC
+				NOT = { province_id = 464 }
+				NOT = { province_id = 460 }
+			}
+			assimilate = yes 
+		}
+	}
 	
 	option = {
 		name = "EVT6016807PTA"
-		set_global_flag = crisis_set_up
+		annex_to = FRA
 	}
 	
-	option = {
-		name = "EVT6016807PTB"
-		set_global_flag = revolution_n_counter_researched
-		set_global_flag = crisis_set_up
-	}
 }
 
 #Freedom of Bukovina

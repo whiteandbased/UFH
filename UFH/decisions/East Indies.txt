@@ -542,7 +542,7 @@ political_decisions = {
 				limit = { has_pop_culture = malay }
 				militancy = -6
 			}
-			MLY = { civilized = yes }
+			MLY = { tech_school = unciv_tech_school }
 			any_owned = {
 				limit = { is_core = MLY NOT = { province_id = 1393 } }
 				remove_core = SWK remove_core = SUL remove_core = BRU remove_core = KTI remove_core = KLM remove_core = LAN
@@ -584,6 +584,7 @@ political_decisions = {
 			set_global_flag = sarawak_protectorate
 			SWK = { civilized = no }
 			SWK = { annex_to = ENG }
+			SWK = { tech_school = unciv_tech_school }
 		}
 
 		ai_will_do = {
@@ -705,6 +706,7 @@ political_decisions = {
 		effect = {
 			prestige = 5
 			inherit = SUL
+			SUL = { tech_school = unciv_tech_school }
 		}
 
 		ai_will_do = { factor = 1 }
@@ -812,6 +814,7 @@ political_decisions = {
 			set_global_flag = created_cambodian_protectorate
 			prestige = 10
 			inherit = CAM
+			CAM = { tech_school = unciv_tech_school }
 		}
 	}
 	
@@ -894,6 +897,7 @@ political_decisions = {
 					}
 				}
 				set_country_flag = annexed_to_FRA
+				tech_school = unciv_tech_school
 				annex_to = FRA
 			}
 		}
@@ -1063,8 +1067,8 @@ political_decisions = {
 				set_country_flag = Luangprabang
 				government = democracy
 				political_reform = landed_voting
-				civilized = yes
 				all_core = { remove_core = SIA }
+				tech_school = unciv_tech_school
 			}
 		}
 		ai_will_do = { factor = 1 }

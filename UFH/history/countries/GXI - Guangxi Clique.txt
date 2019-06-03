@@ -73,5 +73,7 @@ nonstate_consciousness = 0
 	military_staff_system = 1
 
 	# Inventions
+bottling_process = yes
+modern_winemaking = yes
 
 }

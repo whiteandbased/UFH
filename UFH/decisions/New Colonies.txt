@@ -9,8 +9,8 @@ political_decisions = {
 				capital_scope = { continent = africa }
 			}
 			OR = {
-				owns = 1923
-				owns = 1948
+				owns = 1926
+				owns = 1934
 				owns = 1928
 			}
 		}
@@ -18,8 +18,8 @@ political_decisions = {
 		allow = {
 			war = no
 			nationalism_n_imperialism = 1
-			owns = 1923
-			owns = 1948
+			owns = 1926
+			owns = 1934
 			owns = 1928
 		}
 		
@@ -47,6 +47,7 @@ political_decisions = {
 						region = FRA_1923
 						region = FRA_1930
 						region = FRA_1927
+						region = SOK_1934
 					}
 				}
 				remove_core = NIG
@@ -58,15 +59,8 @@ political_decisions = {
 			}
 			NGR = {
 				primary_culture = THIS
-				civilized = yes
+				tech_school = unciv_tech_school
 				set_country_flag = post_colonial_country
-			}
-		}
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 0
-				NOT = { year = 1905 }
 			}
 		}
 	}
@@ -76,8 +70,8 @@ political_decisions = {
 		potential = {
 			civilized = yes
 			has_global_flag = nigeria_organized
-			owns = 1923
-			owns = 1948
+			owns = 1926
+			owns = 1934
 			owns = 1928
 			NGR = {
 				exists = no
@@ -91,8 +85,8 @@ political_decisions = {
 		allow = {
 			war = no
 			nationalism_n_imperialism = 1
-			owns = 1923
-			owns = 1948
+			owns = 1926
+			owns = 1934
 			owns = 1928
 		}
 		
@@ -126,7 +120,7 @@ political_decisions = {
 	}
 	
 	organize_togo = {
-		picture = map_africa
+		picture = togo_map
 		potential = {
 			civilized = yes
 			NOT = {
@@ -174,21 +168,14 @@ political_decisions = {
 			}
 			TOG = {
 				primary_culture = THIS
-				civilized = yes
+				tech_school = unciv_tech_school
 				set_country_flag = post_colonial_country
-			}
-		}
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 0
-				NOT = { year = 1905 }
 			}
 		}
 	}
 	
 	reorganize_togo = {
-		picture = map_africa
+		picture = togo_map
 		potential = {
 			civilized = yes
 			has_global_flag = togo_organized
@@ -283,15 +270,8 @@ political_decisions = {
 			}
 			IVC = {
 				primary_culture = THIS
-				civilized = yes
+				tech_school = unciv_tech_school
 				set_country_flag = post_colonial_country
-			}
-		}
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 0
-				NOT = { year = 1905 }
 			}
 		}
 	}
@@ -391,15 +371,8 @@ political_decisions = {
 			}
 			SLE = {
 				primary_culture = THIS
-				civilized = yes
+				tech_school = unciv_tech_school
 				set_country_flag = post_colonial_country
-			}
-		}
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 0
-				NOT = { year = 1905 }
 			}
 		}
 	}
@@ -500,15 +473,8 @@ political_decisions = {
 			}
 			GNE = {
 				primary_culture = THIS
-				civilized = yes
+				tech_school = unciv_tech_school
 				set_country_flag = post_colonial_country
-			}
-		}
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 0
-				NOT = { year = 1905 }
 			}
 		}
 	}
@@ -552,20 +518,11 @@ political_decisions = {
 			random_owned = { limit = { owner = { tag = OMA } } GNE = { religion = ibadi } }
 			prestige = 3
 			any_pop = {
-				limit = {
-					location = { is_core = GNE }
-				}
+				limit = { location = { is_core = GNE } }
 				militancy = -3
 			}
 			GNE = {
 				primary_culture = THIS
-			}
-		}
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 0
-				NOT = { year = 1905 }
 			}
 		}
 	}
@@ -600,15 +557,8 @@ political_decisions = {
 			}
 			SNG = {
 				primary_culture = THIS
-				civilized = yes
+				tech_school = unciv_tech_school
 				set_country_flag = post_colonial_country
-			}
-		}
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 0
-				NOT = { year = 1905 }
 			}
 		}
 	}
@@ -693,15 +643,8 @@ political_decisions = {
 			}
 			NIG = {
 				primary_culture = THIS
-				civilized = yes
+				tech_school = unciv_tech_school
 				set_country_flag = post_colonial_country
-			}
-		}
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 0
-				NOT = { year = 1905 }
 			}
 		}
 	}
@@ -805,15 +748,8 @@ political_decisions = {
 			}
 			CHD = {
 				primary_culture = THIS
-				civilized = yes
+				tech_school = unciv_tech_school
 				set_country_flag = post_colonial_country
-			}
-		}
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 0
-				NOT = { year = 1905 }
 			}
 		}
 	}
@@ -913,15 +849,8 @@ political_decisions = {
 			}
 			CMR = {
 				primary_culture = THIS
-				civilized = yes
+				tech_school = unciv_tech_school
 				set_country_flag = post_colonial_country
-			}
-		}
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 0
-				NOT = { year = 1905 }
 			}
 		}
 	}
@@ -1021,15 +950,8 @@ political_decisions = {
 			}
 			GAB = {
 				primary_culture = THIS
-				civilized = yes
+				tech_school = unciv_tech_school
 				set_country_flag = post_colonial_country
-			}
-		}
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 0
-				NOT = { year = 1905 }
 			}
 		}
 	}
@@ -1132,15 +1054,8 @@ political_decisions = {
 			}
 			CGO = {
 				primary_culture = THIS
-				civilized = yes
+				tech_school = unciv_tech_school
 				set_country_flag = post_colonial_country
-			}
-		}
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 0
-				NOT = { year = 1905 }
 			}
 		}
 	}
@@ -1244,15 +1159,8 @@ political_decisions = {
 			}
 			CNG = {
 				primary_culture = THIS
-				civilized = yes
+				tech_school = unciv_tech_school
 				set_country_flag = post_colonial_country
-			}
-		}
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 0
-				NOT = { year = 1905 }
 			}
 		}
 	}
@@ -1353,15 +1261,8 @@ political_decisions = {
 			}
 			ZAM = {
 				primary_culture = THIS
-				civilized = yes
+				tech_school = unciv_tech_school
 				set_country_flag = post_colonial_country
-			}
-		}
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 0
-				NOT = { year = 1905 }
 			}
 		}
 	}
@@ -1462,19 +1363,12 @@ political_decisions = {
 			}
 			KNY = {
 				primary_culture = THIS
-				civilized = yes
+				tech_school = unciv_tech_school
 				set_country_flag = post_colonial_country
 			}
 			2026 = { trade_goods = tea }
 			2027 = { trade_goods = tea }
 			2028 = { trade_goods = tea }
-		}
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 0
-				NOT = { year = 1905 }
-			}
 		}
 	}
 	
@@ -1573,15 +1467,8 @@ political_decisions = {
 			}
 			TNZ = {
 				primary_culture = THIS
-				civilized = yes
+				tech_school = unciv_tech_school
 				set_country_flag = post_colonial_country
-			}
-		}
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 0
-				NOT = { year = 1905 }
 			}
 		}
 	}
@@ -1700,15 +1587,8 @@ political_decisions = {
 			}
 			BMK = {
 				primary_culture = THIS
-				civilized = yes
+				tech_school = unciv_tech_school
 				set_country_flag = post_colonial_country
-			}
-		}
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 0
-				NOT = { year = 1905 }
 			}
 		}
 	}
@@ -1794,16 +1674,7 @@ political_decisions = {
 					duration = 1095
 				}
 			}
-			LBY = {
-				civilized = yes
-			}
-		}
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 0
-				NOT = { year = 1905 }
-			}
+			LBY = { tech_school = unciv_tech_school }
 		}
 	}
 	
@@ -1844,11 +1715,7 @@ political_decisions = {
 					duration = 1095
 				}
 			}
-			LBY = {
-				primary_culture = THIS
-				civilized = yes
-				set_country_flag = post_colonial_country
-			}
+			LBY = { tech_school = unciv_tech_school }
 			TRI = {
 				all_core = { remove_core = TRI }
 			}
@@ -1904,15 +1771,8 @@ political_decisions = {
 			}
 			CAR = {
 				primary_culture = THIS
-				civilized = yes
+				tech_school = unciv_tech_school
 				set_country_flag = post_colonial_country
-			}
-		}
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 0
-				NOT = { year = 1905 }
 			}
 		}
 	}
@@ -2023,18 +1883,11 @@ political_decisions = {
 			}
 			MLW = {
 				primary_culture = THIS
-				civilized = yes
+				tech_school = unciv_tech_school
 				capital = 2067
 				set_country_flag = post_colonial_country
 			}
 			random_owned = { limit = { owner = { primary_culture = british owns = 2066 } } 2066 = { change_province_name = "Blantyre" } }
-		}
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 0
-				NOT = { year = 1905 }
-			}
 		}
 	}
 	
@@ -2133,15 +1986,8 @@ political_decisions = {
 			}
 			GMB = {
 				primary_culture = THIS
-				civilized = yes
+				tech_school = unciv_tech_school
 				set_country_flag = post_colonial_country
-			}
-		}
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 0
-				NOT = { year = 1905 }
 			}
 		}
 	}
@@ -2232,7 +2078,7 @@ political_decisions = {
 			prestige = 5
 			ANG = {
 				primary_culture = THIS
-				civilized = yes
+				tech_school = unciv_tech_school
 				set_country_flag = post_colonial_country
 			}
 			any_owned = {
@@ -2251,14 +2097,6 @@ political_decisions = {
 				}
 			}
 			ANG = { all_core = { remove_core = KON } }
-		}
-
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 0
-				NOT = { year = 1905 }
-			}
 		}
 	}
 	
@@ -2306,10 +2144,7 @@ political_decisions = {
 				}
 				militancy = -3
 			}
-			ANG = {
-				primary_culture = THIS
-				civilized = yes
-			}
+			ANG = { primary_culture = THIS }
 		}	
 	}
 	
@@ -2349,7 +2184,7 @@ political_decisions = {
 			MOZ = {
 				set_country_flag = post_colonial_country
 				primary_culture = THIS
-				civilized  = yes
+				tech_school = unciv_tech_school
 			}
 			any_owned = {
 				limit = {
@@ -2424,10 +2259,7 @@ political_decisions = {
 			}
 			modifier = {
 				factor = 0
-				OR = {
-					NOT = { year = 1900 }
-					NOT = { AGC = { all_core = { owned_by = THIS } } }
-				}
+				NOT = { AGC = { all_core = { owned_by = THIS } } }
 			}
 		}
 	}
@@ -2476,10 +2308,7 @@ political_decisions = {
 				}
 				militancy = -3
 			}
-			MOZ = {
-				primary_culture = THIS
-				civilized = yes
-			}
+			MOZ = { primary_culture = THIS }
 		}	
 	}
 	
@@ -2512,19 +2341,13 @@ political_decisions = {
 				}
 			}
 			ALD = {
-				civilized = yes
+				tech_school = unciv_tech_school
 				government = democracy
 				political_reform = landed_voting
 				capital = 1700
 			}
 		}
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 0
-				NOT = { year = 1905 }
-			}
-		}
+		ai_will_do = { factor = 1 }
 	}
 	
 	organize_uganda = {
@@ -2576,16 +2399,9 @@ political_decisions = {
 				add_accepted_culture = baganda
 				government = democracy
 				political_reform = landed_voting
-				civilized = yes
+				tech_school = unciv_tech_school
 			}
 			2019 = { change_province_name = "Kampala" }
-		}
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 0
-				NOT = { year = 1905 }
-			}
 		}
 	}
 	
@@ -2639,14 +2455,7 @@ political_decisions = {
 				add_accepted_culture = tswana
 				government = democracy
 				political_reform = landed_voting
-				civilized = yes
-			}
-		}
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 0
-				NOT = { year = 1905 }
+				tech_school = unciv_tech_school
 			}
 		}
 	}
@@ -2684,14 +2493,7 @@ political_decisions = {
 				set_country_flag = post_colonial_country
 				government = democracy
 				political_reform = landed_voting
-				civilized = yes
-			}
-		}
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 0
-				NOT = { year = 1905 }
+				tech_school = unciv_tech_school
 			}
 		}
 	}
@@ -2734,14 +2536,7 @@ political_decisions = {
 				set_country_flag = post_colonial_country
 				government = democracy
 				political_reform = landed_voting
-				civilized = yes
-			}
-		}
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 0
-				NOT = { year = 1905 }
+				tech_school = unciv_tech_school
 			}
 		}
 	}
@@ -2793,16 +2588,9 @@ political_decisions = {
 				set_country_flag = post_colonial_country
 				government = democracy
 				political_reform = landed_voting
-				civilized = yes
+				tech_school = unciv_tech_school
 				primary_culture = THIS
 				add_accepted_culture = akan
-			}
-		}
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 0
-				NOT = { year = 1905 }
 			}
 		}
 	}
@@ -2852,15 +2640,8 @@ political_decisions = {
 				set_country_flag = post_colonial_country
 				government = democracy
 				political_reform = landed_voting
-				civilized = yes
+				tech_school = unciv_tech_school
 				primary_culture = THIS
-			}
-		}
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 0
-				NOT = { year = 1905 }
 			}
 		}
 	}
@@ -2901,14 +2682,7 @@ political_decisions = {
 				set_country_flag = post_colonial_country
 				government = democracy
 				political_reform = landed_voting
-				civilized = yes
-			}
-		}
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 0
-				NOT = { year = 1905 }
+				tech_school = unciv_tech_school
 			}
 		}
 	}
@@ -2960,15 +2734,8 @@ political_decisions = {
 				set_country_flag = post_colonial_country
 				government = democracy
 				political_reform = landed_voting
-				civilized = yes
+				tech_school = unciv_tech_school
 				primary_culture = THIS
-			}
-		}
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 0
-				NOT = { year = 1905 }
 			}
 		}
 	}
@@ -3028,7 +2795,7 @@ political_decisions = {
 			
 			INO = {
 				set_country_flag = post_colonial_country
-				civilized = yes
+				tech_school = unciv_tech_school
 			}
 			random_owned = { limit = { owner = { primary_culture = dutch } } INO = { add_accepted_culture = dutch } }
 		}
@@ -3073,15 +2840,7 @@ political_decisions = {
 			1867 = { add_core = SOM }
 			2031 = { add_core = SOM }
 			2032 = { add_core = SOM }
-			SOM = { civilized = yes nationalvalue = nv_autocracy }
-		}
-
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 0
-				NOT = { year = 1905 }
-			}
+			SOM = { tech_school = unciv_tech_school nationalvalue = nv_autocracy }
 		}
 	}
 	
@@ -3132,7 +2891,7 @@ political_decisions = {
 			add_core = TMR
 			}
 			TMR = {
-				civilized = yes
+				tech_school = unciv_tech_school
 				nationalvalue = nv_autocracy
 				religion = catholic
 				primary_culture = THIS
@@ -3146,14 +2905,6 @@ political_decisions = {
 					name = colonial_exploitation
 					duration = 1095
 				}
-			}
-		}
-
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 0
-				NOT = { year = 1905 }
 			}
 		}
 	}
@@ -3257,12 +3008,12 @@ political_decisions = {
 		}
 		random_owned = { limit = { province_id = 2083 } 2083 = { change_province_name = "Walvis Bay" } }
 		random_owned = {
-			limit = { owner = { NOT = { has_country_flag = founding_german_namibia } } } 
+			limit = { owner = { NOT = { is_culture_group = germanic } } }
 			2084 = { change_province_name = "Angra Pequena" any_pop = { limit = { has_pop_religion = animist } literacy = -0.99 } }
 		}
 		
 		random_owned = {
-			limit = { owner = { NOT = { has_country_flag = founding_german_namibia } } } 
+			limit = { owner = { NOT = { has_country_flag = founding_german_namibia } } }
 			2086 = { change_province_name = "Keetmanshoop" any_pop = { limit = { has_pop_religion = animist } literacy = -0.99 } }
 		}
 		
@@ -3279,14 +3030,7 @@ political_decisions = {
 				add_accepted_culture = african_minor
 				government = democracy
 				political_reform = landed_voting
-				civilized = yes
-			}
-		}
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 0
-				NOT = { year = 1905 }
+				tech_school = unciv_tech_school
 			}
 		}
 	}
@@ -3370,7 +3114,7 @@ political_decisions = {
 			prestige = 3
 			set_global_flag = lebanon_organized
 			set_country_flag = lebanon_organizer
-			LBN = { civilized = yes }
+			LBN = { tech_school = unciv_tech_school }
 			random_owned = {
 				limit = {
 					owner = {
@@ -3410,14 +3154,6 @@ political_decisions = {
 			random_owned = { 
 				limit = { owner = { capital_scope = { pop_majority_religion = shiite } } }
 				LBN = { religion = shiite clr_country_flag = not_muslim  }
-			}
-		}
-
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 0
-				NOT = { year = 1905 }
 			}
 		}
 	}
@@ -3500,14 +3236,6 @@ political_decisions = {
 					LBN = { religion = shiite clr_country_flag = not_muslim  } 
 			}
 		}
-
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 0
-				NOT = { year = 1905 }
-			}
-		}
 	}
 	
 	organize_guine_bissau = {
@@ -3567,15 +3295,7 @@ political_decisions = {
 				add_accepted_culture = african_minor
 				government = democracy
 				political_reform = landed_voting
-				civilized = yes
-			}
-		}
-		
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 0
-				NOT = { year = 1905 }
+				tech_school = unciv_tech_school
 			}
 		}
 	}
@@ -3687,15 +3407,7 @@ political_decisions = {
 				primary_culture = THIS
 				add_accepted_culture = malagasy
 				add_accepted_culture = african_minor
-				civilized = yes
-			}
-		}
-		
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 0
-				NOT = { year = 1905 }
+				tech_school = unciv_tech_school
 			}
 		}
 	}
@@ -3747,15 +3459,7 @@ political_decisions = {
 				primary_culture = THIS
 			}
 		}
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 0
-				NOT = { year = 1905 }
-			}
-		}
 	}
-	
 	
 	buy_caprivi_strip = {
 		picture = map_africa

@@ -3,7 +3,7 @@
 #         			Uncivilized Country Events						#
 #																	#
 #####################################################################
-
+# Audax Validator "." Ignore_NEXT
 
 #Wind of Westernization - Initialization event
 country_event = {
@@ -3111,7 +3111,10 @@ country_event = {
 				tag = FROM
 				vassal_of = THIS
 			}
-			THIS = { release_vassal = FROM }
+			THIS = {
+				release_vassal = FROM
+				casus_belli = { target = FROM type = make_puppet months = 120 }
+			}
 		}
 		diplomatic_influence = {
 			who = FROM
@@ -3188,7 +3191,7 @@ country_event = {
 			who = FROM
 			value = -200
 		}
-		prestige = -20
+		prestige_factor = -0.1
 		ai_chance = {
 			factor = 50
 			modifier = {
@@ -3972,6 +3975,8 @@ country_event = {
 	
 	option = {
 		name = "EVTOPTA13357"
+		tech_school = unciv_tech_school
+		set_country_flag = no_british_doctrine
 		any_pop = {
 			limit = { is_primary_culture = yes }
 			militancy = 4
@@ -4063,10 +4068,7 @@ country_event = {
 		name = "EVTOPTB13358"
 		prestige = -2
 		FROM = {
-			set_country_flag = no_british_doctrine
-			any_pop = {
-				militancy = -2
-			}
+			any_pop = { militancy = -2 }
 		}
 	}
 }
@@ -4107,8 +4109,8 @@ country_event = {
 
 	option = {				
 		name = "EVTOPTA90910"
-		clr_country_flag = lacking_writing_system
 		prestige = 5
+		clr_country_flag = lacking_writing_system
 		random_owned = { limit = { owner = { ai = yes } } owner = { add_country_modifier = { name = law_changed_by_force duration = 3 } } }
 		random_owned = { 
 			limit = { owner = { has_country_flag = activate_experimental_railroad } NOT = { experimental_railroad = 1 } }
@@ -4529,6 +4531,7 @@ province_event = {
 }
 
 #Unciv Military Reforms - Isolationist countries don't get bonuses
+# Audax Validator "." Ignore_NEXT
 country_event = {
 	id = 90959
 	title = "EVTNAME90959"
@@ -4536,10 +4539,6 @@ country_event = {
 	picture = "boxers"
 		
 	is_triggered_only = yes
-	
-	immediate = {
-		
-	}
 
 	option = {
 		name = "EVTOPTA90959"

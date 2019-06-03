@@ -55,9 +55,7 @@ country_event = {
 	option = {
 		name = "EVTOPTB14500"
 		random_state = {
-			limit = {
-				is_colonial = yes
-			}
+			limit = { is_colonial = yes }
 			any_owned = {
 				add_province_modifier = {
 					name = colonial_dry_spell

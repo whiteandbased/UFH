@@ -1,7 +1,16 @@
 ;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;x;;;;
+HTY;Turkmeneli;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+HTY_ADJ;Turkomani;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+POR_fascist;União Nacional;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+IRE_fascist;The Blueshirts;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+IRE_communist;Communist Party of Ireland;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+IRE_conservative;Irish Conservative Party;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+AST_fascist;New Guard;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+SGF_ADJ;South German;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 alaskan;Alaskan;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
 USA_conservative_2;Bourbon Democrats;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
 USA_conservative_4;Democrats;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+YUG_fascist;ZBOR;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
 YUG_ADJ;Yugoslav;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
 AUS_fascist;Vaterländische Front;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 SWI_liberal;Freisinnig-Demokratische Partei;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
@@ -80,9 +89,6 @@ DAI;Vietnam;;;;;;;;;;;;;;;;;;;;x;;;;
 DAI_communist;Viet Nam Cong san Ðang;;;;;;;;;;;;x
 ENG_communist;Communist Party of Great Britain;;;;;;;;;;;;x
 FIN_fascist;Isänmaallinen kansanliike;;;;;;;;;;;;x
-GRE_communist;Kommounistikó Kómma Elládas;;;;;;;;;;;;x
-GRE_socialist;Sosialistikó Kómma Elládas;;;;;;;;;;;;x
-GRE_fascist;Ethniki Enosis Ellados;;;;;;;;;;;;x
 MEX_socialist;Partido Laborista Mexicano;;;;;;;;;;;;x
 MEX_communist;Partido Socialista Obrero;;;;;;;;;;;;x
 MEX_fascist;Unión Nacional Sinarquista;;;;;;;;;;;;x
@@ -94,7 +100,25 @@ HOL_fascist;Verbond Van Actualisten;;;;;;;;;;;;x
 POR_socialist;Partido Socialista Português;;;;;;;;;;;;x
 POR_communist;Partido Comunista Português;;;;;;;;;;;;x
 RUS_fascist;All-Russian Fascist Party;;;;;;;;;;;;x
-SER_anarcho_liberal;Narodna Radikalna Stranka;;;;;;;;;;;;x
+SER_reactionary;Nacionalna Stranka;;;;;;;;;;;;x
+SER_communist;Srpska Socijaldemokratska Partija;;;;;;;;;;;;x
+SER_fascist;Narodna Odbrana;;;;;;;;;;;;x
+SER_conservative;Ustavobranitelji;;;;;;;;;;;;x
+SER_conservative_2;Konzervativna Stranka;;;;;;;;;;;;x
+SER_conservative_3;Srpska Napredna Stranka;;;;;;;;;;;;x
+SER_socialist;Samostalna Radikalna Stranka;;;;;;;;;;;;x
+SER_liberal;Liberalna Stranka;;;;;;;;;;;;x
+SER_liberal_2;Narodna Radikalna Stranka;;;;;;;;;;;;x
+SER_anarcho_liberal;Anarho-Liberalno Stranka;;;;;;;;;;;;x
+GRE_communist;Kommounistikó Kómma Elládas;;;;;;;;;;;;x
+GRE_socialist;Sosialistikó Kómma Elládas;;;;;;;;;;;;x
+GRE_fascist;Ethniki Enosis Ellados;;;;;;;;;;;;x
+GRE_anarcho_liberal;Ethnikón Rizospastikón Kómma;;;;;;;;;;;;x
+GRE_reactionary;Kómma ton Napaíon;;;;;;;;;;;;x
+GRE_conservative;Syntagmatikó Kómma;;;;;;;;;;;;x
+GRE_conservative_2;Kómma Ethnikófronon
+GRE_liberal;Ethnikó Kómma;;;;;;;;;;;;x
+GRE_liberal_2;Neoteristikón Kómma;;;;;;;;;;;;x
 USA_socialist;Workingmen's Party;;;;;;;;;;;;x
 USA_communist;Communist Party USA;;;;;;;;;;;;x
 USA_fascist;Silver Legion of America;;;;;;;;;;;;x
@@ -2534,8 +2558,8 @@ BSH_anarcho_liberal;Radical Faction;Faction radicale;Die radikale Fraktion;;;;;;
 BSH_socialist;Socialist Faction;Faction socialiste;Die sozialistische Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
 BSH_communist;Communist Faction;Faction communiste;Die kommunistische Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
 BSH_fascist;Fascist Faction;Faction fasciste;Die faschistische Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
-BUG;Buganda;Buganda;Buganda;;Buganda;;;;;;;;;;x;;;;;;;;;;;;;;
-BUG_ADJ;Bugandan;Bugandaise;Bugandische;;;;;;;;;;;;x;;;;;;;;;;;;;;
+BUG;Buganda;Uganda;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
+BUG_ADJ;Ugandan;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
 BUG_conservative;Royal Faction;Faction royale;Königsfraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
 BUG_liberal;Reform Faction;Faction de réforme;Verbesserung Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
 BUG_reactionary;Empire Faction;Faction d'empire;Reich Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;

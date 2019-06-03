@@ -35,10 +35,7 @@ greater_california = {
 		MEX_94 = { add_core = CAL } #Nevada
 		MEX_97 = { add_core = CAL } #Utah
 		MEX_100 = { add_core = CAL } #Arizona
-###		MEX_2138 = { add_core = CAL } #Sonora
-			
-		2137 = { add_core = CAL } #Hermosillo
-		2138 = { add_core = CAL } #Loreto
+		MEX_2138 = { add_core = CAL } #Sonora
 
 		relation = { who = MEX value = -200 }
 		relation = { who = USA value = -200 }

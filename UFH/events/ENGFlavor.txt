@@ -2922,6 +2922,7 @@ country_event = {
 				attacker_goal = { casus_belli = conquest_any }
 				defender_goal = { casus_belli = humiliate }
 			}
+			SIK = { tech_school = unciv_tech_school }
 		ai_chance = { factor = 100 }
 	}
 	

@@ -2,9 +2,9 @@ capital = 826
 primary_culture = greek
 religion = orthodox
 government = presidential_dictatorship
-plurality = 20.0
+plurality = 10.0
 nationalvalue = nv_productivity
-literacy = 0.15
+literacy = 0.08
 civilized = yes
 prestige = 1
 

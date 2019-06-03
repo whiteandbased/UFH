@@ -274,7 +274,7 @@ country_event = {
 		name = "EVTOPTA22540"
 		random_state = {
 			limit = { is_colonial = no }
-			any_owned_province = { limit = { is_state_capital = yes } add_province_modifier = { name = local_stock_exchange duration = -1 } }
+			any_owned = { limit = { is_state_capital = yes } add_province_modifier = { name = local_stock_exchange duration = -1 } }
 		}
 	}
 }

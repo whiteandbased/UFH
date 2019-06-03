@@ -1,4 +1,57 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+new_world_semidesert;Desert scrublands;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+new_world_desert;Desert;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+new_world_boreal;Taiga;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+new_world_montane_tundra;Alpine Tundra;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+new_world_arctic;Tundra;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+new_world_mountain;Montane Grassland;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+new_world_jungle;Jungle;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+new_world_plains;Grassland;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+new_world_small_island;Island;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+arid_climate;Arid Climate;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+CANAL_6;English Channel;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+GRE_837;Attica;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+PROV2669;Sondrio;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+PROV8;Belluno;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+PROV2351;Magdalena;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+PROV10;Pescara;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+PROV3320;Lake Pyhäjärvi;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+PROV3319;Lake Iso-Kalla;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+PROV3318;Lake Saimaa;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+PROV3317;Lake Päijänne;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+PROV3316;Lake Oulujärvi;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+PROV3315;Lake Segozero;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+PROV3314;Lake Storsjön;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+PROV3313;Lake Siljan;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+PROV3312;Lake Hjälmaren;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+PROV3311;Lough Neagh;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+PROV3310;Hulun Lake;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+PROV3309;Namak Lake;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+PROV3308;Khar Us Lake;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+PROV3307;Khyargas Lake;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+PROV3306;Uvs Lake;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+PROV3305;Khovsgol Lake;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+PROV3304;Lake Zaysan;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+PROV3303;Lake Alakol;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+PROV3302;Khanka Lake;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+PROV3301;Hung-tse Lake;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+PROV3300;Siling Lake;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+PROV3299;Chott Chergui;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+PROV3298;Chott el Hodna;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+PROV3297;Chott Melghir;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+PROV3296;Chott el Djerid;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+PROV3295;Taihu Lake;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+PROV3294;Lake Mweru;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+PROV3293;Lake Rukwa;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+PROV3292;Lake Argyle;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+PROV3291;Lake Mackay;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+PROV3290;Lake Eyre;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+PROV3289;Lake Frome;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+PROV3288;Lake Torrens;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+PROV3287;Lake Gairdner;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+PROV3286;Songkhla Lake;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+PROV3285;Fagnano Lake;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+PROV12;Sado;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
 PROV1531;Tombara;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
 PROV2537;Birara;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
 PROV158;Grand Portage;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
@@ -100,6 +153,7 @@ polynesia;Polynesia;;;;;;;;;;;;;;;;;;;;;;;;x
 desert;Desert;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 semidesert;Semidesert;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 small_island;Island;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+coral_island;Atoll;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 forest;Forest;;;;;;;;x
 boreal;Taiga;;;;;;;;;;;;;;;;;;;;;;;;x
 arctic;Tundra;;;;;;;;;;;;;;;;;;;;;;;;x
@@ -893,7 +947,7 @@ PROV33;Prince Albert;;;;;;;;;;;;x
 PROV42;Winnipeg;;;;;;;;;;;;x
 PROV36;Pinawa;;;;;;;;;;;;x
 PROV60;Richmond;;;;;;;;;;;;x
-PROV211;Blackstone;;;;;;;;;;;;x
+PROV211;Lynchburg;;;;;;;;;;;;x
 PROV2186;Guatemala City;;;;;;;;;;;;x
 PROV14;Victoria;;;;;;;;;;;;x
 PROV3249;Kiritimati;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,

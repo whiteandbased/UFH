@@ -155,6 +155,7 @@ country_event = {
 	
 	trigger = {
 		NOT = { is_ideology_enabled = anarcho_liberal }
+		NOT = { has_global_flag = anarcho_liberals_disabled }
 		year = 1848
 		civilized = yes
 		literacy = 0.6
@@ -193,9 +194,19 @@ country_event = {
 	
 	trigger = {
 		NOT = { is_ideology_enabled = fascist }
-		great_wars_enabled = yes
+		OR = {
+			great_wars_enabled = yes
+			has_country_flag = dismantling_treaty
+		}
 		year = 1900
-		literacy = 0.65
+		OR = {
+			literacy = 0.65
+			AND = {
+				has_country_flag = dismantling_treaty
+				literacy = 0.35
+				revanchism = 0.2
+			}
+		}
 		civilized = yes
 		OR = {
 			interventionism = 20
@@ -205,7 +216,6 @@ country_event = {
 			social_reform_want = 0.5
 			unemployment = 0.2
 			revanchism = 0.25
-			has_country_flag = dismantling_treaty
 		}
 	}
 	

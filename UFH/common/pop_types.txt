@@ -325,7 +325,7 @@ migration_chance = {
 	}
 	
 	modifier = {
-		factor = -5
+		factor = -100
 		OR = {
 			not = { location = { total_pops = 500 } }
 			not = { location = { controlled_by = owner } }
@@ -608,12 +608,6 @@ emigration_chance = {
 		not = { literacy = 0.5 }
 		not = { location = { owner = { has_country_flag = animists_run } } }
 	}
-	
-	modifier = {
-		factor = 0.25
-		not = { is_state_religion = yes }
-		location = { owner = { has_country_flag = islamic_law } }
-	}
 
 	group = {
 		modifier = {
@@ -694,22 +688,7 @@ assimilation_chance = {
     	factor = -20
 		OR = {
 			has_culture_core = yes
-			AND = {
-				is_culture_group = germanic
-				location = { any_core = { is_culture_group = germanic } }
-			}
-			AND = {
-				is_culture_group = italian
-				location = { any_core = { is_culture_group = italian } }
-			}
-			AND = {
-				is_culture_group = south_asian
-				location = { any_core = { is_culture_group = south_asian } }
-			}
-			AND = {
-				is_culture_group = east_asian
-				location = { any_core = { is_culture_group = east_asian } }
-			}
+			location = { any_core = { is_accepted_culture = THIS is_cultural_union = yes } }
 		}
 	}
 	
@@ -722,43 +701,6 @@ assimilation_chance = {
 		factor = -0.9
 		has_pop_religion = jewish
 		not = { location = { owner = { is_culture_group = jewish_cultures } } }
-	}
-	
-	modifier = {
-		factor = 10
-			is_accepted_culture = no
-			location = { is_core = THIS }
-			country = { capital_scope = { is_core = THIS } }
-			OR = {
-				location = { continent = north_america }
-				location = { continent = south_america }
-				location = { continent = australia_new_zealand }
-			}
-			OR = {
-				country = { capital_scope = { continent = north_america } }
-				country = { capital_scope = { continent = south_america } }
-				country = { capital_scope = { continent = australia_new_zealand } }
-			}
-	}
-		
-	modifier = {
-		factor = -80
-		OR = {
-			AND = {
-				OR = {
-					is_culture_group = native_american
-					is_culture_group = african_diaspora_cultures
-				}
-				OR = {
-					location = { continent = north_america }
-					location = { continent = south_america }
-				}
-			}
-			AND = {
-				is_culture_group = oceanic
-				location = { continent = australia_new_zealand }
-			}
-		}
 	}
 
 	group = {
@@ -816,6 +758,42 @@ assimilation_chance = {
 		modifier = {
 			factor = 0.05
 			not = { unemployment = 0.05 }
+		}
+	}
+	
+	modifier = {
+		factor = 10
+			location = { is_core = THIS }
+			country = { capital_scope = { is_core = THIS } }
+			OR = {
+				location = { continent = north_america }
+				location = { continent = south_america }
+				location = { continent = australia_new_zealand }
+			}
+			OR = {
+				country = { capital_scope = { continent = north_america } }
+				country = { capital_scope = { continent = south_america } }
+				country = { capital_scope = { continent = australia_new_zealand } }
+			}
+	}
+		
+	modifier = {
+		factor = -80
+		OR = {
+			AND = {
+				OR = {
+					is_culture_group = native_american
+					is_culture_group = african_diaspora_cultures
+				}
+				OR = {
+					location = { continent = north_america }
+					location = { continent = south_america }
+				}
+			}
+			AND = {
+				is_culture_group = oceanic
+				location = { continent = australia_new_zealand }
+			}
 		}
 	}
 }
@@ -883,11 +861,6 @@ conversion_chance = {
 	modifier = {
 		factor = 0.1
 		country = { government = theocracy }
-	}
-	
-	modifier = {
-		factor = 2
-		location = { owner = { has_country_flag = islamic_law } }
 	}
 	
 	modifier = {

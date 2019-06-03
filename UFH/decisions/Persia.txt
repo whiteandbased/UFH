@@ -223,8 +223,6 @@ end_bazaari_strike = {
 	}
 			
 	effect = {
-		set_country_flag = islamic_law
-		add_country_modifier = { name = islamic_law duration = -1 }
 		prestige = -5
 		remove_country_modifier = bazaari_strike
 		remove_country_modifier = western_influences

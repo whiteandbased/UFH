@@ -962,7 +962,7 @@ arab = {
 			}
 		}
 	misri = {
-		color = {34 145 86}
+		color = {0 103 43}
 		first_names = { 
 			Abdullah Abdulhamid Abdulkerim Ahmet Ali Bekir Cemal Enver Fevzi Fuat Halil 
 			Hasan Ibrahim Iskender Ismet Izzet Kamil Kazim Kemal 

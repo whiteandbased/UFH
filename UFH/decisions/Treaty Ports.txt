@@ -678,4 +678,20 @@ political_decisions = {
 		ai_will_do = { factor = 1 }
 	}
 	
+	sado_treaty_port = {
+		picture = sado_japan
+		potential = {
+			has_country_modifier = negotiating_treaty
+			12 = { owner = { has_country_modifier = negotiating_unequal_treaty civilized = no truce_with = THIS } }
+		}
+		
+		allow = { }
+		
+		effect = {
+			remove_country_modifier = negotiating_treaty
+			12 = { secede_province = THIS change_controller = THIS }
+		}
+		
+		ai_will_do = { factor = 1 }
+	}
 }

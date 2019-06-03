@@ -595,13 +595,13 @@
 	soldiers = {
 		culture = bedouin
 		religion = sunni
-		size = 25
+		size = 1100
 	}
 
 	farmers = {
 		culture = bedouin
 		religion = sunni
-		size = 2750
+		size = 1650
 	}
 
 	aristocrats = {
@@ -622,16 +622,10 @@
 		size = 50
 	}
 
-	soldiers = {
-		culture = teda
-		religion = sunni
-		size = 10
-	}
-
 	farmers = {
 		culture = teda
 		religion = sunni
-		size = 900
+		size = 910
 	}
 }
 #Waddan (16000/4000 POPS)

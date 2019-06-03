@@ -38,7 +38,7 @@ leader = {
 	name = "Ali II Karamanli"
 	type = land
 	date = 1836.1.1
-	background = aristocrat
-	personality = mediocre
+	background = cavalry_school
+	personality = resolute
 }
 	

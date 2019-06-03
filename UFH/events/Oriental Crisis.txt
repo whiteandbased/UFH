@@ -107,6 +107,14 @@ country_event = {
 				value = jingoism
 			}
 		}
+		random_country = { limit = { exists = yes tag = PLS vassal_of = EGY } annex_to = EGY }
+		random_country = { limit = { exists = yes tag = JOR vassal_of = EGY } annex_to = EGY }
+		random_country = { limit = { exists = yes tag = LBN vassal_of = EGY } annex_to = EGY }
+		random_country = { limit = { exists = yes tag = SYR vassal_of = EGY } annex_to = EGY }
+		random_country = { limit = { exists = yes tag = ASY vassal_of = EGY } annex_to = EGY }
+		random_country = { limit = { exists = yes tag = KDS vassal_of = EGY } annex_to = EGY }
+		random_country = { limit = { exists = yes tag = CRE vassal_of = EGY } annex_to = EGY }
+		random_country = { limit = { exists = yes tag = CLC vassal_of = EGY } annex_to = EGY }
 		ai_chance = {
 			factor = 95
 		}
@@ -275,6 +283,14 @@ country_event = {
 				value = jingoism
 			}
 		}
+		random_country = { limit = { exists = yes tag = PLS vassal_of = EGY } annex_to = EGY }
+		random_country = { limit = { exists = yes tag = JOR vassal_of = EGY } annex_to = EGY }
+		random_country = { limit = { exists = yes tag = LBN vassal_of = EGY } annex_to = EGY }
+		random_country = { limit = { exists = yes tag = SYR vassal_of = EGY } annex_to = EGY }
+		random_country = { limit = { exists = yes tag = ASY vassal_of = EGY } annex_to = EGY }
+		random_country = { limit = { exists = yes tag = KDS vassal_of = EGY } annex_to = EGY }
+		random_country = { limit = { exists = yes tag = CRE vassal_of = EGY } annex_to = EGY }
+		random_country = { limit = { exists = yes tag = CLC vassal_of = EGY } annex_to = EGY }
 	}
 }
 
@@ -460,6 +476,7 @@ country_event = {
 		badboy = 4
 		prestige = 20
 		EGY = {
+			tech_school = unciv_tech_school
 			all_core = {
 				limit = { is_core = TUR }
 				remove_core = EGY
@@ -709,6 +726,7 @@ country_event = {
 			relation = { who = TUR value = 50 }
 			NOT = { relation = { who = EGY 	value = -50 } }
 		}
+		EGY = { any_owned_province = { is_core = TUR } }
 		NOT = {
 			year = 1860
 			tag = TUR

@@ -58,21 +58,39 @@ army = {
 		type = infantry
 		home = 838
 	}
+	
+	regiment = {
+		name= "5. Taxiarchia Pezikou"
+		type = infantry
+		home = 839
+	}
 }
 
 army = {
 	name = "Stratós Epeírou"
 	location = 837
 	regiment = {
-		name= "5. Taxiarchia Pezikou"
+		name= "6. Taxiarchia Pezikou"
 		type = infantry
 		home = 837
 	}
 
 	regiment = {
-		name= "6. Taxiarchia Pezikou"
+		name= "7. Taxiarchia Pezikou"
 		type = infantry
 		home = 841
+	}
+	
+	regiment = {
+		name= "8. Taxiarchia Pezikou"
+		type = infantry
+		home = 839
+	}
+	
+	regiment = {
+		name= "1st Bavarian Legion"
+		type = infantry
+		home = 839
 	}
 }
 

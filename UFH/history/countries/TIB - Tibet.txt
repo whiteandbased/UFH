@@ -46,10 +46,13 @@ upper_house = {
 
 set_country_flag = theocratic_government
 
-
 # Starting Consciousness
 consciousness = 0
 nonstate_consciousness = 0
+
+# Inventions
+bottling_process = yes
+modern_winemaking = yes
 
 oob = "TIB_oob.txt"
 1861.1.1 = {

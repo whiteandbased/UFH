@@ -523,6 +523,7 @@ province_event = {
 			has_country_flag = sonno_joi
 			war = no
 		}
+		owner = { any_neighbor_country = { primary_culture = japanese } }
 		TKG = { exists = yes }
 		is_core = TKG
 		controlled_by = THIS

@@ -3,6 +3,201 @@
 #
 # Effects are fully scriptable here.
 
+trinket_health_care_fully_funded = {
+	trigger = {
+		exists = yes
+		health_care = trinket_health_care
+		administration_spending = 0.2
+	}
+	global_population_growth = 0.001
+	icon = 19
+}
+
+low_health_care_fully_funded = {
+	trigger = {
+		exists = yes
+		health_care = low_health_care
+		OR = {
+			AND = {
+				ai = yes
+				administration_spending = 0.25
+			}
+			AND = {
+				ai = no
+				administration_spending = 0.3
+			}
+		}
+	}
+	global_population_growth = 0.002
+	icon = 19
+}
+
+acceptable_health_care_fully_funded = {
+	trigger = {
+		exists = yes
+		health_care = acceptable_health_care
+		OR = {
+			AND = {
+				ai = yes
+				administration_spending = 0.3
+			}
+			AND = {
+				ai = no
+				administration_spending = 0.4
+			}
+		}
+	}
+	global_population_growth = 0.003
+	icon = 19
+}
+
+good_health_care_fully_funded = {
+	trigger = {
+		exists = yes
+		health_care = good_health_care
+		OR = {
+			AND = {
+				ai = yes
+				administration_spending = 0.3
+			}
+			AND = {
+				ai = no
+				administration_spending = 0.5
+			}
+		}
+	}
+	global_population_growth = 0.004
+	icon = 19
+}
+
+health_care_fully_funded = {
+	trigger = {
+		exists = yes
+		health_care = good_health_care
+		OR = {
+			AND = {
+				ai = yes
+				administration_spending = 0.74
+			}
+			AND = {
+				ai = no
+				administration_spending = 0.99
+			}
+		}
+	}
+	global_population_growth = 0.002
+	icon = 19
+}
+
+low_schools_fully_funded = {
+	trigger = {
+		exists = yes
+		school_reforms = low_schools
+		education_spending = 0.3
+	}
+	education_efficiency_modifier = 0.05
+	icon = 19
+}
+
+acceptable_schools_fully_funded = {
+	trigger = {
+		exists = yes
+		school_reforms = acceptable_schools
+		education_spending = 0.4
+	}
+	education_efficiency_modifier = 0.075
+	icon = 19
+}
+
+good_schools_fully_funded = {
+	trigger = {
+		exists = yes
+		school_reforms = good_schools
+		education_spending = 0.5
+	}
+	education_efficiency_modifier = 0.1
+	icon = 19
+}
+
+education_fully_funded = {
+	trigger = {
+		exists = yes
+		school_reforms = good_schools
+		OR = {
+			AND = {
+				ai = yes
+				education_spending = 0.74
+			}
+			AND = {
+				ai = no
+				education_spending = 0.99
+			}
+		}
+	}
+	education_efficiency_modifier = 0.1
+	icon = 19
+}
+
+neglected_education = {
+	trigger = {
+		exists = yes
+		civilized = yes
+		ai = no
+		number_of_states = 2
+		total_pops = 1000000
+		OR = {
+			AND = {
+				literacy = 0.75
+				NOT = { education_spending = 0.3 }
+			}
+			AND = {
+				literacy = 0.5
+				NOT = { education_spending = 0.2 }
+			}
+			AND = {
+				literacy = 0.25
+				NOT = { education_spending = 0.1 }
+			}
+		}
+	}
+	education_efficiency_modifier = -1
+	icon = 19
+}
+
+islamic_law_triggered = {
+	trigger = {
+		exists = yes
+		civilized = yes
+		capital_scope = { NOT = { continent = north_america } }
+		capital_scope = { NOT = { continent = south_america } }
+		NOT = { has_country_flag = not_muslim }
+		NOT = { is_culture_group = levantine }
+		NOT = { is_culture_group = pan_romanian }
+		NOT = { is_culture_group = jewish_cultures }
+		NOT = { primary_culture = serb }
+		NOT = { primary_culture = assyrian }
+		NOT = { primary_culture = panjabi }
+		NOT = { primary_culture = beifaren }
+		NOT = { primary_culture = greek }
+		NOT = { has_country_flag = secularized_muslim_society }
+		NOT = { has_country_flag = dynamic_tag }
+		NOT = { has_country_flag = yazidi_religion }
+		NOT = { has_country_flag = post_colonial_country }
+		OR = {
+			capital_scope = { pop_majority_religion = sunni }
+			capital_scope = { pop_majority_religion = shiite }
+			capital_scope = { pop_majority_religion = ibadi }
+		}
+	}
+	research_points_modifier = -0.05
+	education_efficiency_modifier = -0.15
+	literacy_con_impact = -0.5
+	issue_change_speed = -0.5
+	suppression_points_modifier = 0.5
+	tax_efficiency = 0.05
+	icon = 5
+}
+
 the_british_raj = {
 	trigger = {
 		OR = {
@@ -162,7 +357,7 @@ landlocked_nation = {
 			NOT = { has_country_modifier = land_of_opportunity }
 		}
 		
-	import_cost = 1
+	import_cost = 0.5
 	global_immigrant_attract = -1.5
 	icon = 8
 }

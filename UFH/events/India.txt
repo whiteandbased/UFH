@@ -547,7 +547,7 @@ country_event = {
 			target = PNJ
 			attacker_goal = { casus_belli = conquest_any }
 			defender_goal = { casus_belli = status_quo }
-        call_ally = yes
+			call_ally = yes
 		}
 		ai_chance = {
 			factor = 100
@@ -672,6 +672,50 @@ province_event = {
 			random_owned = {
 				limit = { owner = { owns = 1438 1438 = { trade_goods = coffee } } }
 				owner = { 1438 = { trade_goods = coffee } }
+			}
+		}
+	}
+}
+
+#Kanpur Massacre
+province_event = {
+
+	id = 97121
+	title = "EVTNAME97121"
+	desc = "EVTDESC97121"
+	
+	trigger = {
+		owner = { has_country_flag = sepoy_rebellion }
+		is_core = HND 
+		any_pop = { is_primary_culture = yes }
+		controlled_by_rebels = yes
+		average_militancy = 2
+		NOT = { year = 1880 }
+		is_colonial = yes
+		owner = { 
+			NOT = { is_culture_group = indo_iranian }
+			NOT = { is_culture_group = south_asian }
+		}
+	}
+	
+	fire_only_once = yes
+	
+	allow_multiple_instances  = no
+	
+	mean_time_to_happen = {
+		months = 80 
+		modifier = { factor = 0.5 average_militancy = 4 }
+		modifier = { factor = 0.25 average_militancy = 7 }
+	}
+	
+	option = {
+		name = "EVT97121OPTA"
+		any_pop = { limit = { is_primary_culture = yes } reduce_pop = 0.99 }
+		owner = {
+			any_pop = {
+				limit = { is_primary_culture = yes } 
+				scaled_consciousness = { factor = 2 issue = jingoism }
+				dominant_issue = { value = jingoism factor = 0.05 }
 			}
 		}
 	}

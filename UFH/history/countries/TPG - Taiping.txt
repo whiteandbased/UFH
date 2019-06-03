@@ -49,6 +49,8 @@ set_country_flag = theocratic_government
 
 
 # Inventions
+bottling_process = yes
+modern_winemaking = yes
 
 # Starting Consciousness
 consciousness = 0

@@ -11,11 +11,11 @@ naval_base = 1
 
 party_loyalty = {
 	ideology = conservative
-	loyalty_value = 10
+	loyalty_value = 5
 }
 party_loyalty = {
 	ideology = liberal
-	loyalty_value = 30
+	loyalty_value = 15
 }
 
 state_building = {

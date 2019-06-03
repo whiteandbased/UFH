@@ -629,19 +629,17 @@ political_decisions = {
 	restore_richmond_capital = {
 		potential = {
 			tag = CSA
-			owns = 211
-			NOT = {
-				capital = 211
-			}
+			owns = 60
+			NOT = { capital = 60 }
 		}	
 		
 		allow = {
-			controls = 211
-			NOT = { capital = 211 }
+			controls = 60
+			NOT = { capital = 60 }
 		}
 		
 		effect = {
-			capital = 211
+			capital = 60
 			prestige = 5
 		}
 	}
@@ -652,7 +650,7 @@ political_decisions = {
 			tag = CSA
 			owns = 201
 			NOT = {
-				owns = 211
+				owns = 60
 				capital = 201
 			}
 		}	
@@ -665,6 +663,7 @@ political_decisions = {
 		effect = {
 			capital = 201
 		}
+		ai_will_do = { factor = 0 }
 	}
 	
 	recognize_puerto_rico = {

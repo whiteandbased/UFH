@@ -134,7 +134,7 @@ country_event = {
 		add_country_modifier = {
 			name = solano_lopez_industrialization
 			duration = 1825
-			}
+		}
 		clr_country_flag = carlos_lopez_elected
 		set_country_flag = carlos_lopez_dictator
 		ruling_party_ideology = reactionary

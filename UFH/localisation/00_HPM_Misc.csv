@@ -1,4 +1,41 @@
 ;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+no_health_care_desc;The government doesn't care about health care and no funding for it exists. The few health institutions that exist are inherited from medieval times and are equipped accordingly. The medical career is an informal profession, mainly linked to the church. Hospitals use rudimentary lighting, facilities are overcrowded and infectious diseases round the halls and corners of the buildings. Prayers are commonly recommended to treat ailments.;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+trinket_health_care;Trinket Health Care;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+trinket_health_care_desc;Doctors and nurses have a rudimentary understanding of wounds and diseases, partially relying on old beliefs when treating patients, but they do have formal training. Hospitals have rules to reduce overcrowding (beds are spaced a meter apart), provisions for ventilation, and the sewers leading from the hospital are flushed several times a day while the latrines/drains are disinfected with peat charcoal. There is meager collection of patient data but there aren't any proper sanitation standards for hospitals nor government agencies to check them. Health care facilities are hard to find.\n§YFor the full effects of this reform, your administration spending should be at least 20%.§W;;;;;;;;;;;;;x;;;;;;;;;;;;;;
+low_health_care_desc;Doctors and nurses are starting to understand wounds and diseases better during their studies and apply the principles of the so-called "germ theory" when treating patients. A Sanitary Commission was founded and its agents can be seen patrolling the hospitals, albeit infrequently, to guarantee a rudimentary sanitation standard. Health care facilities are starting to become common.\n§YFor the full effects of this reform, your administration spending should be at least 30%.§W;;;;;;;;;;;;;x;;;;;;;;;;;;;;
+acceptable_health_care_desc;Medicine is a fully-fledged profession, with doctors and nurses graduating with complete understanding of the human body and a vast knowledge of diseases and how to treat them. Sterilization of the facilities and equipment is common, with Chamberland Filters used to filter water and the Chamberland Autoclave used for heating solutions above their boiling point to destroy dangerous microorganisms. Government agencies exist to enforce sanitation controls and ensure there's no overcrowding. Finding a clinic in an urban center is a relatively easy job and hospitals abandoned oil lamps in favor of gaslights that increase the efficiency of staff.\n§YFor the full effects of this reform, your administration spending should be at least 40%.§W;;;;;;;;;;;;;x;;;;;;;;;;;;;;
+good_health_care_desc;The discovery of several vaccines revolutionized medicine, with vaccination being mandatory or strongly encouraged by the government. Doctors now use pharmaceuticals to treat patients and full sterilization of all medical equipment and facilities, quarantine procedures for infectious diseases and proper disposal of medical waste are mandatory practices enforced by the sanitation standards of the government agencies. Finding clinics or hospitals in smaller population centers is common, overcrowding is rare and some smaller health centers are starting to appear even in rural areas. Hospitals are equipped with modern electric lights and informational posters for staff.\n§YFor the full effects of this reform, your administration spending should be at least 50%.\nA fully funded administration provides a bonus to this reform.§W;;;;;;;;;;;;;x;;;;;;;;;;;;;;
+school_reforms;School System;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+no_schools_l;No School System;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+no_schools;No School System;;;;;;;;;;;;;;;;;;;;;;;;;;x
+no_schools_desc;There's no organized school system or budget for education. The scarce literacy gain that is achieved comes from religious schools or it is based on informal community teaching, though these places get some funding, indirectly, from the government. Higher education institutions are either non existent or completely religious and medieval.\n§RIf average literacy is more than 25%, education funding needs to be more than 10%. If it is 50%, funding needs to be at least 20%. If it is 75%, funding needs to be at least 30%. Otherwise literacy will start to fall.§W;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;x
+low_schools;Basic School System;;;;;;;;;;;;;;;;;;;;;;;;;x
+low_schools_l;Basic School System;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+low_schools_desc;A rudimentary school system exists in the capital and a few important cities but enrollment is completely optional. Schools limits themselves to teaching pupils how to read and write. There's no government agency to inspect schools and they have no common standards for teaching, with the few courses that exist being overcrowded. Private schools are commonly in the same conditions. Teachers don't have professional formation and are often just literate men, while pupils often leave school without being properly schooled.\n§YFor the full effects of this reform, your education spending should be at least 30%.§W\n§RIf average literacy is more than 25%, education funding needs to be more than 10%. If it is 50%, funding needs to be at least 20%. If it is 75%, funding needs to be at least 30%. Otherwise literacy will start to fall.§W;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+acceptable_schools;Acceptable School System;;;;;;;;;;;;;;;;;;;;;;x
+acceptable_schools_l;Acceptable School System;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+acceptable_schools_desc;Schools can be found in every major and most of the medium cities. A government agency exists to ensure quality standards in education and to inspect that proper facilities are used for it. Enrollment is encouraged and sometimes it's outright mandatory, but it's not properly enforced and pupils often don't go to school for a variety of reasons. Children are also taught math and a few other subjects. Education institutions for teenagers are starting to appear, and secular, higher education institutions for adults are common. Teachers are formally trained, but oftentimes poorly.\n§YFor the full effects of this reform, your education spending should be at least 40%.§W\n§RIf average literacy is more than 25%, education funding needs to be more than 10%. If it is 50%, funding needs to be at least 20%. If it is 75%, funding needs to be at least 30%. Otherwise literacy will start to fall.§W;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+good_schools;Good School System;;;;;;;;;;;;;;;;;;;;;;;x
+good_schools_l;Good School System;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+good_schools_desc;Schools can be found in almost every city. Government agencies take education with the utmost seriousness, and enrollment is mandatory and tightly controlled. Children and teenagers are taught a variety of subjects besides reading and writing and teachers are taught pedagogy during their formation. Literacy campaigns for adults and the elderly are a part of the government's effort to eradicate illiteracy. Higher education institutions are considered good, with opportunities for the poor classes to enroll.\n§YFor the full effects of this reform, your education spending should be at least 50%.\nA fully funded education provides a bonus to this reform.§W\n§RIf average literacy is more than 25%, education funding needs to be more than 10%. If it is 50%, funding needs to be at least 20%. If it is 75%, funding needs to be at least 30%. Otherwise literacy will start to fall.§W;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+RULE_RICH_ONLY;\nRich Only;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+RULE_SAME_AS_RULING_PARTY;\nSame As Ruling Party;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+RULE_STATE_VOTE;\nState Vote;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+RULE_POPULATION_VOTE;\nPopulation Vote;;;;;;;;;;;;;;;;;;;;;x;;;;
+ISSUE_MOVE_EFFECT;§Y$PERCENTAGE$%§W of pops move from §YFROM§W to §YTO§W\n;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+social_policy;Welfare Policy;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+no_state_interference;Opposed;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+no_state_interference_l;Opposed;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+no_state_interference_desc;The government feels that welfare expenditures are unnecessary and that individuals should look after themselves.;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+no_position_set;No Official Policy;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+no_position_set_l;No Official Policy;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;
+no_position_set_desc;There's no official position on welfare policy and how much should the government spend on it, the amount being largely left for the ruler to decide.;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;
+populist_welfare;Paternalistic;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+populist_welfare_l;Paternalistic;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+populist_welfare_desc;The welfare system in this government has a paternalistic characteristic, with a minimum amount set to be spent in support of this oftentimes populist policy.;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;
+welfare_state;Full Welfare State;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+welfare_state_l;Full Welfare State;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+welfare_state_desc;This government feels that the welfare of the less fortunate is of the utmost importance and dedicates a piece of the budget to pursue this objective.;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 rail_focus;Colonial Policy;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 colonial_immigration;Encourage Colonial Migration;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 encourage_agriculture;Encourage Agriculture;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
@@ -133,8 +170,6 @@ ADD_WARGOAL_MILITANCY;If we fail to achieve this war goal, our entire population
 ADD_WARGOAL_EFFECT;When we add this war goal, we will gain:;;;;;;;;;;;;;;;;;;;;;;;;;;x;
 ADD_WARGOAL_SUCCESS;If we achieve this war goal, we will gain:;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;
 ADD_WARGOAL_FAILURE;If we fail to achieve this war goal, we will gain:;;;;;;;;;;;;;;;;;;;;;;;;;;x;
-naval_tech_school;Sea Power & The Merchant Marine;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
-switch_to_navy_tech_title;Sea Power & The Merchant Marine;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
 BUY_FROM_STOCKPILE_DESC;Allow pops/factories to buy from country stockpile.\n\n§YNOTE: §RNEVER§W use this button while you are still buying or selling manually. §RONLY§W use it with automatic trade §GON§W for §RALL§W goods.§W §RFailing to do so will cause economy crashes both locally and globally. Use it at your own risk.§W;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 military_political_decision_making;Military-Political Decision-Making;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 army_military_political_decision_making;Military-Political Decision-Making;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
@@ -218,15 +253,13 @@ NORMAL_WAR_NAME_DEMOCRACY;$ORDER$$FIRST$-$SECOND$ Counterrevolution;;;;;;;;;;;;;
 AGRESSION_WAR_NAME_DEMOCRACY;$ORDER$$FIRST$-$SECOND$ Counterrevolution;;;;;;;;;;;;;;;;;;x,,,
 aristocrats;Landowners;;;;;;;;;;;;;;;;;;;;x;;;;
 appointed_desc;Landowners or capitalists have been assigned seats in the Upper House by the leader of the country.;;;;;;;;;;;;;;;;;;;;;;;x;;;;
-landed_voting_desc;Only landowners and Capitalists may vote.;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+landed_voting_desc;Only Landowners and Capitalists may vote.;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 promote_aristocrats;Encourage Landowners ;;;;;;;;;;;;;;;;;;;;;;x;;;;
 ELECTIONSTART_1;The Elections of $COUNTRY$ are starting;;;;;;;;;;;;;;;;;;;;;;x;;;;
 sepoy_rebellion;Sepoy Rebellion;;;;;;;;;;;;;;;;;;;;;x
 IS_SUBSTATE_OF;Is a substate;;;;;;;;;;;;;;;;;;;;;x
 IS_NOT_SUBSTATE_OF;Is NOT a substate;;;;;;;;;;;;;;;;;;;;x
 public_illumination;Public Illumination;;;;;;;;;;;;;;;;;;;;;;;;;;;x
-czech_tech_school;Škoda Works;;;;;;;;;;;;;;;;;;;;;;;;;;;x
-japanese_tech_school;Shukensen-Riekisen;;;;;;;;;;;;;;;;;;;;;;;;;;;x
 IS_NOT_IN_A_SPHERE;Not in a sphere of influence.;;;;;;;;;;;;;;;;;;;;;;;;;;;x
 HOLD_ELECTION_BUTTON;Hold Election;;;;;;;;;;;;;;;;;;;;;;;;;;;x
 HOLD_ELECTION;Hold Election\n;;;;;;;;;;;;;;;;;;;;;;;;;;;x
@@ -643,20 +676,6 @@ rehabilitation;Rehabilitation;;;;;;;;;;;;;x;;;;;;;;;;;;;;
 rehabilitation_l;Rehabilitation;;;;;;;;;;;;;x;;;;;;;;;;;;;;
 rehabilitation_desc;Convicts are imprisoned with the intent of reforming them and reintroducing them into society.;;;;;;;;;;;;;x;;;;;;;;;;;;;;
 movement_rehabilitation;Rehabilitation of Prisoners Campaign;;;;;;;;;;;;;x;;;;;;;;;;;;;;
-trinket_health_care;Trinket Health Care;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
-school_reforms;School System;Système d'éducation;Schulsystem;;;;;;;;;;;x
-no_schools;No School System;Système inexistant;Kein Schulsystem;;;;;;;;;;;x
-low_schools;Basic School System;Système de base;Einfaches Schulsystem;;;;;;;;;;;x
-acceptable_schools;Acceptable School System;Système acceptable;Akzeptables Schulsystem;;;;;;;;;;;x
-good_schools;Good School System;Système de bon niveau;Gutes Schulsystem;;;;;;;;;;;x
-no_schools_l;No School System;Système d'éducation inexistant;Kein Schulsystem;;;;;;;;;;;x
-low_schools_l;Basic School System;Système d'éducation de base;Einfaches Schulsystem;;;;;;;;;;;x
-acceptable_schools_l;Acceptable School System;Système d'éducation acceptable;Akzeptables Schulsystem;;;;;;;;;;;x
-good_schools_l;Good School System;Système d'éducation de bon niveau;Gutes Schulsystem;;;;;;;;;;;x
-no_schools_desc;No public Schools.;Pas d'écoles publiques.;Keine öffentlichen Schulen.;;;;;;;;;;;x
-low_schools_desc;Public Schools are uncommon.;Les écoles publiques sont rares.;Öffentliche Schulen sind nicht verbreitet.;;;;;;;;;;;x
-acceptable_schools_desc;Public Schools are common.;Les écoles publiques sont fréquentes.;Öffentliche Schulen sind verbreitet.;;;;;;;;;;;x
-good_schools_desc;There are really a lot of Public Schools.;Il y a beaucoup d'écoles publiques.;Es gibt wirklich viele öffentliche Schulen.;;;;;;;;;;;x
 EVTNAME34608;Child Labour Law Passed;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;x;;;;;;;
 EVTDESC34608;Following Britain's lead, in $YEAR$ Prussia, under the influence of some religious and social figures, passed a law strictly regulating the amount of child labour that was possible during the year.  According to the new legislation, the Prussian government will lay down restrictions on child labor, with the following main points: children under the age of nine are banned from factory labor, children needed to have had at least three years of schooling before working, and children under the age of sixteen could work no more than ten hours per day. Other provisions included mandated rest times and a total ban on night work for children.;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;x;;;;;;;
 EVTOPTA34608;Those poor children!;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;x;;;;;;;

@@ -1,5 +1,6 @@
 capital = 1707
 primary_culture = maghrebi
+culture = tuareg
 religion = sunni
 government = absolute_monarchy
 plurality = 0.0

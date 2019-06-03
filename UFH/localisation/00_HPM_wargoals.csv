@@ -33,7 +33,7 @@ NORMAL_WAR_CONQUEST_ANY_NAME_ENG_PNJ;$ORDER$Anglo–Sikh War;;;;;;;;;;;;;;;;;;;;;;
 NORMAL_CIVIL_WAR_NAME_ARC_ENT;$ORDER$Platine War;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;
 AGRESSION_CIVIL_WAR_NAME_ARC_ENT;$ORDER$Platine War;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;
 NO_ALLOWED_STATES;(There are no applicable states).;;;;;;;;;;;;;;;;;;;;;;;;;;x
-po_reduce_prestige;Prestige is reduced by §R-$VALUE$§.;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+po_reduce_prestige;Prestige is reduced by §R-$VALUE$§W.;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 NORMAL_PUNITIVE_EXPEDITION_WAR_NAME;$ORDER$$FIRST$-$SECOND$ War;;;;;;;;;;;;;;;;;;;;x,,,
 AGRESSION_PUNITIVE_EXPEDITION_WAR_NAME;$ORDER$$FIRST$-$SECOND$ War;;;;;;;;;;;;;;;;;;;;x,,,
 NORMAL_PUNITIVE_EXPEDITION_WAR_NAME_ENG_QNG;$ORDER$Opium War;;;;;;;;;;;;;;;;;x,,,
