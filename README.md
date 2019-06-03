@@ -19,3 +19,8 @@ How to contribute:
 - Then you just keep making the changes you want and all of that; if you have push permission then I think you can just add it to the main branch straight up, but make sure to test it first and explain it properly or I might remove push permissions if people keep shitting up the mod on purpose
 
 Will probably add pics soon if I ever figure out how to
+
+
+please PLEASe keep a complete version of your mod when doing changes and doing pull requests
+what i mean is uh have everything you need for the mod to work, the common folder, history, gfx, etc. then just change around the shit you want to change
+so uhhhhhh yeah just like dont have it so the only thing in your folder is decisions/kill_all_the_niggers.txt
