@@ -67,16 +67,13 @@ political_decisions = {
 		
 		effect = {
 			set_country_flag = javanese_integrated
-			JAV = { country_event = 952500 }
+			JAV = { tech_school = unciv_tech_school country_event = 952500 }
 			badboy = 1
 		}
 		
 		ai_will_do = { 
 			factor = 1 
-			modifier = {
-			factor = 0
-			badboy = 0.95
-			}
+			modifier = { factor = 0 badboy = 0.95 }
 		}
 	}
 	
@@ -106,11 +103,13 @@ political_decisions = {
 			random_country = {
 				limit = { exists = yes tag = MAL vassal_of = THIS civilized = no }
 				any_pop = { consciousness = 3 militancy = 1 }
+				tech_school = unciv_tech_school
 				annex_to = THIS
 			}
 			random_country = {
 				limit = { exists = yes tag = SAK vassal_of = THIS civilized = no }
 				any_pop = { consciousness = 3 militancy = 1 }
+				tech_school = unciv_tech_school
 				annex_to = THIS
 			}
 			random_owned = {
@@ -121,10 +120,7 @@ political_decisions = {
 		
 		ai_will_do = { 
 			factor = 1 
-			modifier = {
-			factor = 0
-			badboy = 0.9
-			}
+			modifier = { factor = 0 badboy = 0.9 }
 		}
 	}
 	
@@ -177,7 +173,7 @@ political_decisions = {
 			war = no
 			money = 100000
 			any_owned_province = { has_pop_culture = boer }
-			}
+		}
 		
 		effect = {
 			set_country_flag = boer_accepted
@@ -256,13 +252,21 @@ political_decisions = {
 	dutch_wallonia = {
 		picture = become_wallonia
 		potential = {
-			tag = NET
 			owns = 392
 			owns = 393
 			owns = 394
 			owns = 395
 			owns = 398
-			NOT = { has_global_flag = dutch_wallons }
+			OR = {
+				AND = {
+					NOT = { has_global_flag = dutch_wallonia_renamed }
+					tag = NET
+				}
+				AND = {
+					has_global_flag = dutch_wallonia_renamed
+					NOT = { tag = NET }
+				}
+			}
 		}
 		
 		allow = {
@@ -272,42 +276,29 @@ political_decisions = {
 		
 		effect = {
 			prestige = 5
-			set_global_flag = dutch_wallons
-			395 = { change_province_name = "Luik" }
-			392 = { change_province_name = "Namen" }
-			398 = { change_province_name = "Aarlen" }
-			393 = { change_province_name = "Doornik" }
-			394 = { change_province_name = "Bergen" }
-		}
-		
-		ai_will_do = { factor = 1 }
-	}
-	
-	
-	standard_wallonia = {
-		picture = become_wallonia
-		potential = {
-			NOT = { tag = NET }
-			owns = 392
-			owns = 393
-			owns = 394
-			owns = 395
-			owns = 398
-			has_global_flag = dutch_wallons
-		}
-		
-		allow = {
-			war = no
-		}
-		
-		effect = {
-			prestige = 5
-			clr_global_flag = dutch_wallons
-			395 = { change_province_name = "Liège" }
-			392 = { change_province_name = "Namur" }
-			398 = { change_province_name = "Arlon" }
-			393 = { change_province_name = "Tournai" }
-			394 = { change_province_name = "Charleroi" }
+			random_owned = {
+				limit = { owner = { tag = NET } }
+				owner = {
+					set_global_flag = dutch_wallonia_renamed
+					395 = { change_province_name = "Luik" }
+					392 = { change_province_name = "Namen" }
+					398 = { change_province_name = "Aarlen" }
+					393 = { change_province_name = "Doornik" }
+					394 = { change_province_name = "Bergen" }
+				}
+			}
+			
+			random_owned = {
+				limit = { owner = { NOT = { tag = NET } } }
+				owner = {
+					clr_global_flag = dutch_wallonia_renamed
+					395 = { change_province_name = "Liège" }
+					392 = { change_province_name = "Namur" }
+					398 = { change_province_name = "Arlon" }
+					393 = { change_province_name = "Tournai" }
+					394 = { change_province_name = "Charleroi" }
+				}
+			}
 		}
 		
 		ai_will_do = { factor = 1 }

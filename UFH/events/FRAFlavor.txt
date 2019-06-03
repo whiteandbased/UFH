@@ -1571,17 +1571,16 @@ country_event = {
 #		ALD_1714 = { secede_province = ALD any_pop = { literacy = -0.99 } }
 		ALD_1718 = { secede_province = ALD any_pop = { literacy = -0.99 } }
 		ALD = { civilized = no }
-			war = {
-				target = ALD
-				attacker_goal = {
-					casus_belli = conquest_any
-				}
-				defender_goal = {
-					casus_belli = acquire_all_cores
-				}
-			call_ally = no
+		war = {
+			target = ALD
+			attacker_goal = { casus_belli = conquest_any }
+			defender_goal = {
+				casus_belli = acquire_all_cores
+				country = FRA
 			}
+		call_ally = no
 		}
+	}
 }
 
 #Battle of Logandème

@@ -590,12 +590,6 @@ reactionary_rebels = {
 		
 		modifier = {
 			factor = 0
-				has_pop_religion = animist
-				NOT = { literacy = 0.5 }
-		}
-		
-		modifier = {
-			factor = 0
 			OR = {
 				 social_movement = yes
 				 political_movement = yes
@@ -925,15 +919,6 @@ fascist_rebels = {
 		modifier = {
 			factor = 0
 			country = { civilized = no }
-		}
-		
-		modifier = {
-			factor = 0.01
-			location = { is_colonial = yes }
-			is_state_religion = no
-			is_primary_culture = no
-			is_accepted_culture = no
-			has_pop_religion = animist
 		}
 		
 		modifier = {
@@ -1325,8 +1310,8 @@ communist_rebels = {
 			is_primary_culture = no
 			location = {
 				any_core = {
-					is_primary_culture = THIS
 					is_cultural_union = no
+					is_primary_culture = THIS
 					exists = no
 				}
 			}
@@ -1337,8 +1322,8 @@ communist_rebels = {
 			location = {
 				NOT = { is_core = THIS }
 				any_core = {
-					is_primary_culture = THIS
 					is_cultural_union = no
+					is_primary_culture = THIS
 					exists = no
 				}
 			}
@@ -1442,9 +1427,6 @@ communist_rebels = {
 		social_reform = good_pensions
 		social_reform = good_health_care
 		nationalize = yes
-
-		remove_country_modifier = islamic_law
-		clr_country_flag = islamic_law
 		
 		add_country_modifier = {
 			name = national_confusion
@@ -1520,7 +1502,7 @@ anarcho_liberal_rebels = {
 	
 	# The rebel type with the highest modifier for this pop gets picked
 	spawn_chance = {
-		factor = 1
+		factor = 0.5
 		
 		modifier = {
 			factor = 0
@@ -1532,7 +1514,7 @@ anarcho_liberal_rebels = {
 		}
 		
 		modifier = {
-			factor = 0.01
+			factor = 0
 			location = { is_colonial = yes }
 			is_state_religion = no
 			is_primary_culture = no
@@ -1581,27 +1563,27 @@ anarcho_liberal_rebels = {
 			NOT = { anarcho_liberal = 10 }
 		}
 		modifier = {
-			factor = 5
+			factor = 1.1
 			anarcho_liberal = 10
 			NOT = { anarcho_liberal = 20 }
 		}
 		modifier = {
-			factor = 10
+			factor = 2
 			anarcho_liberal = 20
 			NOT = { anarcho_liberal = 30 }
 		}
 		modifier = {
-			factor = 15
+			factor = 4
 			anarcho_liberal = 30
 			NOT = { anarcho_liberal = 40 }
 		}
 		modifier = {
-			factor = 20
+			factor = 8
 			anarcho_liberal = 40
 			NOT = { anarcho_liberal = 50 }
 		}
 		modifier = {
-			factor = 25
+			factor = 16
 			anarcho_liberal = 50
 		}
 		modifier = {
@@ -1749,8 +1731,6 @@ anarcho_liberal_rebels = {
 			duration = 365
 		}
 		
-		remove_country_modifier = islamic_law
-		clr_country_flag = islamic_law
 		prestige_factor = -0.2
 		war_exhaustion = 50
 		country_event = 800053
@@ -1898,6 +1878,7 @@ nationalist_rebels = {
 			 	}
 		 	}
 		}
+		
 		modifier = {
 			factor = 10
 			OR = {
@@ -1938,12 +1919,20 @@ nationalist_rebels = {
 				has_pop_culture = chechen
 				has_pop_culture = dagestani
 			}
+			location = { any_core = { is_primary_culture = THIS } }
+		}
+		
+		modifier = {
+			factor = 80
+			is_state_religion = no
+			is_accepted_culture = no
+			location = { any_core = { is_primary_culture = THIS } }
 			OR = {
-				location = { is_core = CIR }
-				location = { is_core = DAG }
-				location = { is_core = CHY }
+				is_culture_group = south_slavic
+				is_culture_group = levantine
+				has_pop_culture = romanian
+				has_pop_culture = albanian
 			}
-			country = { tag = RUS }
 		}
 		
 		modifier = {
@@ -4106,8 +4095,6 @@ liberal_rebels = {
 			name = national_confusion
 			duration = 365
 		}
-		remove_country_modifier = islamic_law
-		clr_country_flag = islamic_law
 		prestige_factor = -0.2
 		war_exhaustion = 50
 		country_event = 800054
@@ -4446,6 +4433,19 @@ separatist_rebels = {
 			factor = 0
 			is_state_religion = no
 			has_pop_religion = animist
+		}
+		
+		modifier = {
+			factor = 50
+			is_state_religion = no
+			is_accepted_culture = no
+			location = { is_core = THIS }
+			OR = {
+				is_culture_group = south_slavic
+				is_culture_group = levantine
+				has_pop_culture = romanian
+				has_pop_culture = albanian
+			}
 		}
 		
 		modifier = {
@@ -4968,8 +4968,6 @@ socialist_rebels = {
 			name = national_confusion
 			duration = 365
 		}
-		remove_country_modifier = islamic_law
-		clr_country_flag = islamic_law
 		prestige_factor = -0.2
 		war_exhaustion = 50
 		country_event = 810056

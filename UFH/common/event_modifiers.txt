@@ -2,6 +2,20 @@
 # scriptable and usable for event-system below.
 ##################################################################################################
 
+##Disasters
+earthquake_devastation = {
+	local_artisan_output = -0.5
+	local_artisan_input = -0.5
+	local_factory_output = -1
+	local_factory_input = -1
+	local_RGO_output = -0.5
+	life_rating = -0.25
+	immigrant_attract = -0.25
+	immigrant_push = 0.25
+	pop_militancy_modifier = 0.03
+	icon = 18
+}
+
 #MM Modifiers
 amir_kabir = {
 	research_points_modifier = 0.2
@@ -19,6 +33,14 @@ racial_tensions = {
 
 
 ###HPM Modifiers
+armenian_diaspora = {
+	icon = 20
+}
+
+tanzimat_land_reform = {
+	farm_rgo_eff = 0.05
+	icon = 1
+}
 
 war_economy_ships = {
 	local_ship_build = -0.75
@@ -232,17 +254,6 @@ peacetime_mobilization = {
 	war_exhaustion = 0.05
 	prestige = -0.05
 	icon = 6
-}
-
-islamic_law = {
-	core_pop_consciousness_modifier = -0.25
-	research_points_modifier = -0.05
-	education_efficiency_modifier = -0.15
-	literacy_con_impact = -0.5
-	issue_change_speed = -0.5
-	suppression_points_modifier = 0.5
-	tax_efficiency = 0.05
-	icon = 5
 }
 
 treaty_port = {
@@ -686,6 +697,7 @@ uncivilized_isolationism = {
 	global_pop_consciousness_modifier = -0.1
 	global_pop_militancy_modifier = -0.1
 	research_points_modifier = -0.3
+	min_tariff = 1.2
 	prestige = -0.01
 	icon = 10
 }
@@ -1025,12 +1037,12 @@ wish_I_was_dixie = {
 }
 
 southern_manorialism = {
-	pop_consciousness_modifier = 0.01
+	pop_consciousness_modifier = -0.01
 	icon = 15
 }
 
 southern_pride = {
-	pop_consciousness_modifier = 0.01
+	pop_consciousness_modifier = -0.01
 	icon = 15
 }
 
@@ -1670,6 +1682,14 @@ irish_unionists = {
 
 ### Arabia ###
 
+rally_tribesmen = {
+	mobilisation_size = 0.76
+	mobilisation_economy_impact = -0.7
+	core_pop_militancy_modifier = -0.1
+	war_exhaustion = -0.03
+	icon = 17
+}
+
 the_ikhwan = {
 	mobilisation_size = 0.35
 	mobilisation_economy_impact = -0.25
@@ -1775,7 +1795,6 @@ sakoku = {
 	prestige = 0.01
 	global_pop_militancy_modifier = -0.05
 	war_exhaustion = -0.1
-	goods_demand = -0.1
 	icon = 5
 }
 
@@ -1783,7 +1802,6 @@ rangaku = {
 	prestige = 0.11
 	research_points_modifier = 0.1
 	global_pop_militancy_modifier = -0.05
-	goods_demand = -0.1
 	icon = 5
 }
 
@@ -1955,13 +1973,17 @@ treaties_of_velasco = {
 }
 
 ### Ottomanism
+religious_minority_oppression = {
+	icon = 18
+}
+
 ottoman_oppression = {
 	mobilisation_size = -0.02
 	land_organisation = -0.05
 	global_assimilation_rate = -0.2
 	tax_efficiency = 0.05
-	non_accepted_pop_militancy_modifier = 0.05
-	non_accepted_pop_consciousness_modifier = 0.1
+	#non_accepted_pop_militancy_modifier = 0.05
+	#non_accepted_pop_consciousness_modifier = 0.1
 	icon = 5
 }
 

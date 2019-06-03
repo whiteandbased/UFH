@@ -22,6 +22,7 @@ country_event = {
 			tag = SIC
 			tag = MOL
 			tag = WAL
+			tag = SER
 			literacy = 0.3
 		}
 		year = 1840

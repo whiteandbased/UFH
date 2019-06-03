@@ -51,6 +51,8 @@ foreign_weapons = yes_foreign_weapons
 flintlock_rifles = 1
 
 # Inventions
+bottling_process = yes
+modern_winemaking = yes
 
 # Starting Consciousness
 consciousness = 0
@@ -73,5 +75,7 @@ military_staff_system = 1
 flintlock_rifles = 1
 
 # Inventions
+bottling_process = yes
+modern_winemaking = yes
 
 }

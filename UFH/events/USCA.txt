@@ -1458,10 +1458,7 @@ country_event = {
 			is_vassal = no 
 			part_of_sphere = no
 		}
-		OR = {
-			tag = UCA
-			tag = GUA
-		}
+		tag = GUA
 		year = 1840
 		NOT = { year = 1890 }
 	}

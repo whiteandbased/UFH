@@ -2,64 +2,17 @@
 #under the rule of Egypt in 1836
 #Aleppo (316000/79000 POPS) #now part of Syria 
 897 = {
-	aristocrats = {
-		culture = turkish
-		religion = sunni
-		size = 125
-	}
-
-	bureaucrats = {
-		culture = turkish
-		religion = sunni
-		size = 25
-	}
-
-	officers = {
-		culture = turkish
-		religion = sunni
-		size = 125
-	}
-
-	clergymen = {
-		culture = turkish
-		religion = sunni
-		size = 75
-	}
-
-	artisans = {
-		culture = turkish
-		religion = sunni
-		size = 950
-	}
-
-	soldiers = {
-		culture = turkish
-		religion = sunni
-		size = 100
-	}
-
-	farmers = {
-		culture = turkish
-		religion = sunni
-		size = 7725
-	}
 
 	aristocrats = {
 		culture = kurdish
 		religion = sunni
-		size = 175
-	}
-
-	bureaucrats = {
-		culture = kurdish
-		religion = sunni
-		size = 25
+		size = 200
 	}
 
 	officers = {
 		culture = kurdish
 		religion = sunni
-		size = 100
+		size = 225
 	}
 
 	clergymen = {
@@ -71,19 +24,56 @@
 	artisans = {
 		culture = kurdish
 		religion = sunni
-		size = 1350
+		size = 2300
 	}
 
 	soldiers = {
 		culture = kurdish
 		religion = sunni
-		size = 150
+		size = 350
 	}
 
 	farmers = {
 		culture = kurdish
 		religion = sunni
-		size = 11175
+		size = 13900
+	}
+	
+	
+	aristocrats = {
+		culture = turkish
+		religion = sunni
+		size = 300
+	}
+
+	officers = {
+		culture = turkish
+		religion = sunni
+		size = 100
+	}
+
+	clergymen = {
+		culture = turkish
+		religion = sunni
+		size = 100
+	}
+
+	artisans = {
+		culture = turkish
+		religion = sunni
+		size = 1200
+	}
+
+	soldiers = {
+		culture = turkish
+		religion = sunni
+		size = 800
+	}
+
+	farmers = {
+		culture = turkish
+		religion = sunni
+		size = 3500
 	}
 
 	aristocrats = {
@@ -187,7 +177,32 @@
 	farmers = {
 		culture = kurdish
 		religion = sunni
-		size = 11300
+		size = 9300
+	}
+	
+	
+	clergymen = {
+		culture = turkish
+		religion = sunni
+		size = 100
+	}
+
+	artisans = {
+		culture = turkish
+		religion = sunni
+		size = 500
+	}
+
+	soldiers = {
+		culture = turkish
+		religion = sunni
+		size = 400
+	}
+
+	farmers = {
+		culture = turkish
+		religion = sunni
+		size = 2000
 	}
 
 	aristocrats = {

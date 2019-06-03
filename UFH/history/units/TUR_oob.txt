@@ -99,28 +99,64 @@ ENG = { value = 125 }
 FRA = { value = -75 }
 
 army = {
-	name = "Imperial Guards"
+	name = "Mansure Army"
 	location = 860
 	regiment = {
-		name= "1. Bostancy-yy Hassa"
-		type = guard
+		name= "1. Tümeni Firkasi"
+		type = infantry
 		home = 860
 	}
 
 	regiment = {
-		name= "2. Bostancy-yy Hassa"
-		type = guard
+		name= "2. Tümeni Firkasi"
+		type = infantry
 		home = 828
 	}
 
 	regiment = {
-		name= "3. Bostancy-yy Hassa"
-		type = guard
+		name= "3. Tümeni Firkasi"
+		type = infantry
 		home = 859
+	}
+	
+	regiment = {
+		name= "4. Tümeni Firkasi"
+		type = infantry
+		home = 802
 	}
 
 	regiment = {
-		name= "4. Bostancy-yy Hassa"
+		name= "5. Tümeni Firkasi"
+		type = infantry
+		home = 803
+	}
+
+	regiment = {
+		name= "6. Tümeni Firkasi"
+		type = infantry
+		home = 860
+	}
+	
+	regiment = {
+		name= "1. Süvari Firkasi"
+		type = cuirassier
+		home = 798
+	}
+
+	regiment = {
+		name= "2. Süvari Firkasi"
+		type = cuirassier
+		home = 799
+	}
+	
+	regiment = {
+		name= "3. Süvari Firkasi"
+		type = cuirassier
+		home = 853
+	}
+
+	regiment = {
+		name= "1. Topçu Firkas"
 		type = artillery
 		home = 861
 	}
@@ -128,278 +164,245 @@ army = {
 }
 
 army = {
-	name = "Army of the Danube"
+	name = "1st Army"
 	location = 810
+	
 	regiment = {
-		name= "1. Sipahis"
-		type = cuirassier
-		home = 798
-	}
-
-	regiment = {
-		name= "2. Sipahis"
-		type = cuirassier
-		home = 799
-	}
-
-	regiment = {
-		name= "3. Sipahis"
-		type = cuirassier
-		home = 802
-	}
-
-	regiment = {
-		name= "1. Piyade Tümeni"
+		name= "7. Tümeni Firkasi"
 		type = infantry
-		home = 802
-	}
-
-	regiment = {
-		name= "2. Piyade Tümeni"
-		type = infantry
-		home = 803
-	}
-
-	regiment = {
-		name= "3. Piyade Tümeni"
-		type = infantry
-		home = 803
-	}
-
-	regiment = {
-		name= "4. Piyade Tümeni"
-		type = artillery
-		home = 804
-	}
-
-	regiment = {
-		name= "1. Redif Izmir"
-		type = irregular
-		home = 806
-	}
-
-	regiment = {
-		name= "2. Redif Izmir"
-		type = irregular
 		home = 807
 	}
 
 	regiment = {
-		name= "3. Redif Izmir"
-		type = irregular
+		name= "8. Tümeni Firkasi"
+		type = infantry
 		home = 807
 	}
-}
 	
-army = {
-	name = "Redif Bursa"
-	location = 849
-	
-
 	regiment = {
-		name= "1. Redif Bursa"
-		type = irregular
+		name= "9. Tümeni Firkasi"
+		type = infantry
 		home = 849
 	}
 
 	regiment = {
-		name= "2. Redif Bursa"
-		type = irregular
+		name= "10. Tümeni Firkasi"
+		type = infantry
 		home = 850
 	}
 
 	regiment = {
-		name= "3. Redif Bursa"
-		type = irregular
+		name= "11. Tümeni Firkasi"
+		type = infantry
 		home = 851
 	}
-
-}
-
-army = {
-	name = "Army of Anatolia"
-	location = 878
+	
 	regiment = {
-		name= "5. Piyade Tümeni"
+		name= "12. Tümeni Firkasi"
 		type = infantry
 		home = 882
 	}
-
+	
 	regiment = {
-		name= "6. Piyade Tümeni"
-		type = infantry
+		name= "4. Süvari Firkasi"
+		type = cuirassier
+		home = 783
+	}
+	
+	regiment = {
+		name= "5. Süvari Firkasi"
+		type = cuirassier
+		home = 806
+	}
+	
+	regiment = {
+		name= "6. Süvari Firkasi"
+		type = cuirassier
 		home = 884
 	}
-
+	
 	regiment = {
-		name= "7. Piyade Tümeni"
+		name = "2. Topçu Firkas"
+		type = artillery
+		home = 804
+	}
+}
+
+army = {
+	name = "2nd Army"
+	location = 878
+	
+	regiment = {
+		name= "13. Tümeni Firkasi"
 		type = infantry
 		home = 879
 	}
 
 	regiment = {
-		name= "8. Piyade Tümeni"
-		type = artillery
-		home = 888
+		name= "14. Tümeni Firkasi"
+		type = infantry
+		home = 1780
 	}
-
+	
 	regiment = {
-		name= "1. Redif Kars"
-		type = irregular
-		home = 888
-	}
-
-	regiment = {
-		name= "2. Redif Kars"
-		type = irregular
-		home = 887
-	}
-
-	regiment = {
-		name= "3. Redif Kars"
-		type = irregular
-		home = 887
-	}
-
-	regiment = {
-		name= "1. Redif Trabzon"
-		type = irregular
-		home = 876
-	}
-
-	regiment = {
-		name= "2. Redif Trabzon"
-		type = irregular
-		home = 883
-	}
-
-	regiment = {
-		name= "3. Redif Trabzon"
-		type = irregular
-		home = 869
-	}
-
-}
-
-army = {
-	name = "Army of Silistria"
-	location = 818
-	regiment = {
-		name= "4. Sipahis"
-		type = cuirassier
-		home = 810
-	}
-
-	regiment = {
-		name= "5. Sipahis"
-		type = cuirassier
-		home = 811
-	}
-
-	regiment = {
-		name= "6. Sipahis"
-		type = cuirassier
-		home = 812
-	}
-
-	regiment = {
-		name= "9. Piyade Tümeni"
+		name= "15. Tümeni Firkasi"
 		type = infantry
 		home = 813
 	}
 
 	regiment = {
-		name= "10. Piyade Tümeni"
+		name= "1. Timariot"
+		type = irregular
+		home = 887
+	}
+
+	regiment = {
+		name= "2. Timariot"
+		type = irregular
+		home = 887
+	}
+	
+	regiment = {
+		name= "3. Timariot"
+		type = irregular
+		home = 675
+	}
+	
+	regiment = {
+		name= "7. Süvari Firkasi"
+		type = cuirassier
+		home = 806
+	}
+
+	regiment = {
+		name= "8. Süvari Firkasi"
+		type = cuirassier
+		home = 811
+	}
+	
+	regiment = {
+		name= "3. Topçu Firkas"
+		type = artillery
+		home = 888
+	}
+	
+}
+
+army = {
+	name = "3rd Army"
+	location = 818
+	
+
+	regiment = {
+		name= "16. Tümeni Firkasi"
 		type = infantry
 		home = 818
 	}
 
 	regiment = {
-		name= "11. Piyade Tümeni"
-		type = infantry
-		home = 674
-	}
-
-	regiment = {
-		name= "1. Redif Diyarbakir"
-		type = irregular
-		home = 675
-	}
-
-	regiment = {
-		name= "2. Redif Diyarbakir"
+		name= "4. Timariot"
 		type = irregular
 		home = 809
 	}
 
 	regiment = {
-		name= "3. Redif Diyarbakir"
+		name= "5. Timariot"
 		type = irregular
 		home = 814
 	}
+	
+	regiment = {
+		name= "9. Süvari Firkasi"
+		type = cuirassier
+		home = 812
+	}
+	
+	regiment = {
+		name= "1. Sipahis"
+		type = cavalry
+		home = 876
+	}
+
+}	
+
+army = {
+	name = "4th Army"
+	location = 923
+	
+	regiment = {
+		name= "17. Tümeni Firkasi"
+		type = infantry
+		home = 860
+	}
+	
+	regiment = {
+		name= "6. Timariot"
+		type = irregular
+		home = 863
+	}
+	
+	regiment = {
+		name= "7. Timariot"
+		type = irregular
+		home = 923
+	}
+	
+	regiment = {
+		name= "2. Sipahis"
+		type = cavalry
+		home = 883
+	}
+	
+	regiment = {
+		name= "3. Sipahis"
+		type = cavalry
+		home = 873
+	}
 
 }
 
 army = {
-	name = "Army of Arabia"
-	location = 923
+	name = "5th Army"
+	location = 1096
+
 	regiment = {
-		name= "12. Piyade Tümeni"
+		name= "18. Tümeni Firkasi"
 		type = infantry
 		home = 923
 	}
 
 	regiment = {
-		name= "13. Piyade Tümeni"
-		type = infantry
-		home = 923
+		name= "2. Timariot"
+		type = irregular
+		home = 824
+	}
+	
+	regiment = {
+		name= "4. Sipahis"
+		type = cavalry
+		home = 824
 	}
 
 	regiment = {
-		name= "14. Piyade Tümeni"
-		type = infantry
+		name= "5. Sipahis"
+		type = cavalry
 		home = 926
 	}
-
-	regiment = {
-		name= "1. Redif Halab"
-		type = irregular
-		home = 923
-	}
-
-	regiment = {
-		name= "2. Redif Halab"
-		type = irregular
-		home = 923
-	}
-
-	regiment = {
-		name= "3. Redif Halab"
-		type = irregular
-		home = 923
-	}
-
 }
 
 army = {
-	name = "Army of the Bashaw of Tripoli"
-	location = 1733
-	regiment = {
-		name= "7. Sipahis"
-		type = cavalry
-		home = 1733
-	}
-}
-
-army = {
-	name = "Army of the Bey of Benghazi"
-	location = 1735
+	name = "Pashalik of Tripoli Army"
+	location = 1736
 	regiment = {
 		name= "1. Askäris"
 		type = irregular
 		home = 1735
 	}
-
+	regiment = {
+		name= "6. Sipahis"
+		type = cavalry
+		home = 805
+	}
 }
 
 navy = {

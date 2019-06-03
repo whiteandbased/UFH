@@ -195,7 +195,7 @@ political_decisions = {
 			release_vassal = ARA
 			relation = { who = ARA value = 50 }
 			diplomatic_influence = { who = ARA value = 200 }
-			ARA = { civilized = yes }
+			ARA = { tech_school = unciv_tech_school }
 		}
 		ai_will_do = { factor = 1 }
 	}

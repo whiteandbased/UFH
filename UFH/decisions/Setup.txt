@@ -1,5 +1,193 @@
 political_decisions = {
 
+	enable_options = {
+		alert = no
+		potential = {
+			ai = no
+			NOT = { has_global_flag = looking_through_options }
+			NOT = { year = 1837 }
+		}
+		
+		allow = {
+		}
+		
+		effect = {
+			set_global_flag = looking_through_options
+			set_country_flag = country_looking_through_options
+		}
+	}
+	
+	disable_options = {
+		alert = no
+		potential = {
+			ai = no
+			has_country_flag = country_looking_through_options
+			NOT = { year = 1837 }
+		}
+		
+		allow = {
+		}
+		
+		effect = {
+			clr_global_flag = looking_through_options
+			clr_country_flag = country_looking_through_options
+		}
+	}
+	
+	option_disable_anarcho_liberals = {
+		alert = no
+		potential = {
+			ai = no
+			has_country_flag = country_looking_through_options
+			NOT = { year = 1837 }
+			NOT = { has_global_flag = anarcho_liberals_disabled }
+		}
+		
+		allow = {
+		}
+		
+		effect = {
+			set_global_flag = anarcho_liberals_disabled
+		}
+	}
+	
+	option_disable_hpm_crisis = {
+		alert = no
+		potential = {
+			ai = no
+			has_country_flag = country_looking_through_options
+			NOT = { year = 1837 }
+			NOT = { has_global_flag = revolution_n_counter_researched }
+		}
+		
+		allow = {
+		}
+		
+		effect = {
+			set_global_flag = revolution_n_counter_researched
+		}
+	}
+	
+	option_enable_fantasy_countries = {
+		alert = no
+		potential = {
+			ai = no
+			has_country_flag = country_looking_through_options
+			NOT = { year = 1837 }
+			NOT = { has_global_flag = fantasy_countries_enabled }
+		}
+		
+		allow = {
+		}
+		
+		effect = {
+			set_global_flag = fantasy_countries_enabled
+		}
+	}
+	
+	option_enable_easter_eggs = {
+		alert = no
+		potential = {
+			ai = no
+			has_country_flag = country_looking_through_options
+			NOT = { year = 1837 }
+			NOT = { has_global_flag = easter_eggs_enabled }
+		}
+		
+		allow = {
+		}
+		
+		effect = {
+			set_global_flag = easter_eggs_enabled
+		}
+	}
+	
+	option_disable_workplace_events = {
+		alert = no
+		potential = {
+			ai = no
+			has_country_flag = country_looking_through_options
+			NOT = { year = 1837 }
+			NOT = { has_global_flag = workplace_events_disabled }
+		}
+		
+		allow = {
+		}
+		
+		effect = {
+			set_global_flag = workplace_events_disabled
+		}
+	}
+	
+	#option_enable_english_channel = {
+	#	alert = no
+	#	potential = {
+	#		ai = no
+	#		has_country_flag = country_looking_through_options
+	#		NOT = { year = 1837 }
+	#		NOT = { has_global_flag = english_channel_enabled }
+	#	}
+	#	
+	#	allow = {
+	#	}
+	#	
+	#	effect = {
+	#		enable_canal = 6
+	#		set_global_flag = english_channel_enabled
+	#	}
+	#}
+	
+	option_spawn_occitania = {
+		alert = no
+		potential = {
+			ai = no
+			has_country_flag = country_looking_through_options
+			NOT = { year = 1837 }
+			NOT = { has_global_flag = spawn_occitania }
+		}
+		
+		allow = {
+		}
+		
+		effect = {
+			set_global_flag = spawn_occitania
+			FRA = { add_accepted_culture = occitan }
+			448 = { add_core = OCC }
+			449 = { add_core = OCC }
+			450 = { add_core = OCC }
+			451 = { add_core = OCC }
+			452 = { add_core = OCC }
+			453 = { add_core = OCC }
+			454 = { add_core = OCC }
+			455 = { add_core = OCC }
+			457 = { add_core = OCC }
+			456 = { add_core = OCC }
+			458 = { add_core = OCC }
+			459 = { add_core = OCC }
+			460 = { add_core = OCC }
+			461 = { add_core = OCC }
+			462 = { add_core = OCC }
+			463 = { add_core = OCC }
+			464 = { add_core = OCC }
+			465 = { add_core = OCC }
+			466 = { add_core = OCC }
+			467 = { add_core = OCC }
+			468 = { add_core = OCC }
+			469 = { add_core = OCC }
+			470 = { add_core = OCC }
+			471 = { add_core = OCC }
+			472 = { add_core = OCC }
+			FRA = { release = OCC }
+			OCC = {
+				country_event = {
+				id = 6016807
+				days = 2
+				}
+			}
+		}
+	}
+
+
 	literacy_SPA = {
 		potential = {
 			tag = SPA
@@ -396,12 +584,12 @@ political_decisions = {
 			
 			any_pop = {
 				limit = { has_pop_religion = animist }
-				literacy = -0.09
+				literacy = -0.99
 			}
 			
 			any_pop = {
 				limit = { location = { is_colonial = yes } is_primary_culture = no }
-				literacy = -0.09
+				literacy = -0.99
 			}
 		}
 	}
@@ -484,26 +672,39 @@ political_decisions = {
 			860 = { any_pop = { literacy = 0.05 } }
 			860 = { any_pop = { limit = { culture = turkish } literacy = 0.1 } }
 			any_pop = { 
-				limit = { 
+				limit = {
 					NOT = { has_pop_religion = sunni } 
-					OR = { culture = north_italian culture = ashkenazi culture = sephardic }
+					OR = {
+						culture = north_italian
+						culture = ashkenazi
+						culture = sephardic 
 					}
-				literacy = 0.3
 				}
+				literacy = 0.3
+			}
 			
-			any_pop = { limit = { has_pop_religion = sunni is_culture_group = arab } literacy = 0.01 }
+			any_pop = { limit = { has_pop_religion = sunni is_culture_group = arab }
+				literacy = 0.01 
+			}
 			any_pop = {
-				limit = { has_pop_religion = sunni is_primary_culture = no location = { continent = europe } NOT = { literacy = 0.03 } } literacy = 0.02
+				limit = { has_pop_religion = sunni is_primary_culture = no location = { continent = europe } NOT = { literacy = 0.03 } }
+				literacy = 0.02
 			}
 			any_pop = {
 				limit = { has_pop_religion = sunni OR = { culture = circassian culture = bosniak culture = albanian } }
 				literacy = 0.02
-				}
+			}
 			
 			any_pop = {
 				limit = {
 					NOT = { has_pop_religion = sunni }
-					OR = { culture = serb culture = romanian culture = albanian culture = georgian culture = armenian } 
+					OR = {
+						culture = serb
+						culture = romanian
+						culture = albanian
+						culture = georgian
+						culture = armenian
+					} 
 				}
 				literacy = 0.03
 			}
@@ -511,7 +712,16 @@ political_decisions = {
 			any_pop = { limit = { culture = ukrainian } literacy = 0.02 }
 			
 			any_pop = { limit = { culture = greek } literacy = 0.07 }
-			any_pop = { limit = { NOT = { has_pop_religion = sunni } OR = { culture = croat culture = bulgarian } } literacy = 0.09 }
+			any_pop = { 
+				limit = { 
+					NOT = { has_pop_religion = sunni } 
+					OR = {
+						culture = croat
+						culture = bulgarian
+					}
+				}
+				literacy = 0.09 
+			}
 			
 			serfs = {
 				militancy = -9
@@ -625,7 +835,7 @@ political_decisions = {
 					NOT = { has_pop_religion = sunni } 
 					OR = { culture = ashkenazi culture = sephardic }
 				}
-			literacy = 0.1
+				literacy = 0.1
 			}
 			
 			any_pop = { limit = { culture = baluchi } literacy = -0.02 }
@@ -662,8 +872,8 @@ political_decisions = {
 						culture = estonian
 						culture = latvian
 						culture = finnish
-						} 
-					}
+					} 
+				}
 				literacy = 0.49
 			}
 			
@@ -675,8 +885,8 @@ political_decisions = {
 						culture = latvian
 						culture = south_german
 						culture = finnish
-						} 
-					}
+					} 
+				}
 				literacy = 0.24
 			}
 			
@@ -724,34 +934,34 @@ political_decisions = {
 		}
 		
 		effect = {
-			any_pop = { limit = { location = { is_core = VEN } culture = north_italian } literacy = 0.15 }
+			any_pop = { limit = { location = { is_core = VEN } culture = north_italian } literacy = 0.2 }
 			any_pop = {
-				limit = { 
+				limit = {
 					location = { 
 						NOT = {
 							is_core = LOM
 							is_core = VEN
 							province_id = 734
 							province_id = 735
-							}
-						culture = north_italian
 						}
-					literacy = 0.2
+					}
+					culture = north_italian
 				}
+				literacy = 0.3
 			}
 			
 			any_pop = {
-				limit = { 
+				limit = {
 					location = {
-							OR = {
+						OR = {
 							is_core = LOM
 							province_id = 734
 							province_id = 735
-							}
-						culture = north_italian
 						}
-					literacy = 0.35
+					}
+					culture = north_italian
 				}
+				literacy = 0.35
 			}
 			
 			AUS_612 = { any_pop = { literacy = 0.1 } }
@@ -767,21 +977,31 @@ political_decisions = {
 			any_pop = { limit = { culture = polish } literacy = 0.02 }
 			AUS_623 = { any_pop = { limit = { culture = hungarian } literacy = 0.02 } }
 			any_pop = {
-				limit = { culture = hungarian location = { OR = { province_id = 624 province_id = 635 province_id = 633 } } } literacy = 0.02
+				limit = {
+					culture = hungarian
+					location = {
+						OR = { 
+							province_id = 624
+							province_id = 635
+							province_id = 633 
+						}
+					}
+				}
+				literacy = 0.02
 			}
 			any_pop = {
 				limit = {
-				culture = hungarian
-				location = { 
-				OR = {
-					state_id = 771
-					state_id = 777
-					state_id = 2538
-					state_id = 652
-					state_id = 654
-					state_id = 657
-					state_id = 673
-					province_id = 950
+					culture = hungarian
+					location = {
+						OR = {
+							state_id = 771
+							state_id = 777
+							state_id = 2538
+							state_id = 652
+							state_id = 654
+							state_id = 657
+							state_id = 673
+							province_id = 950
 						}
 					}
 				}
@@ -790,12 +1010,12 @@ political_decisions = {
 			
 			any_pop = {
 				limit = {
-				culture = slovak
-				location = { 
-				OR = {
-					province_id = 633
-					province_id = 634
-					province_id = 635
+					culture = slovak
+					location = { 
+						OR = {
+							province_id = 633
+							province_id = 634
+							province_id = 635
 						}
 					}
 				}
@@ -804,12 +1024,12 @@ political_decisions = {
 			
 			any_pop = {
 				limit = {
-				culture = slovak
-				location = { 
-				OR = {
-					province_id = 636
-					province_id = 637
-					province_id = 638
+					culture = slovak
+					location = { 
+						OR = {
+							province_id = 636
+							province_id = 637
+							province_id = 638
 						}
 					}
 				}
@@ -972,8 +1192,8 @@ political_decisions = {
 			425 = { any_pop = { literacy = 0.05 } }
 			any_pop = { 
 				limit = {
-				is_primary_culture = yes 
-				has_pop_religion = protestant
+					is_primary_culture = yes 
+					has_pop_religion = protestant
 				}
 				literacy = 0.05
 			}
@@ -1119,8 +1339,8 @@ political_decisions = {
 						has_pop_culture = dakota
 						has_pop_culture = cherokee
 						has_pop_culture = native_american_minor 
-						}
 					}
+				}
 				literacy = -0.99 
 			}
 			any_pop = { limit = { has_pop_religion = catholic } literacy = -0.1 }
@@ -1170,9 +1390,9 @@ political_decisions = {
 							province_id = 2436
 							province_id = 2439
 							province_id = 2426
-							}
 						}
 					}
+				}
 				literacy = 0.01
 			}
 		}
@@ -1212,13 +1432,13 @@ political_decisions = {
 					NOT = { has_pop_culture = afro_caribeno }
 					location = {
 						OR = {
-						province_id = 2307
-						province_id = 2308
-						province_id = 2578
+							province_id = 2307
+							province_id = 2308
+							province_id = 2578
 						}
 					}
 				}
-			literacy = 0.07
+				literacy = 0.07
 			}
 			2302 = { any_pop = { literacy = -0.04 } }
 			2303 = { any_pop = { literacy = -0.06 } }
@@ -1298,6 +1518,23 @@ political_decisions = {
 			}
 			
 			2172 = { any_pop = { limit = { culture = mexican } literacy = 0.05 } }
+		}
+	}
+	
+	GRE_1836_setup = {
+		picture = constantinople
+		potential = {
+			tag = GRE
+			always = no
+		}
+		
+		allow = {
+			tag = GRE
+		}
+		
+		effect = {
+			any_pop = { limit = { culture = south_german } literacy = 0.5 }
+			any_owned = { add_province_modifier = { name = small_baby_boom duration = 1460 } }
 		}
 	}
 }

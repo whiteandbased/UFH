@@ -2,9 +2,9 @@
 
 USA_1 = { 1 2 3 4 5 2599 2630 2631 } #Alaska
 
-#ENG_6 = { 6 7 8 } #Yukon
+#ENG_6 = { 6 7 } #Yukon
 
-ENG_9 = { 10 11 12 2595 2596 2598 6 7 8 } #Northwest Territories
+ENG_9 = { 11 2595 2596 2598 6 7 } #Northwest Territories
 
 CAN_13 = { 13 14 20 21 15 19 16 18 17 2629 } #Columbia
 
@@ -341,9 +341,9 @@ AUS_662 = { 702 951 952 953} #East Galicia
 
 RUS_715 = { 715 711 713 716 } #West Galicia
 
-AUS_726 = { 726 727 728 } #Lombardia
+AUS_726 = { 726 727 728 2669 } #Lombardia
 
-AUS_729 = { 729 730 731 732 733 } #Venetia
+AUS_729 = { 729 730 731 732 733 8 } #Venetia
 
 AUS_734 = { 734 735 } #South Tirol
 
@@ -372,7 +372,7 @@ PAP_741 = { 741 742 743 } #Romagna
 
 PAP_752 = { 749 752 750 751 } #Lazio
 
-SIC_753 = { 753 756 757 758 } #Puglia
+SIC_753 = { 756 758 10 753 757 } #Puglia
 
 SIC_754 = { 754 755 759 760 761 2567 } #Campania
 
@@ -413,7 +413,7 @@ GRE_826 = { 839 826 827 840 841 842 } #Peloponnese
 
 TUR_832 = { 832 831 833 825 824 } #Thessalia
 
-GRE_837 = { 834 837 836 835 838 845 } #Attica
+GRE_837 = { 834 837 836 835 838 845 } #Attica - Central Greece
 
 EGY_843 = { 848 843 844 846 847 } #Aegean Islands
 
@@ -444,9 +444,9 @@ TUR_890 = { 890 891 887 } #Van
 
 TUR_893 = { 893 889 899 892 2414 } #Diyarbakir
 
-TUR_894 = { 894 896 898 895 } #Adana
+TUR_894 = { 894 896 898 895 900 } #Adana
 
-EGY_897 = { 897 900 901 904 905 } #Aleppo
+EGY_897 = { 897 901 904 905 } #Aleppo
 
 EGY_903 = { 902 903 906 907 } #Syria
 
@@ -583,9 +583,9 @@ RUS_1065 = { 2682 2613 2615 2659 2684 } #Ob - Yamalia
 
 RUS_1069 = { 1069 2650 2651 2649 2673 2652 2653 } #West Yakutsk
 
-RUS_1070 = { 1077 1469 1070 2691 2701 2674 } #Upper Yeniseysk - Krasnoyarsk
+RUS_1070 = { 1077 1469 2691 2701 2674 } #Upper Yeniseysk - Krasnoyarsk
 
-RUS_1071 = { 2648 2642 2669 2696 2644 } #Yakutsk
+RUS_1071 = { 2648 2696 2644 } #Yakutsk
 
 RUS_1072 = { 1081 2697 1080 } #Amur Region - Khingan 
 
@@ -607,7 +607,7 @@ RUS_1185 = { 1185 1186 1187 1188 1197 2606 1193 } #Semireche - Zhetysu
 
 RUS_1196 = { 1196 1204 1205 1206 686 } #Turkmenia
 
-RUS_1469 = { 1063 1067 1068 2698  2683 2686 } #Tomsk
+RUS_1469 = { 1063 1067 1068 2698  2683 2686 1070 } #Tomsk
 
 RUS_2589 = { 986 2699 2688 2687 } #Nenetsia
 
@@ -621,7 +621,7 @@ RUS_2618 = { 1072 2641 2618 2620 2638 2639 1073 2660 } #Upper Okhotsk - Magadan
 
 RUS_2653 = { 2646 2690 1065 1062 } #North Siberia
 
-RUS_2668 = { 2668 2643 2665 2667 2672 2621 2619 } #North Yakutsk
+RUS_2668 = { 2668 2643 2665 2667 2672 2621 2619 2642 } #North Yakutsk
 
 RUS_2685 = { 1058 2685 1059 2614 2658 } #Ural
 
@@ -854,7 +854,7 @@ JAP_1665 = { 1665 1666 1667 } #Shikoku
 
 JAP_1672 = { 1668 1673 1670 1672 1671 1669 } #Tohoku
 
-JAP_1675 = { 1646 1645 1675 1647 1648 1676 1677 } #Chubu
+JAP_1675 = { 1646 1645 1675 1647 1648 1676 1677 12 } #Chubu
 
 
 ### North Africa

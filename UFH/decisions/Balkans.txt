@@ -230,6 +230,10 @@ political_decisions = {
 
 		effect = {
 			set_country_flag = unite_with_romania
+			random_owned = {
+				limit = { owner = { accepted_culture = hungarian } }
+				owner = { remove_accepted_culture = hungarian }
+			}
 			random_country = {
 				limit = {
 					tag = ROM

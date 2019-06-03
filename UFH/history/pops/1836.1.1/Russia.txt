@@ -6697,13 +6697,13 @@
 	bureaucrats = {
 		culture = russian
 		religion = orthodox
-		size = 15
+		size = 20
 	}
 
 	clergymen = {
 		culture = russian
 		religion = orthodox
-		size = 50
+		size = 10
 	}
 
 	artisans = {
@@ -6715,13 +6715,13 @@
 	soldiers = {
 		culture = russian
 		religion = orthodox
-		size = 25
+		size = 30
 	}
 
 	farmers = {
 		culture = russian
 		religion = orthodox
-		size = 1775
+		size = 1865
 	}
 
 	aristocrats = {
@@ -6751,13 +6751,7 @@
 	farmers = {
 		culture = yakut
 		religion = animist
-		size = 8250
-	}
-
-	bureaucrats = {
-		culture = yakut
-		religion = orthodox
-		size = 5
+		size = 9300
 	}
 
 	clergymen = {
@@ -6782,6 +6776,12 @@
 		culture = yakut
 		religion = orthodox
 		size = 4695
+	}
+	
+	farmers = {
+		culture = siberian
+		religion = animist
+		size = 600
 	}
 }
 #Vilyuysk (10000/2500 POPS)
@@ -8176,92 +8176,7 @@
 		size = 230
 	}
 }
-#Amga (6000/1500 POPS)
-2669 = {
-	aristocrats = {
-		culture = siberian
-		religion = animist
-		size = 2
-	}
 
-	clergymen = {
-		culture = siberian
-		religion = animist
-		size = 5
-	}
-
-	artisans = {
-		culture = siberian
-		religion = animist
-		size = 10
-	}
-
-	soldiers = {
-		culture = siberian
-		religion = animist
-		size = 3
-	}
-
-	farmers = {
-		culture = siberian
-		religion = animist
-		size = 600
-	}
-
-	aristocrats = {
-		culture = yakut
-		religion = animist
-		size = 20
-	}
-
-	clergymen = {
-		culture = yakut
-		religion = animist
-		size = 25
-	}
-
-	artisans = {
-		culture = yakut
-		religion = animist
-		size = 65
-	}
-
-	soldiers = {
-		culture = yakut
-		religion = animist
-		size = 15
-	}
-
-	farmers = {
-		culture = yakut
-		religion = animist
-		size = 1025
-	}
-
-	bureaucrats = {
-		culture = russian
-		religion = orthodox
-		size = 3
-	}
-
-	clergymen = {
-		culture = russian
-		religion = orthodox
-		size = 5
-	}
-
-	soldiers = {
-		culture = russian
-		religion = orthodox
-		size = 2
-	}
-
-	farmers = {
-		culture = russian
-		religion = orthodox
-		size = 90
-	}
-}
 #Olyekminsk (6000/1500 POPS)
 2644 = {
 	farmers = {

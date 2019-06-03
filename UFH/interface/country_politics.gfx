@@ -408,7 +408,7 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_politics_selectparty_entrybg"
-		texturefile = "gfx\\interface\\politics_selectparty_entrybg.tga"
+		texturefile = "gfx\\interface\\politics_selectparty_entrybg.dds"
 	}
 	
 	PieChartType = {

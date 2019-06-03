@@ -1,0 +1,159 @@
+
+
+///////////////// UFH Version 0.0.0.1 \\\\\\\\\\\\\\\
+
+
+### Integrated the following changes from HPM 0.3.7.1
+-Changed province 12 - Reliance in Canada to Sado in Japan. It starts with around 25K pops, producing precious metals and under the Shogunate ownership. Numbers based on https://en.wikipedia.org/wiki/Demographic_history_of_Japan_before_the_Meiji_Restoration#Former_provinces - Thanks go to the anon who gave the source. Pops come from the Nigata province, which used to encompass the island. Added Sado as a Treaty Port.
+--Fixed a few (11) stray pixel clusters, added provinces (and names) to 35 lakes in South America, Australia, Africa and Asia.
+-The Tanzimat Reforms now come with a one-year modifier to represent the Ottoman Land Code of 1858.
+-Added an event for the Kanpur Massacre. The event can happen in any province with high militancy and primary pops from the colonial nation in India.
+-Isolationist Uncivs will not be able to subside imports. Instead, they are forced to institute minimum tariffs, with protectionist countries locked at 95% minimum and free trade countries locked at 25% minimum.
+-Added 1100 south German soldier pops to Nafplion to represent the Bavarian Troops in Greece. Added a starting unit that corresponds to these pops. Based on http://www.mwme.eu/essays/bavarian-greece/Haggenmueller_Intro/index.html
+-Added a new Party Policy: Welfare policy. Pops don't care about it (as in, it's not an issue they vote for) and it's tied to the party ideology. Its effects the minimum and maximum spending in the Social slider. Socialist parties will push for a full welfare state, with communist and fascist parties adopting a paternalist policy and anarcho-liberals strongly opposing spending on welfare. Liberals, Reactionaries and Conservatives are unaffected.
+-Stopped province 1421 - Madura from flipping to Rubber from Sulfur.
+-Made being dismantled play a bigger role in unlocking fascist ideology.
+-The "Claim the Levant CB" can't be used against GPs anymore, so after a GP takes a piece of the Levant from Egypt it will stay with them unless you justify a "place in the sun CB" against them.
+-Reshaped Brescia, Tuscany, Siena, Rome (and surrounding provinces) to follow more natural boundaries such as rivers and be more aesthetic overall.
+-Added the Apennines that extend from north to the south to the Italian peninsula. Redid the Terrain in the Italian lands and Corsica.
+-Added an Atoll terrain. In the new terrain it's impossible to build railroads and the RGO size is extremely small. Changed a few of the islands in the pacific that corresponded to this terrain. Fixed a few wrong name placements in Polynesia.
+-Changed the LR of Brindsi and Messina from 35 to 40 to better represent the growth in these regions.
+-Reshaped Aquila, Foggia, Perugia and Ancona to better represent the terrain of the Italian peninsula. Province 10 - Inuvik was repurposed as Pescara in Italy and the old province is now part of 2598 - Fort Liard. Pops for the new province come from Aquila.
+-Renamed province 2351 - La Plata to Magdalena. Added a decision to build La Plata that will rename the province.
+-Added the French Alps: Grenoble and Digne changed from forest and farms to mountains. Reshaped Valence, Grenoble, Avignon, Toulon and Frejus to better fit with the terrain. Frejus and Toulun terrain changed from Farms to hills, to represent the last bits of the Alps.
+-Added the Austrian Alps: Klagenfurt, Judenburg and Sankt Polten are now mountains.
+-Sardinia now is completely hilly.
+-Merged province 8 - Ross River into province 7 - Dawson. Province 8 is now Belluno in Italy. Changed Province 732 - Treviso from Iron to Timber and province 8 - Belluno from Timber to Iron.
+-Fixed wrong brackets screwing the literacy setup of Italians in Austria.
+-Changed LR in 827 - Zante and 843 - Chios from 30 to 35 and 32 respectively. Changed Ionian Islands literacy to be more in line with Greece, lowered plurality.
+-Added a Setup for Greece, south germans will start with more literacy, Greece will start with a small baby boom for 4 years.
+-Stopped Russia from being able to see the decision to integrate Lithuania in the UBD.
+-Integrated 2669 - Amga in 2648 - Yakutsk. Now 2669 is Sondrio, in Italy.
+-Moved the starting event about deciding if Crisis will be vanilla or not to a decision, under an umbrella of "optional" decisions. There's a few ways of tweaking the game through those decisions, but to avoid clutter, they all disappear in 1837 (and later on, in other start dates, they will disappear in a year).
+-To make sure the "Sonno Joi" province event doesn't fire in case of a Tokugawa peaceful victory, now it requires any japanese-primary tag to be neighboring the country.
+-Changed the name of the Australian Fascist Party.
+-Using the decision to close borders requires Residency citizenship policy or a Fascist/Communist Dictatorship, meaning these governments can always take the decision.
+-During the Senussi and the Algerian Rebellion, as well as the Bedr Khan Massacre, the spawned tags should be able to mobilize troops instead of being unable to fight. Senussi and Algeria should also start with Tuareg as accepted and a general. Changed a few pops to soldiers in Libya and Algeria so they can build a brigade. Fixed the Ottoman Empire getting the wrong CBs for the Senussi if they don't go immediately to war with them.
+-Changed the adjective of the SGF from "German" to "South German", to keep consistency with the NGF.
+-Changed Trinidad and Tobago and Trieste to Civilized status at the game start.
+-Added option to Secularize society for Muslim nations. Non-secular Muslim countries cannot build Wineries or Distilleries and have the old "Islamic law" modifier as a triggered modifier. The Tanzimat Reforms secularize the Ottoman Empire.
+-Renamed province 211 - Blackstone to Lynchburg.
+-Fixed an issue with a decision that made the CSA capital move to province 211 - Lynchburg (old Blackstone) immediately.
+-Fixed not being able to use the decision to integrate Lithuania in the UBD if the UBD owned Lithuanian cores.
+-Changed Misri culture color to a darker shade of green by anon's suggestion.
+-Health Care and Education reforms now give half of the bonus they used to give. The other half comes from a triggered modifier (that checks once per month) that triggers if administration/education has enough fund. The minimum amount for it to trigger is 20/30/40/50% Admin funding for Health Care and 30/40/50% Education funding for School reforms. Each reform level description has a text that tells you the minimum funding for the full bonus.
+-Having the last Health Care reform and fully funding Administration will now give a bonus 0.02% for pop growth. Having the last School Reform and fully funding education will give a 0.10% bonus to education efficiency.
+-Civilized nations with more than one state and more than 1 million pops have to invest a minimum in education if they don't want to lose literacy (through a triggered modifier). At 25% literacy you need to keep education spending at 10% at least. At 50% literacy you need to keep spending in 20% minimum and at 75% literacy the minimum is 30%.
+-Removed old references to the "Islamic Law" modifier.
+-Added a decision that turns Crete in a state for civilized powers in Europe.
+-Updated the "Release Vassal" decisions.
+-Added a set of decisions akin to NNM's "Release Vassal" decisions that allow you to return cores to individual countries, if they are your puppet or in your sphere. It doesn't return provinces that have your cores in them, though.
+-Added a third option to the "Release Vassal" and the "Return Core" decisions to disable the decisions completely for the rest of the game. Useful if you don't plan to use them and just want to unclutter the decision tab.
+-Halved all party loyalty in Switzerland, the UK and US. Now party loyalty at the game start doesn't go above 20% (previously 40%).
+-When Transylvania joins (and becomes) Romania, it will lose Hungarian as accepted. Similarly when Panama joins the FRCA it will also lose North Andean as accepted.
+-Added an event for the Serbian Constitution of 1838 and included Serbia in the liberal revolutions. Based on http://users.ox.ac.uk/~oaces/conference/papers/Bojan_Mitrovic.pdf
+-Changed the Krakatoa event so it's not a major event anymore. It also doesn't kill 20% of the Bogor province (at the game start that would be 148K people) and now it kills 4% (around 36K people, game start values). It will also destroy a level of railroad and fort, if any are present in the province, as well as a level of the Naval Base in Batavia and it will reduce the Life Rating in Bogor by 1. Improved the event description a bit.
+-Changed the Tunguska event so it's not a major event anymore, it doesn't change LR and it only kills pops if there's more than 10k pops in the province, but it completely wipes forts and railroads from the province. Improved the description a bit.
+-Changed the San Francisco Earthquake event so it's not a major event anymore. It completely wipes forts, naval bases and railroads from the province and kills 2% of the population instead of the old 10% and it costs Åí50,000 for the owner of San Francisco. It also has a "devastation" modifier that will severely reduce province production (and hopefully close a few factories). Improved the description a bit.
+-The UK will lose Irish as accepted when the Irish Republic Brotherhood event fires, to represent the rise of Nationalism in Ireland.
+-Fixed a few instances of acquire_all_cores CB that would instantly white peace, like the '54-40 or fight' event for the US.
+-Vassal countries that have vassals can no longer use the decisions to free vassals.
+-Fixed a potential bug that happened if Egypt released the Levantine nations before the Oriental Crisis, which would end with the GPs declaring war on Egypt but instantly peacing out. Additionally, GPs will not declare war on Egypt if they don't own any Turkish cores.
+-For clarity's sake, the hidden modifiers that affected pop migration that were associated with the last 3 Voting Franchise reforms are now directly tied to the reforms (and added to the old migration bonuses of these reforms, so Universal voting gave 5% immigrant attraction, now it gives 55% (5% + 50% of the old hidden modifier). The old GP bonus to immigrant attraction was moved from the pop files to the static modifiers. Both these changes don't change a thing in relation to immigrant attraction percentage, but they will make things more clear in regards to what reforms are important to attract immigrants and will hopefully help with performance.
+-Secondary Powers now have a 5% bonus to immigrant attraction.
+-Changes to pop immigration behavior: Capitalists will be 50% more likely to immigrate to L-F countries and 50% less likely to immigrate to countries with planned economy. Intellectuals don't care about general unemployment anymore when deciding where to migrate, they instead care about education funding (starting at 70% funding and ending at 100%, that gives between 10% to 50% bonus to immigrant attraction of these pops, depending on education funding), since they are paid by that slider. Same thing for soldiers and officers (with the military slider). What this means is that these pops will care more about how well paid they will be, since they will only be unemployed if they demote. Less than 40% funding will mean a -25% chance for these pops to pick the country.
+-Instead of giving 1% bonus to immigration attraction, the "Underground Parties" reform will instead give -1%. The Harassment reform is now Neutral to immigrant attraction and the other reforms behave as vanilla.
+-Stopped a few events that could change the UH/Voting/Electoral reforms during an election from happening during an election.
+-Event 4420 - Cabinet Discusses War will not longer give a conquest CB on all neighboring countries, regardless if you can use it or not. Instead, it will only fire if you have a neighboring country with more than 1 state and it will give a single CB to acquire a state in a random neighboring country with more than 1 state.
+-Similar to vanilla event 60140 where Liberal/Socialist force the "Appointed" UH Reform, when Socialists/Communists(not in a proletarian dictatorship) get to the UH and Trade Unions are illegal, they will force the "State Controlled" Trade Union reform (only if the country has Revolution and Counterrevolution researched).
+-British Poor Strata will be way less likely to demand a change to the First Past the Post reform. Pops overall will care much less to change from FPTP until some basic reforms such as Free Press, Voting Rights and Meeting Rights have been acquired.
+-Fixed a potentially serious vanilla bug where artisans didn't actually own their production (which may help to explain why they starved so much, though it seems they still got money somehow).
+-Farmers, Laborers, Craftsmen and Clerks now care about Trade Union reforms (before that, no pops cared about those reforms) and will try to push for them. Craftsmen are the ones who care the most, followed by laborers, farmers and then clerks, who care the least. Socialism, unemployment, fulfilled life/everyday needs and CON are the main factors affecting this.
+-Cleaned up the poptype files a bit, corrected a few mistakes.
+-Added several Natural Disaster events, all relating to devastating earthquakes (and as a rule of thumb, for an earthquake to go in as an event, it either needs to be very destructive or cause a lot of casualties), namely the 1877 Iquique earthquake,  1868 Arica Earthquake, the 1896 Sanriku earthquake, the Great Ansei Earthquakes, the Great Neapolitan earthquake, the 1908 Messina earthquake.
+-Fixed a wrong localization issue with the Enact Anaconda Plan for the CSA.
+-Modified the Law of Return decision from Israel to correctly take out money instead of giving, fixing the events associated with it so it actually works how it was intended and to take into account open/closed border status, among other things. Changed the duration of the modifiers for the return of the diaspora pops from 2 to 5 years. Re-localized it so the decision can be used by Armenia too, if they want to bring back the Armenians from the diaspora. Differently from Israel, Armenia needs to be at least a SP to see the decision. The event structured was adapted from the source material a kind anon provided. The events for the law of return for Israel will also no longer increase the immigrating pops literacy.
+-Correct a wrong flag for Canada.
+-Added a Irredentist decision for  Israel.
+-Made the German Namibia event in a decision, added tech requirements to it.
+-When a nation asks for home rule, the country that gets the request will now lose the requesting country primary culture as an accepted culture, regardless of their answer.
+-Instead of being completely immune to nations asking for home rule, the tags AUS, KUK, DNB and YUG will now get the requests (it was this way in NNM) but the AI will always reject it by default, so they will deal with unrest in the nations that ask for this. Considering the change of the above item, this also means tags like YUG and DNB can slowly lose accepted cultures. To deal with this, accepted cultures have more strict requirements when asking for home rule: they need high CON and MIL (more than 6-7) in a state as well as over 50% literacy. If the culture isn't accepted, just a bit of MIL (usually 2-3) and a bit of literacy (more than 25%) is needed, which is a requirement similar to before. This means that multicultural union tags will become more brittle and vulnerable to internal dissatisfaction, so a big focus should be in keeping everyone happy (or suppressed).
+-Iceland won't ask home rule from Scandinavia anymore.
+-Norway should declare independence before 1900 if Sweden stops being a Monarchy or if relations dip too low and CON is high. While they declare independence they will also fight for it if they get a "no", so it won't be a simple "refuse forever" case anymore. Sweden will lose Norwegian as accepted when the event happens.
+-Condensed the Falklands/Malvinas renaming decisions in one decision (instead of 2) and removed the 2 prestige you could get from it.
+-Fixed a possible issue that could end with the invest_in_irish decision being taken endlessly.
+-Changed event 31100 about the discovery of Troy. Previously it always gave prestige to Turkey, now it depends on a GP (or SP in Europe/Levant) taking the decision to search for the Aegean civilizations and getting lucky. Added newspaper references that existed in Vanilla but weren't included because someone forgot to add a few lines to the event files. Reworked the event and newspapers text.
+-Changed event 46800 about the discovery of Machu Picchu. Previously it always gave prestige to Peru, now it depends on a GP (or SP in the Americas) taking the decision to search for the city and getting lucky. For both events, High education spending and GP status increase the likelihood of discovery. The events give the same amount of prestige and require techs from the Social Thought tree, among other requirements. They become visible in 1850 and 1890 respectively, so players should have time to prepare for them. They are only visible if you fill the other conditions: being at least rank 3, having the owner of the Cusco/Canakkale in your sphere or being a GP/SP in the Americas for Machu Picchu or in Europe/Levant for Troy. This model will be follow for similar decisions/events.
+-Fixed a few typos and improved a few descriptions in the events/news files.
+-Founding the Suez Canal Company now also requires the business_banks tech.
+-Fixed a few party names for Ireland. The Portuguese Fascist Party name was changed from "Estado Novo" to "Uniao Nacional". Yugoslavia's Fascists were renamed to ZBOR.
+-To accommodate non fascist but highly authoritarian regimes, Presidential Dictatorships now can have a fascist party as the ruling party.
+-Condensed the two decisions to rename Wallonia in a single one, made the description generic enough.
+-Countries annexed through the Doctrine of Lapse and the Russian equivalent now can only be annexed once through it.
+-The country that gets the Congo will now be left out of the free Scramble for Africa CBs.
+-Lagos isn't needed anymore to form Nigeria, only one province in each of the 3 coastal states.
+-Increased the effects of Autocracy/Tradition NVs on Conservative/Reactionary/Fascist/Communist ideology inclinations. Ideological inclinations from NVs will now only affect pops that are primary/accepted in a country. That means that greeks under the Ottoman Empire won't be more conservative just because they are in the Ottoman Empire. This means that in homogeneous countries with these NVs, they will gain more stability but multi-cultural countries will still be rocky by the ideology of the minorities.
+-The provincia_cisplatina decision for Brazil now can be taken by an Absolute Monarchy with a Jingoist Party.
+-Changed province 900 - Antakya from the Aleppo state to the Adana state.
+-Checked and re-did all the pops in the Ottoman Empire in the Balkans, Anatolia and the ME. Pops were changed so minorities always have the 4 basic pop types (farmers/laborers, intellectuals, soldiers and artisans) with additional 2 (aristocrats and officers) in capitals. This is done to avoid assimilation problems, no matter who owns the land. Pops now should always have a valid target to promote to. A few places like Bosnia and Aydin were missing soldier pops, sometimes even turkish soldiers (in the case of Aydin), so that's also fixed.
+-Changed the whole of Ottoman Iraqi to colonial governments. This is done to reflect that Mamluk Rule in Baghdad ended only 5 years early, when they still ruled as an unciv with high (or almost complete) autonomy. See https://en.wikipedia.org/wiki/Ali_R%C4%B1za_Pasha_(governor_of_Baghdad) and https://en.wikipedia.org/wiki/Mamluk_dynasty_(Iraq)
+-To provide some access to Iraq, Dayr al-Zour will start under Ottoman Rule. This is done until I re-do provinces in the ME.
+-EXPERIMENTAL: Disabled promotion on assimilation.
+-Added new terrain types for the new world, for small islands and for the tundra/desert/boreal forests. This is made so these terrains don't have a huge RGO size just because they are in the new world and places like Hawaii can have more people than any place in the old world.
+-Changed the "Christian Oppression" modifier for the Ottoman Empire so it doesn't give militancy and consciousness for non accepted pops. Instead, AI countries will each year take a decision to give militancy/CON to non Sunni pops in the Ottoman Empire. Previously, any non-turkish pops would get progressively get more pissed off, including the Muslims.
+-Made the starting general for Tripoli a bit better.
+-Removed the CON reduction in wartime that was inherited from NNM.
+-Romanians, Albanians and pops in the Levantine and South Slav culture groups will be much more inclined to join nationalist/patriotic rebels than ideological rebels if they can IF they aren't accepted cultures and have a different religion from the state religion of the country.
+-The decision to Annex Bosnia after the Berlin Conference now can be taken by any GP that owns Serbia and Southern Serbia or Croatia and Slavonia or Dalmatia.
+-Reduced the LR in Togo from 15 to 10, made a decision to claim the place for Europeans GPs/SPs.
+-Changed the citizenship_policy of the Ottoman Empire parties a bit so they have the whole spectrum of options supported and so pops don't end up always going for the same rebels.
+-Added Party names for Greece and Serbia, based on a kind anon suggestions and http://www.worldstatesmen.org/Greece.html The "French Faction" (Ethniko Komma) are now the liberals and the British Party (Syntagmatiko Komma) are the conservatives. Previously, it was the other way around.
+-Added better description to a few reforms.
+-Reshaped several states in Siberia.
+-Stop the decision for naming Lushun from being taking endlessly in certain situations.
+-Renamed Buganda to Uganda.
+-Stopped the "Independence for Tunisia" event from potential happening repeatedly. Now it only fires once.
+-Liberia will now start with the "Developing Academia" Tech School.
+-Added some missing Greek Pops to Crete.
+-Fixed a wrong party name in Serbia.
+-Made the Argentinian tags (SBA, ENT and CRT) non-releasable, to stop them from being released from the Argentine Confederation by war.
+-Checked the Ottoman starting army and guaranteed none of the brigades start with missing pops. Reorganized the military to follow the historical organization. Based on https://en.wikipedia.org/wiki/Ottoman_military_reforms#Reforms_of_Abd.C3.BClmecit https://en.wikipedia.org/wiki/First_Army_(Ottoman_Empire)#Formations  https://en.wikipedia.org/wiki/Asakir-i_Mansure-i_Muhammediye and https://tr.wikipedia.org/wiki/A%C4%9Fa_H%C3%BCseyin_Pa%C5%9Fa
+-Added Turkish pops back to northern Iraq. They should be around 3% of the total population of Iraq, distributed in Mosul, Rewanduz and Sulaymania and 3% of Syria, distributed in Aleppo and Dayr al-Zour.
+-Added a Turkmeneli tag to stop Turkish pops in Iraq and Syria from assimilating if the OT falls.
+-Fixed the Greater California decision cores in Sonora.
+-Made sure an event for the central Americans states don't fire against a country that doesn't exist.
+-54'40 or fight event changed so it can fire if the US isn't a democracy.
+-Stopped the decision to rename dutch wallonia from firing endlessly.
+-Troy/Machu Picchu province owners now can take the decision to search for the city.
+-Slight increase in Austrian Italy literacy for north Italians to (hopefully) make assimilation bug harder to happen.
+-Changed the way the penalty to assimilation for accepted cultures with union tags in a province so it's significantly smaller, making the tooltip for assimilation easier to read. Also made it completely generic: any culture in a province with a core of a union tag that is accepted by said union tag will now count as "primary" for assimilation purposes (aka it will not assimilate).
+-Added all pop types to Macao in 1836, so pops have where to promote.
+-Reshaped Guangdong a bit to fix map artifacts.
+-Removed event 16452. #event for USA to outlaw slavery or keep it after war with CSA apparently
+
+
+
+
+
+
+
+### Discarded the following changes from HPM 0.3.7.1
+-Renamed State GRE_837 from Attica to Central Greece.
+-Decreased invention impact on demand from 0.1 to 0.06.	
+-Fixed the localization in the event for German LR normalization and made it fire earlier, when Germany reaches 1895 levels of pops.
+-Former colonial countries will now be released as uncivs and will have the option to civilize instantly on release (if they have 15% literacy) through a decision. If they do this, their informal status will be "semi-civilized". This means that they get a tech school that greatly reduces their research speed and can be reverted to Traditional Academia when they reach 25% literacy and have a few techs.		## added but changed to 10% and 20%
+
+
+
+
+
+
+///////////// UFH Version 0.0.0.0 \\\\\\\\\\\\\
+
+-Added HPM 0.3.6.2 as a base
+-Made papal states white
+
+
+
+
+

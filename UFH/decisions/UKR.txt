@@ -12,6 +12,7 @@ political_decisions = {
 		}
 		
 		allow = {
+			war = no
 		}
 		
 		effect = {

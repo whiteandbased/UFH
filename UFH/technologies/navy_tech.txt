@@ -1691,6 +1691,15 @@ naval_statistics = {
 			NOT = { total_amount_of_ships = 1 }
 		}
 		modifier = {
+			factor = 30
+			is_greater_power = yes
+			OR = {
+				tag = GER
+				tag = NGF
+				tag = PRU
+			}
+		}
+		modifier = {
 			factor = 1.02
 			OR = { tech_school = naval_tech_school tech_school = japanese_tech_school }
 		}

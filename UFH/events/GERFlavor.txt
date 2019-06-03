@@ -1061,38 +1061,6 @@ country_event = {
 		}
 	}
 }
-#Luderitz Expedition
-country_event = {
-	id = 33036
-	title = "EVTNAME33036"
-	desc = "EVTDESC33036"
-	picture = "luderitzbay"
-		
-	trigger = {
-		OR = {
-			tag = NGF
-			tag = GER
-		}
-		year = 1883
-		2084 = { empty = yes }
-		2083 = { empty = no }
-		is_greater_power = yes
-		NOT = { has_country_flag = founding_german_namibia }
-		2095 = { empty = no }
-		2077 = { empty = no }
-	}
-	
-	mean_time_to_happen = { months = 6 }
-	
-	option = {
-		name = "EVT33036OPTA"
-		set_country_flag = founding_german_namibia
-		prestige = 2
-		2084 = { secede_province = THIS change_province_name = "Lüderitz" any_pop = { literacy = -0.99 } }
-		2086 = { secede_province = THIS change_province_name = "Keetmanshoop" any_pop = { literacy = -0.99 } }
-		2085 = { secede_province = THIS change_province_name = "Maltahöhe" any_pop = { literacy = -0.99 } }
-	}
-}
 
 #The Rhine Crisis - French Declaration
 country_event = {
@@ -1435,7 +1403,7 @@ country_event = {
 	}
 }
 
-#Germany LR fixing
+#Germany LR Normalization
 country_event = {
 	id = 33040
 	title = "EVTNAME33040"
@@ -1443,8 +1411,13 @@ country_event = {
 	picture = "german_rhine"
 
 	trigger = {
-		tag = GER
-		is_greater_power = yes
+		OR = {
+			tag = GER
+			tag = NGF
+			tag = SGF
+			tag = AUS
+			tag = KUK
+		}
 		owns = 549
 		total_pops = 20000000
 		year = 1890
@@ -1456,7 +1429,7 @@ country_event = {
 	
 	option = {
 		name = "EVT33040OPTA"
-		any_owned = { limit = { is_core = GER life_rating = 40 } life_rating = -5 }
+		GER = { all_core = { limit = { life_rating = 40  } life_rating = -5 } }
 	}
 }
 

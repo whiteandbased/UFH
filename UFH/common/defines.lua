@@ -63,7 +63,7 @@ country = {
 	NAVAL_BASE_SUPPLY_SCORE_BASE = 10, -- base value that is powered by level of naval base. Determines the naval supplying capabilities.
 	NAVAL_BASE_SUPPLY_SCORE_EMPTY = 2, -- min value for coastal provinces with no naval base.
 	NAVAL_BASE_NON_CORE_SUPPLY_SCORE = 0.3, -- modifier for supply score for naval bases that are not in core provinces.
-	COLONIAL_POINTS_FROM_SUPPLY_FACTOR = 1,
+	COLONIAL_POINTS_FROM_SUPPLY_FACTOR = 1, --Scale this down as you scale up the supply base or everyone will drown in colonial points
 	COLONIAL_POINTS_FOR_NON_CORE_BASE = 1,
 	MOBILIZATION_SPEED_BASE = 0.10, -- Base speed for raising troops
 	MOBILIZATION_SPEED_RAILS_MULT = 4.0, -- Speed modifier for raising troops. It's max value for max railways level in state.
@@ -628,7 +628,7 @@ pops = {
 	IMMIGRATION_SCALE = 0.004,
 
 	PROMOTION_SCALE = 0.002,
-	PROMOTION_ASSIMILATION_CHANCE = 0.3,
+	PROMOTION_ASSIMILATION_CHANCE = 0,
 	LUXURY_THRESHOLD = 500,
 	BASE_GOODS_DEMAND = 0.8,
 	BASE_POPGROWTH = 0.0001,

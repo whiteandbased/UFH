@@ -460,6 +460,7 @@ country_event = {
 	option = {
 		name = "EVT1010020OPTA"
 		set_country_flag = irish_republican_brotherhood
+		remove_accepted_culture = irish
 		set_variable = {
 			which = irish_republican_provinces
 			value = 1

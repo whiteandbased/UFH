@@ -1716,7 +1716,7 @@ political_decisions = {
 		ai_will_do = { factor = 1 }
 	}
 	
-	
+	#Treaty of Akhal
 	treaty_of_akhal = {
 		picture = treaty_of_turkmanchay
 		potential = {

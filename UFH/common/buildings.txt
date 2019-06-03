@@ -8,6 +8,7 @@
 # cost = x #==> extra construction cost (added to goods cost estimations)
 # time = x #==> number of days to build.
 #
+# Audax Validator EnableCommentMetadata
 
 
 ############# LATE GAME FACTORIES
@@ -511,7 +512,6 @@ liquor_distillery = {
 	visibility = yes
 	onmap = no
 	
-	default_enabled = yes	
 	production_type = liquor_distillery
 	pop_build_factory = yes
 }
@@ -531,7 +531,6 @@ winery = {
 	visibility = yes
 	onmap = no
 
-	default_enabled = yes	
 	production_type = winery
 	pop_build_factory = yes
 }
@@ -670,6 +669,7 @@ naval_base = {
 	port = yes
 	visibility = yes
 	max_level = 6
+	# Audax Validator "." Ignore_NEXT
 	colonial_points = { 30 50 70 90 110 130 } #points at levels 1-6
 	province = yes
 	one_per_state = yes

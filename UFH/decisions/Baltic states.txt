@@ -199,11 +199,13 @@ political_decisions = {
 		picture = old_vilnius
 		potential = {
 			UBD = { exists = yes }
+			NOT = { tag = RUS }
 			OR = {
 				tag = UBD
 				is_our_vassal = UBD
 			}
-			UBD = { NOT = { any_owned_province = { is_core = LIT } } }
+			#UBD = { NOT = { any_owned_province = { is_core = LIT } } }
+			UBD = { is_substate = no }
 		}
 		
 		allow = {

@@ -1,6 +1,5 @@
 capital = 882
 primary_culture = greek
-culture = armenian
 religion = orthodox
 government = absolute_monarchy
 plurality = 0.0

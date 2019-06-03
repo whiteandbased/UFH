@@ -45,3 +45,7 @@ upper_house = {
 	socialist = 0
 	communist = 0
 }
+
+# Inventions
+bottling_process = yes
+modern_winemaking = yes

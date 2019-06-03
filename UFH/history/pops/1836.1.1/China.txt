@@ -3094,34 +3094,59 @@
 #Ruled by Portugal in 1836
 #Macao (22000/5500 POPS) 
 1498 = {
-	bureaucrats = {
+
+	aristocrats = {
 		culture = portuguese
 		religion = catholic
-		size = 5
+		size = 100
+	}
+
+	officers = {
+		culture = portuguese
+		religion = catholic
+		size = 100
 	}
 
 	clergymen = {
 		culture = portuguese
 		religion = catholic
-		size = 10
+		size = 100
 	}
 
 	artisans = {
 		culture = portuguese
 		religion = catholic
-		size = 210
+		size = 100
 	}
-
+	
 	soldiers = {
 		culture = portuguese
 		religion = catholic
-		size = 25
+		size = 100
+	}
+	
+	farmers = {
+		culture = portuguese
+		religion = catholic
+		size = 110
 	}
 
+	aristocrats = {
+		culture = yue
+		religion = catholic
+		size = 100
+	}
+	
+	officers = {
+		culture = yue
+		religion = catholic
+		size = 100
+	}
+	
 	clergymen = {
 		culture = yue
 		religion = catholic
-		size = 15
+		size = 100
 	}
 
 	artisans = {
@@ -3133,7 +3158,7 @@
 	soldiers = {
 		culture = yue
 		religion = catholic
-		size = 50
+		size = 100
 	}
 
 	farmers = {
@@ -3141,11 +3166,23 @@
 		religion = catholic
 		size = 250
 	}
+	
+	aristocrats = {
+		culture = yue
+		religion = mahayana
+		size = 100
+	}
+	
+	officers = {
+		culture = yue
+		religion = mahayana
+		size = 100
+	}
 
 	clergymen = {
 		culture = yue
 		religion = mahayana
-		size = 50
+		size = 100
 	}
 
 	artisans = {
@@ -3157,13 +3194,13 @@
 	soldiers = {
 		culture = yue
 		religion = mahayana
-		size = 50
+		size = 100
 	}
 
 	farmers = {
 		culture = yue
 		religion = mahayana
-		size = 3700
+		size = 5700
 	}
 	
 	slaves = {
@@ -3175,7 +3212,7 @@
 	slaves = {
 		culture = hakka
 		religion = mahayana
-		size = 1000
+		size = 200
 	}
 
 }

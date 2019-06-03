@@ -57,6 +57,8 @@ finance_reform = yes_finance_reform
 flintlock_rifles = 1
 
 # Inventions
+bottling_process = yes
+modern_winemaking = yes
 
 # Starting Consciousness
 consciousness = 0
@@ -82,5 +84,7 @@ flintlock_rifles = 1
 post_nelsonian_thought = 1
 
 # Inventions
+bottling_process = yes
+modern_winemaking = yes
 
 }

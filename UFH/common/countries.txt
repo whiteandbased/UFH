@@ -148,6 +148,7 @@ CLC		= "countries/Cilicia.txt"
 DAG		= "countries/Dagestan.txt"
 DUR		= "countries/Durrani Empire.txt"
 HAL		= "countries/Hail.txt"
+HTY		= "countries/Hatay.txt"
 JOR		= "countries/Jordan.txt"
 KDS		= "countries/Kurdistan.txt"
 KWT		= "countries/Kuwait.txt"
@@ -542,7 +543,11 @@ KUK		= "countries/Austria-Hungary.txt"
 #new for 1.2
 ISR		="countries/Israel.txt"
 ICL		="countries/Iceland.txt"
+
+##NNM and Vanilla Scrapped tags
+IBR		="countries/Iberia.txt"
 BYZ		="countries/Byzantium.txt"
+BAB		="countries/Babylonia.txt"
 
 #new for AHD
 TPG		="countries/Taiping.txt"

@@ -250,6 +250,7 @@ political_decisions = {
 			owns = 1481
 				OR = {
 					AND = {
+						NOT = { has_global_flag = lushun }
 						OR = {
 							is_culture_group = east_asian
 							primary_culture = korean
@@ -283,11 +284,12 @@ political_decisions = {
 						NOT = { primary_culture = korean }
 						NOT = { primary_culture = ainu }
 						NOT = { is_culture_group = east_asian }
-						}
 					}
+				}
 				owner = {
 					1481 = { change_province_name = "Port Arthur" }
 					set_global_flag = renamed_port_arthur
+					clr_global_flag = lushun
 					clr_global_flag = renamed_ryojun 
 				}
 			}
@@ -297,6 +299,7 @@ political_decisions = {
 				owner = {
 					1481 = { change_province_name = "Ryojun" }
 					clr_global_flag = renamed_port_arthur
+					clr_global_flag = lushun
 					set_global_flag = renamed_ryojun
 				}
 			}
@@ -309,14 +312,15 @@ political_decisions = {
 							primary_culture = korean
 							primary_culture = ainu
 						}
-					OR = {
-						has_global_flag = renamed_ryojun
-						has_global_flag = renamed_port_arthur
+						OR = {
+							has_global_flag = renamed_ryojun
+							has_global_flag = renamed_port_arthur
 						}
 					}
 				}
 				owner = {
 					1481 = { change_province_name = "Lüshun" }
+					set_global_flag = lushun
 					clr_global_flag = renamed_port_arthur
 					clr_global_flag = renamed_ryojun
 				}
@@ -1595,11 +1599,15 @@ political_decisions = {
 			NOT = { ruling_party_ideology = liberal }
 			NOT = { ruling_party_ideology = conservative }
 			NOT = { ruling_party_ideology = socialist }
-			citizenship_policy = residency
+			
 			OR = {
-				government = absolute_monarchy
+				citizenship_policy = residency
 				government = proletarian_dictatorship
 				government = fascist_dictatorship
+			}
+			
+			OR = {
+				government = absolute_monarchy
 				government = presidential_dictatorship
 				government = bourgeois_dictatorship
 				government = theocracy

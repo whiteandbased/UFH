@@ -62,7 +62,7 @@ country_event = {
 				}
 				add_province_modifier = {
 					name = jewish_diaspora
-					duration = 800
+					duration = 1825
 				}
 			}
 		}
@@ -91,6 +91,10 @@ province_event = {
 
 	trigger = {
 		has_province_modifier = jewish_diaspora
+		owner = {
+			NOT = { border_policy = closed_borders }
+			war = no
+		}
 		ISR = {
 			exists = yes
 			war = no
@@ -108,7 +112,7 @@ province_event = {
 			owner = { government = democracy }
 		}
 		modifier = {
-			factor = 2
+			factor = 0.8
 			has_global_flag = law_of_return_issued
 		}
 		modifier = {
@@ -124,7 +128,7 @@ province_event = {
 			owner = { religious_policy = moralism }
 		}
 		modifier = {
-			factor = 1.5
+			factor = 1.2
 			owner = { religious_policy = pluralism }
 		}
 		modifier = {
@@ -151,7 +155,6 @@ province_event = {
 			random = {
 				chance = 90
 				money = 500
-				literacy = 0.2
 				move_pop = 917
 			}
 		}
@@ -199,7 +202,9 @@ province_event = {
 	trigger = {
 		has_province_modifier = jewish_diaspora
 		owner = {
+			NOT = { border_policy = closed_borders }
 			NOT = { has_country_modifier = jewish_diaspora }
+			war = no
 		}
 		ISR = {
 			exists = yes
@@ -218,7 +223,7 @@ province_event = {
 			owner = { government = democracy }
 		}
 		modifier = {
-			factor = 2.5
+			factor = 0.8
 			has_global_flag = law_of_return_issued
 		}
 		modifier = {
@@ -234,7 +239,7 @@ province_event = {
 			owner = { religious_policy = moralism }
 		}
 		modifier = {
-			factor = 1.5
+			factor = 1.2
 			owner = { religious_policy = pluralism }
 		}
 		modifier = {
@@ -261,7 +266,6 @@ province_event = {
 			random = {
 				chance = 90
 				money = 250
-				literacy = 0.2
 				move_pop = 916
 			}
 		}
@@ -308,6 +312,10 @@ province_event = {
 
 	trigger = {
 		has_province_modifier = jewish_diaspora
+		owner = {
+			NOT = { border_policy = closed_borders }
+			war = no
+		}
 		ISR = {
 			exists = yes
 			war = no
@@ -325,7 +333,7 @@ province_event = {
 			owner = { government = democracy }
 		}
 		modifier = {
-			factor = 2.5
+			factor = 0.8
 			has_global_flag = law_of_return_issued
 		}
 		modifier = {
@@ -341,7 +349,7 @@ province_event = {
 			owner = { religious_policy = moralism }
 		}
 		modifier = {
-			factor = 1.5
+			factor = 1.2
 			owner = { religious_policy = pluralism }
 		}
 		modifier = {
@@ -368,7 +376,6 @@ province_event = {
 			random = {
 				chance = 90
 				money = 250
-				literacy = 0.2
 				move_pop = 918
 			}
 		}
@@ -415,6 +422,10 @@ province_event = {
 
 	trigger = {
 		has_province_modifier = jewish_diaspora
+		owner = {
+			NOT = { border_policy = closed_borders }
+			war = no
+		}
 		ISR = {
 			exists = yes
 			war = no
@@ -432,7 +443,7 @@ province_event = {
 			owner = { government = democracy }
 		}
 		modifier = {
-			factor = 2.5
+			factor = 0.8
 			has_global_flag = law_of_return_issued
 		}
 		modifier = {
@@ -448,7 +459,7 @@ province_event = {
 			owner = { religious_policy = moralism }
 		}
 		modifier = {
-			factor = 1.5
+			factor = 1.2
 			owner = { religious_policy = pluralism }
 		}
 		modifier = {
@@ -475,7 +486,6 @@ province_event = {
 			random = {
 				chance = 90
 				money = 250
-				literacy = 0.2
 				move_pop = 919
 			}
 		}
@@ -515,3 +525,276 @@ province_event = {
 	}
 }
 
+#Armenian Homeland emigration events
+province_event = {
+	id = 30089
+	title = "EVTNAME30089"
+	desc = "EVTDESC30089"
+
+	trigger = {
+		has_province_modifier = armenian_diaspora
+		NOT = { is_core = ARM }
+		owner = {
+			NOT = { border_policy = closed_borders }
+			war = no
+		}
+		ARM = {
+			exists = yes
+			war = no
+			owns = 1098
+		}
+		1098 = { NOT = { unemployment = 0.1 } }
+	}
+
+	mean_time_to_happen = {
+		months = 200
+		modifier = {
+			factor = 2
+			owner = { government = democracy }
+		}
+		modifier = {
+			factor = 1.5
+			owner = { government = hms_government }
+		}
+		modifier = {
+			factor = 0.8
+			owner = { vote_franschise = none_voting }
+		}
+		modifier = {
+			factor = 0.5
+			owner = { religious_policy = moralism }
+		}
+		modifier = {
+			factor = 1.5
+			owner = { religious_policy = pluralism }
+		}
+		modifier = {
+			factor = 0.8
+			owner = { citizenship_policy = residency }
+		}
+		modifier = {
+			factor = 1.2
+			owner = { citizenship_policy = full_citizenship }
+		}
+	}
+
+	option = {
+		name = "EVT98405OPTA"
+		remove_province_modifier = armenian_diaspora
+		any_pop = {
+			limit = {
+				has_pop_culture = armenian
+			}
+			random = {
+				chance = 90
+				move_pop = 1098
+			}
+		}
+		ai_chance = { factor = 75 }
+	}
+	option = {
+		name = "EVT98405OPTB"
+		remove_province_modifier = armenian_diaspora
+		any_pop = {
+			limit = { has_pop_culture = armenian }
+			money = 50
+			consciousness = -3
+		}
+		owner = { treasury = -500 }
+		ai_chance = {
+			factor = 25
+			modifier = {
+				factor = 0
+				owner = { civilized = no }
+			}
+			modifier = {
+				factor = 0
+				owner = {
+					NOT = { money = 1000 }
+				}
+			}
+		}
+	}
+}
+
+province_event = {
+	id = 30090
+	title = "EVTNAME30089"
+	desc = "EVTDESC30089"
+
+	trigger = {
+		has_province_modifier = armenian_diaspora
+		NOT = { is_core = ARM }
+		owner = {
+			NOT = { border_policy = closed_borders }
+			war = no
+		}
+		ARM = {
+			exists = yes
+			war = no
+			owns = 1099
+		}
+		1099 = { NOT = { unemployment = 0.1 } }
+	}
+
+	mean_time_to_happen = {
+		months = 200
+		modifier = {
+			factor = 2
+			owner = { government = democracy }
+		}
+		modifier = {
+			factor = 1.5
+			owner = { government = hms_government }
+		}
+		modifier = {
+			factor = 0.8
+			owner = { vote_franschise = none_voting }
+		}
+		modifier = {
+			factor = 0.5
+			owner = { religious_policy = moralism }
+		}
+		modifier = {
+			factor = 1.5
+			owner = { religious_policy = pluralism }
+		}
+		modifier = {
+			factor = 0.8
+			owner = { citizenship_policy = residency }
+		}
+		modifier = {
+			factor = 1.2
+			owner = { citizenship_policy = full_citizenship }
+		}
+	}
+
+	option = {
+		name = "EVT98405OPTA"
+		remove_province_modifier = armenian_diaspora
+		any_pop = {
+			limit = {
+				has_pop_culture = armenian
+			}
+			random = {
+				chance = 90
+				move_pop = 1099
+			}
+		}
+		ai_chance = { factor = 75 }
+	}
+	option = {
+		name = "EVT98405OPTB"
+		remove_province_modifier = armenian_diaspora
+		any_pop = {
+			limit = { has_pop_culture = armenian }
+			money = 50
+			consciousness = -3
+		}
+		owner = { treasury = -500 }
+		ai_chance = {
+			factor = 25
+			modifier = {
+				factor = 0
+				owner = { civilized = no }
+			}
+			modifier = {
+				factor = 0
+				owner = {
+					NOT = { money = 1000 }
+				}
+			}
+		}
+	}
+}
+
+province_event = {
+	id = 30091
+	title = "EVTNAME30089"
+	desc = "EVTDESC30089"
+
+	trigger = {
+		has_province_modifier = armenian_diaspora
+		NOT = { is_core = ARM }
+		owner = {
+			NOT = { border_policy = closed_borders }
+			war = no
+		}
+		ARM = {
+			exists = yes
+			war = no
+			owns = 1101
+		}
+		1101 = { NOT = { unemployment = 0.1 } }
+	}
+
+	mean_time_to_happen = {
+		months = 200
+		modifier = {
+			factor = 2
+			owner = { government = democracy }
+		}
+		modifier = {
+			factor = 1.5
+			owner = { government = hms_government }
+		}
+		modifier = {
+			factor = 0.8
+			owner = { vote_franschise = none_voting }
+		}
+		modifier = {
+			factor = 0.5
+			owner = { religious_policy = moralism }
+		}
+		modifier = {
+			factor = 1.5
+			owner = { religious_policy = pluralism }
+		}
+		modifier = {
+			factor = 0.8
+			owner = { citizenship_policy = residency }
+		}
+		modifier = {
+			factor = 1.2
+			owner = { citizenship_policy = full_citizenship }
+		}
+	}
+
+	option = {
+		name = "EVT98405OPTA"
+		remove_province_modifier = armenian_diaspora
+		any_pop = {
+			limit = {
+				has_pop_culture = armenian
+			}
+			random = {
+				chance = 90
+				move_pop = 1101
+			}
+		}
+		ai_chance = { factor = 75 }
+	}
+	option = {
+		name = "EVT98405OPTB"
+		remove_province_modifier = armenian_diaspora
+		any_pop = {
+			limit = { has_pop_culture = armenian }
+			money = 50
+			consciousness = -3
+		}
+		owner = { treasury = -500 }
+		ai_chance = {
+			factor = 25
+			modifier = {
+				factor = 0
+				owner = { civilized = no }
+			}
+			modifier = {
+				factor = 0
+				owner = {
+					NOT = { money = 1000 }
+				}
+			}
+		}
+	}
+}

@@ -52,6 +52,10 @@ flintlock_rifles = 1
 consciousness = 3
 nonstate_consciousness = 6
 
+# Inventions
+bottling_process = yes
+modern_winemaking = yes
+
 oob = "SIA_oob.txt"
 1861.1.1 = {
 	oob = "/1861/SIA_oob.txt"

@@ -23,10 +23,13 @@ upper_house = {
 consciousness = 0
 nonstate_consciousness = 0
 
-
 foreign_training = yes_foreign_training
 foreign_weapons = yes_foreign_weapons
 flintlock_rifles = 1
+
+# Inventions
+bottling_process = yes
+modern_winemaking = yes
 
 oob = "PAN_oob.txt"
 1861.1.1 = {

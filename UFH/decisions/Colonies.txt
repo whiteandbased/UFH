@@ -231,7 +231,6 @@ political_decisions = {
 			treasury = -50000
 			1206 = { trade_goods = cotton }
 			1196 = { trade_goods = cotton }
-			1205 = { trade_goods = grain }
 		}
 		ai_will_do = {  factor = 1 }
 	}
@@ -575,6 +574,8 @@ political_decisions = {
 					NOT = { terrain = desert }
 					NOT = { terrain = semidesert }
 					NOT = { terrain = dryhills }
+					NOT = { province_id = 1320 }
+					NOT = { terrain = coral_island }
 					NOT = { has_province_modifier = plantation }
 				}
 				any_owned_province = {
@@ -583,6 +584,10 @@ political_decisions = {
 					NOT = { terrain = desert }
 					NOT = { terrain = semidesert }
 					NOT = { terrain = dryhills }
+					NOT = { province_id = 2517 }
+					NOT = { province_id = 1464 }
+					NOT = { continent = polynesia }
+					NOT = { terrain = coral_island }
 					NOT = { has_province_modifier = plantation } 
 				}
 				any_owned_province = {
@@ -591,6 +596,7 @@ political_decisions = {
 					NOT = { terrain = desert }
 					NOT = { terrain = semidesert }
 					NOT = { terrain = dryhills }
+					NOT = { terrain = coral_island }
 					NOT = { has_province_modifier = plantation } 
 				}
 				any_owned_province = {
@@ -623,6 +629,7 @@ political_decisions = {
 					NOT = { terrain = desert }
 					NOT = { terrain = semidesert }
 					NOT = { terrain = dryhills }
+					NOT = { province_id = 1637 }
 					NOT = { has_province_modifier = plantation }
 				}
 			}
@@ -657,6 +664,8 @@ political_decisions = {
 					NOT = { terrain = desert }
 					NOT = { terrain = semidesert }
 					NOT = { terrain = dryhills }
+					NOT = { province_id = 1320 }
+					NOT = { terrain = coral_island }
 				}
 				add_province_modifier = { name = plantation duration = -1 }
 			}
@@ -668,6 +677,10 @@ political_decisions = {
 					NOT = { terrain = desert }
 					NOT = { terrain = semidesert }
 					NOT = { terrain = dryhills }
+					NOT = { province_id = 2517 }
+					NOT = { province_id = 1464 }
+					NOT = { terrain = coral_island }
+					NOT = { continent = polynesia }
 				}
 				add_province_modifier = { name = plantation duration = -1 }
 			}
@@ -679,6 +692,7 @@ political_decisions = {
 					NOT = { terrain = desert }
 					NOT = { terrain = semidesert }
 					NOT = { terrain = dryhills }
+					NOT = { terrain = coral_island }
 				}
 				add_province_modifier = { name = plantation duration = -1 }
 			}
@@ -723,6 +737,7 @@ political_decisions = {
 					NOT = { terrain = desert }
 					NOT = { terrain = semidesert }
 					NOT = { terrain = dryhills }
+					NOT = { province_id = 1637 }
 				}
 				add_province_modifier = { name = plantation duration = -1 }
 			}
@@ -736,13 +751,21 @@ political_decisions = {
 		potential = {
 			any_owned_province = {
 				continent = africa
-				NOT = { terrain = small_island }
-				NOT = { terrain = desert }
-				NOT = { terrain = semidesert }
-				NOT = { terrain = dryhills }
-				NOT = { has_province_modifier = plantation }
-				NOT = { province_id = 2590 }
-				NOT = { province_id = 1689 }
+					NOT = { terrain = small_island }
+					NOT = { terrain = desert }
+					NOT = { terrain = semidesert }
+					NOT = { terrain = dryhills }
+					NOT = { has_province_modifier = plantation }
+					NOT = { province_id = 2590 }
+					NOT = { province_id = 1689 }
+					NOT = { province_id = 1954 }
+					NOT = { province_id = 1955 }
+					NOT = { province_id = 2123 }
+					NOT = { province_id = 2124 }
+					NOT = { province_id = 1177 }
+					NOT = { region = ENG_2125 }
+					NOT = { region = POR_2134 }
+					NOT = { region = ENG_2132 }
 			}
 			year = 1870
 		}
@@ -763,8 +786,71 @@ political_decisions = {
 					NOT = { has_province_modifier = plantation }
 					NOT = { province_id = 2590 }
 					NOT = { province_id = 1689 }
+					NOT = { province_id = 1954 }
+					NOT = { province_id = 1955 }
+					NOT = { province_id = 2123 }
+					NOT = { province_id = 2124 }
+					NOT = { province_id = 1177 }
+					NOT = { region = ENG_2125 }
+					NOT = { region = POR_2134 }
+					NOT = { region = ENG_2132 }
 				}
 				add_province_modifier = { name = plantation duration = -1 }
+			}
+		}
+		
+		ai_will_do = { factor = 1 }
+	}
+	
+	colonial_legacy = {
+		picture = begin_line_of_advantage
+		potential = {
+			civilized = no
+			tech_school = unciv_tech_school
+		}
+		
+		allow = {
+			war = no
+			literacy = 0.10
+		}
+		
+		effect = {
+			civilized = yes
+			clr_country_flag = lacking_writing_system
+			random_owned = { limit = { owner = { ai = yes } } owner = { add_country_modifier = { name = law_changed_by_force duration = 3 } } }
+			random_owned = { 
+				limit = { owner = { has_country_flag = activate_experimental_railroad } NOT = { experimental_railroad = 1 } }
+				owner = { activate_technology = experimental_railroad  clr_country_flag = activate_experimental_railroad }
+			}
+			random_list = {
+				34 = { add_country_modifier = { name = global_baby_boom duration = 3650 } }
+				33 = { add_country_modifier = { name = global_baby_boom duration = 3285 } }
+				33 = { add_country_modifier = { name = global_baby_boom duration = 4015 } }
+			}
+			remove_country_modifier = assegai
+			remove_country_modifier = educational_reform
+			remove_country_modifier = military_reform
+			remove_country_modifier = western_influences
+			remove_country_modifier = uncivilized_isolationism
+			remove_country_modifier = trade_restrictions
+			remove_country_modifier = sayings_of_the_dutch
+			remove_country_modifier = rangaku
+			remove_country_modifier = western_presence
+			remove_country_modifier = isolationist_foreign_weapons
+			remove_country_modifier = isolationist_foreign_artillery
+			remove_country_modifier = isolationist_foreign_officers
+			remove_country_modifier = isolationist_foreign_training
+			any_owned = {
+				remove_province_modifier = western_presence
+				remove_province_modifier = foreign_smugglers
+				remove_province_modifier = foreign_trading_post
+				remove_province_modifier = local_opium_habit
+				remove_province_modifier = european_military_mission
+				remove_province_modifier = legation_quarter
+				remove_province_modifier = kettler_denkmal
+				remove_province_modifier = extraterritoriality_granted
+				remove_province_modifier = boxer_presence
+				remove_province_modifier = boxer_agitation
 			}
 		}
 		

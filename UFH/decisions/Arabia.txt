@@ -1,4 +1,237 @@
 political_decisions = {
+
+	mobilize_tribesmen = {
+		picture = form_the_ikhwan
+		potential = {
+			OR = {
+				tag = CYR
+				tag = ALD
+				primary_culture = kurdish
+			}
+			NOT = { has_country_modifier = rally_tribesmen }
+			civilized = no
+		}
+
+		allow = {
+			war = yes
+			NOT = { total_pops = 400000 }
+		}
+
+		effect = {
+			add_country_modifier = { name = rally_tribesmen duration = 730 }
+			random_owned = {
+				limit = {
+					owner = { tag = CYR NOT = { has_country_flag = senussi_rebellion } }
+				}
+				owner = {
+					set_country_flag = senussi_rebellion
+					define_general = {
+						name = "Muhammad al-Mahdi as-Senussi"
+						personality = relentless
+						background = school_of_defense
+					}
+				}
+			}
+		}
+
+		ai_will_do = { factor = 1 }
+	}
+
+	secularize_society = {
+		picture = the_holy_city
+		potential = {
+			NOT = { has_country_flag = secularized_muslim_society }
+			civilized = yes
+			OR = {
+				tag = ALD
+				tag = CYR
+				tag = AZB
+				tag = BRU
+				tag = JOH
+				tag = MLY
+				tag = TKS
+				tag = KML
+				tag = SNG
+				tag = PGG
+				tag = XBI
+				tag = IRQ
+				tag = JOR
+				tag = KRN
+				tag = KWT
+				#tag = LBN
+				tag = PLS
+				tag = MAL
+				tag = ARA
+				tag = ARU
+				tag = AWS
+				tag = HAR
+				tag = BLC
+				tag = BMK
+				tag = BNB
+				tag = CHD
+				tag = KAZ
+				tag = KHI
+				tag = BDK
+				tag = BUK
+				tag = CHY
+				tag = CIR
+				tag = CRI
+				tag = CRL
+				tag = DAG
+				tag = DAM
+				tag = DAR
+				tag = SAK
+				tag = SIN
+				tag = SLG
+				tag = SLW
+				tag = SOK
+				tag = SOM
+				tag = SRN
+				tag = SUD
+				tag = SUL
+				tag = SWK
+				tag = SYR
+				tag = TAJ
+				tag = TKM
+				tag = TAR
+				tag = TOO
+				tag = TOU
+				tag = TRZ
+				tag = TUN
+				tag = TRI
+				tag = AFG
+				tag = AGC
+				tag = AKH
+				#tag = ALB
+				tag = ALT
+				tag = ATJ
+				tag = BDN
+				tag = BHP
+				tag = BHR
+				tag = BHT
+				#tag = BOS
+				tag = BTL
+				tag = DJA
+				tag = DND
+				tag = DUR
+				tag = EGY
+				tag = FDL
+				tag = GEL
+				tag = HAL
+				tag = HBY
+				tag = HDJ
+				#tag = HYD
+				tag = INO
+				tag = JAL
+				tag = JAV
+				tag = KAL
+				tag = KBO
+				tag = KDS
+				tag = KLM
+				tag = KNG
+				tag = KOK
+				tag = KTH
+				tag = KTI
+				tag = KUT
+				tag = KYR
+				tag = LBY
+				tag = LHJ
+				tag = MAJ
+				tag = MAK
+				tag = MAS
+				tag = MGH
+				tag = MHR
+				tag = MKN
+				tag = MLD
+				tag = MLI
+				tag = MOR
+				tag = MUG
+				tag = NEJ
+				tag = NIG
+				tag = PAK
+				tag = PHG
+				tag = PRK
+				tag = QAT
+				tag = UZB
+				tag = WAD
+				tag = WOL
+				tag = WRL
+				tag = YEM
+				tag = ZAN
+				tag = TUR
+				tag = UYG
+				tag = ABU
+				tag = AWA
+				tag = NYE
+				tag = PER
+				tag = RDL
+				tag = OMA
+			}
+		}
+
+		allow = {
+			invention = secularization
+			prestige = 25
+			NOT = {
+				government = theocracy
+				religious_policy = pluralism
+				religious_policy = moralism
+				ruling_party_ideology = reactionary
+				ruling_party_ideology = conservative
+				moralism = 8
+			}
+			OR = {
+				government = proletarian_dictatorship
+				government = fascist_dictatorship
+				religious_policy = secularized
+				religious_policy = pro_atheism
+			}
+		}
+
+		effect = {
+			set_country_flag = secularized_muslim_society
+			prestige_factor = -0.2
+			any_pop = {
+				limit = { is_state_religion = yes }
+					consciousness = 3
+					militancy = 1
+					scaled_consciousness = { factor = 9 issue = moralism }
+					scaled_militancy = { factor = 9 issue = moralism }
+					scaled_consciousness = { factor = 6 issue = pluralism }
+					scaled_militancy = { factor = 3 issue = pluralism }
+					scaled_consciousness = { factor = 8 ideology = reactionary }
+					scaled_militancy = { factor = 4 ideology = reactionary }
+					scaled_consciousness = { factor = 4 ideology = conservative }
+					scaled_militancy = { factor = 2 ideology = conservative }
+					scaled_consciousness = { factor = -9 issue = pro_atheism }
+					scaled_militancy = { factor = -9 issue = pro_atheism }
+					scaled_consciousness = { factor = -6 issue = secularized }
+					scaled_militancy = { factor = -3 issue = secularized }
+					scaled_consciousness = { factor = -8 ideology = communist }
+					scaled_militancy = { factor = -4 ideology = communist }
+					scaled_consciousness = { factor = -4 ideology = socialist }
+					scaled_militancy = { factor = -2 ideology = socialist }
+			}
+			any_pop = {
+				limit = { is_state_religion = no }
+				consciousness = -2
+				militancy = -2
+			}
+			move_issue_percentage = { from = pluralism to = moralism value = 0.5 }
+		}
+
+		ai_will_do = {
+			factor = 1 
+			modifier = {
+				factor = 0
+				OR = {
+					average_militancy = 5
+					moralism = 7
+				}
+			}
+		}
+	}
+
 	exile_house_of_saud = {
 		picture = ibn_saud
 		potential = {
@@ -27,9 +260,7 @@ political_decisions = {
 			}
 		}
 
-		ai_will_do = {
-			factor = 1
-		}
+		ai_will_do = { factor = 1 }
 	}
 
 	claim_nejd = {
@@ -490,120 +721,6 @@ political_decisions = {
 		}
 	}
 	
-#	pass_islamic_law = {
-#		alert = no
-#		picture = the_holy_city
-#		
-#		potential = {
-#			NOT = { has_country_flag = islamic_law }
-#			NOT = { has_country_flag = not_muslim }
-#			capital_scope = { NOT = { continent = north_america } }
-#			capital_scope = { NOT = { continent = south_america } }
-#			NOT = { is_culture_group = levantine }
-#			NOT = { is_culture_group = pan_romanian }
-#			NOT = { is_culture_group = jewish_cultures }
-#			NOT = { primary_culture = serb }
-#			NOT = { tag = ASY }
-#			NOT = { tag = PNJ }
-#			NOT = { tag = XIN }
-#			NOT = { tag = GRE }
-#			NOT = { has_country_flag = dynamic_tag }
-#			NOT = { has_country_flag = yazidi_religion }
-#			OR = {
-#				capital_scope = { pop_majority_religion = sunni }
-#				capital_scope = { pop_majority_religion = shiite }
-#				tag = OMA
-#			}
-#		}
-#
-#		allow = {
-#			religious_policy = moralism
-#			NOT = { has_country_modifier = law_changed_by_force }
-#			NOT = { citizens_rights = all_voting_pops }
-#			OR = {
-#				government = absolute_monarchy
-#				government = theocracy
-#				government = prussian_constitutionalism
-#				government = presidential_dictatorship
-#			}
-#			OR = {
-#				NOT = { ruling_party_ideology = liberal }
-#				NOT = { ruling_party_ideology = socialist }
-#				NOT = { ruling_party_ideology = communist }
-#				NOT = { ruling_party_ideology = fascist }
-#				NOT = { ruling_party_ideology = anarcho_liberal }
-#			}
-#			war = no
-#		}
-#
-#		effect = {
-#			set_country_flag = islamic_law
-#			add_country_modifier = {
-#				name = islamic_law
-#				duration = -1
-#			}
-#			add_country_modifier = {
-#				name = law_changed_by_force
-#				duration = 1825
-#			}
-#			any_pop = { limit = { is_state_religion = no } militancy = 9 consciousness = 9 }
-#			any_pop = { limit = { is_state_religion = yes } militancy = -4 consciousness = -9 }
-#		}
-#
-#		ai_will_do = {
-#			factor = 0
-#			modifier = {
-#				factor = 100
-#				government = theocracy
-#			}
-#		}
-#	}
-	
-	
-#	revoke_islamic_law = {
-#		alert = no
-#		picture = the_holy_city
-#		
-#		potential = {
-#			has_country_flag = islamic_law
-#			capital_scope = { NOT = { continent = north_america } }
-#			capital_scope = { NOT = { continent = south_america } }
-#			OR = {
-#				capital_scope = { pop_majority_religion = sunni }
-#				capital_scope = { pop_majority_religion = shiite }
-#				tag = OMA
-#			}
-#		}
-#
-#		allow = {
-#			NOT = { has_country_modifier = law_changed_by_force }
-#			has_country_modifier = islamic_law
-#			war = no
-#		}
-#
-#		effect = {
-#			clr_country_flag = islamic_law
-#			add_country_modifier = {
-#				name = law_changed_by_force
-#				duration = 1825
-#			}
-#			remove_country_modifier = islamic_law
-#			any_pop = { limit = { is_state_religion = yes } militancy = 3 consciousness = 4 }
-#		}
-#
-#		ai_will_do = {
-#			factor = 1
-#				modifier = {
-#					factor = 0
-#					OR = {
-#						government = theocracy
-#						primary_culture = fulbe
-#						tag = NEJ
-#					}
-#				}
-#			}
-#	}
-	
 	integrate_bahrain_trucial_states = {
 		picture = bahrain_trade
 		
@@ -643,7 +760,7 @@ political_decisions = {
 						tag = QAT
 					}
 				}
-			civilized = yes
+			tech_school = unciv_tech_school
 			}
 		}
 
@@ -688,7 +805,7 @@ political_decisions = {
 						tag = QAT
 					}
 				}
-			civilized = yes
+			tech_school = unciv_tech_school
 			}
 		}
 

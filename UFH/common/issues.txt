@@ -177,6 +177,19 @@ party_issues = {
 			reinforce_speed = -0.5
 		}
 	}
+	social_policy = {
+		no_state_interference = {
+			max_social_spending = 0.5
+		}
+		no_position_set = {
+		}
+		populist_welfare = {
+			min_social_spending = 0.15
+		}
+		welfare_state = {
+			min_social_spending = 0.33
+		}
+	}
 }
 
 ##########################################
@@ -246,22 +259,22 @@ political_reforms = {
 			rich_vote = 1
 			middle_vote = 1
 			poor_vote = 0
-			
-			global_immigrant_attract = 0.03
+
+			global_immigrant_attract = 0.08
 		}
 		universal_weighted_voting = {
 			rich_vote = 3
 			middle_vote = 2
 			poor_vote = 1
 			
-			global_immigrant_attract = 0.04
+			global_immigrant_attract = 0.30
 		}
 		universal_voting = {
 			rich_vote = 1
 			middle_vote = 1
 			poor_vote = 1
 			
-			global_immigrant_attract = 0.05
+			global_immigrant_attract = 0.55
 		}
 	}
 	
@@ -359,12 +372,12 @@ political_reforms = {
 		next_step_only = yes
 		underground_parties = {
 			ruling_party_support = 0.2
-			global_immigrant_attract = 0.01
+			global_immigrant_attract = -0.01
 		}
 		harassment = {
 			ruling_party_support = 0.15
-			global_immigrant_attract = 0.02
-			allow = { NOT = { has_country_flag = theocratic_government } NOT = { vote_franschise = none_voting } }
+			#global_immigrant_attract = 0.02
+			allow = { NOT = { has_country_flag = theocratic_government } }
 		}
 		gerrymandering = {
 			ruling_party_support = 0.10
@@ -680,25 +693,25 @@ social_reforms = {
 		no_health_care = {
 		}
 		trinket_health_care = {
-			global_population_growth = 0.002
+			global_population_growth = 0.001
 			administrative_multiplier = 1
 			global_immigrant_attract = 0.01
 			allow = { has_country_flag = medicine_invented }
 		}
 		low_health_care = {
-			global_population_growth = 0.004
+			global_population_growth = 0.002
 			administrative_multiplier = 2
 			global_immigrant_attract = 0.02
 			allow = { has_country_flag = germs_invented }
 		}
 		acceptable_health_care = {
-			global_population_growth = 0.006
+			global_population_growth = 0.003
 			administrative_multiplier = 3
 			global_immigrant_attract = 0.03
 			allow = { has_country_flag = gaslights_invented }
 		}
 		good_health_care = {
-			global_population_growth = 0.008
+			global_population_growth = 0.004
 			administrative_multiplier = 4
 			global_immigrant_attract = 0.04
 			allow = { has_country_flag = electricity_invented }
@@ -712,19 +725,19 @@ social_reforms = {
 			global_assimilation_rate = -0.002
 		}
 		low_schools = {
-			education_efficiency_modifier = 0.1
+			education_efficiency_modifier = 0.05
 			global_assimilation_rate = 0.002
 			global_immigrant_attract = 0.02
 			administrative_multiplier = 1
 		}
 		acceptable_schools = {
-			education_efficiency_modifier = 0.15
+			education_efficiency_modifier = 0.075
 			global_assimilation_rate = 0.005
 			global_immigrant_attract = 0.03
 			administrative_multiplier = 2
 		}
 		good_schools = {
-			education_efficiency_modifier = 0.2
+			education_efficiency_modifier = 0.1
 			global_assimilation_rate = 0.01
 			global_immigrant_attract = 0.04
 			administrative_multiplier = 3

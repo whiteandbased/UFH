@@ -490,7 +490,7 @@
 	farmers = {
 		culture = japanese
 		religion = shinto
-		size = 169275
+		size = 144275
 	}
 
 	aristocrats = {
@@ -2905,4 +2905,32 @@
 		size = 18225
 	}
 
+}
+
+#Sado - Old Reliance (2000/500 POPS)
+12 = {
+
+	clergymen = {
+		culture = japanese
+		religion = shinto
+		size = 250
+	}
+
+	artisans = {
+		culture = japanese
+		religion = shinto
+		size = 3500
+	}
+
+	soldiers = {
+		culture = japanese
+		religion = shinto
+		size = 1100
+	}
+
+	farmers = {
+		culture = japanese
+		religion = shinto
+		size = 20150
+	}
 }

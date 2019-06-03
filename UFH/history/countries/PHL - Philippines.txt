@@ -44,13 +44,16 @@ upper_house = {
 	communist = 0
 }
 
+schools = unciv_tech_school
 
 foreign_weapons = yes_foreign_weapons
 
 # Technologies
 flintlock_rifles = 1
 
-#Inventions
+# Inventions
+bottling_process = yes
+modern_winemaking = yes
 
 # Starting Consciousness
 consciousness = 4

@@ -709,7 +709,7 @@ country_event = {
 	}
 }
 
-# Local Managment Conflict
+# Local Management Conflict
 country_event = {
 	id = 3502
 	title = "EVTNAME3502"
@@ -903,7 +903,7 @@ country_event = {
 	trigger = {
 		civilized = yes
 		public_meetings = no_meeting
-		plurality = 7
+		plurality = 40
 		NOT = {
 			average_militancy = 6
 		}
@@ -950,7 +950,7 @@ country_event = {
 	
 	trigger = {
 		public_meetings = yes_meeting
-		plurality = 4
+		plurality = 20
 		civilized = yes
 		has_pop_type = capitalists
 	}
@@ -1121,7 +1121,7 @@ country_event = {
 			ideology = liberal
 			value = 0.1
 		}
-		plurality = 1
+		plurality = 3
 	}
 	
 	option = {
@@ -1130,7 +1130,7 @@ country_event = {
 			ideology = conservative
 			value = 0.1
 		}
-		plurality = -1
+		plurality = -3
 	}
 }
 
@@ -1184,7 +1184,7 @@ country_event = {
 				}
 			}
 		}
-		plurality = 1
+		plurality = 3
 	}
 	
 	option = {
@@ -1202,7 +1202,7 @@ country_event = {
 				}
 			}
 		}
-		plurality = -1
+		plurality = -3
 	}
 }
 
@@ -1338,7 +1338,7 @@ country_event = {
 	
 	option = {
 		name = "EVTOPTB14100"
-		plurality = 2
+		plurality = 8
 	}
 }
 
@@ -1564,6 +1564,7 @@ country_event = {
 	
 	trigger = {
 		voting_system = first_past_the_post
+		NOT = { tag = ENG }
 		civilized = yes
 	}
 	
@@ -1576,7 +1577,7 @@ country_event = {
 		modifier = {
 			factor = 1.1
 			NOT = {
-				plurality = 8
+				plurality = 20
 			}
 		}
 	}
@@ -1589,7 +1590,7 @@ country_event = {
 				factor = 0.1
 			}
 		}
-		plurality = 1
+		plurality = 3
 	}
 	
 	option = {
@@ -1673,9 +1674,13 @@ country_event = {
 			political_reform_want = 0.45
 		}
 		modifier = {
+			factor = 0.25
+			tag = ENG
+		}
+		modifier = {
 			factor = 0.9
 			NOT = {
-				plurality = 3
+				plurality = 20
 			}
 		}
 		modifier = {
@@ -1695,6 +1700,10 @@ country_event = {
 			militancy = 2
 			consciousness = 1
 		}
+		ai_chance = {
+			factor = 50
+			modifier = { tag = ENG factor = 100 }
+		}
 	}
 	
 	option = {
@@ -1704,12 +1713,19 @@ country_event = {
 			militancy = 2
 			consciousness = 1
 		}
+		ai_chance = {
+			factor = 45
+			modifier = { tag = ENG factor = 100 }
+		}
 	}
 	
 	option = {
 		name = "EVTOPTC4202"
 		any_pop = {
 			militancy = 0.5
+		}
+		ai_chance = {
+			factor = 5
 		}
 	}
 }
@@ -3113,7 +3129,7 @@ country_event = {
 		NOT = {
 			poor_strata_life_needs = 0.9
 		}
-		canned_food = 15
+		canned_food = 5
 	}
 	
 	mean_time_to_happen = {
@@ -3162,7 +3178,7 @@ country_event = {
 	
 	option = {
 		name = "EVTOPTC4419"
-		canned_food = -15
+		canned_food = -5
 	}
 }
 
@@ -3179,6 +3195,9 @@ country_event = {
 		war_policy = jingoism
 		prestige = 20
 		average_militancy = 6
+		any_neighbor_country = {
+			number_of_states = 2
+		}
 	}
 	
 	mean_time_to_happen = {
@@ -3223,10 +3242,11 @@ country_event = {
 	
 	option = {
 		name = "EVTOPTB4420"
-		any_neighbor_country = {
+		random_country = {
+			limit = { neighbour = THIS number_of_states = 2 }
 			add_casus_belli = {
 				target = THIS
-				type = conquest
+				type = acquire_state
 				months = 12
 			}
 		}

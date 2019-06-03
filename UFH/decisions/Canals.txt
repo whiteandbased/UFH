@@ -82,7 +82,7 @@ political_decisions = {
 	}
 	
 	found_suez_canal_company = {
-		picture = suezcanal
+		picture = suezcanalcompany
 		potential = {
 			NOT = { is_canal_enabled = 2 }
 			NOT = { has_global_flag = suez_canal_built }
@@ -103,6 +103,7 @@ political_decisions = {
 			invention = machine_tools
 			invention = nitroglycerin		
 			iron_steamers = 1
+			business_banks = 1
 			money = 50000
 			1755 = { owner = { NOT = { truce_with = THIS war_with = THIS is_greater_power = yes } } }
 		}

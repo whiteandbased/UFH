@@ -9,7 +9,7 @@ party_loyalty = {
 }
 party_loyalty = {
 	ideology = conservative
-	loyalty_value = 30
+	loyalty_value = 15
 }
 state_building = {
 	level = 2

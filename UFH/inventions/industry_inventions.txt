@@ -990,7 +990,7 @@ chemotherapy = {
 		land_attrition = -0.05  
 	}
 }
-genetics:_heredity = {
+genetics_heredity = {
 	limit = { medicine = 1 }
 	chance = {
 		base = 2
