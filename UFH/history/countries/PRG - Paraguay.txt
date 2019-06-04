@@ -37,6 +37,8 @@ penal_system = capital_punishment
 child_labor = child_labor_legalcitizens_rights = culture_voting_only
 border_policy = open_borders
 
+set_country_flag = catholic_country
+
 ruling_party = PRG_reactionary
 upper_house = {
 	fascist = 0
@@ -47,6 +49,8 @@ upper_house = {
 	socialist = 0
 	communist = 0
 }
+
+set_country_flag = new_world_nation
 
 # Technologies
 post_napoleonic_thought = 1

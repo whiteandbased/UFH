@@ -1,6 +1,6 @@
 capital = 1859
-primary_culture = amhara
-culture = oromo
+primary_culture = oromo
+culture = cushitic
 religion = coptic
 government = absolute_monarchy
 plurality = 0.0
@@ -34,6 +34,8 @@ penal_system = capital_punishment
 child_labor = child_labor_legalcitizens_rights = primary_culture_only
 border_policy = open_borders
 
+set_country_flag = coptic_country
+
 ruling_party = SHW_conservative
 upper_house = {
 	fascist = 0
@@ -49,7 +51,7 @@ upper_house = {
 # Technologies
 
 # Inventions
-bottling_process = yes
+#bottling_process = yes
 modern_winemaking = yes
 
 # Starting Consciousness

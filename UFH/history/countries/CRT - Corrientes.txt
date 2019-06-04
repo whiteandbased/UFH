@@ -36,6 +36,8 @@ penal_system = capital_punishment
 child_labor = child_labor_legalcitizens_rights = primary_culture_only
 border_policy = open_borders
 
+set_country_flag = catholic_country
+
 oob = "CRT_oob.txt"
 
 ruling_party = ENT_conservative_2
@@ -48,6 +50,8 @@ upper_house = {
 	socialist = 0
 	communist = 0	
 }
+
+set_country_flag = new_world_nation
 
 # Technologies
 post_napoleonic_thought = 1

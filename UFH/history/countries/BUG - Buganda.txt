@@ -2,6 +2,8 @@ capital = 2019
 primary_culture = baganda
 culture = luo
 culture = african_minor
+culture = nilotic
+culture = ruanda
 religion = animist
 government = absolute_monarchy
 plurality = 0.0
@@ -35,7 +37,9 @@ penal_system = capital_punishment
 child_labor = child_labor_legalcitizens_rights = primary_culture_only
 border_policy = open_borders
 
-ruling_party = BUG_conservative
+set_country_flag = animist_country
+
+ruling_party = BUG_socialist
 upper_house = {
 	fascist = 0
 	liberal = 15
@@ -46,7 +50,7 @@ upper_house = {
 	communist = 0
 }
 
-set_country_flag = lacking_writing_system
+set_country_flag = post_colonial_country
 
 #Starting Consciousness
 consciousness = 0

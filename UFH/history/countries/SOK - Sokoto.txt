@@ -1,7 +1,8 @@
 capital = 1948
 primary_culture = fulbe
 culture = hausa
-culture = african_minor
+culture = tiv
+culture = bedouin
 religion = sunni
 government = absolute_monarchy
 plurality = 0.0
@@ -45,6 +46,8 @@ upper_house = {
 	socialist = 0
 	communist = 0
 }
+
+set_country_flag = sunni_country
 
 # Technologies
 

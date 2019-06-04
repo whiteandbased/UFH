@@ -1,5 +1,4 @@
 capital = 1878
-primary_culture = mande
 culture = african_minor
 religion = animist
 government = absolute_monarchy
@@ -33,6 +32,8 @@ debt_law = serfdom
 penal_system = capital_punishment
 child_labor = child_labor_legalcitizens_rights = primary_culture_only
 border_policy = open_borders
+
+set_country_flag = animist_country
 
 ruling_party = GBU_conservative
 upper_house = {

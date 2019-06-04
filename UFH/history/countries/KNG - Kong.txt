@@ -1,6 +1,8 @@
 capital = 1898
 primary_culture = dyula
 culture = senufo
+culture = mande
+culture = akan
 religion = sunni
 government = absolute_monarchy
 plurality = 0.0
@@ -46,6 +48,7 @@ upper_house = {
 }
 
 set_country_flag = lacking_writing_system
+set_country_flag = sunni_country
 
 # Technologies
 

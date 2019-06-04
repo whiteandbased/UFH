@@ -1,6 +1,8 @@
 capital = 1735
 primary_culture = maghrebi
 culture = bedouin
+culture = teda
+culture = berber
 culture = tuareg
 religion = sunni
 government = absolute_monarchy
@@ -45,6 +47,6 @@ upper_house = {
 	communist = 0
 }
 
+set_country_flag = sunni_country
 
 foreign_weapons = yes_foreign_weapons
-

@@ -1,5 +1,7 @@
 capital = 1827
 primary_culture = sudanese
+culture = nilotic
+culture = bedouin
 religion = sunni
 government = absolute_monarchy
 plurality = 0.0
@@ -42,4 +44,6 @@ upper_house = {
 	socialist = 0
 	communist = 0
 }
+
+set_country_flag = sunni_country
 

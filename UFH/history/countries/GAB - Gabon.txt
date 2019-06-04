@@ -1,7 +1,6 @@
 capital = 1972
-primary_culture = french 
-culture = fang
 culture = african_minor
+primary_culture = fang
 religion = catholic
 government = democracy
 plurality = 0.0
@@ -34,9 +33,11 @@ penal_system = capital_punishment
 child_labor = child_labor_legalcitizens_rights = primary_culture_only
 border_policy = open_borders
 
+set_country_flag = catholic_country
+
 set_country_flag = post_colonial_country
 
-ruling_party = SOK_conservative
+ruling_party = GAB_conservative
 upper_house = {
 	fascist = 0
 	liberal = 16

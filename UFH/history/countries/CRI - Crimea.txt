@@ -18,7 +18,7 @@ upper_house = {
 	communist = 0
 }
 
-
+set_country_flag = sunni_country
 
 slavery = no_slavery
 upper_house_composition = appointed
@@ -43,4 +43,3 @@ debt_law = serfdom
 penal_system = capital_punishment
 child_labor = child_labor_legalcitizens_rights = primary_culture_only
 border_policy = open_borders
-
