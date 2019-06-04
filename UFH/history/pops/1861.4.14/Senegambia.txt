@@ -473,7 +473,6 @@
 		religion = animist
 		size = 850
 	}
-	}
 }
 #Futa Region (328000)
 #uncolonized in 1836/ruled by Emir of Tukulor
@@ -701,7 +700,6 @@
 #Velingara (104000/26000 POPS
 1793 = {
 	aristocrats = {
-		culture = african_minor
 		culture = fulbe
 		religion = sunni
 		size = 500

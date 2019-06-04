@@ -443,7 +443,8 @@
 		religion = sunni
 		size = 2834
 	}
-
+	farmers = {
+		culture = african_minor
 		religion = animist
 		size = 150
 	}

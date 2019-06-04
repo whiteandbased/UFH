@@ -487,7 +487,6 @@
 }
 #Am Timan (168000/42000 POPS)
 1822 = {
-	}
 
 	aristocrats = {
 		culture = bedouin
