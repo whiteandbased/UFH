@@ -1,7 +1,69 @@
 ;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;x;;;;
+ATC;Antillean Confederation;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+ATC_ADJ;Antillean;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+PPG;Papua New Guinea;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+PPG_ADJ;Papua New Guinean;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+VTU;Vanuatu;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+VTU_ADJ;Ni-Vanuatu;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+SMO;Samoa;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+SMO_ADJ;Samoan;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+ROM_reactionary;Partidul National Roman;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+ROM_reactionary_2;Partidul Nationalist-Democrat;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+ROM_reactionary_3;Partidul Poporului;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+ROM_conservative;Partidul Conservator;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+ROM_conservative_2;Partidul Taranesc;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+ROM_conservative_3;Partidul National Taranesc;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+ROM_liberal;Fractionistii;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+ROM_liberal_2;Partidul National Liberal;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+ROM_anarcho_liberal;Partidul din Drepturile Omulu;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+ROM_socialist;Partidul Social-Democrat;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+ROM_communist;Partidul Comunist;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+ROM_fascist;Garda de Fier;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+ZBW;Zimbabwe;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+ZBW_ADJ;Zimbabwean;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+ZBW_liberal;United African National Council;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+ZBW_conservative;Zimbabwe United People's Organisation;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+ZBW_socialist;Zimbabwe African National Union;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+ZBW_reactionary;Patriotic Front;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+ZBW_anarcho_liberal;Radical Party of Zimbabwe;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+ZBW_communist;Zimbabwe African People's Union;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+ZBW_fascist;Fascist Party of Zimbabwe;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+CMS;Comoros;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+CMS_ADJ;Comorian;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+CMS_liberal;Democratic Rally of the Comorian People;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+CMS_conservative;Comorian Democratic Union;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+CMS_socialist;Socialist Party of Comoros;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+CMS_reactionary;Comorian Union for Progress;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+CMS_anarcho_liberal;Uwezo;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+CMS_communist;Democratic Assembly of the Comorian People;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+CMS_fascist;Party for National Salvation;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+kreol;Kreol;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EQG;Equatorial Guinea;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EQG_ADJ;Equatoguinean;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EQG_absolute_monarchy;Moka;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EQG_absolute_monarchy_ADJ;Mokian;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EQG_liberal;Progressive Democratic Alliance;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EQG_conservative;Popular Union;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EQG_socialist;Popular Idea;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EQG_reactionary_2;PDGE;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EQG_reactionary;Bubi Union;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EQG_anarcho_liberal;Popular Action;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EQG_communist;United National Workers' Party;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EQG_fascist;Movement of National Union;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+kefficho;Omotic;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+harari;Habesha;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+yao;Yao-Makonde;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+teda;Toubou;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+sara;Sara-Baguirmi;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+tiv;Bantoid;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+baguirmi;Maban;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+cushitic;Cushitic;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+nilotic;Nilotic;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+maasai;Kalenjin-Maasai;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+kikuyu;Kikuyu–Kamba;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 HTY;Turkmeneli;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 HTY_ADJ;Turkomani;;;;;;;;;;;;;;;;;;;;;;;x;;;;
-POR_fascist;União Nacional;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+POR_fascist;Movimento Nacional-Sindicalista;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 IRE_fascist;The Blueshirts;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 IRE_communist;Communist Party of Ireland;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 IRE_conservative;Irish Conservative Party;;;;;;;;;;;;;;;;;;;;;;;x;;;;
@@ -26,11 +88,17 @@ lendu;Lendu;;;;;;;;;;;;;;;;;;;;;;;;x
 ruanda;Banyarwanda;;;;;;;;;;;;;;;;;;;;;;;;x
 kingwana;Kingwana;;;;;;;;;;;;;;;;;;;;;;;;x
 chokwe;Chokwe;;;;;;;;;;;;;;;;;;;;;;;;x
-CNG;Congo;;;;;;;;;;;;;;;;;;;;;;;;x
+CNG;The Congo;;;;;;;;;;;;;;;;;;;;;;;;x
 CNG_absolute_monarchy;Congo Free State;;;;;;;;;;;;;;;;;;;;;;;;;;x
 CNG_presidential_dictatorship;Zaire;;;;;;;;;;;;;;;;;;;;;;;;;;x
-CNG_hms_government;Congo;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
-CNG_democracy;Democratic Republic of the Congo;;;;;;;;;;;;;;;;;;;;;;;;;x
+CNG_democracy;Republic of the Congo;;;;;;;;;;;;;;;;;;;;;;;;;x
+CNG_liberal_2;Alliance of Bakongo;;;;;;;;;;;;;;;;;;;;;;;;;x
+CNG_conservative_2;Congolese National Movement;;;;;;;;;;;;;;;;;;;;;;;;;x
+CNG_socialist;African Solidarity Party;;;;;;;;;;;;;;;;;;;;;;;;;x
+CNG_reactionary_2;Popular Movement of the Revolution;;;;;;;;;;;;;;;;;;;;;;;;;x
+CNG_anarcho_liberal;Common Front;;;;;;;;;;;;;;;;;;;;;;;;;x
+CNG_communist;Congolese National Union;;;;;;;;;;;;;;;;;;;;;;;;;x
+CNG_fascist;Party of National Unity;;;;;;;;;;;;;;;;;;;;;;;;;x
 GEO_conservative;Demokratiuli Modzraoba;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 GEO_liberal;Sakartvelos Respublikuri;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 GEO_reactionary;Natsionaluri Modzraoba;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
@@ -116,7 +184,7 @@ GRE_fascist;Ethniki Enosis Ellados;;;;;;;;;;;;x
 GRE_anarcho_liberal;Ethnikón Rizospastikón Kómma;;;;;;;;;;;;x
 GRE_reactionary;Kómma ton Napaíon;;;;;;;;;;;;x
 GRE_conservative;Syntagmatikó Kómma;;;;;;;;;;;;x
-GRE_conservative_2;Kómma Ethnikófronon
+GRE_conservative_2;Kómma Ethnikófronon;;;;;;;;;;;;x
 GRE_liberal;Ethnikó Kómma;;;;;;;;;;;;x
 GRE_liberal_2;Neoteristikón Kómma;;;;;;;;;;;;x
 USA_socialist;Workingmen's Party;;;;;;;;;;;;x
@@ -129,6 +197,13 @@ YUG_communist;Komunisticka Partija Jugoslavije;;;;;;;;;;;;x
 YUG_socialist;Socijalisticka Radnicka Partija Jugoslavije;;;;;;;;;;;;x 
 NMB;Namibia;;;;;;;;;;;;;;;;;;;x
 NMB_ADJ;Namibian;;;;;;;;;;;;;;;;;;;x
+NMB_liberal;Republican Party;;;;;;;;;;;;;;;;;;;x
+NMB_conservative;NUDO;;;;;;;;;;;;;;;;;;;x
+NMB_socialist;SWANU;;;;;;;;;;;;;;;;;;;x
+NMB_reactionary;NAPDO;;;;;;;;;;;;;;;;;;;x
+NMB_anarcho_liberal;Economic Freedom Fighters;;;;;;;;;;;;;;;;;;;x
+NMB_communist;SWAPO;;;;;;;;;;;;;;;;;;;x
+NMB_fascist;Patriotic Union Movement;;;;;;;;;;;;;;;;;;;x
 SLG;Selangor;;;;;;;;;;;;;;;;;;;x
 SLG_ADJ;Selangorese;;;;;;;;;;;;;;;;;;;x
 PRK;Perak;;;;;;;;;;;;;;;;;;;x
@@ -306,7 +381,6 @@ MCK_presidential_dictatorship_ADJ;Fengtian;;;;;;;;;;;;;x
 BRZ_monarchy;Empire of Brazil;;;;;;;;;;;;;;;;;;;;;;x;;;;;;
 SIA_absolute_monarchy;Rattanakosin Kingdom;;;;;;;;;;;;;;;;;;;;;;x;;;;;;
 KML;Kumul Khanate;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x,,,,,,,,,
-KML_fascist;Kumul;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x,,,,,,,,,
 KML_democracy;Kumul Republic;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x,,,,,,,,,
 KML_bourgeois_dictatorship;Kumul;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x,,,,,,,,,
 KML_proletarian_dictatorship;People's Republic of Kumul;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x,,,,,,,,,
@@ -346,42 +420,12 @@ ARC_proletarian_dictatorship;Communist Federation of Argentina;;;;;;;;;;;;;;;;;;
 ARC_ADJ;Argentinian;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x,,,,,,,,,
 CRT;Corrientes;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x,,,,,,,,,
 CRT_ADJ;Entrerriano;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x,,,,,,,,,
-DAR_absolute_monarchy;Sultanate of Darfur;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x,,,,,,,,,
-DAR_prussian_constitutionalism;Sultanate of Darfur;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x,,,,,,,,,
-DAR_hms_government;Sultanate of Darfur;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x,,,,,,,,,
-DAM_absolute_monarchy;Damagaram Sultanate;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x,,,,,,,,,
-DAM_prussian_constitutionalism;Damagaram Sultanate;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x,,,,,,,,,
-DAM_hms_government;Damagaram Sultanate;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x,,,,,,,,,
-SOK_absolute_monarchy;Sokoto Caliphate;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x,,,,,,,,,
-SOK_prussian_constitutionalism;Sokoto Caliphate;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x,,,,,,,,,
-SOK_hms_government;Sokoto Caliphate;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x,,,,,,,,,
-KBO_absolute_monarchy;Bornu Empire;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x,,,,,,,,,
-KBO_prussian_constitutionalism;Bornu Empire;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x,,,,,,,,,
-KBO_hms_government;Bornu;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x,,,,,,,,,
-WAD_absolute_monarchy;Wadai Empire;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x,,,,,,,,,
-WAD_prussian_constitutionalism;Wadai Sultanate;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x,,,,,,,,,
-WAD_hms_government;Wadai Sultanate;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x,,,,,,,,,
 DMW;Adamawa;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x,,,,,,,,,
 DMW_ADJ;Adamawan;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x,,,,,,,,,
-DMW_absolute_monarchy;Adamawa Emirate;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x,,,,,,,,,
-DMW_prussian_constitutionalism;Adamawa Emirate;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x,,,,,,,,,
-DMW_hms_government;Adamawa Emirate;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x,,,,,,,,,
-DMW_democracy;Adamawa Republic;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x,,,,,,,,,
-DMW_fascist;Adamawa Caliphate;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x,,,,,,,,,
-DMW_communist;Socialist Republic of Adamawa;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x,,,,,,,,,
 BRM;Baguirmi;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x,,,,,,,,,
 BRM_ADJ;Baguirmi;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x,,,,,,,,,
-BRM_absolute_monarchy;Baguirmi Sultanate;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x,,,,,,,,,
-BRM_prussian_constitutionalism;Baguirmi Sultanate;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x,,,,,,,,,
-BRM_hms_government;Baguirmi Sultanate;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x,,,,,,,,,
-BRM_democracy;Baguirmi Republic;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x,,,,,,,,,
-BRM_fascist;Baguirmi;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x,,,,,,,,,
-BRM_communist;Socialist Republic of Baguirmi;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x,,,,,,,,,
 SHK;Shilluk;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x,,,,,,,,,
 SHK_ADJ;Shilluki;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x,,,,,,,,,
-SHK_absolute_monarchy;Shilluk Kingdom;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x,,,,,,,,,
-SHK_prussian_constitutionalism;Shilluk Kingdom;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x,,,,,,,,,
-SHK_hms_government;Shilluk Kingdom;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x,,,,,,,,,
 SHK_conservative;Shilluk Podh Faction;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x,,,,,,,,,
 SHK_liberal;Reformist Faction;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x,,,,,,,,,
 SHK_reactionary;Royal Holiness Faction;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x,,,,,,,,,
@@ -391,9 +435,8 @@ SHK_communist;Shilluk People's Front;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 SHK_fascist;Shilluk National Front;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x,,,,,,,,,
 MUG_absolute_monarchy;The Mughal Empire;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x,,,,,,,,,
 MUG_prussian_constitutionalism;The Mughal Empire;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x,,,,,,,,,
-MUG_hms_government;The Mughal Kingdom;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x,,,,,,,,,
 MUG_fascist_dictatorship;The Gurkani Republic;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x,,,,,,,,,
-MUG_proletarian_dictatorship;People's Republic of Gurkani;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x,,,,,,,,,
+MUG_proletarian_dictatorship;People's Republic of Mughalistan;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x,,,,,,,,,
 MUG_conservative;Mir Saman;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 MUG_liberal;Hanafi;;;;;;;;;;;;;;;;;;;;;x;;;;
 MUG_reactionary;Mir Bakshi;;;;;;;;;;;;;;;;;;;;;;;x;;;;
@@ -403,14 +446,8 @@ MUG_communist;The Communist Party;;;;;;;;;;;;;;;;;;;;;x;;;;
 MUG_fascist;The Fascist Party;;;;;;;;;;;;;;;;;;;;;x;;;;
 WRL;Warsangali;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x,,,,,,,,,
 WRL_ADJ;Somali;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x,,,,,,,,,
-kefficho;Kefficho;;;;;;;;;;;;x
-harari;Harari;;;;;;;;;;;;x
 CAN_liberal;Liberal Party;Parti lib?al;Liberale Partei;;Partido Liberal;;;;;;;;;x;;;;
-CAN_conservative;Conservative Party;Parti conservateur;Conservative Party;;Partido conservador;;;;;;;;;x;;;;
-CAN_reactionary;Nationalist Party;Parti nationaliste;Nationalist Party;;Partido Nacionalista;;;;;;;;;x;;;;
 CAN_anarcho_liberal;One Big Union;Parti radical;Radical Party;;Partido Radical;;;;;;;;;x;;;;
-CAN_socialist;Socialist Party;Parti socialiste;Socialist Party;;Partido Socialista;;;;;;;;;x;;;;
-CAN_communist;Communist Party;Parti communiste;Communist Party;;Partido Comunista;;;;;;;;;x;;;;
 CAN_fascist;National Unity Party;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 BRZ_liberal;Partido Liberal;Partido Liberal;Partido Liberal;;Partido Liberal;;;;;;;;;x;;;;
 BRZ_conservative;Partido Conservador;;;;;;;;;;;;;;;x;;;;
@@ -619,6 +656,13 @@ ALT_communist;The Communists;Faction communiste;Die kommunistische Fraktion;;;;;
 ALT_fascist;The Mongolian Faction;Faction fasciste;Die faschistische Fraktion;;;;;;;;;;;x
 ANG;Angola;;;;;;;;;;;;x
 ANG_ADJ;Angolan;;;;;;;;;;;;x
+ANG_liberal;Liberal Democratic Party;;;;;;;;;;;;x
+ANG_conservative;FNLA;;;;;;;;;;;;x
+ANG_socialist;Social Renewal Party;;;;;;;;;;;;x
+ANG_reactionary;UNITA;;;;;;;;;;;;x
+ANG_anarcho_liberal;Radical-Liberal Party of Angola;;;;;;;;;;;;x
+ANG_communist;MPLA;;;;;;;;;;;;x
+ANG_fascist;Fascist Party of Angola;;;;;;;;;;;;x
 ANI_absolute_monarchy;Antillean Empire;Empire of Antillia;Empire of Antillia;;Empire of Antillia;;;;;;;;;x ;
 ANI_proletarian_dictatorship;Antillean Republic;the Red Indies;the Red Indies;;the Red Indies;;;;;;;;;x ;
 ANI_presidential_dictatorship;Antillean Republic;Republic of Antillia;Republic of Antillia;;Republic of Antillia;;;;;;;;;x ;
@@ -790,10 +834,32 @@ CAR_prussian_constitutionalism;Ubangi-Chari;;;;;;;;;;;;x
 CAR_prussian_constitutionalism_ADJ;Ubangi;;;;;;;;;;;;x
 CAR_hms_government;Ubangi-Chari;;;;;;;;;;;;x
 CAR_hms_government_ADJ;Ubangi;;;;;;;;;;;;x
+CAR_liberal;Republican Progressive Party;;;;;;;;;;;;x
+CAR_conservative;Democratic Union;;;;;;;;;;;;x
+CAR_socialist;MLPC;;;;;;;;;;;;x
+CAR_reactionary;MESAN;;;;;;;;;;;;x
+CAR_anarcho_liberal;MEDAC;;;;;;;;;;;;x
+CAR_communist;MDI;;;;;;;;;;;;x
+CAR_fascist;Patriotic Front;;;;;;;;;;;;x
 CGO;Congo;;;;;;;;;;;;x
 CGO_ADJ;Congolese;;;;;;;;;;;;x
+CGO_proletarian_dictatorship;People's Republic of the Congo;;;;;;;;;;;;x
+CGO_liberal;MCDDI;;;;;;;;;;;;x
+CGO_anarcho_liberal;Union for Democratic Renewal;;;;;;;;;;;;x
+CGO_conservative;UDDIA;;;;;;;;;;;;x
+CGO_reactionary;Party of Unity, Work and Progress;;;;;;;;;;;;x
+CGO_socialist;Congolese Progressive Party;;;;;;;;;;;;x
+CGO_communist;Congolese Party of Labor;;;;;;;;;;;;x
+CGO_fascist;Friendly Union for Complete Change;;;;;;;;;;;;x
 CHD;Chad;;;;;;;;;;;;x
 CHD_ADJ;Chadian;;;;;;;;;;;;x
+CHD_liberal;Republican Union;;;;;;;;;;;;;x
+CHD_conservative;Democratic Union;;;;;;;;;;;;;x
+CHD_socialist;Independent Socialist Party;;;;;;;;;;;;;x
+CHD_reactionary;Patriotic Salvation Movement;;;;;;;;;;;;;x
+CHD_anarcho_liberal;Federation, Action for the Republic;;;;;;;;;;;;;x
+CHD_communist;Progressive Party;;;;;;;;;;;;;x
+CHD_fascist;National Union for Reform;;;;;;;;;;;;;x
 CHI_presidential_dictatorship;Beiyang China;;;;;;;;;;;;;x
 CHI_proletarian_dictatorship;People's Republic of China;;;;;;;;;;;;;x
 CHI_democracy;Republic of China;;;;;;;;;;;;;x
@@ -834,6 +900,13 @@ CLM_prussian_constitutionalism;New Granada;;;;;;;;;;;;;x
 CLM_hms_government;New Granada;;;;;;;;;;;;;x
 CMR;Cameroon;;;;;;;;;;;;x
 CMR_ADJ;Cameroonian;;;;;;;;;;;;x
+CMR_liberal;Progressive Movement;;;;;;;;;;;;x
+CMR_conservative;Cameroon Democratic Union;;;;;;;;;;;;x
+CMR_socialist;Social Democratic Front;;;;;;;;;;;;x
+CMR_reactionary;Cameroonian National Union;;;;;;;;;;;;x
+CMR_anarcho_liberal;National Union for Democracy and Progress;;;;;;;;;;;;x
+CMR_communist;Union of the Peoples of Cameroon;;;;;;;;;;;;x
+CMR_fascist;Grouping of Patriotic Forces;;;;;;;;;;;;x
 CPL;Congress Poland;Royaume du Congres;Kongresspolen;;Zarato de Polonia;;;;;;;;;;x;;;;;;;;;;;;;;
 CPL_ADJ;Polish;Polonais;Polnisch;;Polaca;;;;;;;;;;x;;;;;;;;;;;;;;
 CRS;Corsica;;;;;;;;;;;;;x
@@ -845,12 +918,14 @@ CRS_socialist;Fazzione Sucialistu;;;;;;;;;;;;;x
 CRS_communist;Fazzione Cumunistu;;;;;;;;;;;;;x
 CRS_anarcho_liberal;Fazzione Anarchistu;;;;;;;;;;;;;x
 CRS_fascist;Fazzione Fascistu;;;;;;;;;;;;;x
-CSA;Confederate States of America;;;;;;;;;;;;x
 CSA_democracy;Confederate States of America;;;;;;;;;;;;x
-CSA_presidential_dictatorship;Confederate States of America;;;;;;;;;;;;x
-CSA_bourgeois_dictatorship;Confederate States of America;;;;;;;;;;;;x
+CSA_presidential_dictatorship;The Confederate States of America;;;;;;;;;;;;x
+CSA_bourgeois_dictatorship;The Confederate States of America;;;;;;;;;;;;x
 CSA_absolute_monarchy;The Imperial Confederacy;;;;;;;;;;;;x
 CSA_prussian_constitutionalism;The Imperial Confederacy;;;;;;;;;;;;x
+CSA;The Confederate States of America;;;;;;;;;;;;;;
+CSA_fascist_dictatorship;The Confederacy;;;;;;;;;;;;;;
+CSA_proletarian_dictatorship;The People's Confederacy;;;;;;;;;;;;x
 CYR;Cyrenaica;;;;;;;;;;;;x
 CYR_absolute_monarchy;Senussi;;;;;;;;;;;;x
 CYR_absolute_monarchy_ADJ;Senussi;;;;;;;;;;;;x
@@ -1014,6 +1089,13 @@ FSM_fascist;Fascist Party;Fascist Party;Fascist Party;;;;;;;;;;;;x
 galicio_asturian;Galicio-Asturian;Galicio-Asturien;Galicisch-Asturisch;;;;;;;;;;;x
 GAB;Gabon;;;;;;;;;;;;x
 GAB_ADJ;Gabonese;;;;;;;;;;;;x
+GAB_liberal;Circle of Liberal Reformers;;;;;;;;;;;;x
+GAB_conservative;Democratic and Social Union;;;;;;;;;;;;x
+GAB_socialist;Young Gabonese;;;;;;;;;;;;x
+GAB_reactionary;Gabonese Democratic Bloc;;;;;;;;;;;;x
+GAB_anarcho_liberal;Defense of Gabonese Interests;;;;;;;;;;;;x
+GAB_communist;Union, Work, Progress;;;;;;;;;;;;x
+GAB_fascist;People's Unity Party;;;;;;;;;;;;x
 GCO;Gran Colombia;;;;;;;;;;;;x
 GCO_ADJ;Colombian;;;;;;;;;;;;x
 GCO_absolute_monarchy;New Granada;;;;;;;;;;;;x
@@ -1035,6 +1117,13 @@ GLM;Galicia-Lodomeria;Galicie-Lodomerie;Galizien-Lodomerien;;Galitzia-Lodomeria;
 GLM_ADJ;Galician;Galicien;Galiziener;;Galiciano;;;;;;;;;;x;;;;;;;;;;;;;;
 GMB;Gambia;;;;;;;;;;;;x
 GMB_ADJ;Gambian;;;;;;;;;;;;x
+GMB_liberal;United Party;;;;;;;;;;;;;x
+GMB_anarcho_liberal;National Convention Party;;;;;;;;;;;;;x
+GMB_conservative;Democratic Party;;;;;;;;;;;;;x
+GMB_reactionary;Muslim Congress Party;;;;;;;;;;;;;x
+GMB_socialist;People's Progressive Party;;;;;;;;;;;;;x
+GMB_communist;Gambian People's Party;;;;;;;;;;;;;x
+GMB_fascist;Gambia Congress Party;;;;;;;;;;;;;x
 GMJ;Guominjun;;;;;;;;;;;;;x
 GMJ_ADJ;Guominjun;;;;;;;;;;;;;;x
 GMJ_reactionary;Beiyang Faction;Faction Rongting;Rongting-Fraktion;;;;;;;;;;;x
@@ -1046,6 +1135,13 @@ GMJ_fascist;Fascist Party;Parti fasciste;Faschistische Partei;;;;;;;;;;;x
 GMJ_anarcho_liberal;Freedom Party;Parti de la liberté;Freiheitspartei;;;;;;;;;;;x
 GNE;Guinea;;;;;;;;;;;;x
 GNE_ADJ;Guinean;;;;;;;;;;;;x
+GNE_liberal;Union for Progress and Renewal;;;;;;;;;;;;x
+GNE_anarcho_liberal;Union for the Progress;;;;;;;;;;;;x
+GNE_conservative;African Bloc of Guinea;;;;;;;;;;;;x
+GNE_reactionary;Democratic Party of Guinea;;;;;;;;;;;;x
+GNE_socialist;Socialist Democracy of Guinea;;;;;;;;;;;;x
+GNE_communist;Guinean People's Assembly;;;;;;;;;;;;x
+GNE_fascist;National Union for the Prosperity;;;;;;;;;;;;x
 GNG;Guangdong;;;;;;;;;;;;x
 GNG_ADJ;Guangdong;;;;;;;;;;;;x
 GNG_presidential_dictatorship;Guangdong Clique;;;;;;;;;;;;x
@@ -1072,12 +1168,6 @@ GUY_fascist;Unity Party;;;;;;;;;;;;;x
 GXI_presidential_dictatorship;Guangxi Clique;Clique de Guangxi;Guangxi-Clique;;;;;;;;;;;x
 HAL;Ha'il;;;;;;;;;;;;x
 HAL_ADJ;Haili;;;;;;;;;;;;x
-HAL_absolute_monarchy;Al-Rashid Emirate;;;;;;;;;;;;x
-HAL_prussian_constitutionalism;Al-Rashid Emirate;;;;;;;;;;;;x
-HAL_hms_government;Al-Rashid Emirate;;;;;;;;;;;;x
-HAL_absolute_monarchy_ADJ;Rashidi;;;;;;;;;;;;x
-HAL_prussian_constitutionalism_ADJ;Rashidi;;;;;;;;;;;;x
-HAL_hms_government_ADJ;Rashidi;;;;;;;;;;;;x
 HAL_reactionary;Hizb al-Hashemiyya al-Urduni;;;;;;;;;;;;;x
 HAL_conservative;Hizb al-Wasat al-Islami;;;;;;;;;;;;;x
 HAL_liberal;Yasari-d-al-Dimaqrati al-Urduni;;;;;;;;;;;;;x
@@ -1130,27 +1220,19 @@ IOM_socialist;Labour Party;Labour Party;Labour Party;;Labour Party;;;;;;;;;;;x
 IOM_anarcho_liberal;Positive Action Group;Positive Action Group;Positive Action Group;;Positive Action Group;;;;;;;;;;;x
 IOM_communist;Communist Party;Communist Party;Communist Party;;Communist Party;;;;;;;;;;;x
 IOM_fascist;Mec Vannin;Mec Vannin;Mec Vannin;;Mec Vannin;;;;;;;;;;;x
-ITA_reactionary;Fazione Monarchica;Fazione Monarchica;Fazione Monarchica;;Fazione Monarchica;;;;;;;;;x
-ITA_conservative;Destra Liberale;Destra Liberale;Destra Liberale;;Destra Liberale;;;;;;;;;x
-ITA_liberal;Sinistra Liberale;Sinistra Liberale;Sinistra Liberale;;Sinistra Liberale;;;;;;;;;x
-ITA_liberal_2;Partito Repubblicano Italiano;Partito Repubblicano Italiano;Partito Repubblicano Italiano;;Partito Repubblicano Italiano;;;;;;;;;x
-ITA_conservative_2;Partito Liberale Italiano;Partito Liberale Italiano;Partito Liberale Italiano;;Partito Liberale Italiano;;;;;;;;;x
-ITA_conservative_3;Partito Popolare Italiano;Partito Popolare Italiano;Partito Popolare Italiano;;Partito Popolare Italiano;;;;;;;;;x
-ITA_socialist;Partito Socialista Italiano;Partito Socialista Italiano;Partito Socialista Italiano;;Partito Socialista Italiano;;;;;;;;;x
-ITA_anarcho_liberal;Estrema Sinistra Liberale;Estrema Sinistra Liberale;Estrema Sinistra Liberale;;Estrema Sinistra Liberale;;;;;;;;;x
-ITA_communist;Partito Comunista d'Italia;Partito Comunista d'Italia;Partito Comunista d'Italia;;Partito Comunista d'Italia;;;;;;;;;x
-ITA_fascist;Partito Nazionale Fascista;Partito Nazionale Fascista;Partito Nazionale Fascista;;Partito Nazionale Fascista;;;;;;;;;x
-CSA_presidential_dictatorship;The Confederate States of America;;;;;;;;;;;;;;
-CSA;The Confederate States of America;;;;;;;;;;;;;;
-CSA_bourgeois_dictatorship;The Confederate States of America;;;;;;;;;;;;;;
-CSA_fascist_dictatorship;The Confederacy;;;;;;;;;;;;;;
-CSA_proletarian_dictatorship;The People's Confederacy;;;;;;;;;;;;x
 ITA_democracy;Italian Republic;;;;;;;;;;;;;;x
 ITA_bourgeois_dictatorship_ADJ;Italian;;;;;;;;;;;;;x
 ITA_proletarian_dictatorship;People's Republic of Italy;;;;;;;;;;;;;x
 ITA_proletarian_dictatorship_ADJ;Italian;;;;;;;;;;;;;x
 IVC;Ivory Coast;;;;;;;;;;;;x
 IVC_ADJ;Ivorian;;;;;;;;;;;;x
+IVC_liberal;Rally of the Republicans;;;;;;;;;;;;x
+IVC_anarcho_liberal;URDIESCI;;;;;;;;;;;;x
+IVC_conservative;Entente of Independents;;;;;;;;;;;;x
+IVC_reactionary;Democratic Party;;;;;;;;;;;;x
+IVC_socialist;African Socialist Movement;;;;;;;;;;;;x
+IVC_communist;Ivorian Popular Front;;;;;;;;;;;;x
+IVC_fascist;Movement of the Forces of the Future;;;;;;;;;;;;x
 IZH;Ingria;;;;;;;;;;;;x
 IZH_ADJ;Ingrian;;;;;;;;;;;;x
 JAM;Jamaica;Jamaïque;Jamaica;;Jamaica;;;;;;;;;x
@@ -1212,7 +1294,7 @@ KAM_socialist;The Socialists;Faction socialiste;Die sozialistische Fraktion;;;;;
 KAM_communist;The Communists;Faction communiste;Die kommunistische Fraktion;;;;;;;;;;;x
 KAM_fascist;The Nationalists;Faction fasciste;Die faschistische Fraktion;;;;;;;;;;;x
 KHI_absolute_monarchy;Khiva;;;;;;;;;;;;;;;;;;x;;;;
-BUK_absolute_monarchy;Emirate of Bukhara;;;;;;;;;;;;;;;;x;;;;
+BUK_absolute_monarchy;Bukhara;;;;;;;;;;;;;;;;x;;;;
 KOK_absolute_monarchy;Kokand;;;;;;;;;;;;;;;;;;x;;;;
 KAZ_absolute_monarchy;Kazakh Khanate;;;;;;;;;;;;;x
 KAZ;Kazakhstan;;;;;;;;;;;;;x
@@ -1284,6 +1366,13 @@ KMT_fascist;Fascists;Fascistes;Faschisten;;;;;;;;;;;;x;;;;;;;;;;;;;;
 KMT_conservative_4;Kuomintang Chiang;Kuomintang Chiang;Kuomintang Chiang;;;;;;;;;;;;x;;;;;;;;;;;;;;
 KNY;Kenya;;;;;;;;;;;;x
 KNY_ADJ;Kenyan;;;;;;;;;;;;x
+KNY_liberal;FORD–Asili;;;;;;;;;;;;x
+KNY_conservative;Democratic Party;;;;;;;;;;;;x
+KNY_socialist;FORD–Kenya;;;;;;;;;;;;x
+KNY_reactionary;Kenya African National Union;;;;;;;;;;;;x
+KNY_anarcho_liberal;The Independent Party;;;;;;;;;;;;x
+KNY_communist;Farmers Party;;;;;;;;;;;;x
+KNY_fascist;Fascist Party;;;;;;;;;;;;x
 KRL;Karelia;;;;;;;;;;;;x
 KRL_ADJ;Karelian;;;;;;;;;;;;x
 KRL_conservative;Suomalainen puolue;Suomalainen puolue;Suomalainen puolue;;Suomalainen puolue;;;;;;;;;x;;;;;;;;;;;;;;
@@ -1437,9 +1526,9 @@ MAH_socialist;The Socialist Faction;;;;;;;;;;;;x
 MAH_communist;Communist Faction;;;;;;;;;;;;x
 MAH_fascist;The Fascist Faction;;;;;;;;;;;;x
 MAL;Maluku;;;;;;;;;;;;x
-MAL_absolute_monarchy;Tidore Sultanate;;;;;;;;;;;;;x
-MAL_prussian_constitutionalism;Tidore Sultanate;;;;;;;;;;;;;x
-MAL_hms_government;Tidore Sultanate;;;;;;;;;;;;;x
+MAL_absolute_monarchy;Tidore;;;;;;;;;;;;;x
+MAL_prussian_constitutionalism;Tidore;;;;;;;;;;;;;x
+MAL_hms_government;Tidore;;;;;;;;;;;;;x
 MAL_ADJ;Moluccan;;;;;;;;;;;;x
 MAR;Marianas;Marianas;Marianas;;;;;;;;;;;;x
 MAR_ADJ;Marianan;Marianan;Marianan;;;;;;;;;;;;x
@@ -1463,7 +1552,14 @@ MLI_ADJ;Malian;;;;;;;;;;;;;x
 MLI_absolute_monarchy;Mali Empire;;;;;;;;;;;;;x
 MLI_prussian_constitutionalism;Mali Empire;;;;;;;;;;;;;x
 MLI_hms_government;Mali Empire;;;;;;;;;;;;;x
-MLI_proletarian_dictatorship;Mali Republic;;;;;;;;;;;;;x
+MLI_proletarian_dictatorship;Mali;;;;;;;;;;;;;x
+MLI_liberal;African Regroupment Party;;;;;;;;;;;;x
+MLI_anarcho_liberal;Party for Unity, Democracy and Progress;;;;;;;;;;;;x
+MLI_conservative;Progressive Party;;;;;;;;;;;;x
+MLI_reactionary;UDPM;;;;;;;;;;;;x
+MLI_socialist;Alliance for Democracy;;;;;;;;;;;;x
+MLI_communist;Party of Labor;;;;;;;;;;;;x
+MLI_fascist;Patriotic Movement for Renewal;;;;;;;;;;;;x
 MLT;Malta;;;;;;;;;;;;x
 MLT_ADJ;Maltese;;;;;;;;;;;;x
 MLT_conservative;Partit Nazzjonalista;Partit Nazzjonalista;Partit Nazzjonalista;;;;;;;;;;;x
@@ -1481,6 +1577,13 @@ MLW_hms_government;Nyasaland;;;;;;;;;;;;x
 MLW_absolute_monarchy_ADJ;Nyasa;;;;;;;;;;;;x
 MLW_prussian_constitutionalism_ADJ;Nyasa;;;;;;;;;;;;x
 MLW_hms_government_ADJ;Nyasa;;;;;;;;;;;;x
+MLW_liberal;United Democratic Front;;;;;;;;;;;;x
+MLW_conservative;Democratic Progressive Party;;;;;;;;;;;;x
+MLW_socialist;Alliance for Democracy;;;;;;;;;;;;x
+MLW_reactionary;Malawi Congress Party;;;;;;;;;;;;x
+MLW_anarcho_liberal;Malawi Forum for Unity and Development;;;;;;;;;;;;x
+MLW_communist;Communist Party of Malawi;;;;;;;;;;;;x
+MLW_fascist;Fascist Party of Malawi;;;;;;;;;;;;x
 MLY;Malaysia;;;;;;;;;;;;x
 MLY_ADJ;Malaysian;;;;;;;;;;;;x
 MLY_absolute_monarchy;Malaya;;;;;;;;;;;;x
@@ -1500,6 +1603,13 @@ MOD_communist;Comunisti;Comunisti;Comunisti;;Comunisti;;;;;;;;;x
 MOD_fascist;Fascisti;Fascisti;Fascisti;;Fascisti;;;;;;;;;x
 MOZ;Mozambique;;;;;;;;;;;;x
 MOZ_ADJ;Mozambican;;;;;;;;;;;;x
+MOZ_liberal;Social Liberal Party;;;;;;;;;;;;x
+MOZ_conservative;Mozambique Democratic Party;;;;;;;;;;;;x
+MOZ_socialist;UDENAMO;;;;;;;;;;;;x
+MOZ_reactionary;RENAMO;;;;;;;;;;;;x
+MOZ_anarcho_liberal;Independent Party of Mozambique;;;;;;;;;;;;x
+MOZ_communist;FRELIMO;;;;;;;;;;;;x
+MOZ_fascist;Mozambique People's Progress Party;;;;;;;;;;;;x
 MRS;Marshall Islands;Marshall Islands;Marshall Islands;;;;;;;;;;;;x
 MRS_ADJ;Marshallese;Marshallese;Marshallese;;;;;;;;;;;;x
 MRT;Marathas;;;;;;;;;;;;x
@@ -1513,12 +1623,6 @@ MRU_absolute_monarchy;Maritime Union;;;;;;;;;;;;x
 MRU_prussian_constitutionalism;Maritime Union;;;;;;;;;;;;x
 MRU_hms_government;Maritime Union;;;;;;;;;;;;x
 MRU_ADJ;Maritime;;;;;;;;;;;;x
-NEJ_absolute_monarchy;Nejd Emirate;;;;;;;;;;;;x
-NEJ_prussian_constitutionalism;Nejd Emirate;;;;;;;;;;;;x
-NEJ_hms_government;Nejd Emirate;;;;;;;;;;;;x
-NEJ_absolute_monarchy_ADJ;Saudi;;;;;;;;;;;;x
-NEJ_prussian_constitutionalism_ADJ;Saudi;;;;;;;;;;;;x
-NEJ_hms_government_ADJ;Saudi;;;;;;;;;;;;x
 NEJ_conservative;Al-Sa'ud;;;;;;;;;;;;;;;;;;;x;;;;
 NEJ_liberal;Al-Ahrar;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 NEJ_reactionary;Al-Da'wa al-Wahhabiyyah;;;;;;;;;;;;;;;;;;;;;;x;;;;
@@ -1528,8 +1632,22 @@ NEJ_communist;Al-Hizb al-Shuyu'i;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 NEJ_fascist;Al-Hizb al-Fashy;;;;;;;;;;;;;;;;;;;;;x;;;;
 NGR;Nigeria;;;;;;;;;;;;x
 NGR_ADJ;Nigerian;;;;;;;;;;;;x
+NGR_liberal;National Council;;;;;;;;;;;;x
+NGR_conservative;Northern People's Congress;;;;;;;;;;;;x
+NGR_socialist;Action Group;;;;;;;;;;;;x
+NGR_reactionary;Nigerian National Democratic Party;;;;;;;;;;;;x
+NGR_anarcho_liberal;NEPU;;;;;;;;;;;;x
+NGR_communist;Commoners Party;;;;;;;;;;;;x
+NGR_fascist;Dynamic Party;;;;;;;;;;;;x
 NIG;Niger;;;;;;;;;;;;x
 NIG_ADJ;Nigerien;;;;;;;;;;;;x
+NIG_liberal;UPDP;;;;;;;;;;;;x
+NIG_conservative;Democratic and Social Convention;;;;;;;;;;;;x
+NIG_socialist;Sawaba;;;;;;;;;;;;x
+NIG_reactionary;MNSD;;;;;;;;;;;;x
+NIG_anarcho_liberal;;;;;;;;;;;;;x
+NIG_communist;Progressive Party;;;;;;;;;;;;x
+NIG_fascist;Party for People's Dignity;;;;;;;;;;;;x
 NOR_liberal;Liberals;;;;;;;;;;;;x
 NOR_liberal_2;Venstre;;;;;;;;;;;;x
 NOR_conservative;Conservatives;;;;;;;;;;;;x
@@ -1946,6 +2064,13 @@ SIB_anarcho_liberal;Radicals;Radicaux;Radikale;;;;;;;;;;;;x;;;;;;;;;;;;;;
 SIB_fascist;Fascists;Fascistes;Faschisten;;;;;;;;;;;;x;;;;;;;;;;;;;;
 SLE;Sierra Leone;;;;;;;;;;;;x
 SLE_ADJ;Sierra Leonean;;;;;;;;;;;;x
+SLE_liberal;United Progressive Party;;;;;;;;;;;;x;;;;;;;;;;;;;;
+SLE_anarcho_liberal;National Unity Movement;;;;;;;;;;;;x;;;;;;;;;;;;;;
+SLE_conservative;National Council;;;;;;;;;;;;x;;;;;;;;;;;;;;
+SLE_reactionary;National Reformation Council;;;;;;;;;;;;x;;;;;;;;;;;;;;
+SLE_socialist;Sierra Leone People's Party;;;;;;;;;;;;x;;;;;;;;;;;;;;
+SLE_communist;All People's Congress;;;;;;;;;;;;x;;;;;;;;;;;;;;
+SLE_fascist;Dawoh;;;;;;;;;;;;x;;;;;;;;;;;;;;
 SLS;Silesia;;;;;;;;;;;;;x
 SLS_ADJ;Silesian;;;;;;;;;;;;;x
 SLS_liberal;Liberaldem. Partei;Liberaldem. Partei;Liberaldem. Partei;;Liberaldem. Partei;;;;;;;;;x;;;;;;;;;;;;;;
@@ -1957,12 +2082,13 @@ SLS_conservative_2;Konservative Partei;Konservative Partei;Konservative Partei;;
 SLS_anarcho_liberal;Radical Arbeiterpartei;Arbeiterpartei radical;Radikale Arbeiterpartei;;Radical Arbeiterpartei;;;;;;;;;x;;;;;;;;;;;;;;
 SLS_communist;Communist Arbeiterpartei;Arbeiterpartei communiste;Kommunistische Arbeiterpartei;;Communist Arbeiterpartei;;;;;;;;;x;;;;;;;;;;;;;;
 SLS_fascist;Fascists;;;;;;;;;;;;;x
+BRA;Brunswick;;;;;;;;;;;;x
+BRA_ADJ;Brunswicker;;;;;;;;;;;;x
 SLW;Sulawesi;;;;;;;;;;;;;x
 SLW_ADJ;Sulawesian;;;;;;;;;;;;;x
-SLW_absolute_monarchy;Bone Sultanate;;;;;;;;;;;;;x
-SLW_prussian_constitutionalism;Bone Sultanate;;;;;;;;;;;;;x
-SLW_hms_government;Bone Sultanate;;;;;;;;;;;;;x
-SLW_ADJ;Boni;;;;;;;;;;;;;x
+SLW_absolute_monarchy;Bone;;;;;;;;;;;;;x
+SLW_prussian_constitutionalism;Bone;;;;;;;;;;;;;x
+SLW_hms_government;Bone;;;;;;;;;;;;;x
 SMI;Sapmi;Sapmi;Sapmi;;;;;;;;;;;;x
 SMI_ADJ;Sami;Sami;Sami;;;;;;;;;;;;x
 SMI_liberal;Liberal Party;Liberal Party;Liberal Party;;;;;;;;;;;;x
@@ -1974,6 +2100,13 @@ SMI_communist;Communist Party;Communist Party;Communist Party;;;;;;;;;;;;x
 SMI_fascist;Fascist Party;Fascist Party;Fascist Party;;;;;;;;;;;;x
 SNG;Senegal;;;;;;;;;;;;x
 SNG_ADJ;Senegalese;;;;;;;;;;;;x
+SNG_liberal;Senegalese Democratic Party;;;;;;;;;;;;x
+SNG_anarcho_liberal;Convention of Democrats and Patriots;;;;;;;;;;;;x
+SNG_conservative;African Regroupment Party;;;;;;;;;;;;x
+SNG_reactionary;Senegalese Solidarity Party;;;;;;;;;;;;x
+SNG_socialist;Senegalese Progressive Union;;;;;;;;;;;;x
+SNG_communist;African Independence Party;;;;;;;;;;;;x
+SNG_fascist;Alliance of the Forces of Progress;;;;;;;;;;;;x
 SNZ;New Munster;New Munster;New Munster;;;;;;;;;;;x
 SNZ_ADJ;Munsterian;Munsterian;Munsterian;;;;;;;;;;;x
 SNZ_fascist_dictatorship;Zealandia;Zealandia;Zealandia;;;;;;;;;;;x
@@ -2031,6 +2164,15 @@ SRI_anarcho_liberal;The Radical Faction;;;;;;;;;;;;x
 SRI_socialist;The Socialist Faction;;;;;;;;;;;;x
 SRI_communist;The Communist Faction;;;;;;;;;;;;x
 SRI_fascist;The Fascist Faction;;;;;;;;;;;;x
+BKF;Burkina Faso;;;;;;;;;;;;x
+BKF_ADJ;Burkinabe;;;;;;;;;;;;x
+BKF_liberal;UNDD;;;;;;;;;;;;x
+BKF_anarcho_liberal;Voltaic Progressive Union;;;;;;;;;;;;x
+BKF_conservative;Voltaic Union;;;;;;;;;;;;x
+BKF_reactionary;UDV-RDA;;;;;;;;;;;;x
+BKF_socialist;Voltaic Democratic Movement;;;;;;;;;;;;x
+BKF_communist;Voltaic Communist Organization;;;;;;;;;;;;x
+BKF_fascist;Rejectors Front;;;;;;;;;;;;x
 SUD;Sudan;;;;;;;;;;;;x
 SUD_theocracy;Mahdist Sudan;;;;;;;;;;;;;;;;x
 SUD_ADJ;Sudanese;;;;;;;;;;;;x
@@ -2171,6 +2313,13 @@ TGA;Tonga;;;;;;;;;;;;;x
 TGA_ADJ;Tongan;;;;;;;;;;;;;x
 TNZ;Tanganyika;;;;;;;;;;;;x
 TNZ_ADJ;Tanganyikan;;;;;;;;;;;;x
+TNZ_liberal;Civic United Front;;;;;;;;;;;;x;;;;;;;;;;;;;;
+TNZ_conservative;Party for Democracy and Progress;;;;;;;;;;;;x;;;;;;;;;;;;;;
+TNZ_socialist;NCCR–Mageuzi;;;;;;;;;;;;x;;;;;;;;;;;;;;
+TNZ_reactionary;Justice and Development Party;;;;;;;;;;;;x;;;;;;;;;;;;;;
+TNZ_anarcho_liberal;United Democratic Party;;;;;;;;;;;;x;;;;;;;;;;;;;;
+TNZ_communist;Party of the Revolution;;;;;;;;;;;;x;;;;;;;;;;;;;;
+TNZ_fascist;National Reconstruction Alliance;;;;;;;;;;;;x;;;;;;;;;;;;;;
 TNT;Tannu Tuva;;;;;;;;;;;;;x
 TNT_ADJ;Tuvan;;;;;;;;;;;;;x
 TNT_reactionary;Lama Faction;Faction Lama;Lama-Fraktion;;;;;;;;;;;x
@@ -2182,6 +2331,13 @@ TNT_conservative;Conservative Party;Parti conservateur;Konservative Partei;;;;;;
 TNT_fascist;Unity Party;Parti unitaire;Einheitspartei;;;;;;;;;;;x
 TOG;Togo;;;;;;;;;;;;x
 TOG_ADJ;Togolese;;;;;;;;;;;;x
+TOG_liberal;UCPN;;;;;;;;;;;x
+TOG_conservative;Party of Progress;;;;;;;;;;;x
+TOG_reactionary;Rally of the Togolese People;;;;;;;;;;;x
+TOG_socialist;Party of Togolese Unity;;;;;;;;;;;x
+TOG_anarcho_liberal;Rally of Young Togolese;;;;;;;;;;;x
+TOG_communist;Juvento;;;;;;;;;;;x
+TOG_fascist;Togolese People's Movement;;;;;;;;;;;x
 TOS;Shikoku;;;;;;;;;;;;;x
 TOS_ADJ;Shikokuan;;;;;;;;;;;;;x
 TOS_absolute_monarchy;Tosa;;;;;;;;;;;;;x
@@ -2195,8 +2351,8 @@ TOU_ADJ;Toucouleur;;;;;;;;;;;;x
 TOU_democracy;Toucouleur Republic;;;;;;;;;;;;x
 TOU_proletarian_dictatorship;Sahelian People's Republic;;;;;;;;;;;;x
 TOU_fascist_dictatorship;Sahelian Republic;;;;;;;;;;;;x
-TOU_bourgeois_dictatorship;Toucouleur Republic;;;;;;;;;;;;x
-TOU_presidential_dictatorship;Toucouleur Republic;;;;;;;;;;;;x
+TOU_bourgeois_dictatorship;Tukulor Republic;;;;;;;;;;;;x
+TOU_presidential_dictatorship;Tukulor Republic;;;;;;;;;;;;x
 TOU_proletarian_dictatorship_ADJ;Sahelian;;;;;;;;;;;;x
 TOU_fascist_dictatorship_ADJ;Sahelian;;;;;;;;;;;;x
 TPG;Heavenly Kingdom;;;;;;;;;;;;x
@@ -2483,6 +2639,13 @@ YZW_prussian_constitutionalism_ADJ;Uesugi;;;;;;;;;;;;;x
 YZW_hms_government_ADJ;Uesugi;;;;;;;;;;;;;x
 ZAM;Zambia;;;;;;;;;;;;x
 ZAM_ADJ;Zambian;;;;;;;;;;;;x
+ZAM_liberal;United Party for National Development;;;;;;;;;;;;x
+ZAM_conservative;Movement for Multi-Party Democracy;;;;;;;;;;;;x
+ZAM_socialist;United Progressive Party;;;;;;;;;;;;x
+ZAM_reactionary;National Restoration Party;;;;;;;;;;;;x
+ZAM_anarcho_liberal;National Party;;;;;;;;;;;;x
+ZAM_communist;United National Independence Party;;;;;;;;;;;;x
+ZAM_fascist;Fourth Revolution Party	;;;;;;;;;;;;x
 ### African Kingdoms ###;;;;;;;;;;;;;;x
 ARO;Aro;Aro;Aro;;Aro;;;;;;;;;;x;;;;;;;;;;;;;;
 ARO_ADJ;Aro;Aro;Aro;;;;;;;;;;;;x;;;;;;;;;;;;;;
@@ -2508,10 +2671,13 @@ ASH_ADJ;Ashanti;Ashanti;Aschanti;;;;;;;;;;;;x;;;;;;;;;;;;;;
 ASH_conservative;Royal Faction;Faction royale;Königsfraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
 ASH_liberal;Reform Faction;Faction de réforme;Verbesserung Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
 ASH_reactionary;Empire Faction;Faction d'empire;Reich Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
-ASH_anarcho_liberal;Radical Faction;Faction radicale;Die radikale Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
-ASH_socialist;Socialist Faction;Faction socialiste;Die sozialistische Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
-ASH_communist;Communist Faction;Faction communiste;Die kommunistische Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
-ASH_fascist;Fascist Faction;Faction fasciste;Die faschistische Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
+ASH_conservative_2;National Liberation Movement;;;;;;;;;;;;x;;;;;;;;;;;;;;
+ASH_liberal_2;United Gold Coast Convention;;;;;;;;;;;;x;;;;;;;;;;;;;;
+ASH_reactionary_2;National Liberation Council;;;;;;;;;;;;x;;;;;;;;;;;;;;
+ASH_anarcho_liberal;Progress Party;;;;;;;;;;;;x;;;;;;;;;;;;;;
+ASH_socialist;Ghana Congress Party;;;;;;;;;;;;x;;;;;;;;;;;;;;
+ASH_communist;Convention People's Party;;;;;;;;;;;;x;;;;;;;;;;;;;;
+ASH_fascist;Popular Front Party;;;;;;;;;;;;x;;;;;;;;;;;;;;
 ASH_proletarian_dictatorship;Ghana;Ghana;Ghana;;Ghana;;;;;;;;;x;;;;;;;;;;;;;;
 ASH_proletarian_dictatorship_ADJ;Ghanaian;Ghanaian;Ghanaisch;;Ghanés;;;;;;;;;x
 ASH_fascist_dictatorship;Ghana;Ghana;Ghana;;Ghana;;;;;;;;;x;;;;;;;;;;;;;;
@@ -2542,14 +2708,15 @@ BEN_communist;Communist Faction;Faction communiste;Die kommunistische Fraktion;;
 BEN_fascist;Fascist Faction;Faction fasciste;Die faschistische Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
 BRD;Burundi;Burundi;Burundi;;Burundi;;;;;;;;;;x;;;;;;;;;;;;;;
 BRD_ADJ;Burundian;Burundaise;Burundische;;;;;;;;;;;;x;;;;;;;;;;;;;;
-BRD_conservative;Mwami Faction;Faction Mwami;Mwami Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
-BRD_liberal;Reform Faction;Faction de réforme;Verbesserung Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
-BRD_reactionary;Empire Faction;Faction d'empire;Reich Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
-BRD_anarcho_liberal;Radical Faction;Faction radicale;Die radikale Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
-BRD_socialist;Socialist Faction;Faction socialiste;Die sozialistische Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
-BRD_communist;Communist Faction;Faction communiste;Die kommunistische Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
-BRD_fascist;Fascist Faction;Faction fasciste;Die faschistische Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
-BSH;Basotho;Basotho;Basotho;;Basotho;;;;;;;;;;x;;;;;;;;;;;;;;
+BRD_conservative;Country Democratic Union;;;;;;;;;;;;x;;;;;;;;;;;;;;
+BRD_liberal;APRODEBA;;;;;;;;;;;;x;;;;;;;;;;;;;;
+BRD_reactionary;Union for National Progress;;;;;;;;;;;;x;;;;;;;;;;;;;;
+BRD_anarcho_liberal;Abanyamajambere Party;;;;;;;;;;;;x;;;;;;;;;;;;;;
+BRD_socialist;Rural Democratic Party;;;;;;;;;;;;x;;;;;;;;;;;;;;
+BRD_communist;Burundi Workers' Party;;;;;;;;;;;;x;;;;;;;;;;;;;;
+BRD_fascist;People's Union of Burundi;;;;;;;;;;;;x;;;;;;;;;;;;;;
+BSH;Lesotho;;;;;;;;;;x;;;;;;;;;;;;;;
+BSH_absolute_monarchy;Basotho;;;;;;;;;;;;x;;;;;;;;;;;;;;
 BSH_ADJ;Basotho;Basotho;Basotho;;;;;;;;;;;;x;;;;;;;;;;;;;;
 BSH_conservative;Royal Faction;Faction royale;Königsfraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
 BSH_liberal;Reform Faction;Faction de réforme;Verbesserung Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
@@ -2558,15 +2725,16 @@ BSH_anarcho_liberal;Radical Faction;Faction radicale;Die radikale Fraktion;;;;;;
 BSH_socialist;Socialist Faction;Faction socialiste;Die sozialistische Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
 BSH_communist;Communist Faction;Faction communiste;Die kommunistische Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
 BSH_fascist;Fascist Faction;Faction fasciste;Die faschistische Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
-BUG;Buganda;Uganda;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
+BUG;Uganda;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
+BUG_absolute_monarchy;Buganda;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
 BUG_ADJ;Ugandan;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
-BUG_conservative;Royal Faction;Faction royale;Königsfraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
-BUG_liberal;Reform Faction;Faction de réforme;Verbesserung Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
-BUG_reactionary;Empire Faction;Faction d'empire;Reich Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
-BUG_anarcho_liberal;Radical Faction;Faction radicale;Die radikale Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
-BUG_socialist;Socialist Faction;Faction socialiste;Die sozialistische Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
-BUG_communist;Communist Faction;Faction communiste;Die kommunistische Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
-BUG_fascist;Fascist Faction;Faction fasciste;Die faschistische Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
+BUG_conservative;Uganda Patriotic Movement;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
+BUG_liberal;Democratic Party;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
+BUG_reactionary;Kabaka Yekka;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
+BUG_anarcho_liberal;Federal Democratic Party;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
+BUG_socialist;Uganda People's Congress;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
+BUG_communist;African Farmers Union;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
+BUG_fascist;Freedom and Unity Front;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
 CLA;Calabar;Calabar;Calabar;;Calabar;;;;;;;;;;x;;;;;;;;;;;;;;
 CLA_ADJ;Calabarean;Calabarien;Calabarische;;;;;;;;;;;;x;;;;;;;;;;;;;;
 CLA_conservative;Duke Town Faction;Faction de Duke Town;Duke Town Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
@@ -2576,15 +2744,25 @@ CLA_anarcho_liberal;Radical Faction;Faction radicale;Die radikale Fraktion;;;;;;
 CLA_socialist;Socialist Faction;Faction socialiste;Die sozialistische Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
 CLA_communist;Communist Faction;Faction communiste;Die kommunistische Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
 CLA_fascist;Fascist Faction;Faction fasciste;Die faschistische Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
-DAH;Dahomey;Dahomey;Dahomey;;Dahomey;;;;;;;;;;x;;;;;;;;;;;;;;
-DAH_ADJ;Dahomean;Dahoméenne;Dahomische;;;;;;;;;;;;x;;;;;;;;;;;;;;
+DAH_absolute_monarchy;Dahomey;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
+DAH_absolute_monarchy_ADJ;Dahomean;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
+DAH_prussian_constitutionalism;Dahomey;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
+DAH_prussian_constitutionalism_ADJ;Dahomean;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
+DAH_hms_government;Dahomey;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
+DAH_hms_government_ADJ;Dahomean;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
+DAH;Benin;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
+DAH_ADJ;Beninese;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
+DAH_proletarian_dictatorship;People's Republic of Benin;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
 DAH_conservative;Ahosu Faction;Faction Ahosu;Ahosu Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
 DAH_liberal;Liberal Faction;Faction Libéral;Liberale Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
 DAH_reactionary;Empire Faction;Faction d'empire;Reich Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
-DAH_anarcho_liberal;Radical Faction;Faction radicale;Die radikale Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
-DAH_socialist;Socialist Faction;Faction socialiste;Die sozialistische Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
-DAH_communist;Communist Faction;Faction communiste;Die kommunistische Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
-DAH_fascist;Great Dahomey Faction;Faction Dahomey Grande;Große Dahomey Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
+DAH_conservative_2;Progressive Union;;;;;;;;;;;;x;;;;;;;;;;;;;;
+DAH_reactionary_2;Ethnic Group of the North;;;;;;;;;;;;x;;;;;;;;;;;;;;
+DAH_liberal_2;Republican Party;;;;;;;;;;;;x;;;;;;;;;;;;;;
+DAH_anarcho_liberal;BMFD;;;;;;;;;;;;x;;;;;;;;;;;;;;
+DAH_socialist;African People's Bloc;;;;;;;;;;;;x;;;;;;;;;;;;;;
+DAH_communist;People's Revolutionary Party;;;;;;;;;;;;x;;;;;;;;;;;;;;
+DAH_fascist;Fascist Front;;;;;;;;;;;;x;;;;;;;;;;;;;;
 DAM;Damagaram;Damagaram;Damagaram;;Damgaram;;;;;;;;;;x;;;;;;;;;;;;;;
 DAM_ADJ;Damagaram;Damagaram;Damagaram;;;;;;;;;;;;x;;;;;;;;;;;;;;
 DAM_conservative;Sultan's Faction;Faction Sultan;Sultan Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
@@ -2638,10 +2816,13 @@ GBU_ADJ;Bissau-Guinean;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
 GBU_conservative;Mansaba Faction;Faction Mansaba;Mansaba Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
 GBU_liberal;Reform Faction;Faction de réforme;Verbesserung Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
 GBU_reactionary;Empire Faction;Faction d'empire;Reich Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
-GBU_anarcho_liberal;Radical Faction;Faction radicale;Die radikale Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
-GBU_socialist;Socialist Faction;Faction socialiste;Die sozialistische Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
-GBU_communist;Communist Faction;Faction communiste;Die kommunistische Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
-GBU_fascist;Fascist Faction;Faction fasciste;Die faschistische Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
+GBU_conservative_2;Democratic Front;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
+GBU_liberal_2;Party for Social Renewal;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
+GBU_reactionary_2;Guinean Civic Forum;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
+GBU_anarcho_liberal;Democratic Party of Progress;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
+GBU_socialist;Struggle Front for Independence;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
+GBU_communist;African Party of Independence;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
+GBU_fascist;Bafatá Movement;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
 GEL;Geledi;Geledi;Geledi;;Geledi;;;;;;;;;;x;;;;;;;;;;;;;;
 GEL_ADJ;Geledi;Geledien;Geledisch;;;;;;;;;;;;x;;;;;;;;;;;;;;
 GEL_conservative;Sheikal Faction;Faction Sheikal;Scheichsfraktion;;Facción de jeques;;;;;;;;;x;;;;;;;;;;;;;;
@@ -2742,7 +2923,6 @@ MAJ_socialist;The Socialist Faction;Faction socialiste;Die sozialistische Frakti
 MAJ_communist;The Communist Faction;Faction communiste;Die kommunistische Fraktion;;La facción comunista;;;;;;;;;x;;;;;;;;;;;;;;
 MAJ_fascist;The Islamic Faction;La faction islamique;Die islamische Fraktion;;La facción islámica;;;;;;;;;x;;;;;;;;;;;;;;
 MAS;Massina;Macina;Massina;;Massina;;;;;;;;;;x;;;;;;;;;;;;;;
-MAS_absolute_monarchy;Massina Empire;;;;;;;;;;x;;;;;;;;;;;;;;
 MAS_ADJ;Massinan;Massinan;Massinan;;;;;;;;;;;;x;;;;;;;;;;;;;;
 MAS_conservative;Royal Faction;Faction royale;Königsfraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
 MAS_liberal;Liberal Faction;Faction libérale;Die liberale Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
@@ -2799,15 +2979,14 @@ OYO_communist;Communist Faction;Faction communiste;Die kommunistische Fraktion;;
 OYO_fascist;Fascist Faction;Faction fasciste;Die faschistische Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
 RWA;Rwanda;Ruanda;Ruanda;;Ruanda;;;;;;;;;;x;;;;;;;;;;;;;;
 RWA_ADJ;Rwandan;Ruandaise;Ruandische;;;;;;;;;;;;x;;;;;;;;;;;;;;
-RWA_conservative;Royal Faction;Faction royale;Königsfraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
-RWA_liberal;Reform Faction;Faction de réforme;Verbesserung Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
-RWA_reactionary;Traditional Faction;Faction traditionnelle;Traditionelle Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
-RWA_anarcho_liberal;Freedom Faction;Faction de liberté;Freiheits Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
-RWA_socialist;Socialist Faction;Faction socialiste;Die sozialistische Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
-RWA_communist;Communist Faction;Faction communiste;Die kommunistische Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
-RWA_fascist;Fascist Faction;Faction fasciste;Die faschistische Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
+RWA_conservative;Centrist Democratic Party;;;;;;;;;;;;x;;;;;;;;;;;;;;
+RWA_liberal;Liberal Party;;;;;;;;;;;;x;;;;;;;;;;;;;;
+RWA_reactionary;MDR-Parmehutu;;;;;;;;;;;;x;;;;;;;;;;;;;;
+RWA_anarcho_liberal;Radical-Liberal Party;;;;;;;;;;;;x;;;;;;;;;;;;;;
+RWA_socialist;Social Democratic Party;;;;;;;;;;;;x;;;;;;;;;;;;;;
+RWA_communist;APROSOMA;;;;;;;;;;;;x;;;;;;;;;;;;;;
+RWA_fascist;Fascist Party of Rwanda;;;;;;;;;;;;x;;;;;;;;;;;;;;
 SEG;Bambara;Ségou;Segu;;Segu;;;;;;;;;;x;;;;;;;;;;;;;;
-SEG_absolute_monarchy;Bambara Empire;;;;;;;;;;x;;;;;;;;;;;;;;
 SEG_ADJ;Bambara;Bambaras;Bambara;;;;;;;;;;;;x;;;;;;;;;;;;;;
 SEG_conservative;Royal Faction;Faction royale;Königsfraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
 SEG_liberal;Reform Faction;Faction de réforme;Verbesserung Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
@@ -2836,6 +3015,14 @@ SHW_communist;The Communist Faction;Faction communiste;Die kommunistische Frakti
 SHW_fascist;The Fascist Faction;Faction fasciste;Die faschistische Fraktion;;La facción fascista;;;;;;;;;x;;;;;;;;;;;;;;
 SOM;Somaliland;Somalia;Somalia;;Somalia;;;;;;;;;;x;;;;;;;;;;;;;;
 SOM_ADJ;Somali;Somali;Somalisch;;;;;;;;;;;;x;;;;;;;;;;;;;;
+SOM_proletarian_dictatorship;Somali Democratic Republic;;;;;;;;;;;;x;;;;;;;;;;;;;;
+SOM_liberal;Somali Democratic Union;;;;;;;;;;;;x;;;;;;;;;;;;;;
+SOM_anarcho_liberal;Somali National Congress;;;;;;;;;;;;x;;;;;;;;;;;;;;
+SOM_conservative;United Somali Party;;;;;;;;;;;;x;;;;;;;;;;;;;;
+SOM_reactionary;Somali National League;;;;;;;;;;;;x;;;;;;;;;;;;;;
+SOM_socialist;Somali Youth League;;;;;;;;;;;;x;;;;;;;;;;;;;;
+SOM_communist;Somali Revolutionary Socialist Party;;;;;;;;;;;;x;;;;;;;;;;;;;;
+SOM_fascist;Greater Somalia League;;;;;;;;;;;;x;;;;;;;;;;;;;;
 SUA;Suazi;Suazi;Suazi;;Suazi;;;;;;;;;;x;;;;;;;;;;;;;;
 SUA_ADJ;Suazi;Suazi;Suazi;;;;;;;;;;;;x;;;;;;;;;;;;;;
 SUA_conservative;Royal Faction;Faction royale;Königsfraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
@@ -2862,13 +3049,13 @@ TOO_communist;Communist Faction;Faction communiste;Die kommunistische Fraktion;;
 TOO_fascist;Empire Faction;Faction d'empire;Reich Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
 TSW;Botswana;Botswana;Botswana;;Botswana;;;;;;;;;;x;;;;;;;;;;;;;;
 TSW_ADJ;Tswana;Tswana;Tswana;;;;;;;;;;;;x;;;;;;;;;;;;;;
-TSW_conservative;Royal Faction;Faction royale;Königsfraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
-TSW_liberal;Reform Faction;Faction de réforme;Verbesserung Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
-TSW_reactionary;Empire Faction;Faction d'empire;Reich Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
-TSW_anarcho_liberal;Radical Faction;Faction radicale;Die radikale Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
-TSW_socialist;Socialist Faction;Faction socialiste;Die sozialistische Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
-TSW_communist;Communist Faction;Faction communiste;Die kommunistische Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
-TSW_fascist;Fascist Faction;Faction fasciste;Die faschistische Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
+TSW_conservative;Botswana Independence Party;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
+TSW_liberal;Botswana People's Party;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
+TSW_reactionary;Botswana National Front;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
+TSW_anarcho_liberal;Botswana Alliance Movement;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
+TSW_socialist;Botswana Democratic Party;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
+TSW_communist;International Socialist Organization;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
+TSW_fascist;Botswana Fascist Front;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
 WAD;Wadai;Ouaddaï;Wadai;;Ouaddai;;;;;;;;;;x;;;;;;;;;;;;;;
 WAD_ADJ;Wadai;Wadai;Wadai;;;;;;;;;;;;x;;;;;;;;;;;;;;
 WAD_conservative;Kolak's Faction;Faction Kolak;Kolak Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
@@ -2929,10 +3116,13 @@ TRZ_ADJ;Trarzan;;;;;;;;;;;;x
 TRZ_conservative;Emir's Faction;;;;;;;;;;;;x
 TRZ_liberal;Reform Faction;;;;;;;;;;;;x
 TRZ_reactionary;Islamic faction;;;;;;;;;;;;x
+TRZ_conservative_2;Progressive Union;;;;;;;;;;;;x
+TRZ_liberal_2;Agreement Party;;;;;;;;;;;;x
+TRZ_reactionary_2;People's Party;;;;;;;;;;;;x
 TRZ_anarcho_liberal;Radical Faction;;;;;;;;;;;;x
-TRZ_socialist;Socialist Party;;;;;;;;;;;;x
-TRZ_communist;Communist Party;;;;;;;;;;;;x
-TRZ_fascist;Fascist Faction;;;;;;;;;;;;x
+TRZ_socialist;Association of the Young Mauritanians;;;;;;;;;;;;x
+TRZ_communist;Mauritanian Entente;;;;;;;;;;;;x
+TRZ_fascist;Nahda;;;;;;;;;;;;x
 TRZ_proletarian_dictatorship;Mauritania;Mauritanie;Mauretanien;;;;;;;;;;;x;;;;;;;;;;;;;;
 TRZ_proletarian_dictatorship_ADJ;Mauritanian;Mauritanien;Mauretanische;;;;;;;;;;;x
 TRZ_presidential_dictatorship;Mauritania;Mauritanie;Mauretanien;;;;;;;;;;;x;;;;;;;;;;;;;;
