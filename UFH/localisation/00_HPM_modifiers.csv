@@ -1,6 +1,41 @@
 ;;;;;;;;;;;;;;;;;;;;x,,,,,
-ottoman_oppression_title;Oppressed Religious Minorities;;;;;;;;;;;;;;;;;;;;;;;x;;;;
-ottoman_oppression_desc;;Religious minorities in the Ottoman Empire need to pay the jizya and are mistreated at the whims of the ruling majority. ;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+great_irish_famine;Great Irish Famine;;;;;;;;;;;;;;;;;;;;x,,,,,
+preparations_to_kill;Extermination Camps;;;;;;;;;;;;;;;;;;;;x,,,,,
+sunni_country;Sunni Religion;;;;;;;;;;;;;;;;;;;;x,,,,,
+shiite_country;Shiite Religion;;;;;;;;;;;;;;;;;;;;x,,,,,
+ibadi_country;Ibadi Religion;;;;;;;;;;;;;;;;;;;;x,,,,,
+catholic_country;Catholic Religion;;;;;;;;;;;;;;;;;;;;x,,,,,
+protestant_country;Protestant Religion;;;;;;;;;;;;;;;;;;;;x,,,,,
+mormon_country;Mormon Religion;;;;;;;;;;;;;;;;;;;;x,,,,,
+orthodox_country;Orthodox Religion;;;;;;;;;;;;;;;;;;;;x,,,,,
+coptic_country;Coptic Religion;;;;;;;;;;;;;;;;;;;;x,,,,,
+jewish_country;Jewish Religion;;;;;;;;;;;;;;;;;;;;x,,,,,
+yazidi_country;Yazidi Religion;;;;;;;;;;;;;;;;;;;;x,,,,,
+mahayana_country;Mahayana Religion;;;;;;;;;;;;;;;;;;;;x,,,,,
+gelugpa_country;Gelugpa Religion;;;;;;;;;;;;;;;;;;;;x,,,,,
+theravada_country;Theravada Religion;;;;;;;;;;;;;;;;;;;;x,,,,,
+hindu_country;Hindu Religion;;;;;;;;;;;;;;;;;;;;x,,,,,
+shinto_country;Shinto Religion;;;;;;;;;;;;;;;;;;;;x,,,,,
+sikh_country;Sikh Religion;;;;;;;;;;;;;;;;;;;;x,,,,,
+animist_country;Animist Religion;;;;;;;;;;;;;;;;;;;;x,,,,,
+native_assimilation_act_policy;Native Assimilation Act;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+native_assimilation_act_policy_desc;The government is working towards the assimilation of the native population.;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+native_removal_act_policy;Native Removal Act;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+native_removal_act_policy_desc;Discriminatory policies aim to eliminate and push out the native population.;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+african_integration_policy;African Integration Policy;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+native_assimilation_enacted;Native Integration Policy;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+new_world_nation;New World Nation;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+low_healthcare_poorly_funded;Poorly Funded Healthcare;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+desc_low_healthcare_poorly_funded;Less government investment in administration results in a poorly funded healthcare system.;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+good_healthcare_poorly_funded;Poorly Funded Healthcare;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+desc_good_healthcare_poorly_funded;Less government investment in administration results in a poorly funded healthcare system.;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+capital_health_care;Local Capital Healthcare;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+local_trinket_health_care;Trinket Healthcare;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+local_low_health_care;Low Healthcare;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+local_acceptable_health_care;Acceptable Healthcare;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+local_good_health_care;Good Healthcare;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+pearl_season;Pearl Hunting Season;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+pearl_season_desc;The population in this province is engaging in the much profitable pearl hunting activity.;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 religious_minority_oppression;Oppressed Religious Minorities;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 religious_minority_oppression_desc;Religious minorities are being mistreated, resulting in ever increasing militancy and consciousness of these people.;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 armenian_diaspora;Armenian Diaspora;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
@@ -8,12 +43,12 @@ armenian_diaspora_desc;This province contains a minority population that comes f
 earthquake_devastation;Earthquake Devastation;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 earthquake_devastation_desc;A powerful earthquake has recently devastated this province, leaving thousands homeless and disrupting the lives of scores of people.;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 education_fully_funded;Excellent Education System;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
-health_care_fully_funded;Excellent Health Care;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+health_care_fully_funded;Excellent Healthcare;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 neglected_education;Neglected Education Funding;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
-trinket_health_care_fully_funded;Fully Funded Health Care;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
-low_health_care_fully_funded;Fully Funded Health Care;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
-acceptable_health_care_fully_funded;Fully Funded Health Care;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
-good_health_care_fully_funded;Fully Funded Health Care;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+trinket_health_care_fully_funded;Fully Funded Healthcare;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+low_health_care_fully_funded;Fully Funded Healthcare;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+acceptable_health_care_fully_funded;Fully Funded Healthcare;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+good_health_care_fully_funded;Fully Funded Healthcare;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 low_schools_fully_funded;Fully Funded Education;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 acceptable_schools_fully_funded;Fully Funded Education;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 good_schools_fully_funded;Fully Funded Education;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
