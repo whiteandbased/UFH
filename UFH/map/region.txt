@@ -259,7 +259,7 @@ POR_521 = { 521 522 523 524 } #Estremadura
 
 POR_525 = { 525 526 527 } #Alentejo
 
-POR_2134 = { 2134 2135 2136 1876 } #Macaronesia
+POR_2134 = { 2134 2135 2136 } #Macaronesia
 
 
 ### Germany & Switzerland
@@ -343,11 +343,13 @@ RUS_715 = { 715 711 713 716 } #West Galicia
 
 AUS_726 = { 726 727 728 2669 } #Lombardia
 
-AUS_729 = { 729 730 731 732 733 8 } #Venetia
+AUS_733 = { 733 736 737 } #Friuli
+
+AUS_729 = { 729 730 731 732 8 } #Venetia
 
 AUS_734 = { 734 735 } #South Tirol
 
-AUS_736 = { 736 737 769 770 778 } #Istria
+AUS_736 = { 769 770 778 } #Istria
 
 AUS_768 = { 767 768 } #Slovenia
 
@@ -364,11 +366,11 @@ AUS_2538 = { 2538 791 792 } #Vojvodina
 
 SAR_720 = { 720 721 722 723 724 725 } #Piemonte
 
-MOD_739 = { 739 738 740 } #Emilia
+#MOD_739 = { 739 738 740 } #Emilia
 
 TUS_744 = { 744 745 746 747 748 } #Tuscany
 
-PAP_741 = { 741 742 743 } #Romagna
+PAP_741 = { 741 742 743 739 738 740 } #Emilia-Romagna
 
 PAP_752 = { 749 752 750 751 } #Lazio
 
@@ -924,15 +926,15 @@ ENG_1844 = { 1844 1845 1846 1847 1832 } #Sudd
 
 ### East Africa
 
-ETH_1852 = { 1852 1854 1855 } #Begemder
+ETH_1852 = { 1852 1854 1855 1863 } #Begemder
 
 ETH_1853 = { 1853 1856 1857 1858 } #Tigray
 
-ETH_1859 = { 1859 1860 1861 } #Shewa
+ETH_1859 = { 1859 1860 1861 1862 } #Shewa
 
-ETH_1862 = { 1862 1863 1864 } #Gibe
+#ETH_1862 = {  } #Gibe
 
-ETH_1865 = { 1865 1866 1867 } #Hararghe
+ETH_1865 = { 1865 1866 1867 1864 } #Hararghe
 
 ENG_1848 = { 1848 1849 1850 1851 } #Eritrea
 
@@ -967,11 +969,11 @@ FRA_1801 = { 1794 1795 1796 1797 1801 } #Western Mali
 
 FRA_1803 = { 1803 1805 1807 1806 2609 } #Timbuktu
 
-FRA_1883 = { 1883 1881 1882 } #Upper Guinea
+FRA_1883 = { 1879 1880 1881 1882 1883 } #Upper Guinea - Now just Guinea
 
 FRA_1884 = { 1884 1885 1886 } #Sierra Leone
 
-FRA_1878 = { 1878 1877 1880 1879 } #Lower Guinea
+FRA_1878 = { 1876 1877 1878 } #Lower Guinea - Now Guinea-Bissau
 
 ENG_1887 = { 1887 1888 1889 1890 1891 } #Liberia
 
@@ -1049,11 +1051,11 @@ POR_2003 = { 2003 2004 2005 2008 } #South Angola
 
 POR_2006 = { 2006 2007 2010 2011 } #East Angola
 
-POR_2049 = { 2049 2050 2051 2052 } #Lourenço Marques - Gaza
+POR_2049 = { 2049 2050 2051 } #Lourenço Marques - Gaza
 
-POR_2053 = { 2053 2059 2057 2065 } #Zambezia
+POR_2053 = { 2059  2065 2054 2056 } #Zambezia
 
-POR_2054 = { 2054 2056 2055 2058 } #Tete
+POR_2054 = { 2057 2052 2058 2053 2055 } #Tete - Now Sofala
 
 POR_2060 = { 2060 2061 2063 2064 2581 } #Moçambique
 

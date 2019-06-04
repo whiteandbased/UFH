@@ -8,7 +8,6 @@ leader = {
 	type = land
 	personality = charismatic
 	background = pawn
-	prestige = 1
 }
 
 leader = {
@@ -25,7 +24,6 @@ leader = {
 	type = land
 	personality = deeply_religious 
 	background = politician
-	prestige = 0.5
 }
 
 army = {

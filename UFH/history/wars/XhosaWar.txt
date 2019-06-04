@@ -14,6 +14,12 @@ name = "Sixth Xhosa War"
 		actor = ENG
 		receiver = XHO
 	}
+	
+	war_goal = {
+		casus_belli = status_quo
+		actor = XHO
+		receiver = ENG
+	}
 
 }
 

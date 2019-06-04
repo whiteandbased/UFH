@@ -37,17 +37,17 @@ army = {
 
 army = {
 	name = "Army of the Moti of Jimma"
-	location = 1863
+	location = 1862
 	regiment = {
 		name= "Moti's Guards"
 		type = irregular
-		home = 1863
+		home = 1862
 	}
 
 	regiment = {
 		name= "Jimma Warriors"
 		type = irregular
-		home = 1863
+		home = 1862
 	}
 
 }
