@@ -1,5 +1,5 @@
 color = { 219  83  106 }
-graphical_culture = ZuluGC
+graphical_culture = AfricanGC
 
 party = {
 	name = "RWA_conservative"
@@ -19,7 +19,7 @@ party = {
 party = {
 	name = "RWA_liberal"
 	start_date = 1820.1.1
-	end_date = 1936.1.1
+	end_date = 2000.1.1
 
 	ideology = liberal
 

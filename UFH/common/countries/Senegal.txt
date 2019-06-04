@@ -2,7 +2,7 @@ color = { 145 97 57 }
 graphical_culture = AfricanGC
 
 party = {
-	name = "TOO_conservative"
+	name = "SNG_conservative"
 	start_date = 1800.1.1
 	end_date = 2000.1.1
 
@@ -17,7 +17,7 @@ party = {
 }
 
 party = {
-	name = "TOO_liberal"
+	name = "SNG_liberal"
 	start_date = 1820.1.1
 	end_date = 1936.1.1
 
@@ -32,7 +32,7 @@ party = {
 }
 
 party = {
-	name = "TOO_reactionary"
+	name = "SNG_reactionary"
 	start_date = 1820.1.1
 	end_date = 2000.1.1
 
@@ -47,7 +47,7 @@ party = {
 }
 
 party = {
-	name = "TOO_anarcho_liberal"
+	name = "SNG_anarcho_liberal"
 	start_date = 1830.1.1
 	end_date = 2000.1.1
 
@@ -62,7 +62,7 @@ party = {
 }
 
 party = {
-	name = "TOO_socialist"
+	name = "SNG_socialist"
 	start_date = 1848.1.1
 	end_date = 2000.1.1
 
@@ -77,7 +77,7 @@ party = {
 }
 
 party = {
-	name = "TOO_communist"
+	name = "SNG_communist"
 	start_date = 1848.1.1
 	end_date = 2000.1.1
 
@@ -92,7 +92,7 @@ party = {
 }
 
 party = {
-	name = "TOO_fascist"
+	name = "SNG_fascist"
 	start_date = 1900.1.1
 	end_date = 2000.1.1
 

@@ -1,3 +1,150 @@
+/////////////////// UFH Version 0.0.0.2 \\\\\\\\\\\\\\\\\\\\\\
+
+
+### Integrated the following changes from HPM 0.3.8.4
+-EIC minimod and INNNM minimods are basically integrated as optional minimods in the decision menu at the game start.
+-Kudos for AFPG for flags for Vanuatu, Samoa, Zimbabwe, Comoros and Uganda!
+-Changed the SSNP religious policy to secularism and citizenship_policy to full citizenship. Changed the Kurdish fascist party to secularized.
+-Fixed a bug in event 9406 that would stop it from firing. Thanks anon!
+-Corrected being able to build railways in deserts again. That was a mistake.
+-Uniting Turkestan shouldn't give cores in Afghanistan anymore.
+-(The Fascist party of Turkey now has limited citizenship instead of residency as a policy.)
+-Changed Sitka's LR to 35 so Alaska can get immigrants.
+-Made the initial wars for the UK, Russia and the Ottoman Empire to start with a "Status Quo" CB for the other side.
+-Made the events for Alaska, New Zealand, Australia, South Africa and Newfoundland where the countries ask for independence not be exclusive to the UK. It will happen to any country that own these places.
+-Made events dealing with New Zealand dynamic, so they don't happen exclusively to the UK but to anyone who owns Auckland. Made localization more generic with variables for possible countries that own the place.
+-Added Pontus as a non-releasable vassal to Sinop, Giresun and Trabzon, so greek pops don't assimilate. The tag will be used later in GW dismantlements. Cores go away with population exchanges.
+-Added orthodox and protestant equivalent pops in Alaska, so conversion can happen with the lowest chance of bugs.
+-Renamed "Cattle" to "Livestock" and "Precious Metal" to "Precious Goods" to be more in line with the stuff it represents in game. Fixed a few localization issues in HPM/Vanilla stuff.
+-Jacobins will now check if a country has Free Press, Allowed Meetings, Abolished Slavery and Serfdom, if the borders are closed and if the UH Composition is not "Appointed" or "Ruling Party Only" when deciding not to spawn.
+-Jacobins should now open borders and shouldn't roll back the last level of trade unions when they win. They will also change the Upper House Composition to Proportional Representation, except in the US.
+-Instead of a country getting 50 War Exhaustion when Rebels win, now a country will get 2.5 WE for each province rebels occupy. Except for Nationalist rebels.
+-Socialists won't rise if they have the same reforms the Jacobins need to stop rising PLUS the last two of every social reform and All Trade Unions except Health Care, Education and Penal System. They also demand the abolition of child labor
+-Jacobins and Militant socialists will not rise if they are the ruling party and the basic political and/or social reforms they demand are passed. However, if they are not the ruling party and but their demands are met, they will suffer a reduced change to spawn. That means they will try to participate in the democratic process more.
+-Fixed a bug with rebels that made them glitch and appear when they shouldn't. Reworked the rebel files so it's more in line with Vanilla than NNM/PDM. Removed Uruguayan-specific rebels and integrated them in the jacobin/reactionary rebels.
+-Successful Rebellions should now remove 25% of the loser's prestige (up from the previous 20%) and 30% if it's a nationalist rebellion. They will also remove -25 Plurality from the country (with Jacobins/Socialists removing -10).
+-Accepted pops of a non-existing tag will now behave as primary culture pops for rebel purposes. What this means is, they will not join ideological rebels if they can join nationalistic or patriotic/separatist rebels, making independence-seeking rebels much more dangerous.
+-Made so Slaves can't join Ideological rebels. They still can join nationalistic rebels though. In the future a new rebel type will be added for slaves, for the abolition of slavery.
+-Fixed a bug that would allow infinite prestige by releasing and integrating the Sulu.
+-Changed 1162 - Bahrain from Grain to Fruit, 1165 - Doha from Grain to Fish, 1167 - from Grain to Fruit and 2664 - Khasab from grain to Fish. To better represent the RGOs there (fruits being Date). Changed the "Trade City" decision and modifier to "Pearl Hunting", which will change the RGOs from these provinces from their original ones to "Precious Goods" from 3 to 6 months during summer. After that, the RGOs will be reverted. The whole process will be automatic and taken by the AI, so a player will only see the results.
+-Changed Dubai from Grain to Fruits.
+-"Gateway to a new Land" modifier in Valparaiso will now last 10 years instead of 30.
+-Bahrain and Qatar will start in the Ottoman sphere.
+-Changed a the decisions for claiming Togo and Namibia so the AI has an easier time doing them. Changed the Congo decision so the Swedes don't always end with the place (there's a much bigger chance of not going to anyone now) and so reading the decision requirements is easier.
+-Stopped the Faroe tag from starting with a non existing party in power.
+-Removed Prestige of the starting Persian generals.
+-Fixed an event having a duplicate ID.
+-Added an Equatorial Guinea tag to stop native pops there assimilating. Re-did pops and ownership based on http://www.njas.helsinki.fi/pdf-files/vol22num1-2/moreno.pdf The Fang won't start in the island anymore (moved there in the middle from the 20th century onwards), the island will now produce fruit instead of wool (they were big cacao producers) and both the island and the land will start with some igbo pops. The Spanish won't start owning the land and instead will have event/decision to colonize each place separately.
+-Changed the way overseas assimilation works: cores in overseas provinces will now stop the assimilation of both accepted and primary cultures of that core.
+-The UK shouldn't start with trinket health care anymore.
+-Removed the micro "Wayuu" culture from Colombia/Venezuela. They are Amazonian now. 
+-Added a Kreol culture for the islands in Africa.
+-Fixed the Golden Stool event.
+-Moved all "AI Cleanup" events to decisions to improve performance, made them a bit better and fixed a bug in one.
+-Added the "Bulgarian Exarchate" decision for the Ottoman Empire. Thanks anon!
+-Fixed the rebel icons being misaligned.
+-Fixed a few instances of decisions to integrate tags that were being fired by the AI against the player when it shouldn't.
+-Fixed the Navy OOB of Greece of be more in line with https://en.wikipedia.org/wiki/History_of_the_Hellenic_Navy#The_Royal_Hellenic_Navy_of_King_Otto
+-Fixed releasing vassals giving prestige instead of taking it.
+-Added a tag for Comoros and the flags for it and Turkmeneli and Equatorial Guinea. Kudos to AFPG for the flags.
+-Fixed the rotation of the port in Bristol which was stopping the port from appearing.
+-Fixed a bug that was stopping Malaysia from being formed.
+-Made the AI prioritize "Revolution and Counterrevolution" more so they can get "The Dark Continent" invention more consistently sooner.
+-Fixed the gateway_to_harbor modifier for Tokyo lasting forever (like it was in NNM) with one event option for the "A new Capital in the East?" event.
+-Made so the Emigration NF can always be used by Communist/Fascist Dictatorships.
+-Armament Inventions of the Light Armament tree are now sequential. Meaning that you can only discover "Breech-loaded Armament" if you discovered "Muzzle-loaded Armament" first.
+-Added the option to "Disable Bankruptcy Events" (for the player only, the AI will still get it) in the Options decisions.
+-Alaska should become the primary culture of the owner once its sold, as long as the buyer is a new world culture. If Alaska is sold to the British, the culture will be Anglo-Canadian. If it's sold to Japan or if it remains on Russian hands, it will keep on being "Alaskan".
+-Fixed a few old references to Saito in the files.
+-Increased the population of Korea from around 9 million to around 16 million. Based on Korean History in Maps, pp 99. To compensate for that change and reflect Korea's growth, their LR was changed from 35 to 31. Kudos to anon for this.
+-The Netherlands will now lose flemish as accepted when they sign the Treaty of London.
+-Reduced the population of the Netherlands proper to around  ~2700000 people, based on estimates derived from "European Historical Statistics, 1750-1970 by B. R. Mitchell". The population of Limburg was increased to 317200 (79.3k pops, previously they had 41.5k pops) based on the same source. Kudos to anon for this.
+-Changed the Romanian party names based on https://pastebin.com/jcwPKwLR
+-Fixed the capital of Tanzania so it starts in Dar es Salaam. Fixed a few province names, made a few name changes for when the place is colonized. Fixed accepted pops for it and for all African post-colonial nations, and re-did their parties from something generic (and sometimes outright wrong) to more historical names.
+-Re-did the way the "Claim" or "Reorganize" colonies decision work. Now they will try to clean native tags core and add historical cores if you own the land. Added a decision to reorganize Buganda, Botswana, Burkina Faso and Ghana. Those were missing. To organize the Niger now you actually need a province in the Niger river rather than a province in the middle of the desert.
+-Added tags for Vanuatu, Papua New Guinea and Samoa. In most cases they extend to more land that they occupy in modern times. They are mostly to stop integration.
+-Changed Kyrgyzstan's color so it isn't the same as Kokand.
+-Puerto Rico and Dominican Republic shouldn't accept their african diaspora cultures at the start, or spanish, anymore.
+-Added a decision to form the Antillean Confederation if you have Puerto Rico, Cuba and the Dominican Republic and have Caribeno as primary culture. An irredentist decision lets the confederation claim the rest of the (non-Spanish) Caribbean.
+-Uniting with Greece as Cyprus should no longer give Greece turkish as accepted.
+-Removed the naval base from Bahia Blanca in Argentina that was messing with the ability tow upgrade the base in Buenos Aires.
+-To avoid the "Endless Crisis" bug introduced by patch 3.04, vassal nations will be immune to tension.
+-Rhodesia isn't a releasable country anymore. It's only releasable by decision for the UK. The default colonial tag for the place is Zimbabwe. Transvaal, Oranje and Natalia aren't releasable either, since that would mean natives releasing them as uncivs. But you can play as them as you normally would through events that fire to the UK.
+-Trucial States will now start as Sunni.
+-Parties with pro_atheism religious policy will now deactivate the "islamic country" modifier, but they won't secularize the society.
+-Removed the "native protection act" and integrated it into the new Native Policy system, where one can either accept them, assimilate or try to exterminate them.
+-Belize no longer accepts British and Afro-caribbean.
+-Yucatan was changed from Mexican to Maya primary. They will now only petition to join the FRCA if the FRCA enacted the Native Protection Act, have at least culture voting rights and have more than 50 relations with them.
+-Reshaped province 2046 - Ujiji and 2045 - Morogoro so their shape follow the existing rivers.
+-Mozambique: Reshaped Tete, Sena, Quelimane, Sofala, Inkomati, Manjakazi, Inhambane and Massekisse to follow river borders (and more historical province borders). 3 of 4 Mozambique States were reshaped to accommodate the changes.
+-Reshaped Douala province in Cameroon to follow the river border.
+-Ethiopia: Changed the Harari (that existed in a single province and had 4 mentions) to Habesha, to represent southern semitic-ethiopic cultures (Harari, Gurage, Silt'e, Soddo). Re-did their names. Added some to Harar (since harar didn't start with any Harari, ironically) and added a Shewa core there. Removed the Sidamo (now they are represented as cushitic) and made them animist instead of sunni. Reworked pops so they follow modern distribution better (http://www.languagesgulper.com/eng/Ethmap_files/Ethiopian%20languages%20large%20map.jpg) and re-did states (Gibe state was removed), so Ethiopia is now 5 states of 4 provinces each. Re-did pops in all provinces to represent demographics and distribution better.
+-Added a Nilotic Culture, a Cushitic Culture. "African Minors" in the Cushitic Area (Ethiopia, Somalia and parts of Kenya) were changed to this culture. African Minors in Sudan, Kenya and Uganda were changed to Nilotic.
+-Added Berber to Libya and Tunisia to replace the "african minor" in these places. Berber (Tamazight) is often a spoken or official language.
+-Cape Verde: Took it out from the "Macaronesia" state and put it together with Guinea-Bissau in a single state. The old "lower guinea" state was used, while the other two provinces of this state (Boffa and Timbo) are now part of the "Guinea" state. Terrain is now mountains.
+-Renamed "Canned Food Factory" to Cannery.
+-Changed Bali from Animist to Hindu.
+-Added a 5-days delay for one of the events regarding Transvaal/Matabele to avoid potential crashes.
+-Fixed Greece having Armenian as accepted.
+-Added AFPG's missing Samoa flags. Kudos to AFPG for the flags.
+-Stopped Western Sahara getting Moroccan cores as soon as the Berlin Conference happened.
+-Stopped the "reorganize Benin" and the "Integrate Lithuania in the Baltic States" decisions from not disappearing after being taken.
+-In order to avoid potential issues when checking religion, all countries have a flag to discriminate their religion. Adapted events/decisions that checked for religion to use the new system.
+-Fixed assimilation in the new world being too slow due to an old leftover modifier.
+-Restored vanilla values for literacy's influence on craftsmen promotion.
+-Made easier for Bolivia and Peru to take the Native Protection Act. Changed the tech requirement for it.
+-Fixed several problems with group modifiers in the pop_types file that were assimilating pops that shouldn't assimilate.
+-Halved the prestige factor of dismantling forts/naval bases
+
+
+
+
+
+### Discarded the following changes from HPM 0.3.8.4
+-Renamed "Liquor" to "Beverages" and "Liquor Distillery" to "Bottling works". The good represents soft and 'hard' drinks. Removed Muslim-countries restrictions on it. 
+-Made the "Turkish Tea" decision only add tea RGO to the black sea coast.
+-Fixed Kamchatka having cores on Buryatia.
+-Made sure that Sicily, Sardinia and Romagna lose cores if you use the "Avanti Italia" decision.
+-Turkey won't get Azeri as accepted when using the "Greater Turkey" decision. 
+-Removed Tarascan and Zapotec and they are all grouped together with Nahua, that was renamed to "Mesoamerican Indian".
+-Removed the "african minor" and "North Caucasian Minor" cultures. The Abkhazians will be represented together with the Circassians but they are Orthodox. See https://en.wikipedia.org/wiki/Circassians (The term "Circassian" sometimes includes the Abkhaz and Abaza people since they are originally related to the Adyghe)
+-You will also need fruits for producing beverages.
+-Eastern, Central and South Africa Changes:
+    -Kenya: Kikuyu culture in Kenya was renamed Kikuyu?Kamba (Kamba and Kikuyu are Bantu from the same family) and it was expanded across the provinces occupied by the Kamba, the Meru and the Embu. The culture represents these people. Oromo in Kenya (representing the Borana Oromo) were changed to Coptic and moved from Garissa to the Ethiopian border. Maasai was renamed to Kalenjin-Maasai and they now extend through all of the Rift Valley Province.
+    -[...] and a Northeast Bantu Culture (Guthrie J) to represent the people from these areas. 
+    -Tanzania: Added the Kilombero Culture (Guthrie G). It extends to Comoros, Zanzibar and much of central Tanzania. 
+	-Mozambique: Added a Nyasa culture (Guthrie N) that goes over Mozambique, Southern Tanzania and Zambia. 3 of 4 Mozambique States were reshaped to accommodate the changes. Changed a good part of the Yao people from Animists to Sunni. Yao was renamed to Yao-Makonde with the Makonde being the animists in the provinces.
+	-Southern Africa: Added a 'Southern Bantu' culture, correspondent to Guthrie S.
+    -Angola/Namibia: Mocamades now starts with a Herero majority and a Khoisan minority (https://upload.wikimedia.org/wikipedia/commons/7/71/Angola_Ethnic_map_1970.svg ) Added a Kavango-Kimbundu Culture to Angola, Northern Namibia and Congo that represents Guthrie's Group H, R and K.
+    -Added a Adamawa-Ubangi Culture to represent the main pops of the Central Africa Republic and surrounding region. Added a few Fulbe there. The culture is also spread to South Sudan, Cameron, the two Congos and Chad.
+    -Added a Northwest Bantu group (Guthrie's groups A to D) that go over Equatorial Guinea, Gabon, parts of Cameroon and both Congos.
+    -Added a Central Bantu group (Guthrie's groups L and M) that go over South DRC and Zambia.
+	-Renamed the small Tiv group to Bantoid, which is a culture that spawns what used to be Tiv in Nigeria and the Bantoid languages of the Cameroonian Plateau, including the Tikar. They will be muslim in Bafoussam to represent the Bamum.
+    -Renamed the Teda to Toubou. They represent a range of peoples in Chad, Libya, Niger and Sudan (Darfur). They will represent the "african minor" in these places.
+    -African minor (slaves) in southern Chad are now represented by the Adamawa-branch of the Adamwa-Ubangi culture.
+    -Renamed Sara to Sara-Baguirmi (seeing as they are from the same family and Baguirmi is almost extinct). The Baguirmi "slot" will now be used for the Maban (Biu?Mandara or Central Chadic), representing the minor and rather separatist cultures such as the Hadjarai, the Ouaddai and other minors.
+Western and Northern Africa:
+    -Niger: Merged the african minors to the Songhai in the Outer Hausaland State (Songhai representing here the Zarma people). In Kufe they were converted to Fulbe.
+    -Mauritania: African minors were changed to Wolof, Fulbe and Berber where appropriate.
+    -Changed the spelling of Toucouleur to Tukulor.
+    -Mali: The african minor slaves in the sahara part of Mali were replaced by Maghrebi (representing the Hassaniya). Fixed numbers of the Fulbe a bit. African minors are now mostly Mande.
+    -Nigeria: Added a Kwa group (East and West Congo-Benue Groups) to represent all minor cultures Nigeria and parts of Ghana and Benin.
+    -Burkina Faso, Ghana, Togo and Benin: Added a "Gur" culture representing all Gur languages, mainly centered in Burkina Faso.They also make the minorities in Northern Togo and Ghana as well as Benin. Spread the Senufo to Burkina and Mali.
+	-Fixed proportion of pops and religion of pops in Guinea, Liberia, Guine-Bissau, Sierra Leone and Ivory Coast. African minors will now be represented by "Western Nigritic" in these places, representing the Atlantic branch of the Atlantic?Congo language group. Changed the Liberian event to occupy the countryside in a decision.
+	-Gambia and Senegal: Fixed pops and religion, now the country won't be purely mande/african minor.
+    -Total 8 more cultures compared to the previous version.
+-Changes to genocide: Made pops prefer external emigration during genocide. Made so that any factor that might hamper a pop leaving a country will be null during a genocide. Primary/accepted-culture pops will lose a huge chunk of militancy during a genocide as long as at 70% of the pop is of the same ideology of the ruling party or a smaller chunk scaled to the proportion of the pop that is the same as the ruling party. Made so militancy/CON is given/reduced more reasonably depending on the party controlling the UH. The focus on killings will make closed borders operate at minimum efficiency during genocides.
+-Removed the life rating and emigration push effects from the genocide modifier, but doubled the malus to immigrant attraction. Made the preparations_to_kill modifier kill immigrant attraction.
+
+
+
+
+
+
+
+
+
+
 
 
 ///////////////// UFH Version 0.0.0.1 \\\\\\\\\\\\\\\

@@ -2,7 +2,7 @@ color = { 203  101  85 }
 graphical_culture = AfricanGC
 
 party = {
-	name = "WAD_conservative"
+	name = "SLE_conservative"
 	start_date = 1800.1.1
 	end_date = 2000.1.1
 
@@ -17,7 +17,7 @@ party = {
 }
 
 party = {
-	name = "WAD_liberal"
+	name = "SLE_liberal"
 	start_date = 1820.1.1
 	end_date = 1936.1.1
 
@@ -32,7 +32,7 @@ party = {
 }
 
 party = {
-	name = "WAD_reactionary"
+	name = "SLE_reactionary"
 	start_date = 1820.1.1
 	end_date = 2000.1.1
 
@@ -47,7 +47,7 @@ party = {
 }
 
 party = {
-	name = "WAD_anarcho_liberal"
+	name = "SLE_anarcho_liberal"
 	start_date = 1830.1.1
 	end_date = 2000.1.1
 
@@ -62,7 +62,7 @@ party = {
 }
 
 party = {
-	name = "WAD_socialist"
+	name = "SLE_socialist"
 	start_date = 1848.1.1
 	end_date = 2000.1.1
 
@@ -77,7 +77,7 @@ party = {
 }
 
 party = {
-	name = "WAD_communist"
+	name = "SLE_communist"
 	start_date = 1848.1.1
 	end_date = 2000.1.1
 
@@ -92,7 +92,7 @@ party = {
 }
 
 party = {
-	name = "WAD_fascist"
+	name = "SLE_fascist"
 	start_date = 1900.1.1
 	end_date = 2000.1.1
 

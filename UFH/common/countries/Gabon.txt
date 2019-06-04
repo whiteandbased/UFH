@@ -2,7 +2,7 @@ color = { 50  50  153 }
 graphical_culture = AfricanGC
 
 party = {
-	name = "SOK_conservative"
+	name = "GAB_conservative"
 	start_date = 1800.1.1
 	end_date = 2000.1.1
 
@@ -17,7 +17,7 @@ party = {
 }
 
 party = {
-	name = "SOK_liberal"
+	name = "GAB_liberal"
 	start_date = 1820.1.1
 	end_date = 1936.1.1
 
@@ -32,7 +32,7 @@ party = {
 }
 
 party = {
-	name = "SOK_reactionary"
+	name = "GAB_reactionary"
 	start_date = 1820.1.1
 	end_date = 2000.1.1
 
@@ -47,7 +47,7 @@ party = {
 }
 
 party = {
-	name = "SOK_anarcho_liberal"
+	name = "GAB_anarcho_liberal"
 	start_date = 1830.1.1
 	end_date = 2000.1.1
 
@@ -62,7 +62,7 @@ party = {
 }
 
 party = {
-	name = "SOK_socialist"
+	name = "GAB_socialist"
 	start_date = 1848.1.1
 	end_date = 2000.1.1
 
@@ -77,7 +77,7 @@ party = {
 }
 
 party = {
-	name = "SOK_communist"
+	name = "GAB_communist"
 	start_date = 1848.1.1
 	end_date = 2000.1.1
 
@@ -92,7 +92,7 @@ party = {
 }
 
 party = {
-	name = "SOK_fascist"
+	name = "GAB_fascist"
 	start_date = 1900.1.1
 	end_date = 2000.1.1
 
@@ -108,24 +108,24 @@ party = {
 
 unit_names = {
 	dreadnought = {
-		Abuja Ede Enugu Kaduna Kano Katsina Jos Owo Sokoto Zaria
+		Abuja Ede Enugu Kaduna Kano Katsina Jos Owo GABoto Zaria
 		
 	}
 	ironclad = {
-		Abuja Ede Enugu Kaduna Kano Katsina Jos Owo Sokoto Zaria
+		Abuja Ede Enugu Kaduna Kano Katsina Jos Owo GABoto Zaria
 		
 	}
 	manowar = {
-		Abuja Ede Enugu Kaduna Kano Katsina Jos Owo Sokoto Zaria
+		Abuja Ede Enugu Kaduna Kano Katsina Jos Owo GABoto Zaria
 	}
 	cruiser = {
-		Abuja Ede Enugu Kaduna Kano Katsina Jos Owo Sokoto Zaria
+		Abuja Ede Enugu Kaduna Kano Katsina Jos Owo GABoto Zaria
 	}
 	frigate = {
-		Abuja Ede Enugu Kaduna Kano Katsina Jos Owo Sokoto Zaria
+		Abuja Ede Enugu Kaduna Kano Katsina Jos Owo GABoto Zaria
 	}
 	monitor = {
-		Abuja Ede Enugu Kaduna Kano Katsina Jos Owo Sokoto Zaria
+		Abuja Ede Enugu Kaduna Kano Katsina Jos Owo GABoto Zaria
 	}
 	clipper_transport = {
 		
@@ -134,6 +134,6 @@ unit_names = {
 		
 	}
 	commerce_raider = {
-		Abuja Ede Enugu Kaduna Kano Katsina Jos Owo Sokoto Zaria
+		Abuja Ede Enugu Kaduna Kano Katsina Jos Owo GABoto Zaria
 	}
 }

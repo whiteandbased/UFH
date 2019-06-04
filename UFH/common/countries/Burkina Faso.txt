@@ -1,8 +1,8 @@
-color = { 158  74  137 }
+color = { 230 14 213 }
 graphical_culture = AfricanGC
 
 party = {
-	name = "CAR_conservative"
+	name = "BKF_conservative"
 	start_date = 1800.1.1
 	end_date = 2000.1.1
 
@@ -12,12 +12,12 @@ party = {
 	economic_policy = interventionism
 	trade_policy = protectionism
 	religious_policy = pluralism
-	citizenship_policy = limited_citizenship
+	citizenship_policy = residency
 	war_policy = pro_military
 }
 
 party = {
-	name = "CAR_liberal"
+	name = "BKF_liberal"
 	start_date = 1820.1.1
 	end_date = 1936.1.1
 
@@ -27,12 +27,12 @@ party = {
 	economic_policy = laissez_faire
 	trade_policy = free_trade
 	religious_policy = pluralism
-	citizenship_policy = full_citizenship
+	citizenship_policy = limited_citizenship
 	war_policy = pacifism
 }
 
 party = {
-	name = "CAR_reactionary"
+	name = "BKF_reactionary"
 	start_date = 1820.1.1
 	end_date = 2000.1.1
 
@@ -47,7 +47,7 @@ party = {
 }
 
 party = {
-	name = "CAR_anarcho_liberal"
+	name = "BKF_anarcho_liberal"
 	start_date = 1830.1.1
 	end_date = 2000.1.1
 
@@ -62,14 +62,14 @@ party = {
 }
 
 party = {
-	name = "CAR_socialist"
+	name = "BKF_socialist"
 	start_date = 1848.1.1
 	end_date = 2000.1.1
 
 	ideology = socialist
 
 	social_policy = welfare_state
-	economic_policy = planned_economy
+	economic_policy = state_capitalism
 	trade_policy = protectionism
 	religious_policy = secularized
 	citizenship_policy = full_citizenship
@@ -77,7 +77,7 @@ party = {
 }
 
 party = {
-	name = "CAR_communist"
+	name = "BKF_communist"
 	start_date = 1848.1.1
 	end_date = 2000.1.1
 
@@ -92,7 +92,7 @@ party = {
 }
 
 party = {
-	name = "CAR_fascist"
+	name = "BKF_fascist"
 	start_date = 1900.1.1
 	end_date = 2000.1.1
 
@@ -108,23 +108,24 @@ party = {
 
 unit_names = {
 	dreadnought = {
-		Azande Baramo Nzambi Yambio Upemba Mwari Mulopwe Mulungu Mbonga Mutare Mazendere Mboko Musikavanhu Mutorwa
+		Abuja Ede Enugu Kaduna Kano Katsina Jos Owo Sokoto Zaria
 		
 	}
 	ironclad = {
-		Azande Baramo Nzambi Yambio Upemba Mwari Mulopwe Mulungu Mbonga Mutare Mazendere Mboko Musikavanhu Mutorwa
+		Abuja Ede Enugu Kaduna Kano Katsina Jos Owo Sokoto Zaria
+		
 	}
 	manowar = {
-		Azande Baramo Nzambi Yambio Upemba Mwari Mulopwe Mulungu Mbonga Mutare Mazendere Mboko Musikavanhu Mutorwa
+		Abuja Ede Enugu Kaduna Kano Katsina Jos Owo Sokoto Zaria
 	}
 	cruiser = {
-		Azande Baramo Nzambi Yambio Upemba Mwari Mulopwe Mulungu Mbonga Mutare Mazendere Mboko Musikavanhu Mutorwa
+		Abuja Ede Enugu Kaduna Kano Katsina Jos Owo Sokoto Zaria
 	}
 	frigate = {
-		Azande Baramo Nzambi Yambio Upemba Mwari Mulopwe Mulungu Mbonga Mutare Mazendere Mboko Musikavanhu Mutorwa
+		Abuja Ede Enugu Kaduna Kano Katsina Jos Owo Sokoto Zaria
 	}
 	monitor = {
-		Azande Baramo Nzambi Yambio Upemba Mwari Mulopwe Mulungu Mbonga Mutare Mazendere Mboko Musikavanhu Mutorwa
+		Abuja Ede Enugu Kaduna Kano Katsina Jos Owo Sokoto Zaria
 	}
 	clipper_transport = {
 		
@@ -133,6 +134,6 @@ unit_names = {
 		
 	}
 	commerce_raider = {
-		Azande Baramo Nzambi Yambio Upemba Mwari Mulopwe Mulungu Mbonga Mutare Mazendere Mboko Musikavanhu Mutorwa
+		Abuja Ede Enugu Kaduna Kano Katsina Jos Owo Sokoto Zaria
 	}
 }

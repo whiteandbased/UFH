@@ -21,7 +21,7 @@ germanic = {
 		"von Wrangel" "von Zieten" "zur Lippe" "von Roon" }
 	}
 	south_german = {
-		color = { 110 80 80}
+		color = { 140 110 110 } #{ 110 80 80 }
 		first_names = { Adolf Albrecht Alexander Alfons Alois Anton Arthur Bernhard Christian
 		Edmund Eduard Engelbert Ernst Erwin Ferdinand Franz Friedrich Gebhard Gerhard Gottfried
 		Günther Gustav Heinrich Hermann Horst Jakob Joachim Johann Joseph
@@ -891,7 +891,7 @@ caucasian = {
 		color = {252 255 161}
 		first_names = {
 			Aslan Hamza "Jamal al-Din" Mansur Mohammad Murad Shamil Abatiy Bate Belatse Blaneshu Dzeghaschte Discheshu Foqwe Ghwaze Hebale Hezeishe Hetezchiqwe Jatawe Lawirsen Lhostenasch Mamish Nartschawe Nart Pschibiy Pagwe Psebide Qideghaze Qwbatiy Qwsh Zhanqeit Yapenes Wezrej Tsatsu Teimbolet 
-			}
+		}
 		
 		last_names = { 
 			Mollah Bek Aghwrbiyç Alijiqwe Dzuneç Gushina Gushipsaç Dzadzooç Hatsiquaç Jirandiqua Mashiquaç Naly Nartby Shoomaquaç Tsikira Zhambora
@@ -1802,15 +1802,16 @@ native_american = {
 		Huichaman Ilwen Kayupi Kumlafken Kvlapi Leviñanco Lincoman Marifil Melifilu Millakoyam
 		Millapani Nahuel Ñanku Paillacar Pillancar Quelin Remultray Unquen Waikimill Yankvleufu }
 	}
-	guajiro = {
-		color = {221 248 75}
-		first_names = { Baltasar Bernardo Carlos Celestino Diego Emilio Felipe Fernando Fidel Francisco
-		Gaspar Gregorio Hugo Ignacio José Juan Manuel Marcos Mario Mateo
-		Melchor Narciso Pablo Pedro Ramón Roberto Santiago Sebastián Simón Tomás }
-
-		last_names = { Atapashuna Epieyu Iguana Jayaliyuu Jusayuu Pausayuu Sapuana Tijuana Uliana Uliyuu
-		Uraliyyu Ulewana Walapuana Walepushana }
-	}
+	#Wayuu
+	#guajiro = {
+	#	color = {221 248 75}
+	#	first_names = { Baltasar Bernardo Carlos Celestino Diego Emilio Felipe Fernando Fidel Francisco
+	#	Gaspar Gregorio Hugo Ignacio José Juan Manuel Marcos Mario Mateo
+	#	Melchor Narciso Pablo Pedro Ramón Roberto Santiago Sebastián Simón Tomás }
+	#
+	#	last_names = { Atapashuna Epieyu Iguana Jayaliyuu Jusayuu Pausayuu Sapuana Tijuana Uliana Uliyuu
+	#	Uraliyyu Ulewana Walapuana Walepushana }
+	#}
 	tupinamba = {
 		color = {43 212 67}
 		first_names = { Álvaro André Carlos Diogo Emilio Eusébio Fábio Fernando Filipe Francisco
@@ -2139,18 +2140,31 @@ african_diaspora_cultures = {
 	afro_antillean = { 
 		color = {24 44 49}
 		first_names = { Alexis André Anténor Antoine Augustin Balthazar Beaubrun Céligny Charlemagne Charles
-		Cincinnatus Dantès Demesvar Denys Emmanuel Eugène Fabre Faustin Florvil François
-		Guillaume Hannibal Henri Jacques Jean Jean-Baptiste Jean-Louis Jean-Pierre Jonathas Joseph
-		Léon Louis Louis-Eugène Louis-Joseph Lysius Michel Monpoint Nissage Nord Oreste
-		Philippe Pierre Simon Sténio Sylvain Tandredè Thomas Timoleón Tirésias Vilbrum }
-	
-		last_names = { Alexis Ardouin Auguste Bellegarde Boisrond-Canal Bonnet Borno Boyer Brutus Christophe
-		Conzé Dartiguenave Delorme Dessalines Domingue Firmin Geffrad Granville Guerrier Hyppolite
-		Iginac Janvier Jeune Lafontant Laleau Leconte Légitime Legouaze Léon Lhérisson
-		Madiou Péralte Pierrot Planchet Price Price-Mars Riché Rigaud Rivière-Hérard Roumain
-		Roy Saget Salnave Salomon Sam Simon Soulouque Théodore Vincent Zamor }
-	}
+			Cincinnatus Dantès Demesvar Denys Emmanuel Eugène Fabre Faustin Florvil François
+			Guillaume Hannibal Henri Jacques Jean Jean-Baptiste Jean-Louis Jean-Pierre Jonathas Joseph
+			Léon Louis Louis-Eugène Louis-Joseph Lysius Michel Monpoint Nissage Nord Oreste
+			Philippe Pierre Simon Sténio Sylvain Tandredè Thomas Timoleón Tirésias Vilbrum }
 
+			last_names = { Alexis Ardouin Auguste Bellegarde Boisrond-Canal Bonnet Borno Boyer Brutus Christophe
+			Conzé Dartiguenave Delorme Dessalines Domingue Firmin Geffrad Granville Guerrier Hyppolite
+			Iginac Janvier Jeune Lafontant Laleau Leconte Légitime Legouaze Léon Lhérisson
+			Madiou Péralte Pierrot Planchet Price Price-Mars Riché Rigaud Rivière-Hérard Roumain
+			Roy Saget Salnave Salomon Sam Simon Soulouque Théodore Vincent Zamor }
+	}
+	kreol = { 
+		color = { 63 32 10 }
+		first_names = { Alexis André Anténor Antoine Augustin Balthazar Beaubrun Céligny Charlemagne Charles
+			Cincinnatus Dantès Demesvar Denys Emmanuel Eugène Fabre Faustin Florvil François
+			Guillaume Hannibal Henri Jacques Jean Jean-Baptiste Jean-Louis Jean-Pierre Jonathas Joseph
+			Léon Louis Louis-Eugène Louis-Joseph Lysius Michel Monpoint Nissage Nord Oreste
+			Philippe Pierre Simon Sténio Sylvain Tandredè Thomas Timoleón Tirésias Vilbrum }
+		
+			last_names = { Alexis Ardouin Auguste Bellegarde Boisrond-Canal Bonnet Borno Boyer Brutus Christophe
+			Conzé Dartiguenave Delorme Dessalines Domingue Firmin Geffrad Granville Guerrier Hyppolite
+			Iginac Janvier Jeune Lafontant Laleau Leconte Légitime Legouaze Léon Lhérisson
+			Madiou Péralte Pierrot Planchet Price Price-Mars Riché Rigaud Rivière-Hérard Roumain
+			Roy Saget Salnave Salomon Sam Simon Soulouque Théodore Vincent Zamor }
+	}
 	
 }
 
@@ -2247,7 +2261,7 @@ west_african = {
 		}
 	}
 	kru = {
-		color = {24 175 75}
+		color = {244 226 66}
 		first_names = { Nyennoh Borforh Konmlan Tehpoe Pennon Togba Teh Jlakon Forkay Nimene Boryee Yenseloh Odeleia Gbwe
 		}
 
@@ -2411,10 +2425,10 @@ central_african = {
 	}
 	sara = {
 		color = {145 64 125}
-		first_names = { Nounga Zangabirou Tikima Ikpiro Mbomou Momi
+		first_names = { Nounga Zangabirou Tikima Ikpiro Mbomou Momi Abdul Abu-Sekkin Burkomanda Ngarmane "Abd al-Rahman" Uthman Muhammad Malam Ngarmaba
 		}
 
-		last_names = { Tombalbaye  Odingar Moungar
+		last_names = { Tombalbaye  Odingar Moungar Ermanala Gawrang Qadir as-Saghir Mohammed al-Mahdi al-Kabir Bira
 		}
 	}
 	teda = {
@@ -2427,9 +2441,9 @@ central_african = {
 	}
 	african_minor = {
 		color = { 63 32 10 }
-		first_names = { Andikan Amadi Aren Bahari Averey Bakari Bash Bayode Bitalo Chane Chata Dakarai Davu Dume Fabunni Gamba Genet Guban Hajari Haruni Ife Ilo Issay Jabari Jabilo Jaguan Kabili Kamwimbile Kasim Kenyi Khairi Makalo Mansa Morathi Musawenkosi Raimi Razi Reth
+		first_names = { Andikan Amadi Aren Bahari Averey Bakari Bash Bayode Bitalo Chane Chata Dakarai Davu Dume Fabunni Gamba Genet Guban Hajari Haruni Ife #Ilo Issay Jabari Jabilo Jaguan Kabili Kamwimbile Kasim Kenyi Khairi Makalo Mansa Morathi Musawenkosi Raimi Razi Reth
 		}
-
+	
 		last_names = { Mussa Mutato Bowelle Makeda Nzinga Sundiata 
 		}
 	}
@@ -2495,10 +2509,10 @@ east_african = {
 	}
 	harari = {
 		color = {235 232 222}
-		first_names = { Aba Tekle Sacho Gawa Gaha Shagi Jilcha Jawe Sana Gunji Galli Gaki Beshi Hoti Kaye 
+		first_names = { Mahmoud Hassen Abebe Umar Wolde Tariku Mohammed Ali Usman Hamza Aslan Saad Aster Hoti Abenet 
 		}
 
-		last_names = { Ginocho Gaocho Sherocho Nechocho Sachi Bulgu Gomol
+		last_names = { Ahmed Baqsa Injamo Argaw Hailemaraim Dinagde Tariq
 		}
 	}
 	kefficho = {
@@ -2562,14 +2576,14 @@ east_african = {
 		last_names = { Musinga Gahindiro Rwogera Rutarindwa Mutara Ndahindurwa Rushatsi Ndagushimiye Senyamwisa Mutamo Serushambo Butama Rugamba Gisabo Mbikije }
 	}
 	
-	sidama = {
-		color = {84 97 38}
-		first_names = { Aba Tekle Sacho Gawa Gaha Shagi Jilcha Jawe Sana Gunji Galli Gaki Beshi Hoti Kaye 
-		}
+	#sidama = {
+	#	color = {84 97 38}
+	#	first_names = { Aba Tekle Sacho Gawa Gaha Shagi Jilcha Jawe Sana Gunji Galli Gaki Beshi Hoti Kaye 
+	#	}
 
-		last_names = { Ginocho Gaocho Sherocho Nechocho Sachi Bulgu Gomol
-		}
-	}
+	#	last_names = { Ginocho Gaocho Sherocho Nechocho Sachi Bulgu Gomol
+	#	}
+	#}
 	
 	somali = {
 		color = {226 22 48}
@@ -2610,6 +2624,20 @@ east_african = {
 
 		last_names = { Mnywasele Mkasiwa Mirambo Msemwa Bulungute Mudimbe 
 		}
+	}
+	cushitic = {
+		color = {201 101 39}
+		first_names = { "Ibn Muhammad" Abdullah "Abbas said" Ismail Mansur Rahman Abdallahi Hassan Malusi Tahir Wiraj Amsalu Nijam Bakri
+		}
+
+		last_names = { Ahmad Ali Zubayr Digna Azrak Hammuda al-Tasashi Nujumi
+		}
+	}
+	nilotic = {
+		color = {101 101 39}
+		first_names = { Okeyo Wanyanga Jaramobi Oluoch Oso Othiamba Waga Okoth Odongo Nyikaano Odaago Reth Kwa Dhyang Kolo Omaaro Wat Okwa }
+
+		last_names = { Kony Oculi Oneko p'Bitek Orombi Ramogi Luwum Obote Ocollo Tugo Tuga Tugi Ju Mono Ajalo Adugo Poolo Moolo }
 	}
 }
 
