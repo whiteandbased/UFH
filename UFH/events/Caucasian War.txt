@@ -337,6 +337,7 @@ country_event = {
 				OR = {
 					pop_majority_culture = dagestani
 					pop_majority_culture = chechen
+					pop_majority_culture = circassian
 					pop_majority_culture = north_caucasian
 				}
 			}
@@ -393,19 +394,13 @@ country_event = {
 		name = "EVT325107OPTA"
 		set_global_flag = dagestani_caucasian_war_ended
 		any_pop = {
-		limit = {
-			has_pop_religion = sunni
-			OR = {
-				culture = chechen
-				culture = circassian
-				culture = dagestani
-				culture = north_caucasian
 			limit = {
 				has_pop_religion = sunni
 				OR = {
 					culture = chechen
 					culture = circassian
 					culture = dagestani
+					culture = north_caucasian
 				}
 			}
 			militancy = 9
