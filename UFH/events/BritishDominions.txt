@@ -1,3 +1,4 @@
+#New Foundland Asks for independence
 country_event = {
 
 	id = 44330
@@ -6,13 +7,8 @@ country_event = {
 	desc = "EVTDESC44330"
 	picture = "danishgovernment"
 
-	major = yes
 
 	trigger = {
-		OR = {
-			tag = ENG
-			tag = ENL
-		}
 		war = no
 		year = 1907
 		any_owned_province = { is_core = NEW }
@@ -57,7 +53,7 @@ country_event = {
 			militancy = -10
 		}
 		NEW = {
-			all_core = { remove_core = ENG }
+			all_core = { remove_core = THIS remove_core = ENG }
 		}
 		release_vassal = NEW
 		NEW = {
@@ -175,7 +171,7 @@ country_event = {
 			militancy = -10
 		}
 		NEW = {
-			all_core = { remove_core = ENG }
+			all_core = { remove_core = THIS remove_core = ENG }
 		}
 		release_vassal = NEW
 		NEW = {
@@ -241,6 +237,7 @@ country_event = {
 	}
 }
 
+#The Australian Dominion - Australia asks for independence
 country_event = {
 
 	id = 44332
@@ -249,13 +246,7 @@ country_event = {
 	desc = "EVTDESC44332"
 	picture = "danishgovernment"
 
-	major = yes
-
 	trigger = {
-		OR = {
-			tag = ENG
-			tag = ENL
-		}
 		war = no
 		year = 1901
 		any_owned_province = { is_core = AST }
@@ -300,7 +291,7 @@ country_event = {
 			militancy = -10
 		}
 		AST = {
-			all_core = { remove_core = ENG }
+			all_core = { remove_core = THIS remove_core = ENG }
 		}
 		release_vassal = AST
 		AST = { prestige = -80 }
@@ -417,7 +408,7 @@ country_event = {
 			militancy = -10
 		}
 		AST = {
-			all_core = { remove_core = ENG }
+			all_core = { remove_core = THIS remove_core = ENG }
 		}
 		release_vassal = AST
 		AST = { prestige = -80 }
@@ -439,6 +430,7 @@ country_event = {
 	}
 }
 
+#The New Zealand Dominion - NZ asks for independence
 country_event = {
 
 	id = 44333
@@ -447,13 +439,7 @@ country_event = {
 	desc = "EVTDESC44333"
 	picture = "danishgovernment"
 
-	major = yes
-
 	trigger = {
-		OR = {
-			tag = ENG
-			tag = ENL
-		}
 		war = no
 		year = 1907
 		any_owned_province = { is_core = NZL }
@@ -502,7 +488,7 @@ country_event = {
 		}
 		NZL = {
 			set_country_flag = post_colonial_country
-			all_core = { remove_core = ENG }
+			all_core = { remove_core = THIS remove_core = ENG }
 		}
 		release_vassal = NZL
 		NZL = {
@@ -621,7 +607,7 @@ country_event = {
 			militancy = -10
 		}
 		NZL = {
-			all_core = { remove_core = ENG }
+			all_core = { remove_core = THIS remove_core = ENG }
 		}
 		release_vassal = NZL
 		NZL = {
@@ -646,6 +632,7 @@ country_event = {
 	}
 }
 
+#The South African Dominion - SAF asks for independence
 country_event = {
 
 	id = 44334
@@ -654,13 +641,7 @@ country_event = {
 	desc = "EVTDESC44334"
 	picture = "danishgovernment"
 
-	major = yes
-
 	trigger = {
-		OR = {
-			tag = ENG
-			tag = ENL
-		}
 		war = no
 		year = 1909
 		any_owned_province = { is_core = SAF }
@@ -705,7 +686,7 @@ country_event = {
 			militancy = -10
 		}
 		SAF = {
-			all_core = { remove_core = ENG }
+			all_core = { remove_core = THIS remove_core = ENG }
 		}
 		release_vassal = SAF
 		SAF = {
@@ -824,7 +805,7 @@ country_event = {
 			militancy = -10
 		}
 		SAF = {
-			all_core = { remove_core = ENG }
+			all_core = { remove_core = THIS remove_core = ENG }
 		}
 		release_vassal = SAF
 		SAF = {
@@ -966,10 +947,11 @@ country_event = {
 	}
 }
 
+#The Northwest Territories - England/Canada Annex White Horse
 country_event = {
 	
 	id = 44339
-	title = "EVTNAME44339" #The Northwest Territories - England/Canada Annex White Horse
+	title = "EVTNAME44339"
 	desc = "EVTDESC44339"
 	picture = "Southpole3"
 	
@@ -1069,7 +1051,7 @@ country_event = {
 				2598 = { empty = no }
 				9 = { empty = no }
 				11 = { empty = no }
-				12 = { empty = yes } #Reliance
+				#12 = { empty = yes } #Reliance
 				OR = {
 					owns = 43
 					owns = 2596
@@ -1083,7 +1065,7 @@ country_event = {
 				2598 = { empty = no }
 				9 = { empty = no }
 				11 = { empty = no }
-				12 = { empty = no }
+				#12 = { empty = no }
 				10 = { empty = yes } #Inuvik
 				OR = {
 					owns = 9
@@ -1130,7 +1112,7 @@ country_event = {
 				2598 = { empty = no }
 				9 = { empty = no }
 				11 = { empty = no }
-				12 = { empty = no }
+				#12 = { empty = no }
 				10 = { empty = yes }
 				OR = {
 					9 = { owned_by = THIS }
@@ -1139,24 +1121,6 @@ country_event = {
 			}
 			owner = { prestige = -3 }
 			10 = { secede_province = THIS add_core = RPL any_pop = { literacy = -0.99 } }
-		}
-		random_owned = {
-			limit = {
-				6 = { empty = no }
-				7 = { empty = no }
-				8 = { empty = no }
-				2596 = { empty = no }
-				2598 = { empty = no }
-				9 = { empty = no }
-				11 = { empty = no }
-				12 = { empty = yes }
-				OR = {
-					43 = { owned_by = THIS }
-					2596 = { owned_by = THIS }
-				}
-			}
-			owner = { prestige = -3 }
-			12 = { secede_province = THIS add_core = RPL any_pop = { literacy = -0.99 } }
 		}
 		random_owned = {
 			limit = {
@@ -1256,19 +1220,14 @@ country_event = {
 	}
 }
 
+#The Alaskan Dominion
 country_event = {
 	id = 44340
 	title = "EVTNAME44340"
 	desc = "EVTDESC44340"
 	picture = "alaska"
-	
-	fire_only_once = yes
-	
+		
 	trigger = {
-		OR = {
-			tag = ENG
-			tag = ENL
-		}
 		war = no
 		CAN = { war = no }
 		is_our_vassal = CAN
@@ -1315,7 +1274,7 @@ country_event = {
 			militancy = -10
 		}
 		LSK = {
-			all_core = { remove_core = ENG }
+			all_core = { remove_core = ENG remove_core = THIS }
 		}
 		release_vassal = LSK
 		LSK = {
@@ -1358,13 +1317,12 @@ country_event = {
 			militancy = -10
 		}
 		LSK = {
-			all_core = { remove_core = ENG }
+			all_core = { remove_core = ENG remove_core = THIS }
 		}
 		release_vassal = LSK
 		LSK = {
 			prestige = -100
-			primary_culture = anglo_canadian
-			add_accepted_culture = british
+			add_accepted_culture = anglo_canadian
 			relation = { who = CAN value = 200 }
 		}
 		relation = {
@@ -1380,6 +1338,7 @@ country_event = {
 	}
 }
 
+#The Southern Rhodesia Dominion
 country_event = {
 
 	id = 44341

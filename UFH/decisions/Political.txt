@@ -248,27 +248,29 @@ political_decisions = {
 			
 		potential = {
 			owns = 1481
-				OR = {
-					AND = {
-						NOT = { has_global_flag = lushun }
-						OR = {
-							is_culture_group = east_asian
-							primary_culture = korean
-							primary_culture = ainu
-						}
-						OR = {
-							has_global_flag = renamed_port_arthur
-							has_global_flag = renamed_ryojun
-						}
+			OR = {
+				AND = {
+					NOT = { has_global_flag = lushun }
+					OR = {
+						is_culture_group = east_asian
+						primary_culture = korean
+						primary_culture = ainu
 					}
-					AND = {
-						primary_culture = japanese
-						NOT = { has_global_flag = renamed_ryojun }
+					OR = {
+						has_global_flag = renamed_port_arthur
+						has_global_flag = renamed_ryojun
 					}
-					AND = {
-						NOT = { is_culture_group = east_asian }
-						NOT = { primary_culture = japanese }
-						NOT = { has_global_flag = renamed_port_arthur }
+				}
+				AND = {
+					primary_culture = japanese
+					NOT = { has_global_flag = renamed_ryojun }
+				}
+				AND = {
+					NOT = { is_culture_group = east_asian }
+					NOT = { primary_culture = korean }
+					NOT = { primary_culture = ainu }
+					NOT = { primary_culture = japanese }
+					NOT = { has_global_flag = renamed_port_arthur }
 				}
 			}
 		}
@@ -280,10 +282,10 @@ political_decisions = {
 			random_owned = {
 				limit = {
 					owner = {
-						NOT = { primary_culture = japanese }
+						NOT = { is_culture_group = east_asian }
 						NOT = { primary_culture = korean }
 						NOT = { primary_culture = ainu }
-						NOT = { is_culture_group = east_asian }
+						NOT = { primary_culture = japanese }
 					}
 				}
 				owner = {
@@ -365,8 +367,9 @@ political_decisions = {
 		
 		effect = {
 			add_tax_relative_income = -0.1
+			plurality = -50
 			set_country_flag = preparations_to_kill
-			random_owned = { limit = { owner = { has_country_modifier = signed_the_geneva_convention  } } owner = { badboy = 3 } } 
+			random_owned = { limit = { owner = { has_country_modifier = signed_the_geneva_convention  } } owner = { badboy = 3 } }
 			any_owned = { limit = { has_province_modifier = national_assimilation } owner = { country_event = 2611 } }
 			random_list = {
 				33 = { add_country_modifier = { name = preparations_to_kill duration = 365 } }
@@ -381,7 +384,101 @@ political_decisions = {
 			clr_country_flag = everywhere_genocide_only
 			clr_country_flag = non_colonial_genocide_only
 			clr_country_flag = colonial_genocide_only
+			
+			any_pop = {
+				scaled_militancy = { ideology = socialist factor = 7 }
+				scaled_militancy = { ideology = liberal factor = 7 }
+				scaled_militancy = { ideology = anarcho_liberal factor = 7 }
+				scaled_militancy = { ideology = conservative factor = 7 }
+			}
+			
+			any_pop = {
+				limit = { is_primary_culture = no is_accepted_culture = no }
+				militancy = 3
+				consciousness = 5
+			}
+			
+			any_pop = {
+				limit = { agree_with_ruling_party = 0.70 }
+				militancy = -7
+			}
+			
+			random_owned = {
+				limit = { owner = { ruling_party_ideology = fascist } }
+				owner = {
+					any_pop = {
+						scaled_militancy = { ideology = communist factor = 7 }
+						scaled_militancy = { ideology = reactionary factor = 5 }
+					}
+				}
+			}
+			
+			random_owned = {
+				limit = { owner = { ruling_party_ideology = communist } }
+				owner = {
+					any_pop = {
+						scaled_militancy = { ideology = fascist factor = 7 }
+						scaled_militancy = { ideology = reactionary factor = 7 }
+					}
+				}
+			}
+			
+			random_owned = {
+				limit = { owner = { ruling_party_ideology = reactionary } }
+				owner = {
+					any_pop = {
+						scaled_militancy = { ideology = communist factor = 7 }
+						scaled_militancy = { ideology = fascist factor = 7 }
+					}
+				}
+			}
+			
+			random_owned = {
+				limit = { owner = { ruling_party_ideology = fascist } }
+				owner = {
+					any_pop = {
+						limit = { 
+							OR = {
+								is_primary_culture = yes
+								is_accepted_culture = yes
+							}
+						}
+						scaled_militancy = { ideology = fascist factor = -5 }
+					}
+				}
+			}
+			
+			random_owned = {
+				limit = { owner = { ruling_party_ideology = communist } }
+				owner = {
+					any_pop = {
+						limit = { 
+							OR = {
+								is_primary_culture = yes
+								is_accepted_culture = yes
+							}
+						}
+						scaled_militancy = { ideology = communist factor = -5 }
+					}
+				}
+			}
+			
+			random_owned = {
+				limit = { owner = { ruling_party_ideology = reactionary } }
+				owner = {
+					any_pop = {
+						limit = { 
+							OR = {
+								is_primary_culture = yes
+								is_accepted_culture = yes
+							}
+						}
+						scaled_militancy = { ideology = reactionary factor = -2.5 }
+					}
+				}
+			}
 		}
+		
 		ai_will_do = { factor = 0 }
 	}
 	
@@ -447,7 +544,7 @@ political_decisions = {
 		}
 		
 		effect = {
-			plurality = -20
+			plurality = -25
 			add_country_modifier = {
 				name = the_terror
 				duration = -1
@@ -574,7 +671,7 @@ political_decisions = {
 		}
 		
 		effect = {
-			plurality = -20
+			plurality = -25
 			add_country_modifier = {
 				name = the_terror
 				duration = -1
@@ -686,7 +783,7 @@ political_decisions = {
 		}
 		
 		effect = {
-			plurality = -20
+			plurality = -25
 			add_country_modifier = {
 				name = cult_of_personality
 				duration = -1
@@ -718,7 +815,7 @@ political_decisions = {
 		}
 		
 		effect = {
-			plurality = -20
+			plurality = -25
 			add_country_modifier = {
 				name = political_education
 				duration = -1
@@ -750,7 +847,7 @@ political_decisions = {
 		}
 		
 		effect = {
-			plurality = -20
+			plurality = -25
 			add_country_modifier = {
 				name = political_education
 				duration = -1
@@ -785,7 +882,7 @@ political_decisions = {
 		}
 		
 		effect = {
-			plurality = -20
+			plurality = -25
 			add_country_modifier = {
 				name = totalitarian_system
 				duration = -1
@@ -869,7 +966,7 @@ political_decisions = {
 				AND = { tag = ASH owns = 1907 NOT = { capital = 1907 } civilized = yes }
 				AND = { tag = ALD owns = 1700 NOT = { capital = 1700 } }
 				AND = { tag = NIG owns = 1808 NOT = { capital = 1808 } }
-				AND = { tag = BMK owns = 1794 NOT = { capital = 1794 } }
+				AND = { tag = MLI owns = 1794 NOT = { capital = 1794 } }
 				AND = { tag = TNZ owns = 2036 NOT = { capital = 2036 } }
 				AND = { tag = HND owns = 1236 NOT = { capital = 1236 } }
 				AND = { tag = MUG owns = 1236 NOT = { capital = 1236 } }
@@ -897,12 +994,16 @@ political_decisions = {
 				AND = { tag = IRE owns = 263 NOT = { capital = 263 } }
 				AND = { tag = TAJ owns = 1207 NOT = { capital = 1207 } }
 				AND = { tag = KAZ owns = 1181 NOT = { capital = 1181 } }
+				AND = { tag = MLI owns = 1794 NOT = { capital = 1794 } }
+				AND = { tag = ASH owns = 1907 NOT = { capital = 1907 } }
 			}
 		}
 		
 		allow = { war = no }
 		
 		effect = {
+			random_owned = { limit = { owner = { tag = ASH } } owner = { capital = 1907 } }
+			random_owned = { limit = { owner = { tag = MLI } } owner = { capital = 1794 } }
 			random_owned = { limit = { owner = { tag = KAZ } } owner = { capital = 1181 } }
 			random_owned = { limit = { owner = { tag = TAJ } } owner = { capital = 1207 } }
 			random_owned = { limit = { owner = { tag = IRE } } owner = { capital = 263 } }
@@ -923,7 +1024,7 @@ political_decisions = {
 			random_owned = { limit = { owner = { tag = PHL } } owner = { capital = 1455 } }
 			random_owned = {
 				limit = { owner = { tag = GRE } }
-				owner = { capital = 860 860 = { any_pop = { limit = { religion = orthodox } militancy = -2 } } }
+				owner = { capital = 860 860 = { any_pop = { limit = { has_pop_religion = orthodox } militancy = -2 } } }
 			}
 			random_owned = { limit = { owner = { tag = CUB } } owner = { capital = 2209 } }
 			random_owned = { limit = { owner = { tag = UKR } } owner = { capital = 958 } }
@@ -944,7 +1045,7 @@ political_decisions = {
 			random_owned = { limit = { owner = { tag = ASH } } owner = { capital = 1907 } }
 			random_owned = { limit = { owner = { tag = ALD } } owner = { capital = 1700 } }
 			random_owned = { limit = { owner = { tag = NIG } } owner = { capital = 1808 } }
-			random_owned = { limit = { owner = { tag = BMK } } owner = { capital = 1794 } }
+			random_owned = { limit = { owner = { tag = MLI } } owner = { capital = 1794 } }
 		}
 		
 		ai_will_do = { factor = 1 }
@@ -1610,6 +1711,8 @@ political_decisions = {
 				government = absolute_monarchy
 				government = presidential_dictatorship
 				government = bourgeois_dictatorship
+				government = proletarian_dictatorship
+				government = fascist_dictatorship
 				government = theocracy
 			}
 		}

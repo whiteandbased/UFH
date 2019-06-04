@@ -57,9 +57,8 @@ country_event = {
 	trigger = {
 		tag = BEL 
 		year = 1846
-		NOT = {
-			year = 1850
-		}
+		NOT = { primary_culture = flemish }
+		NOT = { year = 1850 }
 	}
 	
 	fire_only_once = yes
@@ -408,6 +407,7 @@ country_event = {
 		name = "EVT36711OPTA"
 		set_country_flag = signed_treaty_of_london
 		prestige = 5
+		remove_accepted_culture = flemish
 		397 = { remove_core = NET }
 		BEL_394 = { remove_core = NET }
 		BEL_387 = { remove_core = NET }

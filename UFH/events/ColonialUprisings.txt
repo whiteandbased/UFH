@@ -2212,12 +2212,8 @@ country_event = {
 			consciousness = 2
 		}
 		random_state = {
-			limit = {
-				is_colonial = yes
-			}
-			any_owned = {
-				life_rating = 1
-			}
+			limit = { is_colonial = yes }
+			any_owned = { life_rating = 1 }
 		}
 	}
 	

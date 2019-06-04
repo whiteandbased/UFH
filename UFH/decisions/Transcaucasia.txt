@@ -387,11 +387,15 @@ political_decisions = {
 	make_transcaucasia_sunni = {
 		picture = form_transcaucasia
 		potential = {
-			TCA = { NOT = { has_country_flag = is_sunni } owns = 1102 exists = yes }
+			TCA = {
+				NOT = { has_country_flag = sunni_country } 
+				owns = 1102
+				exists = yes 
+			}
 				is_our_vassal = TCA
 				OR = {
-					capital_scope = { pop_majority_religion = sunni }
-					tag = OMA
+					has_country_flag = sunni_country
+					has_country_flag = ibadi_country
 				}
 			}
 
@@ -402,9 +406,9 @@ political_decisions = {
 		effect = {
 			TCA = {
 				capital = 1102 
-				set_country_flag = is_sunni
-				clr_country_flag = is_shiite
-				clr_country_flag = is_orthodox
+				set_country_flag = sunni_country
+				clr_country_flag = shiite_country
+				clr_country_flag = orthodox_country
 				religion = sunni
 				primary_culture = azerbaijani
 				remove_accepted_culture = armenian
@@ -421,13 +425,17 @@ political_decisions = {
 	make_transcaucasia_shiite = {
 		picture = form_transcaucasia
 		potential = {
-			TCA = { NOT = { has_country_flag = is_shiite } 
+			TCA = {
+				NOT = { has_country_flag = shiite_country } 
 				owns = 1102
 				exists = yes
 				}
 				is_our_vassal = TCA
 				capital_scope = { pop_majority_religion = shiite }
 			}
+			is_our_vassal = TCA
+			has_country_flag = shiite_country
+		}
 
 		allow = {
 			war = no
@@ -436,9 +444,9 @@ political_decisions = {
 		effect = {
 			TCA = {
 				capital = 1102 
-				set_country_flag = is_shiite
-				clr_country_flag = is_sunni
-				clr_country_flag = is_orthodox
+				set_country_flag = shiite_country
+				clr_country_flag = sunni_country
+				clr_country_flag = orthodox_country
 				religion = shiite
 				primary_culture = azerbaijani
 				remove_accepted_culture = armenian
@@ -455,19 +463,20 @@ political_decisions = {
 	make_transcaucasia_orthodox = {
 		picture = form_transcaucasia
 		potential = {
-			TCA = { NOT = { has_country_flag = is_orthodox } 
+			TCA = {
+				NOT = { has_country_flag = orthodox_country } 
 				owns = 1090
 				exists = yes
-				}
-				is_our_vassal = TCA
-				OR = {
-				capital_scope = { pop_majority_religion = catholic }
-				capital_scope = { pop_majority_religion = protestant }
-				capital_scope = { pop_majority_religion = mormon }
-				capital_scope = { pop_majority_religion = coptic }
-				capital_scope = { pop_majority_religion = orthodox }
-				}
 			}
+			is_our_vassal = TCA
+			OR = {
+				has_country_flag = catholic_country
+				has_country_flag = protestant_country
+				has_country_flag = mormon_country
+				has_country_flag = orthodox_country
+				has_country_flag = coptic_country
+			}
+		}
 
 		allow = {
 			war = no
@@ -476,9 +485,9 @@ political_decisions = {
 		effect = {
 			TCA = {
 				capital = 1090 
-				set_country_flag = is_orthodox
-				clr_country_flag = is_sunni
-				clr_country_flag = is_shiite
+				set_country_flag = orthodox_country
+				clr_country_flag = sunni_country
+				clr_country_flag = shiite_country
 				religion = orthodox
 				primary_culture = georgian
 				add_accepted_culture = armenian
@@ -497,19 +506,19 @@ political_decisions = {
 		potential = {
 			ABK = { NOT = { has_country_flag = is_orthodox }
 				exists = yes
-				}
-				OR = {
-					is_our_vassal = ABK
-					ABK = { in_sphere = THIS }
-					}
-				OR = {
-				capital_scope = { pop_majority_religion = catholic }
-				capital_scope = { pop_majority_religion = protestant }
-				capital_scope = { pop_majority_religion = mormon }
-				capital_scope = { pop_majority_religion = coptic }
-				capital_scope = { pop_majority_religion = orthodox }
-				}
 			}
+			OR = {
+				is_our_vassal = ABK
+				ABK = { in_sphere = THIS }
+			}
+			OR = {
+				has_country_flag = catholic_country
+				has_country_flag = protestant_country
+				has_country_flag = mormon_country
+				has_country_flag = orthodox_country
+				has_country_flag = coptic_country
+			}
+		}
 
 		allow = {
 			war = no
@@ -517,8 +526,8 @@ political_decisions = {
 
 		effect = {
 			ABK = {
-				clr_country_flag = is_sunni
-				set_country_flag = is_orthodox
+				clr_country_flag = sunni_country
+				set_country_flag = orthodox_country
 				religion = orthodox
 				any_pop = {
 					limit = { NOT = { has_pop_religion = orthodox } }
@@ -532,15 +541,16 @@ political_decisions = {
 	make_abkhazia_sunni = {
 		picture = form_transcaucasia
 		potential = {
-			ABK = { NOT = { has_country_flag = is_sunni }
+			ABK = {
+				NOT = { has_country_flag = sunni_country }
 				exists = yes
-				}
-				OR = {
-					is_our_vassal = TCA
-					ABK = { in_sphere = THIS }
-					}
-				capital_scope = { pop_majority_religion = sunni }
 			}
+			OR = {
+				is_our_vassal = TCA
+				ABK = { in_sphere = THIS }
+			}
+			has_country_flag = sunni_country
+		}
 
 		allow = {
 			war = no
@@ -548,8 +558,8 @@ political_decisions = {
 
 		effect = {
 			ABK = {
-				set_country_flag = is_sunni
-				clr_country_flag = is_orthodox
+				set_country_flag = sunni_country
+				clr_country_flag = orthodox_country
 				religion = sunni
 				any_pop = {
 					limit = { NOT = { has_pop_religion = sunni } }

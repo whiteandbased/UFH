@@ -161,18 +161,22 @@ country_event = {
 			any_greater_power = {
 				is_our_vassal = THIS
 				has_country_flag = sepoy_rebellion
-				OR = {
-					capital_scope = { pop_majority_religion = sunni }
-					capital_scope = { pop_majority_religion = shiite }
-					average_consciousness = 5
-					average_militancy = 3
-				}
 			}
 			AND = {
 				has_global_flag = indian_call_to_union
 				OR = {
 					average_militancy = 5
 					average_consciousness = 7
+				}
+			}
+			AND = {
+				has_country_flag = sunni_country
+				has_country_flag = shiite_country
+				average_consciousness = 5
+				average_militancy = 3
+				OR = {
+					is_culture_group = south_asian
+					is_culture_group = indo_iranian
 				}
 			}
 		}
@@ -617,9 +621,9 @@ country_event = {
 #Coffee Rust in Sri Lanka
 province_event = {
 
-	id = 97120
-	title = "EVTNAME97120"
-	desc = "EVTDESC97120"
+	id = 971200
+	title = "EVTNAME971200"
+	desc = "EVTDESC971200"
 	
 	trigger = {
 		year = 1867
@@ -647,7 +651,7 @@ province_event = {
 	}
 	
 	option = {
-		name = "EVT97120OPTA"
+		name = "EVT971200OPTA"
 		trade_goods = tea
 		farmers = { militancy = 0.5 money = -50 }
 		owner = {

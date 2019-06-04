@@ -612,7 +612,6 @@ political_decisions = {
 		potential = {
 			tag = BHT
 			NOT = { has_country_flag = yazidi_kurdistan }
-			has_country_flag = yazidi_religion
 		}
 		
 		allow = {

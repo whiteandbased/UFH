@@ -1345,3 +1345,42 @@ country_event = {
 		}
 	}
 }
+
+#Equatorial Guinea Treaty
+country_event = {
+
+	id = 90141
+	title = "EVTNAME90141"
+	desc = "EVTDESC90141"
+	picture = "danishgovernment"
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVT90141OPTA" #agreed
+		1973 = { secede_province = THIS life_rating = 30 any_pop = { literacy = -0.99 } }
+		badboy = -1
+		relation = { who = FROM value = 75 }
+		any_owned = { limit = { province_id = 1973 } secede_province = FROM }
+		ai_chance = { factor = 70 }
+	}
+	
+	option = {
+		name = "EVT90141OPTB" #No deal
+		FROM = { set_country_flag = refused_treaty_on_bata }
+		1973 = { life_rating = 5 }
+		relation = { who = FROM value = -100 }
+		add_casus_belli = {
+			target = FROM
+			type = place_in_the_sun
+			months = 60
+		}
+		badboy = 2
+		ai_chance = {
+			factor = 30
+			modifier = { factor = 0 relation = { who = FROM value = 50 } }
+			modifier = { factor = 2 NOT = { relation = { who = FROM value = -50 } } }
+		}
+	}
+}
+	

@@ -821,6 +821,9 @@ political_decisions = {
 			random_owned = { limit = { owner = { accepted_culture = french } } owner = { remove_accepted_culture = french } }
 			random_owned = { limit = { owner = { accepted_culture = south_german } } owner = { remove_accepted_culture = south_german } }
 			random_owned = { limit = { owner = { accepted_culture = british } } owner = { remove_accepted_culture = british } }
+			any_owned = { limit = { is_core = SYC } remove_core = SYC }
+			any_owned = { limit = { is_core = SRD } remove_core = SRD }
+			any_owned = { limit = { is_core = RMG } remove_core = RMG }
 			any_country = {
 				limit = {
 					is_culture_group = italian
@@ -829,7 +832,6 @@ political_decisions = {
 				}
 				country_event = 11101
 			}
-			any_owned = { limit = { is_core = SYC } remove_core = SYC }
 			any_country = {
 				limit = {
 					NOT = { is_culture_group = italian }
@@ -901,7 +903,28 @@ political_decisions = {
 		
 		effect = {
 			prestige = 20
+			
+			clr_country_flag = sunni_country
+			clr_country_flag = shiite_country
+			clr_country_flag = ibadi_country
+			clr_country_flag = catholic_country
+			clr_country_flag = protestant_country
+			clr_country_flag = mormon_country
+			clr_country_flag = orthodox_country
+			clr_country_flag = coptic_country
+			clr_country_flag = jewish_country
+			clr_country_flag = yazidi_country
+			clr_country_flag = mahayana_country
+			clr_country_flag = gelugpa_country
+			clr_country_flag = theravada_country
+			clr_country_flag = hindu_country
+			clr_country_flag = shinto_country
+			clr_country_flag = sikh_country
+			clr_country_flag = animist_country
+			
 			religion = hindu
+			set_country_flag = hindu_country
+			
 			all_core = { remove_core = THIS }
 			1303 = { add_core = HND }
 			1312 = { add_core = HND }
@@ -1334,7 +1357,7 @@ political_decisions = {
 				tag = CIR
 				}
 			is_vassal = no
-			}
+		}
 		
 		allow = { civilized = yes }
 		
@@ -1344,7 +1367,59 @@ political_decisions = {
 			CHY = { all_core = { add_core = THIS } }
 			DAG = { all_core = { add_core = THIS } }
 			1103 = { add_core = THIS }
-			}
-			ai_will_do = { factor = 1 }
 		}
+			ai_will_do = { factor = 1 }
+	}
+	
+	
+	form_antillean_confederation = {
+		picture = form_antillean_confederation
+		potential = {
+			primary_culture = caribeno
+			ATC = { exists = no }
+			2222 = { NOT = { is_core = ATC } }
+		}
+		
+		allow = {
+			war = no
+			is_vassal = no
+			invention = manifest_destiny
+			CUB = {
+				all_core = {
+					OR = {
+						owned_by = THIS
+						owner = { in_sphere = THIS }
+						owner = { vassal_of = THIS }
+					}
+				}
+			}
+			DOM = {
+				all_core = {
+					OR = {
+						owned_by = THIS
+						owner = { in_sphere = THIS }
+						owner = { vassal_of = THIS }
+					}
+				}
+			}
+			2222 = {
+				OR = {
+					owned_by = THIS
+					owner = { in_sphere = THIS }
+					owner = { vassal_of = THIS }
+				}
+			}
+		}
+		
+		effect = {
+			prestige = 20
+			2222 = { add_core = ATC }
+			CUB = { all_core = { add_core = ATC } }
+			DOM = { all_core = { add_core = ATC } }
+			change_tag = ATC
+		}
+		
+		ai_will_do = { factor = 1 }
+	}
+	
 }

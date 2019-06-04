@@ -1426,13 +1426,14 @@ country_event = {
 	}
 }
 
+#The Colonial Regime Overthrown! - REDO
 country_event = {
 	
 	id = 810057
 	
 	is_triggered_only = yes
 	
-	title = "EVTNAME810057" #The Colonial Regime Overthrown!
+	title = "EVTNAME810057"
 	desc = "EVTDESC810057"
 	picture = "unite"
 	
@@ -1443,15 +1444,11 @@ country_event = {
 		clr_country_flag = rebels_in_capital
 		clr_country_flag = post_colonial_country
 		random_owned = {
-			limit = {
-				owner = { tag = BMK }
-			}
-			owner = { primary_culture = songhai }
+			limit = { owner = { tag = MLI } }
+			owner = { primary_culture = fulbe }
 		}
 		random_owned = {
-			limit = {
-				owner = { tag = BUG }
-			}
+			limit = { owner = { tag = BUG } }
 			owner = { primary_culture = baganda }
 		}
 		random_owned = {
@@ -1467,44 +1464,34 @@ country_event = {
 			owner = { primary_culture = bakongo }
 		}
 		random_owned = {
-			limit = {
-				owner = {
-					OR = {
-						tag = CHD
-						tag = CAR
-					}
-				}
-			}
+			limit = { owner = { tag = CHD } }
 			owner = { primary_culture = sara }
 		}
 		random_owned = {
-			limit = {
-				owner = {
-					OR = {
-						tag = CMR
-						tag = GAB
-					}
-				}
-			}
+			limit = { owner = { tag = CAR } }
+			owner = { primary_culture = ubangian }
+		}
+		random_owned = {
+			limit = { owner = { tag = GAB } }
 			owner = { primary_culture = fang }
 		}
 		random_owned = {
-			limit = {
-				owner = { tag = INO }
-			}
+			limit = { owner = { tag = CMR } }
+			owner = { primary_culture = forest_bantu }
+		}
+		random_owned = {
+			limit = { owner = { tag = INO } }
 			owner = { primary_culture = javan }
 		}
 		random_owned = {
-			limit = {
-				owner = { tag = IVC }
-			}
-			owner = { primary_culture = akan }
+			limit = { owner = { tag = IVC } }
+			owner = { primary_culture = dyula }
 		}
 		random_owned = {
 			limit = {
 				owner = { tag = KNY }
 			}
-			owner = { primary_culture = swahili }
+			owner = { primary_culture = kikuyu }
 		}
 		random_owned = {
 			limit = {
@@ -1516,19 +1503,73 @@ country_event = {
 			limit = {
 				owner = { tag = MOZ }
 			}
-			owner = { primary_culture = nguni }
+			owner = { primary_culture = shona }
 		}
 		random_owned = {
 			limit = {
-				owner = {
-					OR = {
-						tag = NGR
-						tag = NIG
-						tag = GNE
-					}
-				}
+				owner = { tag = NGR }
 			}
+			owner = { primary_culture = yoruba }
+		}
+		random_owned = {
+			limit = {
+				owner = { tag = NIG }
+			}
+			owner = { primary_culture = hausa }
+		}
+		random_owned = {
+			limit = { owner = { tag = GNE } }
 			owner = { primary_culture = fulbe }
+		}
+		random_owned = {
+			limit = {
+				owner = { tag = SNG }
+			}
+			owner = { primary_culture = wolof }
+		}
+		random_owned = {
+			limit = {
+				owner = { tag = TNZ }
+			}
+			owner = { primary_culture = swahili }
+		}
+		random_owned = {
+			limit = {
+				owner = { tag = TOG }
+			}
+			owner = { primary_culture = ewe }
+		}
+		random_owned = {
+			limit = {
+				owner = { tag = BKF }
+			}
+			owner = { primary_culture = mossi }
+		}
+		random_owned = {
+			limit = {
+				owner = { tag = TSW }
+			}
+			owner = { primary_culture = tswana }
+		}
+		random_owned = {
+			limit = {
+				owner = { tag = ZAM }
+			}
+			owner = { primary_culture = lunda }
+		}
+		random_owned = {
+			limit = {
+				owner = { tag = SLE }
+			}
+			owner = { primary_culture = western_nigritic }
+		}
+		random_owned = {
+			limit = { owner = { tag = GNE } }
+			owner = { primary_culture = mande }
+		}
+		random_owned = {
+			limit = { owner = { tag = GMB } }
+			owner = { primary_culture = mande }
 		}
 		random_owned = {
 			limit = {
@@ -1568,47 +1609,6 @@ country_event = {
 				add_accepted_culture = zulu
 				add_accepted_culture = nguni
 			}
-		}
-		random_owned = {
-			limit = {
-				owner = {
-					OR = {
-						tag = SLE
-						tag = GMB
-					}
-				}
-			}
-			owner = { primary_culture = mande }
-		}
-		random_owned = {
-			limit = {
-				owner = { tag = SNG }
-			}
-			owner = { primary_culture = wolof }
-		}
-		random_owned = {
-			limit = {
-				owner = { tag = TNZ }
-			}
-			owner = { primary_culture = unyamwezi }
-		}
-		random_owned = {
-			limit = {
-				owner = { tag = TOG }
-			}
-			owner = { primary_culture = ewe }
-		}
-		random_owned = {
-			limit = {
-				owner = { tag = TSW }
-			}
-			owner = { primary_culture = tswana }
-		}
-		random_owned = {
-			limit = {
-				owner = { tag = ZAM }
-			}
-			owner = { primary_culture = lunda }
 		}
 		any_pop = {
 			militancy = -6

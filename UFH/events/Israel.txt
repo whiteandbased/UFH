@@ -203,7 +203,6 @@ province_event = {
 		has_province_modifier = jewish_diaspora
 		owner = {
 			NOT = { border_policy = closed_borders }
-			NOT = { has_country_modifier = jewish_diaspora }
 			war = no
 		}
 		ISR = {

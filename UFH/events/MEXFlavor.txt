@@ -662,7 +662,11 @@ country_event = {
 			neighbour = THIS
 			government = democracy
 			is_vassal = no
+			has_country_flag = native_protection_act_enacted
+			NOT = { citizens_rights = primary_culture_only }
+			relation = { who = YUC value = 50 }
 		}
+		year = 1837
 	}
 
 	mean_time_to_happen = {

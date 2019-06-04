@@ -8,8 +8,8 @@ country_event = {
 	trigger = {
 		civilized = yes
 		OR = {
-			capital_scope = { pop_majority_religion = catholic }
-			capital_scope = { pop_majority_religion = protestant }
+			has_country_flag = catholic_country
+			has_country_flag = protestant_country
 		}
 		NOT = {
 			has_country_modifier = libertine_culture
@@ -95,8 +95,8 @@ country_event = {
 	trigger = {
 		civilized = yes
 		OR = {
-			pop_majority_religion = catholic
-			pop_majority_religion = protestant
+			has_country_flag = catholic_country
+			has_country_flag = protestant_country
 		}
 		NOT = {
 			has_country_modifier = liquor_prohibition
@@ -360,8 +360,8 @@ country_event = {
 	trigger = {
 		civilized = yes
 		OR = {
-			pop_majority_religion = catholic
-			pop_majority_religion = protestant
+			has_country_flag = catholic_country
+			has_country_flag = protestant_country
 		}
 		moralism = 10
 		conservative = 20
@@ -431,8 +431,8 @@ country_event = {
 	trigger = {
 		civilized = yes
 		OR = {
-			pop_majority_religion = catholic
-			pop_majority_religion = protestant
+			has_country_flag = catholic_country
+			has_country_flag = protestant_country
 		}
 		has_country_modifier = temperance_league
 		NOT = { has_country_modifier = liquor_prohibition }
@@ -504,8 +504,8 @@ country_event = {
 	trigger = {
 		civilized = yes
 		OR = {
-			pop_majority_religion = catholic
-			pop_majority_religion = protestant
+			has_country_flag = catholic_country
+			has_country_flag = protestant_country
 		}
 		socialist = 20
 	}

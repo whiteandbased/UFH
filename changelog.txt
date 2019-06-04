@@ -95,16 +95,15 @@
 -Made easier for Bolivia and Peru to take the Native Protection Act. Changed the tech requirement for it.
 -Fixed several problems with group modifiers in the pop_types file that were assimilating pops that shouldn't assimilate.
 -Halved the prestige factor of dismantling forts/naval bases
-
+-Made the "Turkish Tea" decision only add tea RGO to the black sea coast.
+-Fixed Kamchatka having cores on Buryatia.
+-Made sure that Sicily, Sardinia and Romagna lose cores if you use the "Avanti Italia" decision.
 
 
 
 
 ### Discarded the following changes from HPM 0.3.8.4
 -Renamed "Liquor" to "Beverages" and "Liquor Distillery" to "Bottling works". The good represents soft and 'hard' drinks. Removed Muslim-countries restrictions on it. 
--Made the "Turkish Tea" decision only add tea RGO to the black sea coast.
--Fixed Kamchatka having cores on Buryatia.
--Made sure that Sicily, Sardinia and Romagna lose cores if you use the "Avanti Italia" decision.
 -Turkey won't get Azeri as accepted when using the "Greater Turkey" decision. 
 -Removed Tarascan and Zapotec and they are all grouped together with Nahua, that was renamed to "Mesoamerican Indian".
 -Removed the "african minor" and "North Caucasian Minor" cultures. The Abkhazians will be represented together with the Circassians but they are Orthodox. See https://en.wikipedia.org/wiki/Circassians (The term "Circassian" sometimes includes the Abkhaz and Abaza people since they are originally related to the Adyghe)

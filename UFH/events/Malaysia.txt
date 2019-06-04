@@ -17,7 +17,7 @@ province_event = { #Kota Bahru founded
 		add_province_modifier = {
 			name = recently_built_city
 			duration = 365
-			}
+		}
 		1391 = { change_province_name = "Kota Bahru" }
 	}
 }

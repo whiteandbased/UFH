@@ -367,7 +367,7 @@ country_event = {
 	}
 }
 
-#Aceh is Conquered and the Guerilla War
+#Aceh is Conquered/Guerrilla War
 country_event = {
 	id = 952511
 	title = "EVTNAME952511"
@@ -379,7 +379,7 @@ country_event = {
 		civilized = yes	
 		owns = 1405
 		ATJ = { exists = no }
-		NOT = { capital_scope = { pop_majority_religion = sunni } }
+		NOT = { has_country_flag = sunni_country }
 		year = 1890
 	}
 	
@@ -415,7 +415,7 @@ province_event = {
 	trigger = {
 		OR = {
 			owned_by = ATJ
-			country = { capital_scope = { pop_majority_religion = sunni } }
+			owner = { has_country_flag = sunni_country }
 		}
 		is_core = ATJ
 		has_global_flag = aceh_jihad

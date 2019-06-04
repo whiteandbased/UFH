@@ -1100,4 +1100,45 @@ political_decisions = {
 		ai_will_do = { factor = 1 }
 	}
 	
+	claim_the_caribbean = {
+		picture = claim_the_caribbean
+		potential = {
+			tag = ATC
+			NOT = { has_country_flag = claimed_the_caribbean }
+			is_vassal = no
+		}
+		
+		allow = {
+			war = no
+			war_policy = jingoism
+			is_greater_power = yes
+		}
+		
+		effect = {
+			set_country_flag = claimed_the_caribbean
+			badboy = 5
+			HAI_2213 = { add_core = ATC }
+			ENG_203 = { add_core = ATC }
+			ENG_2224 = { add_core = ATC }
+			ENG_2228 = { add_core = ATC }
+			any_country = {
+				limit = {
+					any_owned_province = {
+						OR = {
+							region = HAI_2213
+							region = ENG_203
+							region = ENG_2224
+							region = ENG_2228
+						}
+					}
+				}
+				relation = { who = ATC value = -400 }
+				diplomatic_influence = { who = ATC value = -400 }
+				leave_alliance = ATC
+				end_military_access = ATC
+			}
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
 }

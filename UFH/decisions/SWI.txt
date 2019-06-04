@@ -327,4 +327,32 @@ political_decisions = {
 		}
 		ai_will_do = { factor = 1 }
 	}
+	
+	removing_neuchatel_cores = {
+		picture = declare_republic_of_neuchatel
+		potential = {
+			tag = SWI
+			exists = yes
+			owns = 608
+			608 = {
+				OR = {
+					is_core = NCT
+					is_core = PRU
+					is_core = NGF
+					is_core = GER 
+				}
+			}
+		}
+		
+		allow = { war = no }
+		
+		effect = {
+			608 = { remove_core = NCT }
+			608 = { remove_core = PRU }
+			608 = { remove_core = NGF }
+			608 = { remove_core = GER }
+			any_country = { clr_country_flag = neuchatel_crisis_escalated }
+		}
+		ai_will_do = { factor = 1 }
+	}
 }

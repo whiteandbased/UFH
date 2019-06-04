@@ -655,10 +655,11 @@ country_event = {
 	}
 }
 
+#Free At Last!
 country_event = {
 
 	id = 800018
-	title = "EVTNAME800018" #Free At Last!
+	title = "EVTNAME800018"
 	desc = "EVTDESC800018"
 	picture = "unite"
 

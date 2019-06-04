@@ -15,8 +15,8 @@ country_event = {
 		name = "EVT95517OPTA"
 		prestige = 3
 		MAT = { country_event = 95518 }
-		}
 	}
+}
 	
 country_event = { #Mzilikazi of Matabele flees to Matabeland
 	id = 95518
@@ -30,12 +30,6 @@ country_event = { #Mzilikazi of Matabele flees to Matabeland
 		
 	option = {
 		name = "EVT95518OPTA"
-		2069 = {
-			add_core = MAT
-			secede_province = MAT
-			life_rating = 25
-			any_pop = { limit = { NOT = { has_pop_culture = boer } } literacy = -0.99 }
-		}
 		2071 = { 
 			add_core = MAT
 			secede_province = MAT

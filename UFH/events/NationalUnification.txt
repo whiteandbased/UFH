@@ -208,8 +208,20 @@ country_event = {
 				all_core = { remove_core = THIS }
 			}
 		}
+		
+		random_owned = {
+			limit = { owner = { is_culture_group = italian } }
+			owner = {
+				any_owned = { limit = { is_core = SYC } remove_core = SYC }
+				any_owned = { limit = { is_core = SRD } remove_core = SRD }
+				any_owned = { limit = { is_core = RMG } remove_core = RMG }
+			}
+		}
+		
 		FROM = { release_vassal = THIS }
 		FROM = { inherit = THIS }
+		
+		
 		ai_chance = {
 			factor = 75
 			modifier = {
@@ -1903,7 +1915,7 @@ country_event = {
 			factor = 50
 			modifier = {
 				factor = 0.05
-				capital_scope = { pop_majority_religion = sunni }
+				has_country_flag = sunni_country
 			}
 			modifier = {
 				factor = 0.02
@@ -1921,7 +1933,7 @@ country_event = {
 			factor = 50
 			modifier = {
 				factor = 1.25
-				capital_scope = { pop_majority_religion = sunni }
+				has_country_flag = sunni_country
 			}
 			modifier = {
 				factor = 1.25

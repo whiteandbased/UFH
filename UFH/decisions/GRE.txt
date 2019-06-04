@@ -124,6 +124,7 @@ political_decisions = {
 				}
 				any_owned = { secede_province = THIS }
 				THIS = {
+					remove_accepted_culture = turkish
 					random_owned = {
 						limit = { province_id = 834 }
 						owner = { capital = 834 }

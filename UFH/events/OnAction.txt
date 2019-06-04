@@ -3,12 +3,12 @@ country_event = {
 	id = 70000
 	title = "EVTNAME70000"
 	desc = "EVTDESC70000"
-	picture = "Slaves"
+	#picture = "Slaves"
 	trigger = {
 		country = {
 			OR = {
-			slavery = yes_slavery
-			slavery = freedom_of_womb
+				slavery = yes_slavery
+				slavery = freedom_of_womb
 			}
 			capital_scope = { NOT = { continent = europe } }
 		}
@@ -182,13 +182,11 @@ country_event = {
 	id = 70001
 	title = "EVTNAME70001"
 	desc = "EVTDESC70001"
-	picture = "Western"
+	#picture = "Western"
 	trigger = {
 		country = {
 			slavery = no_slavery
-			capital_scope = {
-				NOT = { continent = europe }
-			}
+			capital_scope = { NOT = { continent = europe }}
 		}
 	}
 	is_triggered_only = yes
@@ -210,6 +208,7 @@ country_event = {
 	trigger = {
 		NOT = { tag = FROM }
 		NOT = { has_country_modifier = neutrality }
+		NOT = { has_country_flag = bankruptcy_events_disabled }
 	}
 
 	is_triggered_only = yes
@@ -249,6 +248,7 @@ country_event = {
 	trigger = {
 		NOT = { tag = FROM }
 		NOT = { has_country_modifier = neutrality }
+		NOT = { has_country_flag = bankruptcy_events_disabled }
 	}
 
 	is_triggered_only = yes
@@ -292,6 +292,7 @@ country_event = {
 	trigger = {
 		NOT = { tag = FROM }
 		NOT = { has_country_modifier = neutrality }
+		NOT = { has_country_flag = bankruptcy_events_disabled }
 	}
 
 	is_triggered_only = yes

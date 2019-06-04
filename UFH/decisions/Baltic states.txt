@@ -206,6 +206,7 @@ political_decisions = {
 			}
 			#UBD = { NOT = { any_owned_province = { is_core = LIT } } }
 			UBD = { is_substate = no }
+			NOT = { has_global_flag = lithuania_in_the_UBD }
 		}
 		
 		allow = {
@@ -233,8 +234,9 @@ political_decisions = {
 			prestige = 5
 			badboy = 1
 			
+			set_global_flag = lithuania_in_the_UBD
+			
 			UBD = {
-				set_country_flag = lithuania_in_the_UBD
 				add_accepted_culture = lithuanian
 			}
 			

@@ -418,14 +418,14 @@ province_event = {
 			province_id = 2353
 			province_id = 2393
 			province_id = 2395
-				}
-		OR = {
-		has_country_flag = conquest_of_the_desert
-		has_country_flag = occupation_of_araucania
-		has_country_flag = conquest_of_the_chaco
-			}
-		NOT = { life_rating = 18 }
 		}
+		OR = {
+			has_country_flag = conquest_of_the_desert
+			has_country_flag = occupation_of_araucania
+			has_country_flag = conquest_of_the_chaco
+		}
+		NOT = { life_rating = 18 }
+	}
 	
 	mean_time_to_happen = {
 		months = 24
@@ -441,7 +441,7 @@ province_event = {
 	
 	option = {
 		name = "EVT97086OPTA" #Excellent!
-		life_rating = 10
+		life_rating = 18
 		any_pop = {
 			limit = { is_culture_group = native_american }
 			militancy = 8

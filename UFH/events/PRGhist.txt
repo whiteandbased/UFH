@@ -81,13 +81,13 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
-	tag = PRG
-	year = 1839
-	NOT = {
-		has_country_modifier = francia_utopia 
-		has_country_modifier = national_confusion
+		tag = PRG
+		year = 1839
+		NOT = {
+			has_country_modifier = francia_utopia 
+			has_country_modifier = national_confusion
 		}
-	NOT = { year = 1860 }
+		NOT = { year = 1860 }
 	}
 		
 	mean_time_to_happen = { days = 5 }
@@ -106,10 +106,9 @@ country_event = {
 		add_country_modifier = {
 			name = solano_lopez_industrialization
 			duration = 730
-			}
-		
 		}
 	}
+}
 	
 country_event = {
 	id = 700002

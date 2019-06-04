@@ -96,6 +96,7 @@ country_event = {
 	}
 }
 
+#Canditate for Removal
 country_event = {
 
 	id = 95503
@@ -166,7 +167,7 @@ country_event = {
 		}
 		any_neighbor_country = {
 			civilized = no
-			NOT = { capital_scope = { pop_majority_religion = sunni } }
+			NOT = { has_country_flag = sunni_country }
 			NOT = { truce_with = THIS }
 			any_owned_province = {
 				OR = {

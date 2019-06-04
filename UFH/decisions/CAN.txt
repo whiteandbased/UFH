@@ -493,7 +493,7 @@ political_decisions = {
 		picture = bytown_1853
 		potential = {
 			owns = 57
-			57 = { NOT = { life_rating = 33 } }
+			NOT = { has_global_flag = ottawa_founded }
 			57 = { NOT = { has_province_modifier = genocide } }
 		}
 		
@@ -503,6 +503,7 @@ political_decisions = {
 		}
 		
 		effect = {
+			set_global_flag = ottawa_founded
 			57 = { change_province_name = "Ottawa" life_rating = 4 }
 		}
 		ai_will_do = { factor = 1 }

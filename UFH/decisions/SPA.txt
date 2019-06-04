@@ -780,4 +780,70 @@ political_decisions = {
 			factor = 1
 		}
 	}
+	
+	colonization_of_fernando_po = {
+		picture = fernando_po
+		potential = {
+			1955 = { empty = yes }
+			NOT = { has_country_flag = post_colonial_country }
+			OR = {
+				primary_culture = spanish
+				primary_culture = british
+			}
+		}
+
+		allow = {
+			war = no
+			OR = {
+				naval_logistics = 1
+				AND = {
+					any_owned_province = { continent = africa is_colonial = no }
+					nationalism_n_imperialism = 1
+				}
+			}
+		}
+
+		effect = {
+			prestige = 2
+			1955 = { secede_province = THIS life_rating = 10 any_pop = { literacy = -0.99 } }
+		}
+
+		ai_will_do = { factor = 1 }
+	}
+	
+	treaty_of_bata = {
+		picture = fernando_po
+		potential = {
+			1973 = { empty = yes }
+			1976 = { empty = no }
+			1958 = { empty = no }
+			owns = 1955
+			NOT = { has_country_flag = refused_treaty_on_bata }
+		}
+
+		allow = {
+			war = no
+		}
+
+		effect = {
+			random_owned = {
+				limit = {
+					owner = {
+						OR = {
+							owns = 1976
+							owns = 1958
+						}
+					}
+				}
+				owner = { 1973 = { secede_province = THIS life_rating = 25 any_pop = { literacy = -0.99 } } }
+			}
+			
+			random_owned = {
+				limit = { owner = { NOT = { owns = 1976 owns = 1958 } } }
+				owner = { 1976 = { owner = { country_event = 90141 } } }
+			}
+		}
+
+		ai_will_do = { factor = 1 }
+	}
 }
