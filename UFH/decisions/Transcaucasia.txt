@@ -429,9 +429,6 @@ political_decisions = {
 				NOT = { has_country_flag = shiite_country } 
 				owns = 1102
 				exists = yes
-				}
-				is_our_vassal = TCA
-				capital_scope = { pop_majority_religion = shiite }
 			}
 			is_our_vassal = TCA
 			has_country_flag = shiite_country
@@ -504,7 +501,8 @@ political_decisions = {
 	make_abkhazia_orthodox = {
 		picture = form_transcaucasia
 		potential = {
-			ABK = { NOT = { has_country_flag = is_orthodox }
+			ABK = { 
+				NOT = { has_country_flag = orthodox_country }
 				exists = yes
 			}
 			OR = {

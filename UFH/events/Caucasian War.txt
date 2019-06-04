@@ -400,6 +400,12 @@ country_event = {
 				culture = circassian
 				culture = dagestani
 				culture = north_caucasian
+			limit = {
+				has_pop_religion = sunni
+				OR = {
+					culture = chechen
+					culture = circassian
+					culture = dagestani
 				}
 			}
 			militancy = 9
