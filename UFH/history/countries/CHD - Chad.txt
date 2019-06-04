@@ -1,6 +1,4 @@
 capital = 1818
-primary_culture = french 
-culture = sara
 primary_culture = sara
 culture = bedouin
 culture = teda

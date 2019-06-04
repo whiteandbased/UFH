@@ -1,7 +1,4 @@
 capital = 2012
-primary_culture = british
-culture = lunda
-culture = african_minor
 primary_culture = lunda
 culture = nguni
 culture = sena

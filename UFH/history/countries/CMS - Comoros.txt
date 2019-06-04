@@ -1,4 +1,5 @@
 capital = 2123
+primary_culture = kreol
 religion = sunni
 government = democracy
 plurality = 0.0

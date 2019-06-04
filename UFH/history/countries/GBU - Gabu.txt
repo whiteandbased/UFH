@@ -1,4 +1,5 @@
 capital = 1878
+primary_culture = fulbe
 culture = african_minor
 religion = animist
 government = absolute_monarchy

@@ -1,6 +1,5 @@
 capital = 2214
 primary_culture = caribeno
-culture = afro_caribeno
 religion = catholic
 government = presidential_dictatorship
 plurality = 10

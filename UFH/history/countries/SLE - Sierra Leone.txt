@@ -1,5 +1,4 @@
 capital = 1884
-primary_culture = british 
 culture = mande
 culture = african_minor
 religion = protestant
