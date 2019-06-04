@@ -85,7 +85,7 @@ health_care_fully_funded = {
 			}
 		}
 	}
-	global_population_growth = 0.002
+	global_population_growth = 0.001
 	icon = 19
 }
 
@@ -168,26 +168,15 @@ islamic_law_triggered = {
 	trigger = {
 		exists = yes
 		civilized = yes
-		capital_scope = { NOT = { continent = north_america } }
-		capital_scope = { NOT = { continent = south_america } }
-		NOT = { has_country_flag = not_muslim }
-		NOT = { is_culture_group = levantine }
-		NOT = { is_culture_group = pan_romanian }
-		NOT = { is_culture_group = jewish_cultures }
-		NOT = { primary_culture = serb }
-		NOT = { primary_culture = assyrian }
-		NOT = { primary_culture = panjabi }
-		NOT = { primary_culture = beifaren }
-		NOT = { primary_culture = greek }
+		OR = {
+			has_country_flag = sunni_country
+			has_country_flag = shiite_country
+			has_country_flag = ibadi_country
+		}
 		NOT = { has_country_flag = secularized_muslim_society }
 		NOT = { has_country_flag = dynamic_tag }
-		NOT = { has_country_flag = yazidi_religion }
 		NOT = { has_country_flag = post_colonial_country }
-		OR = {
-			capital_scope = { pop_majority_religion = sunni }
-			capital_scope = { pop_majority_religion = shiite }
-			capital_scope = { pop_majority_religion = ibadi }
-		}
+		NOT = { religious_policy = pro_atheism }
 	}
 	research_points_modifier = -0.05
 	education_efficiency_modifier = -0.15
