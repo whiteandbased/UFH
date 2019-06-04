@@ -239,7 +239,7 @@
 	}
 
 	slaves = {
-		culture = african_minor
+		culture = tiv
 		religion = animist
 		size = 14000
 	}
@@ -247,38 +247,37 @@
 #Bafoussam (276000/69000 POPS)
 1960 = {
 	aristocrats = {
-		culture = african_minor
-		religion = animist
+		culture = tiv
+		religion = sunni
 		size = 1375
 	}
 
 	clergymen = {
-		culture = african_minor
-		religion = animist
+		culture = tiv
+		religion = sunni
 		size = 700
 	}
 
 	artisans = {
-		culture = african_minor
-		religion = animist
+		culture = tiv
+		religion = sunni
 		size = 2775
 	}
 
 	soldiers = {
-		culture = african_minor
-		religion = animist
-		size= 700
-
+		culture = tiv
+		religion = sunni
+		size = 700
 	}
 
 	farmers = {
-		culture = african_minor
-		religion = animist
+		culture = tiv
+		religion = sunni
 		size = 44450
 	}
 
 	slaves = {
-		culture = african_minor
+		culture = tiv
 		religion = animist
 		size = 19000
 	}
@@ -306,8 +305,7 @@
 	soldiers = {
 		culture = fang
 		religion = animist
-		size= 625
-
+		size = 625
 	}
 
 	farmers = {
@@ -364,40 +362,39 @@
 #Bamenda (372000/93000 POPS) #now part of Cameroun
 1961 = {
 	aristocrats = {
-		culture = african_minor
+		culture = tiv
 		religion = animist
 		size = 1850
 	}
 
 	clergymen = {
-		culture = african_minor
+		culture = tiv
 		religion = animist
 		size = 950
 	}
 
 	artisans = {
-		culture = african_minor
+		culture = tiv
 		religion = animist
 		size = 3725
 	}
 
 	soldiers = {
-		culture = african_minor
+		culture = tiv
 		religion = animist
-		size= 950
-
+		size = 950
 	}
 
 	farmers = {
-		culture = african_minor
+		culture = tiv
 		religion = animist
-		size = 63575
+		size = 75575
 	}
 
 	slaves = {
-		culture = african_minor
+		culture = ibibio
 		religion = animist
-		size = 22000
+		size = 10000
 	}
 }
 #Adamawa Region (268000) #see Nigeria.txt for balance of region   
@@ -437,8 +434,7 @@
 	soldiers = {
 		culture = fulbe
 		religion = sunni
-		size= 275
-
+		size = 275
 	}
 
 	farmers = {
@@ -468,8 +464,7 @@
 	soldiers = {
 		culture = african_minor
 		religion = animist
-		size= 150
-
+		size = 150
 	}
 
 	farmers = {
@@ -479,7 +474,7 @@
 	}
 
 	slaves = {
-		culture = african_minor
+		culture = tiv
 		religion = animist
 		size = 4000
 	}
@@ -508,45 +503,43 @@
 	soldiers = {
 		culture = fulbe
 		religion = sunni
-		size= 400
-
+		size = 400
 	}
 
 	farmers = {
 		culture = fulbe
 		religion = sunni
-		size = 21400
+		size = 27400
 	}
 
 	aristocrats = {
-		culture = kanuri
+		culture = hausa
 		religion = sunni
 		size = 200
 	}
 
 	clergymen = {
-		culture = kanuri
+		culture = hausa
 		religion = sunni
 		size = 200
 	}
 
 	artisans = {
-		culture = kanuri
+		culture = hausa
 		religion = sunni
 		size = 800
 	}
 
 	soldiers = {
-		culture = kanuri
+		culture = hausa
 		religion = sunni
-		size= 200
-
+		size = 200
 	}
 
 	farmers = {
-		culture = kanuri
+		culture = hausa
 		religion = sunni
-		size = 14600
+		size = 20600
 	}
 
 	aristocrats = {
@@ -570,8 +563,7 @@
 	soldiers = {
 		culture = bedouin
 		religion = sunni
-		size= 200
-
+		size = 200
 	}
 
 	farmers = {
@@ -581,40 +573,45 @@
 	}
 
 	aristocrats = {
-		culture = african_minor
+		culture = baguirmi
 		religion = animist
 		size = 700
 	}
 
 	clergymen = {
-		culture = african_minor
+		culture = baguirmi
 		religion = animist
 		size = 400
 	}
 
 	artisans = {
-		culture = african_minor
+		culture = baguirmi
 		religion = animist
 		size = 1800
 	}
 
 	soldiers = {
-		culture = african_minor
+		culture = baguirmi
 		religion = animist
-		size= 400
-
+		size = 400
 	}
 
 	farmers = {
-		culture = african_minor
+		culture = baguirmi
 		religion = animist
-		size = 33100
+		size = 23100
 	}
 
 	slaves = {
-		culture = african_minor
-		religion = animist
-		size = 12000
+		culture = kanuri
+		religion = sunni
+		size = 6000
+	}
+	
+	slaves = {
+		culture = sara
+		religion = sunni
+		size = 6000
 	}
 
 }

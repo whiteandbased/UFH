@@ -1,71 +1,71 @@
-#Comoro Islands Region (64000)
+#Comoro Islands Region (64000)  
 #uncolonized in 1836/dominated by sultan of Anjouan
-#Comoro Islands (56000/14000 POPS)
+#Comoro Islands (56000/14000 POPS) 
 2123 = {
 	aristocrats = {
 		culture = african_minor
 		religion = sunni
-		size = 154.5
+		size = 150
 	}
 
 	clergymen = {
 		culture = african_minor
 		religion = sunni
-		size = 51.5
+		size = 50
 	}
 
 	artisans = {
 		culture = african_minor
 		religion = sunni
-		size = 334.75
+		size = 325
 	}
 
 	soldiers = {
 		culture = african_minor
 		religion = sunni
-		size = 1030.0
+		size = 1100
 	}
 
 	farmers = {
 		culture = african_minor
 		religion = sunni
-		size = 3527.75
+		size = 3425
 	}
 
 	aristocrats = {
 		culture = african_minor
 		religion = animist
-		size = 103.0
+		size = 100
 	}
 
 	clergymen = {
 		culture = african_minor
 		religion = animist
-		size = 51.5
+		size = 50
 	}
 
 	artisans = {
 		culture = african_minor
 		religion = animist
-		size = 309.0
+		size = 300
 	}
 
 	soldiers = {
 		culture = african_minor
 		religion = animist
-		size = 51.5
+		size = 50
 	}
 
 	farmers = {
 		culture = african_minor
 		religion = animist
-		size = 5665.0
+		size = 5500
 	}
 
 	slaves = {
 		culture = african_minor
 		religion = animist
-		size = 3090.0
+		size = 3000
 	}
 }
 #Mayotte (8000/2000 POPS)
@@ -73,67 +73,67 @@
 	aristocrats = {
 		culture = african_minor
 		religion = sunni
-		size = 15.450000000000001
+		size = 15
 	}
 
 	clergymen = {
 		culture = african_minor
 		religion = sunni
-		size = 25.75
+		size = 25
 	}
 
 	artisans = {
 		culture = african_minor
 		religion = sunni
-		size = 51.5
+		size = 50
 	}
 
 	soldiers = {
 		culture = african_minor
 		religion = sunni
-		size = 10.3
+		size = 10
 	}
 
 	farmers = {
 		culture = african_minor
 		religion = sunni
-		size = 412.0
+		size = 400
 	}
 
 	aristocrats = {
 		culture = african_minor
 		religion = animist
-		size = 15.450000000000001
+		size = 15
 	}
 
 	clergymen = {
 		culture = african_minor
 		religion = animist
-		size = 25.75
+		size = 25
 	}
 
 	artisans = {
 		culture = african_minor
 		religion = animist
-		size = 51.5
+		size = 50
 	}
 
 	soldiers = {
 		culture = african_minor
 		religion = animist
-		size = 10.3
+		size = 10
 	}
 
 	farmers = {
 		culture = african_minor
 		religion = animist
-		size = 927.0
+		size = 900
 	}
 
 	slaves = {
 		culture = african_minor
 		religion = animist
-		size = 515.0
+		size = 500
 	}
 
 }
