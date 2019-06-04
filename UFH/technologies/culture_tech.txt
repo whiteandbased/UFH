@@ -842,6 +842,7 @@ revolution_n_counterrevolution = {
 	diplomatic_points = 0.25
 	ai_chance = {
 		factor = 1.1
+		factor = 20
 		modifier = {
 			factor = 1.5
 			is_greater_power = yes
@@ -913,6 +914,15 @@ introspectionism = {
 		modifier = {
 			factor = 2
 			year = 1860 #1850
+		}
+		modifier = {
+			factor = 21
+			is_greater_power = yes
+		}
+		modifier = {
+			factor = 51
+			rank = 16
+			year = 1870
 		}
 	}
 
