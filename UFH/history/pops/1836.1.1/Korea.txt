@@ -41,7 +41,7 @@
 	farmers = {
 		culture = korean
 		religion = mahayana
-		size = 132125
+		size = 232125
 	}
 
 	slaves = {
@@ -79,7 +79,7 @@
 	farmers = {
 		culture = korean
 		religion = mahayana
-		size = 123625
+		size = 223625
 	}
 
 	slaves = {
@@ -131,7 +131,7 @@
 	farmers = {
 		culture = korean
 		religion = mahayana
-		size = 43300
+		size = 143300
 	}
 
 	slaves = {
@@ -169,7 +169,7 @@
 	farmers = {
 		culture = korean
 		religion = mahayana
-		size = 52600
+		size = 152600
 	}
 
 	slaves = {
@@ -207,7 +207,7 @@
 	farmers = {
 		culture = korean
 		religion = mahayana
-		size = 54625
+		size = 154625
 	}
 
 	slaves = {
@@ -265,7 +265,7 @@
 	farmers = {
 		culture = korean
 		religion = mahayana
-		size = 208725
+		size = 258725
 	}
 
 	slaves = {
@@ -303,7 +303,7 @@
 	farmers = {
 		culture = korean
 		religion = mahayana
-		size = 39150
+		size = 139150
 	}
 
 	slaves = {
@@ -341,7 +341,7 @@
 	farmers = {
 		culture = korean
 		religion = mahayana
-		size = 44625
+		size = 144625
 	}
 
 	slaves = {
@@ -379,7 +379,7 @@
 	farmers = {
 		culture = korean
 		religion = mahayana
-		size = 52625
+		size = 152625
 	}
 
 	slaves = {
@@ -417,7 +417,7 @@
 	farmers = {
 		culture = korean
 		religion = mahayana
-		size = 87625
+		size = 187625
 	}
 
 	slaves = {
@@ -469,7 +469,7 @@
 	farmers = {
 		culture = korean
 		religion = mahayana
-		size = 56800
+		size = 106800
 	}
 
 	slaves = {
@@ -507,7 +507,7 @@
 	farmers = {
 		culture = korean
 		religion = mahayana
-		size = 54625
+		size = 154625
 	}
 
 	slaves = {
@@ -545,7 +545,7 @@
 	farmers = {
 		culture = korean
 		religion = mahayana
-		size = 39175
+		size = 139175
 	}
 
 	slaves = {
@@ -597,7 +597,7 @@
 	farmers = {
 		culture = korean
 		religion = mahayana
-		size = 88150
+		size = 188150
 	}
 
 	slaves = {
@@ -635,7 +635,7 @@
 	farmers = {
 		culture = korean
 		religion = mahayana
-		size = 61050
+		size = 101050
 	}
 
 	slaves = {
@@ -673,7 +673,7 @@
 	farmers = {
 		culture = korean
 		religion = mahayana
-		size = 86050
+		size = 186050
 	}
 
 	slaves = {
@@ -725,7 +725,7 @@
 	farmers = {
 		culture = korean
 		religion = mahayana
-		size = 86300
+		size = 186300
 	}
 
 	slaves = {
@@ -763,7 +763,7 @@
 	farmers = {
 		culture = korean
 		religion = mahayana
-		size = 77625
+		size = 177625
 	}
 
 	slaves = {

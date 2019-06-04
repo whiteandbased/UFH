@@ -805,8 +805,8 @@
 	}
 
 	slaves = {
-		culture = african_minor
-		religion = animist
+		culture = berber
+		religion = sunni
 		size = 1100
 	}
 }
@@ -873,8 +873,8 @@
 	}
 
 	slaves = {
-		culture = african_minor
-		religion = animist
+		culture = teda
+		religion = sunni
 		size = 500
 	}
 }
@@ -942,8 +942,8 @@
 	}
 
 	slaves = {
-		culture = african_minor
-		religion = animist
+		culture = berber
+		religion = sunni
 		size = 3100
 	}
 

@@ -359,13 +359,13 @@
 	farmers = {
 		culture = edo
 		religion = animist
-		size = 123100
+		size = 173100
 	}
 
 	slaves = {
-		culture = edo
+		culture = ibo
 		religion = animist
-		size = 70000
+		size = 20000
 	}
 
 	aristocrats = {
@@ -565,7 +565,7 @@
 	}
 
 	slaves = {
-		culture = itsekari
+		culture = ibo
 		religion = animist
 		size = 78000
 	}
@@ -710,7 +710,7 @@
 	}
 
 	slaves = {
-		culture = itsekari
+		culture = ibibio
 		religion = animist
 		size = 14000
 	}
@@ -760,7 +760,7 @@
 	}
 
 	slaves = {
-		culture = ibo
+		culture = itsekari
 		religion = animist
 		size = 76000
 	}
@@ -804,7 +804,7 @@
 	}
 
 	slaves = {
-		culture = ibibio
+		culture = tiv
 		religion = animist
 		size = 44000
 	}
@@ -848,7 +848,7 @@
 	}
 
 	slaves = {
-		culture = ibo
+		culture = ibibio
 		religion = animist
 		size = 34000
 	}
@@ -888,7 +888,7 @@
 	}
 
 	slaves = {
-		culture = tiv
+		culture = ibo
 		religion = animist
 		size = 23000
 	}
@@ -2236,8 +2236,8 @@
 	}
 
 	slaves = {
-		culture = african_minor
-		religion = animist
+		culture = hausa
+		religion = sunni
 		size = 60000
 	}
 }
@@ -2274,8 +2274,8 @@
 	}
 
 	slaves = {
-		culture = african_minor
-		religion = animist
+		culture = hausa
+		religion = sunni
 		size = 36000
 	}
 
@@ -2342,8 +2342,8 @@
 	}
 
 	slaves = {
-		culture = african_minor
-		religion = animist
+		culture = hausa
+		religion = sunni
 		size = 36000
 	}
 
