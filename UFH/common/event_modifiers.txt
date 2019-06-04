@@ -73,7 +73,6 @@ plantation = {
 
 haussmanns_renovations = {
 	farm_rgo_size = 1
-	immigrant_attract = 0.1
 	icon = 19
 }
 
@@ -241,9 +240,8 @@ population_resettlement = {
 	icon = 19
 }
 
-trade_city = {
-	farm_rgo_eff = 0.25
-	goods_demand = -0.25
+pearl_season = {
+	mine_rgo_eff = -0.33
 	icon = 11
 }
 
