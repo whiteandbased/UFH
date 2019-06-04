@@ -117,7 +117,7 @@
 	}
 
 	slaves = {
-		culture = african_minor
+		culture = forest_bantu
 		religion = animist
 		size = 15270.0
 	}
@@ -563,7 +563,7 @@
 	}
 
 	slaves = {
-		culture = african_minor
+		culture = forest_bantu
 		religion = animist
 		size = 11180.0
 	}
