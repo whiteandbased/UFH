@@ -443,7 +443,7 @@
 	}
 
 	slaves = {
-		culture = north_caucasian
+		culture = circassian
 		religion = orthodox
 		size = 500
 	}

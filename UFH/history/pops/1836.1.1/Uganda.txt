@@ -204,12 +204,6 @@
 		size = 300
 	}
 
-	artisans = {
-		culture = african_minor
-		religion = animist
-		size = 1450
-	}
-
 	soldiers = {
 		culture = luo
 		religion = sunni
@@ -222,14 +216,20 @@
 		size = 700
 	}
 	
+	artisans = {
+		culture = nilotic
+		religion = animist
+		size = 1450
+	}
+	
 	farmers = {
-		culture = african_minor
+		culture = nilotic
 		religion = animist
 		size = 3700
 	}
 
 	slaves = {
-		culture = african_minor
+		culture = nilotic
 		religion = animist
 		size = 4000
 	}
@@ -321,19 +321,19 @@
 	}
 
 	farmers = {
-		culture = african_minor
+		culture = nilotic
 		religion = animist
 		size = 5075
 	}
 	
 	farmers = {
-		culture = african_minor
+		culture = nilotic
 		religion = sunni
 		size = 2700
 	}
 
 	slaves = {
-		culture = african_minor
+		culture = nilotic
 		religion = animist
 		size = 3300
 	}
@@ -395,7 +395,7 @@
 	}
 
 	artisans = {
-		culture = african_minor
+		culture = luo
 		religion = animist
 		size = 1900
 	}
