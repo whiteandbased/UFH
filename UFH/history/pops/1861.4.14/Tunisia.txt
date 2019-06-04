@@ -45,8 +45,8 @@
 	}
 
 	slaves = {
-		culture = african_minor
-		religion = animist
+		culture = berber
+		religion = sunni
 		size = 5150.0
 	}
 
