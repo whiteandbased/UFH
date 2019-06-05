@@ -119,7 +119,7 @@
 	slaves = {
 		culture = african_minor
 		religion = animist
-		size = 15270.0
+		size = 15270
 	}
 }
 #Dumyat (402600/100650 POPS)
@@ -565,7 +565,7 @@
 	slaves = {
 		culture = african_minor
 		religion = animist
-		size = 11180.0
+		size = 11180
 	}
 }
 #Matruh (60000/15000 POPS)

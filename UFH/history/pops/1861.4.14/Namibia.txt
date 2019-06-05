@@ -1,65 +1,77 @@
-#Damaraland Region (192000)
+#Damaraland Region (192000)  
 #uncolonized in 1836/dominated by the Herero in 1836
 #Windhoek (72000/18000 POPS)
 2078 = {
 	aristocrats = {
 		culture = herero
 		religion = animist
-		size = 103.0
+		size = 100
 	}
 
 	clergymen = {
 		culture = herero
 		religion = animist
-		size = 51.5
+		size = 50
 	}
 
 	artisans = {
 		culture = herero
 		religion = animist
-		size = 309.0
+		size = 300
 	}
 
 	soldiers = {
 		culture = herero
 		religion = animist
-		size = 77.25
+		size = 75
 	}
 
 	farmers = {
 		culture = herero
 		religion = animist
-		size = 5639.25
+		size = 5175
+	}
+	
+	farmers = {
+		culture = herero
+		religion = protestant
+		size = 300
 	}
 
 	aristocrats = {
 		culture = khoisan
 		religion = animist
-		size = 231.75
+		size = 225
 	}
 
 	clergymen = {
 		culture = khoisan
 		religion = animist
-		size = 128.75
+		size = 125
 	}
 
 	artisans = {
 		culture = khoisan
 		religion = animist
-		size = 618.0
+		size = 600
 	}
 
 	soldiers = {
 		culture = khoisan
 		religion = animist
-		size = 128.75
+		size = 125
 	}
 
 	farmers = {
 		culture = khoisan
 		religion = animist
-		size = 11252.75
+		size = 10725
+	}
+	
+	farmers = {
+		culture = khoisan
+		religion = protestant
+		size = 200
 	}
 }
 #Swakopmund (52000/13000 POPS)
@@ -67,61 +79,61 @@
 	aristocrats = {
 		culture = herero
 		religion = animist
-		size = 154.5
+		size = 150
 	}
 
 	clergymen = {
 		culture = herero
 		religion = animist
-		size = 103.0
+		size = 100
 	}
 
 	artisans = {
 		culture = herero
 		religion = animist
-		size = 463.5
+		size = 450
 	}
 
 	soldiers = {
 		culture = herero
 		religion = animist
-		size = 103.0
+		size = 100
 	}
 
 	farmers = {
 		culture = herero
 		religion = animist
-		size = 8446.0
+		size = 8200
 	}
 
 	aristocrats = {
 		culture = african_minor
 		religion = animist
-		size = 51.5
+		size = 50
 	}
 
 	clergymen = {
 		culture = african_minor
 		religion = animist
-		size = 51.5
+		size = 50
 	}
 
 	artisans = {
 		culture = african_minor
 		religion = animist
-		size = 206.0
+		size = 200
 	}
 
 	soldiers = {
 		culture = african_minor
 		religion = animist
-		size = 51.5
+		size = 50
 	}
 
 	farmers = {
 		culture = african_minor
 		religion = animist
-		size = 3759.5
+		size = 3650
 	}
 }
 #Tsumeb (24000/6000 POPS)
@@ -129,31 +141,31 @@
 	aristocrats = {
 		culture = african_minor
 		religion = animist
-		size = 103.0
+		size = 100
 	}
 
 	clergymen = {
 		culture = african_minor
 		religion = animist
-		size = 51.5
+		size = 50
 	}
 
 	artisans = {
 		culture = african_minor
 		religion = animist
-		size = 309.0
+		size = 300
 	}
 
 	soldiers = {
 		culture = african_minor
 		religion = animist
-		size = 77.25
+		size = 75
 	}
 
 	farmers = {
 		culture = african_minor
 		religion = animist
-		size = 5639.25
+		size = 5475
 	}
 }
 #Otjinene (44000/11000 POPS)
@@ -161,61 +173,61 @@
 	aristocrats = {
 		culture = herero
 		religion = animist
-		size = 103.0
+		size = 100
 	}
 
 	clergymen = {
 		culture = herero
 		religion = animist
-		size = 51.5
+		size = 50
 	}
 
 	artisans = {
 		culture = herero
 		religion = animist
-		size = 309.0
+		size = 300
 	}
 
 	soldiers = {
 		culture = herero
 		religion = animist
-		size = 77.25
+		size = 75
 	}
 
 	farmers = {
 		culture = herero
 		religion = animist
-		size = 5639.25
+		size = 5475
 	}
 
 	aristocrats = {
 		culture = african_minor
 		religion = animist
-		size = 77.25
+		size = 75
 	}
 
 	clergymen = {
 		culture = african_minor
 		religion = animist
-		size = 51.5
+		size = 50
 	}
 
 	artisans = {
 		culture = african_minor
 		religion = animist
-		size = 257.5
+		size = 250
 	}
 
 	soldiers = {
 		culture = african_minor
 		religion = animist
-		size = 51.5
+		size = 50
 	}
 
 	farmers = {
 		culture = african_minor
 		religion = animist
-		size = 4712.25
+		size = 4575
 	}
 }
 #Kafue Region (16000) #see Zambia.txt for balance of region
@@ -225,61 +237,61 @@
 	aristocrats = {
 		culture = african_minor
 		religion = animist
-		size = 51.5
+		size = 100
 	}
 
 	clergymen = {
 		culture = african_minor
 		religion = animist
-		size = 77.25
+		size = 100
 	}
 
 	artisans = {
 		culture = african_minor
 		religion = animist
-		size = 154.5
+		size = 150
 	}
 
 	soldiers = {
 		culture = african_minor
 		religion = animist
-		size = 25.75
+		size = 100
 	}
 
 	farmers = {
 		culture = african_minor
 		religion = animist
-		size = 2781.0
+		size = 2700
 	}
 
 	aristocrats = {
 		culture = lunda
 		religion = animist
-		size = 15.450000000000001
+		size = 100
 	}
 
 	clergymen = {
 		culture = lunda
 		religion = animist
-		size = 25.75
+		size = 100
 	}
 
 	artisans = {
 		culture = lunda
 		religion = animist
-		size = 51.5
+		size = 100
 	}
 
 	soldiers = {
 		culture = lunda
 		religion = animist
-		size = 10.3
+		size = 100
 	}
 
 	farmers = {
 		culture = lunda
 		religion = animist
-		size = 927.0
+		size = 900
 	}
 }
 #Namaqualand Region (64000) #see South Africa.txt for balance of region
@@ -289,31 +301,25 @@
 	aristocrats = {
 		culture = khoisan
 		religion = animist
-		size = 15.450000000000001
-	}
-
-	clergymen = {
-		culture = khoisan
-		religion = animist
-		size = 25.75
+		size = 15
 	}
 
 	artisans = {
 		culture = khoisan
 		religion = animist
-		size = 51.5
+		size = 50
 	}
 
 	soldiers = {
 		culture = khoisan
 		religion = animist
-		size = 10.3
+		size = 10
 	}
 
 	farmers = {
 		culture = khoisan
 		religion = animist
-		size = 927.0
+		size = 1925
 	}
 }
 #Angra Pequena (28000/7000 POPS)
@@ -321,31 +327,31 @@
 	aristocrats = {
 		culture = khoisan
 		religion = animist
-		size = 128.75
+		size = 125
 	}
 
 	clergymen = {
 		culture = khoisan
 		religion = animist
-		size = 77.25
+		size = 75
 	}
 
 	artisans = {
 		culture = khoisan
 		religion = animist
-		size = 360.5
+		size = 350
 	}
 
 	soldiers = {
 		culture = khoisan
 		religion = animist
-		size = 77.25
+		size = 75
 	}
 
 	farmers = {
 		culture = khoisan
 		religion = animist
-		size = 6566.25
+		size = 6375
 	}
 }
 #Nugouses (12000/3000 POPS)
@@ -353,61 +359,61 @@
 	aristocrats = {
 		culture = khoisan
 		religion = animist
-		size = 25.75
+		size = 25
 	}
 
 	clergymen = {
 		culture = khoisan
 		religion = animist
-		size = 51.5
+		size = 50
 	}
 
 	artisans = {
 		culture = khoisan
 		religion = animist
-		size = 103.0
+		size = 100
 	}
 
 	soldiers = {
 		culture = khoisan
 		religion = animist
-		size = 25.75
+		size = 25
 	}
 
 	farmers = {
 		culture = khoisan
 		religion = animist
-		size = 1854.0
+		size = 1800
 	}
 
 	aristocrats = {
 		culture = tswana
 		religion = animist
-		size = 15.450000000000001
+		size = 15
 	}
 
 	clergymen = {
 		culture = tswana
 		religion = animist
-		size = 25.75
+		size = 25
 	}
 
 	artisans = {
 		culture = tswana
 		religion = animist
-		size = 51.5
+		size = 50
 	}
 
 	soldiers = {
 		culture = tswana
 		religion = animist
-		size = 10.3
+		size = 10
 	}
 
 	farmers = {
 		culture = tswana
 		religion = animist
-		size = 927.0
+		size = 900
 	}
 }
 #Karasburg (20000/5000 POPS)
@@ -415,61 +421,61 @@
 	aristocrats = {
 		culture = khoisan
 		religion = animist
-		size = 51.5
+		size = 50
 	}
 
 	clergymen = {
 		culture = khoisan
 		religion = animist
-		size = 51.5
+		size = 50
 	}
 
 	artisans = {
 		culture = khoisan
 		religion = animist
-		size = 206.0
+		size = 200
 	}
 
 	soldiers = {
 		culture = khoisan
 		religion = animist
-		size = 51.5
+		size = 50
 	}
 
 	farmers = {
 		culture = khoisan
 		religion = animist
-		size = 3759.5
+		size = 3650
 	}
 
 	aristocrats = {
 		culture = tswana
 		religion = animist
-		size = 15.450000000000001
+		size = 15
 	}
 
 	clergymen = {
 		culture = tswana
 		religion = animist
-		size = 25.75
+		size = 25
 	}
 
 	artisans = {
 		culture = tswana
 		religion = animist
-		size = 51.5
+		size = 50
 	}
 
 	soldiers = {
 		culture = tswana
 		religion = animist
-		size = 10.3
+		size = 10
 	}
 
 	farmers = {
 		culture = tswana
 		religion = animist
-		size = 927.0
+		size = 900
 	}
 
 }

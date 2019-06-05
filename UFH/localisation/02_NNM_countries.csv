@@ -579,7 +579,6 @@ GUY_reactionary;British Faction;;;;;;;;;;;;;x
 GUY_anarcho_liberal;American Faction;;;;;;;;;;;;;x
 GUY_fascist;Unity Party;;;;;;;;;;;;;x
 GXI_presidential_dictatorship;Guangxi Clique;Clique de Guangxi;Guangxi-Clique;;;;;;;;;;;x
-HAL;Hail;;;;;;;;;;;;x
 HAL_ADJ;Haili;;;;;;;;;;;;x
 HAL_absolute_monarchy_ADJ;Rashidi;;;;;;;;;;;;x
 HAL_prussian_constitutionalism_ADJ;Rashidi;;;;;;;;;;;;x
@@ -1527,7 +1526,6 @@ SYR_socialist;Haraka al-Ishtirakiyyun al-Arab;;;;;;;;;;;;;x
 SYR_reactionary;Haraka al-Ahd al-Watani;;;;;;;;;;;;;x
 SYR_anarcho_liberal;Hizb al-Wataniyyin al-Ahrar;;;;;;;;;;;;;x
 SYR_communist;Al-hizb ash-Shuyu'i as-Suri;;;;;;;;;;;;;x
-SYR_fascist;Hizb al-Ba'ath;;;;;;;;;;;;;x
 SZC;Sichuan;;;;;;;;;;;;x
 SZC_ADJ;Sichuan;;;;;;;;;;;;x
 SZC_presidential_dictatorship;Sichuan Clique;;;;;;;;;;;;x
@@ -1626,15 +1624,6 @@ TOS_hms_government;Tosa;;;;;;;;;;;;;x
 TOS_absolute_monarchy_ADJ;Yamauchi;;;;;;;;;;;;;x
 TOS_prussian_constitutionalism_ADJ;Yamauchi;;;;;;;;;;;;;x
 TOS_hms_government_ADJ;Yamauchi;;;;;;;;;;;;;x
-TOU;Toucouleur Empire;;;;;;;;;;;;x
-TOU_ADJ;Toucouleur;;;;;;;;;;;;x
-TOU_democracy;Toucouleur Republic;;;;;;;;;;;;x
-TOU_proletarian_dictatorship;Sahelian People's Republic;;;;;;;;;;;;x
-TOU_fascist_dictatorship;Sahelian Republic;;;;;;;;;;;;x
-TOU_bourgeois_dictatorship;Toucouleur Republic;;;;;;;;;;;;x
-TOU_presidential_dictatorship;Toucouleur Republic;;;;;;;;;;;;x
-TOU_proletarian_dictatorship_ADJ;Sahelian;;;;;;;;;;;;x
-TOU_fascist_dictatorship_ADJ;Sahelian;;;;;;;;;;;;x
 TPG;Heavenly Kingdom;;;;;;;;;;;;x
 TPG_democracy;Taiping Republic;;;;;;;;;;;;;x
 TPG_bourgeois_dictatorship;Taiping Republic;;;;;;;;;;;;;x
@@ -2009,8 +1998,6 @@ DAH_anarcho_liberal;Radical Faction;Faction radicale;Die radikale Fraktion;;;;;;
 DAH_socialist;Socialist Faction;Faction socialiste;Die sozialistische Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
 DAH_communist;Communist Faction;Faction communiste;Die kommunistische Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
 DAH_fascist;Great Dahomey Faction;Faction Dahomey Grande;Große Dahomey Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
-DAM;Damagaram;Damagaram;Damagaram;;Damgaram;;;;;;;;;;x;;;;;;;;;;;;;;
-DAM_ADJ;Damagaram;Damagaram;Damagaram;;;;;;;;;;;;x;;;;;;;;;;;;;;
 DAM_conservative;Sultan's Faction;Faction Sultan;Sultan Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
 DAM_liberal;Reform Faction;Faction de réforme;Verbesserung Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
 DAM_reactionary;Religious Faction;Faction Religieux;Religiöse Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
@@ -2371,8 +2358,6 @@ GON_anarcho_liberal;Radical Faction;Faction radicale;Die radikale Fraktion;;;;;;
 GON_socialist;Socialist Party;Parti socialiste;Sozialistische Partei;;;;;;;;;;;;x;;;;;;;;;;;;;;
 GON_communist;Communist Party;Parti communiste;Kommunistische Partei;;;;;;;;;;;;x;;;;;;;;;;;;;;
 GON_fascist;Fascist Faction;Faction fasciste;Die faschistische Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
-HAR;Harar;Harar;Harar;;Harar;;;;;;;;;;x;;;;;;;;;;;;;;
-HAR_ADJ;Harari;Hararienne;Hararische;;;;;;;;;;;;x;;;;;;;;;;;;;;
 HAR_conservative;Emir's Faction;Faction Emir;Emir Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
 HAR_liberal;Reform Faction;Faction de réforme;Verbesserung Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
 HAR_reactionary;Religious Faction;Faction religieuse;Religiöse Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;

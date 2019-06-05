@@ -512,6 +512,7 @@ liquor_distillery = {
 	visibility = yes
 	onmap = no
 	
+	default_enabled = yes
 	production_type = liquor_distillery
 	pop_build_factory = yes
 }

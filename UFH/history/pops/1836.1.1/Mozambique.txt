@@ -298,31 +298,31 @@
 	aristocrats = {
 		culture = portuguese
 		religion = catholic
-		size = 200
+		size = 100
 	}
 
 	clergymen = {
 		culture = portuguese
 		religion = catholic
-		size = 60
-	}
-
-	bureaucrats = {
-		culture = portuguese
-		religion = catholic
-		size = 90
+		size = 100
 	}
 
 	artisans = {
 		culture = portuguese
 		religion = catholic
-		size = 1100
+		size = 100
 	}
 
 	soldiers = {
 		culture = portuguese
 		religion = catholic
 		size = 150
+	}
+	
+	farmers = {
+		culture = portuguese
+		religion = catholic
+		size = 1000
 	}
 
 	aristocrats = {
@@ -420,19 +420,25 @@
 	clergymen = {
 		culture = portuguese
 		religion = catholic
-		size = 25
+		size = 100
 	}
 
 	artisans = {
 		culture = portuguese
 		religion = catholic
-		size = 325
+		size = 125
 	}
 
 	soldiers = {
 		culture = portuguese
 		religion = catholic
-		size = 50
+		size = 100
+	}
+	
+	farmers = {
+		culture = portuguese
+		religion = catholic
+		size = 200
 	}
 
 	aristocrats = {
@@ -474,7 +480,7 @@
 	clergymen = {
 		culture = swahili
 		religion = sunni
-		size = 25
+		size = 100
 	}
 
 	artisans = {
@@ -1126,31 +1132,31 @@
 2064 = {
 	aristocrats = {
 		culture = yao
-		religion = animist
+		religion = sunni
 		size = 250
 	}
 
 	clergymen = {
 		culture = yao
-		religion = animist
+		religion = sunni
 		size = 250
 	}
 
 	artisans = {
 		culture = yao
-		religion = animist
+		religion = sunni
 		size = 1250
 	}
 
 	soldiers = {
 		culture = yao
-		religion = animist
+		religion = sunni
 		size = 300
 	}
 
 	farmers = {
 		culture = yao
-		religion = animist
+		religion = sunni
 		size = 21950
 	}
 
@@ -1197,7 +1203,7 @@
 	}
 
 	slaves = {
-		culture = african_minor
+		culture = yao
 		religion = animist
 		size = 8000
 	}
@@ -1305,7 +1311,7 @@
 
 	farmers = {
 		culture = yao
-		religion = animist
+		religion = sunni
 		size = 35600
 	}
 
@@ -1316,7 +1322,7 @@
 	}
 
 	slaves = {
-		culture = african_minor
+		culture = yao
 		religion = animist
 		size = 15000
 	}

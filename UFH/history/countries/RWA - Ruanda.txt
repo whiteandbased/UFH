@@ -33,7 +33,9 @@ penal_system = capital_punishment
 child_labor = child_labor_legalcitizens_rights = primary_culture_only
 border_policy = open_borders
 
-ruling_party = RWA_conservative
+set_country_flag = animist_country
+
+ruling_party = RWA_reactionary
 upper_house = {
 	fascist = 0
 	liberal = 15

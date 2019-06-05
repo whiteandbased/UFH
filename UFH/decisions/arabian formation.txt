@@ -209,11 +209,15 @@ political_decisions = {
 				primary_culture = bedouin
 				primary_culture = misri
 			}
+			OR = {
+				has_country_flag = sunni_country
+				has_country_flag = shiite_country
+				has_country_flag = ibadi_country
+			}
 			civilized = yes
 			NOT = {
 				exists = ARU
 				has_global_flag = arab_call_to_union
-				has_country_flag = not_muslim
 			}
 		}
 		
@@ -445,42 +449,117 @@ political_decisions = {
 		ai_will_do = { factor = 0 }
 	}
 	
-	bahrain_trade_city = {
+	start_pearl_hunting = {
 		picture = bahrain_trade
 		potential = {
+			ai = yes
 			OR = {
-			1162 = {
-				owned_by = THIS
-				NOT = { has_province_modifier = trade_city }
+				1162 = {
+					NOT = { trade_goods = precious_metal }
+					NOT = { has_province_modifier = pearl_season }
 				}
-			
-			1165 = {
-				owned_by = THIS
-				NOT = { has_province_modifier = trade_city }
+				1165 = {
+					NOT = { trade_goods = precious_metal }
+					NOT = { has_province_modifier = pearl_season }
+				}
+				1167 = {
+					NOT = { trade_goods = precious_metal }
+					NOT = { has_province_modifier = pearl_season }
+				}
+				2664 = {
+					NOT = { trade_goods = precious_metal }
+					NOT = { has_province_modifier = pearl_season }
 				}
 			}
 		}
 
 		allow = {
-			OR = {
-				owns = 1165
-				owns = 1162
-			}
+			month = 4
+			NOT = { month = 6 }
 		}
 		
 		
 		effect = {
-			any_owned = {
-				limit = { NOT = { has_province_modifier = trade_city }
-				OR = {
-					province_id = 1162
-					province_id = 1165
-					}
+			1162 = {
+				random_list = {
+					25 = { trade_goods = precious_metal add_province_modifier = { name = pearl_season duration = 93 } }
+					25 = { trade_goods = precious_metal add_province_modifier = { name = pearl_season duration = 124 } }
+					25 = { trade_goods = precious_metal add_province_modifier = { name = pearl_season duration = 155 } }
+					25 = { trade_goods = precious_metal add_province_modifier = { name = pearl_season duration = 186 } }
 				}
-			add_province_modifier = {
-				name = trade_city
-				duration = -1
+			}
+			1165 = {
+				random_list = {
+					25 = { trade_goods = precious_metal add_province_modifier = { name = pearl_season duration = 93 } }
+					25 = { trade_goods = precious_metal add_province_modifier = { name = pearl_season duration = 124 } }
+					25 = { trade_goods = precious_metal add_province_modifier = { name = pearl_season duration = 155 } }
+					25 = { trade_goods = precious_metal add_province_modifier = { name = pearl_season duration = 186 } }
 				}
+			}
+			1167 = {
+				random_list = {
+					25 = { trade_goods = precious_metal add_province_modifier = { name = pearl_season duration = 93 } }
+					25 = { trade_goods = precious_metal add_province_modifier = { name = pearl_season duration = 124 } }
+					25 = { trade_goods = precious_metal add_province_modifier = { name = pearl_season duration = 155 } }
+					25 = { trade_goods = precious_metal add_province_modifier = { name = pearl_season duration = 186 } }
+				}
+			}
+			2664 = {
+				random_list = {
+					25 = { trade_goods = precious_metal add_province_modifier = { name = pearl_season duration = 93 } }
+					25 = { trade_goods = precious_metal add_province_modifier = { name = pearl_season duration = 124 } }
+					25 = { trade_goods = precious_metal add_province_modifier = { name = pearl_season duration = 155 } }
+					25 = { trade_goods = precious_metal add_province_modifier = { name = pearl_season duration = 186 } }
+				}
+			}
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	end_pearl_hunting = {
+		picture = bahrain_trade
+		potential = {
+			ai = yes
+			OR = {
+				1162 = {
+					trade_goods = precious_metal
+					NOT = { has_province_modifier = pearl_season }
+				}
+				1165 = {
+					trade_goods = precious_metal
+					NOT = { has_province_modifier = pearl_season }
+				}
+				1167 = {
+					trade_goods = precious_metal
+					NOT = { has_province_modifier = pearl_season }
+				}
+				2664 = {
+					trade_goods = precious_metal
+					NOT = { has_province_modifier = pearl_season }
+				}
+			}
+		}
+
+		allow = {
+		}
+		
+		
+		effect = {
+			any_country = {
+				limit = { owns = 1162 1162 = { trade_goods = precious_metal NOT = { has_province_modifier = pearl_season } } }
+				1162 = { trade_goods = fruit }
+			}
+			any_country = {
+				limit = { owns = 1165 1165 = { trade_goods = precious_metal NOT = { has_province_modifier = pearl_season } } }
+				1165 = { trade_goods = fish }
+			}
+			any_country = {
+				limit = { owns = 1167 1167 = { trade_goods = precious_metal NOT = { has_province_modifier = pearl_season } } }
+				1167 = { trade_goods = fish }
+			}
+			any_country = {
+				limit = { owns = 2664 2664 = { trade_goods = precious_metal NOT = { has_province_modifier = pearl_season } } }
+				2664 = { trade_goods = fish }
 			}
 		}
 		ai_will_do = { factor = 1 }

@@ -1,5 +1,7 @@
 capital = 2048
 primary_culture = swahili
+culture = sukuma
+culture = cushitic
 religion = sunni
 government = absolute_monarchy
 plurality = 0.0
@@ -18,7 +20,7 @@ upper_house = {
 }
 
 set_country_flag = delay_unciv_annexation
-
+set_country_flag = sunni_country
 
 #Starting Consciousness
 consciousness = 0

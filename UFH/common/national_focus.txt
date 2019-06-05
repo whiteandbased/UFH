@@ -103,7 +103,13 @@ immigration_focus = {
 		limit = {
 			owner = { ai = no }
 			owner = { NOT = { OR = { government = democracy government = hms_government } } }
-			owner = { citizenship_policy = residency }
+			owner = {
+				OR = {
+					citizenship_policy = residency
+					government = proletarian_dictatorship
+					government = fascist_dictatorship
+				}
+			}
 			owner = { civilized = yes }
 			owner = { number_of_states = 2 }
 			is_colonial = no
@@ -122,7 +128,10 @@ diplomatic_focus = {
 		flashpoint_tension = 0.15
 
 		limit = {
-			owner = { has_global_flag = revolution_n_counter_researched }
+			owner = {
+				has_global_flag = revolution_n_counter_researched
+				is_vassal = no
+			}
 			is_core = THIS
 			THIS = { is_greater_power = no }
 		}

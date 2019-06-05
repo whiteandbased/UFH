@@ -36,6 +36,8 @@ child_labor = child_labor_legal
 citizens_rights = culture_voting_only
 border_policy = quota_immigration
 
+set_country_flag = protestant_country
+
 ruling_party = COL_conservative
 upper_house = {
 	fascist = 0
@@ -47,6 +49,7 @@ upper_house = {
 	communist = 0
 }
 
+set_country_flag = new_world_nation
 
 1861.1.1 = {
 # Technologies

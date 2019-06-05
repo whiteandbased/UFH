@@ -33,8 +33,10 @@ school_reforms = no_schools
 conscription = no_draft
 debt_law = peonage
 penal_system = capital_punishment
-child_labor = child_labor_legalcitizens_rights = primary_culture_only
+child_labor = child_labor_legalcitizens_rights = culture_voting_only
 border_policy = open_borders
+
+set_country_flag = catholic_country
 
 ruling_party = UCA_liberal
 last_election = 1835.2.14
@@ -49,6 +51,7 @@ upper_house = {
 }
 
 decision = FRCA_1836_setup
+set_country_flag = new_world_nation
 
 # Technologies
 post_napoleonic_thought = 1

@@ -1,7 +1,7 @@
 capital = 1438
 primary_culture = malay
 culture = moluccan
-religion = animist
+religion = hindu
 government = absolute_monarchy
 plurality = 0.0
 nationalvalue = nv_order
@@ -32,6 +32,8 @@ penal_system = capital_punishment
 child_labor = child_labor_legalcitizens_rights = culture_voting_only
 border_policy = open_borders
 
+set_country_flag = hindu_country
+
 ruling_party = BAL_conservative
 upper_house = {
 	fascist = 0
@@ -48,7 +50,7 @@ consciousness = 0
 nonstate_consciousness = 0
 
 # Inventions
-bottling_process = yes
+#bottling_process = yes
 modern_winemaking = yes
 
 oob = "BAL_oob.txt"

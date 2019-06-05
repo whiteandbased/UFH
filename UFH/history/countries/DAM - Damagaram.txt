@@ -2,6 +2,7 @@ capital = 1815
 primary_culture = hausa
 culture = tuareg
 culture = african_minor
+culture = fulbe
 religion = sunni
 government = absolute_monarchy
 plurality = 0.0
@@ -45,6 +46,8 @@ upper_house = {
 	socialist = 0
 	communist = 0
 }
+
+set_country_flag = sunni_country
 
 # Technologies
 

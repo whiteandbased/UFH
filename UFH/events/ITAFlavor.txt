@@ -624,7 +624,7 @@ country_event = {
 		466 = { add_core = FRA }
 		472 = { add_core = FRA }
 		PAP_741 = { add_core = THIS }
-		MOD_739 = { add_core = THIS }
+		#MOD_739 = { add_core = THIS }
 		TUS_744 = { add_core = THIS }
 	}
 }

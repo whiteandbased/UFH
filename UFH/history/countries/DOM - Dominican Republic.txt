@@ -1,6 +1,5 @@
 capital = 2214
 primary_culture = caribeno
-culture = afro_caribeno
 religion = catholic
 government = presidential_dictatorship
 plurality = 10
@@ -35,6 +34,8 @@ child_labor = child_labor_legal
 citizens_rights = primary_culture_only
 border_policy = open_borders
 
+set_country_flag = catholic_country
+
 ruling_party = DOM_conservative_3
 upper_house = {
 	fascist = 0
@@ -47,6 +48,7 @@ upper_house = {
 }
 
 schools = unciv_tech_school
+set_country_flag = new_world_nation
 
 # Technologies
 

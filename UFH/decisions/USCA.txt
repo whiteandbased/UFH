@@ -102,6 +102,7 @@ political_decisions = {
 
 		effect = {
 			prestige = 10
+			remove_accepted_culture = north_andean
 			any_country = {
 				limit = {
 					primary_culture = central_american

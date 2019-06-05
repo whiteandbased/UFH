@@ -33,6 +33,8 @@ penal_system = capital_punishment
 child_labor = child_labor_legalcitizens_rights = primary_culture_only
 border_policy = open_borders
 
+set_country_flag = mahayana_country
+
 ruling_party = JAP_reactionary
 upper_house = {
 	fascist = 0
@@ -55,7 +57,7 @@ finance_reform = yes_finance_reform
 flintlock_rifles = 1
 
 # Inventions
-bottling_process = yes
+#bottling_process = yes
 modern_winemaking = yes
 
 # Starting Consciousness
@@ -81,7 +83,7 @@ flintlock_rifles = 1
 post_nelsonian_thought = 1
 
 # Inventions
-bottling_process = yes
+#bottling_process = yes
 modern_winemaking = yes
 
 }

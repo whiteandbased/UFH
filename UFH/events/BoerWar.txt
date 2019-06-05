@@ -903,7 +903,7 @@ country_event = {
 			state_scope = { is_slave = yes }
 		}
 		TRN = {
-			country_event = 95517
+			country_event = { id = 95517 days = 5 }
 			relation = { who = ORA value = 100 }
 			relation = { who = NAL value = 200 }
 			any_pop = {
@@ -1037,7 +1037,7 @@ country_event = {
 			state_scope = { is_slave = yes }
 		}
 		TRN = {
-			country_event = 95517
+			country_event = { id = 95517 days = 5 }
 			relation = { who = ORA value = 100 }
 			relation = { who = NAL value = 200 }
 			any_pop = {
@@ -1079,6 +1079,12 @@ country_event = {
 	option = {
 		name = "EVT98216OPTA"
 		prestige = -10
+		2069 = {
+			add_core = MAT
+			secede_province = MAT
+			life_rating = 25
+			any_pop = { limit = { NOT = { has_pop_culture = boer } } literacy = -0.99 }
+		}
 		any_pop = {
 			limit = { is_primary_culture = yes }
 			dominant_issue = {

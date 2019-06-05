@@ -1009,8 +1009,8 @@ country_event = {
 #End of the Padri War
 country_event = {
 	id = 971204
-	title = "EVTNAME97124"
-	desc = "EVTDESC97124"
+	title = "EVTNAME971204"
+	desc = "EVTDESC971204"
 	picture = "aceh_jihad"
 	
 	trigger = {
@@ -1024,7 +1024,7 @@ country_event = {
 	mean_time_to_happen = { days = 1 }
 	
 	option = {
-		name = "EVT97124OPTA"
+		name = "EVT971204OPTA"
 		prestige = -5
 		1408 = { secede_province = NET remove_core = ATJ }
 		1411 = { secede_province = NET remove_core = ATJ }

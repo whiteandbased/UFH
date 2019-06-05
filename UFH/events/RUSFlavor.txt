@@ -386,9 +386,10 @@ country_event = {
 	}
 }
 
+#the Alaskan Purchase
 country_event = {
 	id = 32510
-	title = "EVTNAME32510_NEW" #the Alaskan Purchase
+	title = "EVTNAME32510_NEW"
 	desc = "EVTDESC32510_NEW"
 	picture = "alaska"
 	
@@ -476,7 +477,25 @@ country_event = {
 		name = "EVT32511OPTA"
 		prestige = 10
 		USA_1 = { add_core = THIS }
+		random_owned = {
+			limit = {
+				owner = {
+					OR = {
+						is_culture_group = american_cultures
+						is_culture_group = neo_european_cultures
+						is_culture_group = latin_american_cultures
+					}
+				}
+			}
+			LSK = { primary_culture = THIS }
+		}
+		
+		random_owned = {
+			limit = { owner = { is_culture_group = british } }
+			LSK = { primary_culture = anglo_canadian }
+		}
 		FROM = {
+			remove_accepted_culture = alaskan
 			any_owned = {
 				limit = { continent = north_america }
 				secede_province = THIS
@@ -508,21 +527,45 @@ country_event = {
 			}
 		}
 		
-		random_owned = { limit = { owner = { capital_scope = { pop_majority_religion = catholic } } } LSK = { religion = catholic } }
-		random_owned = { limit = { owner = { capital_scope = { pop_majority_religion = protestant } } } LSK = { religion = protestant } }
-		random_owned = { limit = { owner = { capital_scope = { pop_majority_religion = orthodox } } } LSK = { religion = orthodox } }
-		random_owned = { limit = { owner = { capital_scope = { pop_majority_religion = mormon } } } LSK = { religion = mormon } }
-		random_owned = { limit = { owner = { capital_scope = { pop_majority_religion = coptic } } } LSK = { religion = coptic } }
-		random_owned = { limit = { owner = { capital_scope = { pop_majority_religion = sunni } } } LSK = { religion = sunni } }
-		random_owned = { limit = { owner = { capital_scope = { pop_majority_religion = shiite } } } LSK = { religion = shiite } }
-		random_owned = { limit = { owner = { capital_scope = { pop_majority_religion = shinto } } } LSK = { religion = shinto } }
-		random_owned = { limit = { owner = { capital_scope = { pop_majority_religion = mahayana } } } LSK = { religion = mahayana } }
-		random_owned = { limit = { owner = { capital_scope = { pop_majority_religion = gelugpa } } } LSK = { religion = gelugpa } }
-		random_owned = { limit = { owner = { capital_scope = { pop_majority_religion = theravada } } } LSK = { religion = theravada } }
-		random_owned = { limit = { owner = { capital_scope = { pop_majority_religion = hindu } } } LSK = { religion = hindu } }
-		random_owned = { limit = { owner = { capital_scope = { pop_majority_religion = sikh } } } LSK = { religion = sikh } }
-		random_owned = { limit = { owner = { tag = ISR } } LSK = { religion = jewish } }
-		random_owned = { limit = { owner = { tag = OMA } } LSK = { religion = ibadi } }
+		LSK = {
+			clr_country_flag = sunni_country
+			clr_country_flag = shiite_country
+			clr_country_flag = ibadi_country
+			clr_country_flag = catholic_country
+			clr_country_flag = protestant_country
+			clr_country_flag = mormon_country
+			clr_country_flag = orthodox_country
+			clr_country_flag = coptic_country
+			clr_country_flag = jewish_country
+			clr_country_flag = yazidi_country
+			clr_country_flag = mahayana_country
+			clr_country_flag = gelugpa_country
+			clr_country_flag = theravada_country
+			clr_country_flag = hindu_country
+			clr_country_flag = shinto_country
+			clr_country_flag = sikh_country
+			clr_country_flag = animist_country
+		}
+		
+		random_owned = { limit = { owner = { has_country_flag = catholic_country } } LSK = { religion = catholic set_country_flag = catholic_country } }
+		random_owned = {
+			limit = { owner = { has_country_flag = protestant_country } }
+			LSK = { religion = protestant set_country_flag = protestant_country }
+		}
+		random_owned = { limit = { owner = { has_country_flag = orthodox_country } } LSK = { religion = orthodox set_country_flag = orthodox_country } }
+		random_owned = { limit = { owner = { has_country_flag = mormon_country } } LSK = { religion = mormon set_country_flag = mormon_country } }
+		random_owned = { limit = { owner = { has_country_flag = coptic_country } } LSK = { religion = coptic set_country_flag = coptic_country } }
+		random_owned = { limit = { owner = { has_country_flag = sunni_country } } LSK = { religion = sunni set_country_flag = sunni_country } }
+		random_owned = { limit = { owner = { has_country_flag = shiite_country } } LSK = { religion = shiite set_country_flag = shiite_country } }
+		random_owned = { limit = { owner = { has_country_flag = shinto_country } } LSK = { religion = shinto set_country_flag = shinto_country } }
+		random_owned = { limit = { owner = { has_country_flag = mahayana_country } } LSK = { religion = mahayana set_country_flag = mahayana_country } }
+		random_owned = { limit = { owner = { has_country_flag = gelugpa_country } } LSK = { religion = gelugpa set_country_flag = gelugpa_country } }
+		random_owned = { limit = { owner = { has_country_flag = theravada_country } } LSK = { religion = theravada set_country_flag = theravada_country } }
+		random_owned = { limit = { owner = { has_country_flag = hindu_country } } LSK = { religion = hindu set_country_flag = hindu_country } }
+		random_owned = { limit = { owner = { has_country_flag = sikh_country } } LSK = { religion = sikh set_country_flag = sikh_country } }
+		random_owned = { limit = { owner = { has_country_flag = jewish_country } } LSK = { religion = jewish set_country_flag = jewish_country } }
+		random_owned = { limit = { owner = { has_country_flag = ibadi_country } } LSK = { religion = ibadi set_country_flag = ibadi_country } }
+		random_owned = { limit = { owner = { has_country_flag = yazidi_country } } LSK = { religion = yazidi set_country_flag = yazidi_country } }
 	}
 }
 
@@ -2191,6 +2234,7 @@ province_event = {
 	desc = "EVTDESC32535"
 	
 	trigger = {
+		NOT = { owner = { tag = TUR } }
 		is_core = GEO
 		year = 1840
 		OR = {

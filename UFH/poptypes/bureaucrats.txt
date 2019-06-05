@@ -2548,57 +2548,48 @@ issues =
 		modifier = {
 			factor = 0 
 			OR = {
-				country = { slavery = no_slavery }
+				NOT = { is_next_reform = freedom_of_womb }
 				country = { civilized = no }
-				country = { slavery = freedom_of_womb }
 			}
 		}
 		modifier = {
 			factor = 0.5
 			state_scope = { is_slave = yes }
-			NOT = { country = { slavery = freedom_of_womb } }
 		}
 		modifier = {
 			factor = 1.1
 			life_needs = 1.0
-			NOT = { country = { slavery = freedom_of_womb } }
 		}
 		modifier = {
 			factor = 1.1
 			life_needs = 1.0
 			everyday_needs = 0.2
-			NOT = { country = { slavery = freedom_of_womb } }
 		}
 		modifier = {
 			factor = 1.1
 			life_needs = 1.0
 			everyday_needs = 1.0
 			luxury_needs = 1.0
-			NOT = { country = { slavery = freedom_of_womb } }
 		}
 		modifier = {
 			factor = 1.5
 			NOT = { state_scope = { is_slave = yes } }
 			consciousness = 6
-			NOT = { country = { slavery = freedom_of_womb } }
 		}
 		modifier = {
 			factor = 1.5
 			NOT = { state_scope = { is_slave = yes } }
 			consciousness = 7
-			NOT = { country = { slavery = freedom_of_womb } }
 		}
 		modifier = {
 			factor = 1.5
 			NOT = { state_scope = { is_slave = yes } }
 			consciousness = 8
-			NOT = { country = { slavery = freedom_of_womb } }
 		}
 		modifier = {
 			factor = 2
 			NOT = { state_scope = { is_slave = yes } }
 			consciousness = 9
-			NOT = { country = { slavery = freedom_of_womb } }
 		}
 	}
 
@@ -2615,15 +2606,6 @@ issues =
 		modifier = {
 			factor = 0.5
 			 state_scope = { is_slave = yes }
-		}
-		
-		modifier = {
-			factor = 1.1
-			state_scope = { is_slave = yes }
-			OR = {
-				unemployment_by_type = { type = farmers value = 0.01  }
-				NOT = { everyday_needs = 0.5 }
-			}
 		}
 			
 		modifier = {
@@ -5611,380 +5593,17 @@ issues =
 		}
 	}
 #######################################Conscription
-	four_year_draft = {
-			factor = 1
-			modifier = {
-				factor = 0
-				OR = {
-					country = { civilized = no }
-					NOT = { is_next_reform = four_year_draft }
-					NOT = { war_exhaustion = 20 }
-					NOT = { consciousness = 7 }
-				}
-			}
-			modifier = {
-				factor = 0.9
-				nationalvalue = nv_order
-				OR = { is_accepted_culture = yes is_primary_culture = yes }
-			}
-			
-			modifier = {
-				factor = 1.2
-				pop_majority_ideology = liberal
-			}
-			
-			modifier = {
-				factor = 0.9
-				OR = {
-				pop_majority_ideology = reactionary
-				pop_majority_ideology = fascist
-				}
-			}
-			
-			modifier = {
-				factor = 0.9
-				any_neighbor_country = { brigades_compare = 1.25 }
-			}
-			
-			modifier = {
-				factor = 0.9
-				OR = {
-				country = { has_recently_lost_war = yes }
-				country = { is_mobilised = yes }
-				}
-			}
-			
-			modifier = {
-				factor = 0.8
-				country = { war_policy = jingoism }
-			}
-			
-			modifier = {
-				factor = 0.9
-				country = { war_policy = pro_military }
-			}
-			
-			modifier = {
-				factor = 1.25
-				country = { war_policy = anti_military }
-			}
-			
-			modifier = {
-				factor = 1.5
-				country = { war_policy = pacifism }
-			}
-			
-			modifier = {
-				factor = 1.05
-				war_exhaustion = 1
-			}
-			
-			modifier = {
-				factor = 1.1
-				war_exhaustion = 10
-			}
-			
-			modifier = {
-				factor = 1.25
-				war_exhaustion = 25
-			}
-			
-			modifier = {
-				factor = 1.5
-				war_exhaustion = 30
-			}
-			
-			modifier = {
-				factor = 2
-				war_exhaustion = 50
-			}
-			
-			modifier = {
-				factor = 1.1
-				literacy = 0.75
-			}
-			modifier = {
-				factor = 1.1
-				literacy = 0.85
-			}
-		}
-		
-	two_year_draft = {
-		factor = 1
-			modifier = {
-				factor = 0
-				OR = {
-					country = { civilized = no }
-					NOT = { is_next_reform = two_year_draft }
-					NOT = { war_exhaustion = 25 }
-					NOT = { consciousness = 7 }
-
-				}
-			}
-			modifier = {
-				factor = 0.9
-				nationalvalue = nv_order
-				OR = { is_accepted_culture = yes is_primary_culture = yes }
-			}
-			
-			modifier = {
-				factor = 1.25
-				pop_majority_ideology = liberal
-			}
-			
-			modifier = {
-				factor = 0.9
-				OR = {
-				pop_majority_ideology = reactionary
-				pop_majority_ideology = fascist
-				}
-			}
-			
-			modifier = {
-				factor = 0.9
-				any_neighbor_country = { brigades_compare = 1.25 }
-			}
-			
-			modifier = {
-				factor = 0.9
-				OR = {
-				country = { has_recently_lost_war = yes }
-				country = { is_mobilised = yes }
-				}
-			}
-			
-			modifier = {
-				factor = 0.8
-				country = { war_policy = jingoism }
-			}
-			
-			modifier = {
-				factor = 0.9
-				country = { war_policy = pro_military }
-			}
-			
-			modifier = {
-				factor = 1.25
-				country = { war_policy = anti_military }
-			}
-			
-			modifier = {
-				factor = 1.5
-				country = { war_policy = pacifism }
-			}
-			
-			modifier = {
-				factor = 1.05
-				war_exhaustion = 1
-			}
-			
-			modifier = {
-				factor = 1.1
-				war_exhaustion = 10
-			}
-			
-			modifier = {
-				factor = 1.25
-				war_exhaustion = 25
-			}
-			
-			modifier = {
-				factor = 1.5
-				war_exhaustion = 30
-			}
-			
-			modifier = {
-				factor = 2
-				war_exhaustion = 50
-			}
-			modifier = {
-				factor = 1.1
-				literacy = 0.75
-			}
-			modifier = {
-				factor = 1.85
-				literacy = 0.7
-			}
-		}
-		
-	one_year_draft = {
-			factor = 1
-			modifier = {
-				factor = 0
-				OR = {
-					country = { civilized = no }
-					NOT = { is_next_reform = one_year_draft }
-					NOT = { war_exhaustion = 30 }
-					NOT = { consciousness = 8 }
-				}
-			}
-			modifier = {
-				factor = 0.9
-				nationalvalue = nv_order
-				OR = { is_accepted_culture = yes is_primary_culture = yes }
-			}
-			
-			modifier = {
-				factor = 1.25
-				pop_majority_ideology = liberal
-			}
-			
-			modifier = {
-				factor = 0.9
-				OR = {
-				pop_majority_ideology = reactionary
-				pop_majority_ideology = fascist
-				}
-			}
-			
-			modifier = {
-				factor = 0.9
-				any_neighbor_country = { brigades_compare = 1.25 }
-			}
-			
-			modifier = {
-				factor = 0.9
-				OR = {
-				country = { has_recently_lost_war = yes }
-				country = { is_mobilised = yes }
-				}
-			}
-			
-			modifier = {
-				factor = 0.8
-				country = { war_policy = jingoism }
-			}
-			
-			modifier = {
-				factor = 0.9
-				country = { war_policy = pro_military }
-			}
-			
-			modifier = {
-				factor = 1.25
-				country = { war_policy = anti_military }
-			}
-			
-			modifier = {
-				factor = 1.5
-				country = { war_policy = pacifism }
-			}
-			
-			modifier = {
-				factor = 1.05
-				war_exhaustion = 1
-			}
-			
-			modifier = {
-				factor = 1.1
-				war_exhaustion = 10
-			}
-			
-			modifier = {
-				factor = 1.25
-				war_exhaustion = 25
-			}
-			
-			modifier = {
-				factor = 1.5
-				war_exhaustion = 30
-			}
-			
-			modifier = {
-				factor = 2
-				war_exhaustion = 50
-			}
-	}
-		
-	no_draft = {
-			factor = 1
-			modifier = {
-				factor = 0
-				OR = {
-					country = { civilized = no }
-					NOT = { is_next_reform = no_draft }
-					NOT = { war_exhaustion = 40 }
-					NOT = { consciousness = 8 }
-				}
-			}
-			modifier = {
-				factor = 0.9
-				nationalvalue = nv_order
-				OR = { is_accepted_culture = yes is_primary_culture = yes }
-			}
-			
-			modifier = {
-				factor = 1.25
-				pop_majority_ideology = liberal
-			}
-			
-			modifier = {
-				factor = 0.9
-				OR = {
-				pop_majority_ideology = reactionary
-				pop_majority_ideology = fascist
-				}
-			}
-			
-			modifier = {
-				factor = 0.9
-				any_neighbor_country = { brigades_compare = 1.25 }
-			}
-			
-			modifier = {
-				factor = 0.9
-				OR = {
-				country = { has_recently_lost_war = yes }
-				country = { is_mobilised = yes }
-				}
-			}
-			
-			modifier = {
-				factor = 0.8
-				country = { war_policy = jingoism }
-			}
-			
-			modifier = {
-				factor = 0.9
-				country = { war_policy = pro_military }
-			}
-			
-			modifier = {
-				factor = 1.25
-				country = { war_policy = anti_military }
-			}
-			
-			modifier = {
-				factor = 1.5
-				country = { war_policy = pacifism }
-			}
-			
-			modifier = {
-				factor = 1.05
-				war_exhaustion = 1
-			}
-			
-			modifier = {
-				factor = 1.1
-				war_exhaustion = 10
-			}
-			
-			modifier = {
-				factor = 1.25
-				war_exhaustion = 25
-			}
-			
-			modifier = {
-				factor = 1.5
-				war_exhaustion = 30
-			}
-			
-			modifier = {
-				factor = 2
-				war_exhaustion = 50
-			}
-	}
-
+#	four_year_draft = {
+#		}
+#		
+#	two_year_draft = {
+#		}
+#		
+#	one_year_draft = {
+#		}
+#		
+#	no_draft = {
+#	}
 #######################################Debt Law
 peonage = {
 	factor = 1

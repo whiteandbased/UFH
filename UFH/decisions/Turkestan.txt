@@ -235,11 +235,7 @@ political_decisions = {
 			1207 = { add_core = TKS } #Kulob
 			1208 = { add_core = TKS } #Khorug
 			1210 = { add_core = TKS } #Faizabad
-			1211 = { add_core = TKS } #Balkh
 			1209 = { add_core = TKS } #Kabul
-			1213 = { add_core = TKS } #Bamyan
-			1212 = { add_core = TKS } #Herat
-			1214 = { add_core = TKS } #Farrah
 			1190 = { add_core = TKS } #Naryn
 			1195 = { add_core = TKS } #Tashkent
 			1186 = { add_core = TKS } #Alma Ata
@@ -261,7 +257,7 @@ political_decisions = {
 					NOT = { tag = THIS }
 				}
 				annex_to = THIS
-			}			
+			}		
 		}
 
 		ai_will_do = { factor = 1 }

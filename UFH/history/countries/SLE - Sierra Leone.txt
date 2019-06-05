@@ -1,5 +1,4 @@
 capital = 1884
-primary_culture = british 
 culture = mande
 culture = african_minor
 religion = protestant
@@ -34,9 +33,11 @@ penal_system = capital_punishment
 child_labor = child_labor_legalcitizens_rights = primary_culture_only
 border_policy = open_borders
 
+set_country_flag = protestant_country
+
 set_country_flag = post_colonial_country
 
-ruling_party = WAD_conservative
+ruling_party = SLE_communist
 upper_house = {
 	fascist = 0
 	liberal = 16

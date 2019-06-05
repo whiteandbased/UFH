@@ -181,37 +181,37 @@
 	}
 
 	aristocrats = {
-		culture = african_minor
+		culture = yao
 		religion = animist
 		size = 350
 	}
 
 	clergymen = {
-		culture = african_minor
+		culture = yao
 		religion = animist
 		size = 200
 	}
 
 	artisans = {
-		culture = african_minor
+		culture = yao
 		religion = animist
 		size = 950
 	}
 
 	soldiers = {
-		culture = african_minor
+		culture = yao
 		religion = animist
 		size = 200
 	}
 
 	farmers = {
-		culture = african_minor
+		culture = yao
 		religion = animist
 		size = 17300
 	}
 
 	slaves = {
-		culture = african_minor
+		culture = yao
 		religion = animist
 		size = 10000
 	}
@@ -260,7 +260,7 @@
 	}
 
 	slaves = {
-		culture = african_minor
+		culture = yao
 		religion = animist
 		size = 4000
 	}
@@ -271,31 +271,31 @@
 2040 = {
 	aristocrats = {
 		culture = yao
-		religion = animist
+		religion = sunni
 		size = 375
 	}
 
 	clergymen = {
 		culture = yao
-		religion = animist
+		religion = sunni
 		size = 200
 	}
 
 	artisans = {
 		culture = yao
-		religion = animist
+		religion = sunni
 		size = 800
 	}
 
 	soldiers = {
 		culture = yao
-		religion = animist
+		religion = sunni
 		size = 200
 	}
 
 	farmers = {
 		culture = yao
-		religion = animist
+		religion = sunni
 		size = 15425
 	}
 
@@ -345,31 +345,31 @@
 2041 = {
 	aristocrats = {
 		culture = yao
-		religion = animist
+		religion = sunni
 		size = 475
 	}
 
 	clergymen = {
 		culture = yao
-		religion = animist
+		religion = sunni
 		size = 250
 	}
 
 	artisans = {
 		culture = yao
-		religion = animist
+		religion = sunni
 		size = 1100
 	}
 
 	soldiers = {
 		culture = yao
-		religion = animist
+		religion = sunni
 		size = 250
 	}
 
 	farmers = {
 		culture = yao
-		religion = animist
+		religion = sunni
 		size = 15125
 	}
 
@@ -480,13 +480,13 @@
 	aristocrats = {
 		culture = african_minor
 		religion = sunni
-		size = 50
+		size = 100
 	}
 
 	clergymen = {
 		culture = african_minor
 		religion = sunni
-		size = 50
+		size = 100
 	}
 
 	artisans = {
@@ -498,7 +498,7 @@
 	soldiers = {
 		culture = african_minor
 		religion = sunni
-		size = 50
+		size = 100
 	}
 
 	farmers = {
@@ -580,7 +580,7 @@
 	clergymen = {
 		culture = african_minor
 		religion = animist
-		size = 75
+		size = 100
 	}
 
 	artisans = {
@@ -610,13 +610,13 @@
 	aristocrats = {
 		culture = sukuma
 		religion = animist
-		size = 50
+		size = 100
 	}
 
 	clergymen = {
 		culture = sukuma
 		religion = animist
-		size = 75
+		size = 100
 	}
 
 	artisans = {
@@ -628,7 +628,7 @@
 	soldiers = {
 		culture = sukuma
 		religion = animist
-		size = 25
+		size = 100
 	}
 
 	farmers = {
@@ -1117,6 +1117,12 @@
 		culture = african_minor
 		religion = animist
 		size = 5475
+	}
+	
+	slaves = {
+		culture = cushitic
+		religion = sunni
+		size = 2000
 	}
 }
 #Zanzibar Region (156000)

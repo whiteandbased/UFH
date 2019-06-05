@@ -71,7 +71,7 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_politics_rebel_strip"
-		texturefile = "gfx\\interface\\politics_rebel_strip.tga"
+		texturefile = "gfx\\interface\\politics_rebel_strip.dds"
 		noOfFrames = 18
 	}
 	spriteType = {

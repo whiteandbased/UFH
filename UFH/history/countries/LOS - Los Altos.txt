@@ -35,6 +35,8 @@ penal_system = capital_punishment
 child_labor = child_labor_legalcitizens_rights = primary_culture_only
 border_policy = open_borders
 
+set_country_flag = catholic_country
+
 ruling_party = LOS_liberal
 last_election = 1835.2.14
 upper_house = {
@@ -46,3 +48,5 @@ upper_house = {
 	socialist = 0
 	communist = 0
 }
+
+set_country_flag = new_world_nation

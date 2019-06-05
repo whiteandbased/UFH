@@ -841,7 +841,7 @@ revolution_n_counterrevolution = {
 	max_national_focus = 1
 	diplomatic_points = 0.25
 	ai_chance = {
-		factor = 1.1
+		factor = 20
 		modifier = {
 			factor = 1.5
 			is_greater_power = yes
@@ -913,6 +913,27 @@ introspectionism = {
 		modifier = {
 			factor = 2
 			year = 1860 #1850
+		}
+		modifier = {
+			factor = 21
+			is_greater_power = yes
+		}
+		modifier = {
+			factor = 11
+			rank = 16
+			year = 1860
+			any_owned_province = { port = yes }
+			total_pops = 4000000
+		}
+		modifier = {
+			factor = 2
+			is_greater_power = yes
+			year = 1865
+		}
+		modifier = {
+			factor = 51
+			rank = 16
+			year = 1870
 		}
 	}
 

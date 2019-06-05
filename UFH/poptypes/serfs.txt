@@ -60,22 +60,12 @@ promote_to = {
 	farmers = {
 		factor = 1
 			
-			modifier = {
-				factor = 10
-				luxury_needs = 0.8
-			}
-			
-			modifier = {
-				factor = 10
-				NOT = { debt_law = serfdom }
-			}
-			
-			modifier = {
-				factor = -1000
-				debt_law = serfdom
-			}
+		modifier = {
+			factor = 2
+			luxury_needs = 0.8
 		}
 	}
+}
 
 
 ideologies = {

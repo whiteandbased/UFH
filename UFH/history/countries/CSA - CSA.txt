@@ -9,6 +9,8 @@ literacy = 0.50
 civilized = yes
 is_releasable_vassal = no
 
+set_country_flag = new_world_nation
+
 # Technologies
 post_napoleonic_thought = 1
 strategic_mobility = 1
@@ -147,6 +149,8 @@ penal_system = capital_punishment
 child_labor = child_labor_legal
 citizens_rights = culture_voting_only
 border_policy = open_borders
+
+set_country_flag = protestant_country
 
 ruling_party = CSA_conservative
 upper_house = {

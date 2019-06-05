@@ -2,6 +2,21 @@
 # scriptable and usable for event-system below.
 ##################################################################################################
 
+native_assimilation_act_policy = {
+	badboy = 0.01
+	icon = 18
+}
+
+native_removal_act_policy = {
+	badboy = 0.02
+	icon = 18
+}
+
+#local_trinket_health_care = {
+#	#population_growth = 0.002
+#	icon = 19
+#}
+
 ##Disasters
 earthquake_devastation = {
 	local_artisan_output = -0.5
@@ -73,7 +88,7 @@ plantation = {
 
 haussmanns_renovations = {
 	farm_rgo_size = 1
-	immigrant_attract = 0.1
+	immigrant_attract = 0.25
 	icon = 19
 }
 
@@ -241,9 +256,8 @@ population_resettlement = {
 	icon = 19
 }
 
-trade_city = {
-	farm_rgo_eff = 0.25
-	goods_demand = -0.25
+pearl_season = {
+	mine_rgo_eff = -0.33
 	icon = 11
 }
 
@@ -337,8 +351,6 @@ withdrew_from_geneva_convention = {
 
 genocide = {
 	immigrant_attract = -1 
-	immigrant_push = 0.5
-	life_rating = -0.25
 	icon = 20
 }
 
@@ -486,6 +498,7 @@ bad_badboy = {
 
 the_big_ben = {
 	local_factory_output = 0.01
+	immigrant_attract = 0.25
 	icon = 5
 }
 
@@ -1707,6 +1720,15 @@ holy_city = {
 }
 
 ### China ###
+boxer_rebellion = {
+	pop_militancy_modifier = 0.1
+	local_rgo_output = -0.25
+	immigrant_attract = -0.25
+	immigrant_push = 0.75
+	population_growth = -0.002
+	icon = 4
+}
+
 boxer_presence = {
 	pop_militancy_modifier = -0.2
 	local_RGO_throughput = -0.25

@@ -164,7 +164,7 @@ political_decisions = {
 			728 = { remove_core = AUS }
 			PAP_741 = { add_core = THIS }
 			TUS_744 = { add_core = THIS }
-			MOD_739 = { add_core = THIS }
+			#MOD_739 = { add_core = THIS }
 			any_country = {
 				limit = {
 					OR = {
@@ -374,7 +374,7 @@ political_decisions = {
 			badboy = 1
 			any_country = {
 				limit = {
-					religion = catholic
+					has_country_flag = catholic_country
 				}
 				relation = {
 					who = THIS
@@ -461,20 +461,20 @@ political_decisions = {
 			badboy = -2
 			any_owned = {
 				limit = {
-				OR = {
-					is_core = SAR
-					is_core = SVY
-					is_core = SRD
-					is_core = SIC
-					is_core = MOD
-					is_core = TUS
-					is_core = LUC
-					is_core = PAR
-					is_core = PAP
-					is_core = VEN
-					is_core = LOM
-					is_core = RMG
-					is_core = SYC
+					OR = {
+						is_core = SAR
+						is_core = SVY
+						is_core = SRD
+						is_core = SIC
+						is_core = MOD
+						is_core = TUS
+						is_core = LUC
+						is_core = PAR
+						is_core = PAP
+						is_core = VEN
+						is_core = LOM
+						is_core = RMG
+						is_core = SYC
 					}
 				}
 				add_core = ITA
@@ -511,7 +511,7 @@ political_decisions = {
 
 		effect = {
 			set_country_flag = italia_ulterior
-			
+			AUS_733 = { add_core = ITA }
 			AUS_729 = { add_core = ITA }
 			AUS_734 = { add_core = ITA }
 			AUS_736 = { add_core = ITA }
@@ -1182,20 +1182,20 @@ political_decisions = {
 			badboy = 1
 			any_owned = {
 				limit = {
-				OR = {
-					is_core = SAR
-					is_core = SVY
-					is_core = SRD
-					is_core = SIC
-					is_core = MOD
-					is_core = TUS
-					is_core = LUC
-					is_core = PAR
-					is_core = PAP
-					is_core = VEN
-					is_core = LOM
-					is_core = RMG
-					is_core = SYC
+					OR = {
+						is_core = SAR
+						is_core = SVY
+						is_core = SRD
+						is_core = SIC
+						is_core = MOD
+						is_core = TUS
+						is_core = LUC
+						is_core = PAR
+						is_core = PAP
+						is_core = VEN
+						is_core = LOM
+						is_core = RMG
+						is_core = SYC
 					}
 				}
 				add_core = ITA

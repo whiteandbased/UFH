@@ -1,53 +1,78 @@
-#Sierra Leone Region (752000)
+#Sierra Leone Region (752000) 
 #uncolonized in 1836/Britain has trade post in 1836
-#Freetown (400000/100000 POPS)
+#Freetown (400000/100000 POPS) 
 1884 = {
+
+	aristocrats = {
+		culture = afro_caribbean
+		religion = protestant
+		size = 300
+	}
+	
+	officers = {
+		culture = afro_caribbean
+		religion = protestant
+		size = 100
+	}
+
+	clergymen = {
+		culture = afro_caribbean
+		religion = protestant
+		size = 100
+	}
+
 	artisans = {
 		culture = afro_caribbean
 		religion = protestant
-		size = 257.5
+		size = 250
 	}
 
 	soldiers = {
 		culture = afro_caribbean
 		religion = protestant
-		size = 51.5
+		size = 100
 	}
 
 	farmers = {
 		culture = afro_caribbean
 		religion = protestant
-		size = 4841.0
+		size = 4700
 	}
 
 	aristocrats = {
 		culture = mande
 		religion = sunni
-		size = 695.25
+		size = 675
+	}
+	
+	officers = {
+		culture = mande
+		religion = sunni
+		size = 100
 	}
 
 	clergymen = {
 		culture = mande
 		religion = sunni
-		size = 360.5
+		size = 100
 	}
 
 	artisans = {
 		culture = mande
 		religion = sunni
-		size = 1699.5
+		size = 1650
 	}
 
 	soldiers = {
 		culture = mande
 		religion = sunni
-		size = 360.5
+		size = 350
 	}
 
 	farmers = {
 		culture = mande
 		religion = sunni
-		size = 32934.25
+		size = 32125
 	}
 
 	aristocrats = {
@@ -111,172 +136,172 @@
 	}
 }
 #uncolonized in 1836
-#Bo (352000/88000 POPS)
+#Bo (352000/88000 POPS) 
 1886 = {
 	aristocrats = {
 		culture = mande
 		religion = sunni
-		size = 927.0
+		size = 900
 	}
 
 	clergymen = {
 		culture = mande
 		religion = sunni
-		size = 489.25
+		size = 100
 	}
 
 	artisans = {
 		culture = mande
 		religion = sunni
-		size = 1931.25
+		size = 1875
 	}
 
 	soldiers = {
 		culture = mande
 		religion = sunni
-		size = 489.25
+		size = 475
 	}
 
 	farmers = {
 		culture = mande
 		religion = sunni
-		size = 37363.25
+		size = 36650
 	}
 
 	aristocrats = {
 		culture = african_minor
 		religion = animist
-		size = 824.0
+		size = 800
 	}
 
 	clergymen = {
 		culture = african_minor
 		religion = animist
-		size = 412.0
+		size = 100
 	}
 
 	artisans = {
 		culture = african_minor
 		religion = animist
-		size = 2060.0
+		size = 2000
 	}
 
 	soldiers = {
 		culture = african_minor
 		religion = animist
-		size = 437.75
+		size = 425
 	}
 
 	farmers = {
 		culture = african_minor
 		religion = animist
-		size = 38496.25
+		size = 37675
 	}
 
 	slaves = {
 		culture = african_minor
 		religion = animist
-		size = 7210.0
+		size = 7000
 	}
 }
 #Jallon Region (384000) #see Guinea.txt for balance of Region
 #uncolonized in 1836
-#Falaba (384000/96000 POPS) #now part of Sierra Leone
+#Falaba (384000/96000 POPS) #now part of Sierra Leone 
 1885 = {
 	aristocrats = {
 		culture = mande
 		religion = sunni
-		size = 952.75
+		size = 925
 	}
 
 	clergymen = {
 		culture = mande
 		religion = sunni
-		size = 489.25
+		size = 100
 	}
 
 	artisans = {
 		culture = mande
 		religion = sunni
-		size = 1957.0
+		size = 1900
 	}
 
 	soldiers = {
 		culture = mande
 		religion = sunni
-		size = 489.25
+		size = 475
 	}
 
 	farmers = {
 		culture = mande
 		religion = sunni
-		size = 37311.75
+		size = 36600
 	}
 
 	aristocrats = {
 		culture = african_minor
 		religion = sunni
-		size = 824.0
+		size = 800
 	}
 
 	clergymen = {
 		culture = african_minor
 		religion = sunni
-		size = 412.0
+		size = 100
 	}
 
 	artisans = {
 		culture = african_minor
 		religion = sunni
-		size = 1699.5
+		size = 1650
 	}
 
 	soldiers = {
 		culture = african_minor
 		religion = sunni
-		size = 437.75
+		size = 425
 	}
 
 	farmers = {
 		culture = african_minor
 		religion = sunni
-		size = 32676.75
+		size = 37025
 	}
 
 	aristocrats = {
 		culture = african_minor
 		religion = animist
-		size = 128.75
+		size = 125
 	}
 
 	clergymen = {
 		culture = african_minor
 		religion = animist
-		size = 77.25
+		size = 100
 	}
 
 	artisans = {
 		culture = african_minor
 		religion = animist
-		size = 412.0
+		size = 400
 	}
 
 	soldiers = {
 		culture = african_minor
 		religion = animist
-		size = 103.0
+		size = 100
 	}
 
 	farmers = {
 		culture = african_minor
 		religion = animist
-		size = 7519.0
+		size = 2300
 	}
 
 	slaves = {
 		culture = african_minor
 		religion = animist
-		size = 13390.0
+		size = 13000
 	}
 
 }

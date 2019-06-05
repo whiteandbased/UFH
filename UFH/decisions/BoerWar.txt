@@ -329,19 +329,20 @@ political_decisions = {
 			prestige = 10
 			SAF = {
 				all_core = {
-					limit = {
-						NOT = { owned_by = THIS }
-					}
+					limit = { NOT = { owned_by = THIS } }
 					remove_core = SAF
 				}
 				primary_culture = THIS
 				add_accepted_culture = boer
 				set_country_flag = post_colonial_country
 			}
+			any_owned = {
+				limit = { region = TRN_2108 }
+				remove_core = MAT
+				remove_core = GAZ
+			}
 			any_pop = {
-				limit = {
-					location = { is_core = SAF }
-				}
+				limit = { location = { is_core = SAF } }
 				militancy = -3
 			}
 		}

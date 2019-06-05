@@ -102,10 +102,10 @@ country_event = {
 			add_country_modifier = { name = western_presence duration = -1 }
 			tech_school = unciv_tech_school
 		}
-		random_owned = { limit = { owner = { capital_scope = { pop_majority_religion = catholic } } } CNG = { religion = catholic } }
-		random_owned = { limit = { owner = { capital_scope = { pop_majority_religion = protestant } } } CNG = { religion = protestant } }
-		random_owned = { limit = { owner = { capital_scope = { pop_majority_religion = orthodox } } } CNG = { religion = orthodox } }
-		random_owned = { limit = { owner = { capital_scope = { pop_majority_religion = sunni } } } CNG = { religion = sunni } }
+		random_owned = { limit = { owner = { has_country_flag = catholic_country } } CNG = { religion = catholic } }
+		random_owned = { limit = { owner = { has_country_flag = protestant_country } } CNG = { religion = protestant } }
+		random_owned = { limit = { owner = { has_country_flag = orthodox_country } } CNG = { religion = orthodox } }
+		random_owned = { limit = { owner = { has_country_flag = sunni_country } } CNG = { religion = sunni } }
 		ai_chance = { factor = 0.1 }
 	}
 }

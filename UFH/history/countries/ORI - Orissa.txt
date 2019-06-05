@@ -32,6 +32,8 @@ penal_system = capital_punishment
 child_labor = child_labor_legalcitizens_rights = primary_culture_only
 border_policy = open_borders
 
+set_country_flag = hindu_country
+
 ruling_party = ORI_conservative
 upper_house = {
 	fascist = 0
@@ -50,7 +52,7 @@ foreign_weapons = yes_foreign_weapons
 flintlock_rifles = 1
 
 # Inventions
-bottling_process = yes
+#bottling_process = yes
 modern_winemaking = yes
 
 # Starting Consciousness

@@ -1564,6 +1564,7 @@ country_event = {
 	}
 	
 	fire_only_once = yes
+	allow_multiple_instances = no
  
 	mean_time_to_happen =  {
 		months = 10
@@ -1716,6 +1717,7 @@ country_event = {
 			tag = ENG
 			tag = ENL
 		}
+		NOT = { has_global_flag = eic_spawned }
 		owns = 1251 #Calcutta
 		year = 1853
 		NOT = { year = 1857 }
@@ -1791,9 +1793,10 @@ country_event = {
 
 }
 
+#Treaty of Waitangi
 country_event = {
 
-	id = 36940 #Treaty of Waitangi
+	id = 36940
 	title = "EVTNAME36940"
 	desc = "EVTDESC36940"
 	news = yes
@@ -1803,13 +1806,9 @@ country_event = {
 	picture = "Waitangi"
 
 	trigger = {
-		OR = {
-			tag = ENG
-			tag = ENL
-		}
+		NOT = { has_global_flag = treaty_of_waitangi }
 		owns = 2509 #Auckland
 		year = 1840
-		NOT = { exists = NZL }
 	}
 
 	fire_only_once = yes
@@ -1830,8 +1829,8 @@ country_event = {
 		name = "EVTOPTA36940"
 		set_global_flag = treaty_of_waitangi
 		prestige = 5
-		ENG_2509 = { add_core = ENG } #North Island
-		ENG_2513 = { add_core = ENG } #South Island
+		ENG_2509 = { add_core = THIS add_core = NZL } #North Island
+		ENG_2513 = { add_core = THIS add_core = NZL } #South Island
 		any_pop = { 
 			limit = { has_pop_culture = maori }
 			militancy = -3
@@ -1839,10 +1838,11 @@ country_event = {
 	}
 }
 
+#The Flagstaff War
 country_event = {
 
 	id = 36941
-	title = "EVTNAME36941" #The Flagstaff War
+	title = "EVTNAME36941"
 	desc = "EVTDESC36941"
 
 	news = yes
@@ -1852,14 +1852,9 @@ country_event = {
 	picture = "flagstaffwar"
 
 	trigger = {
-		OR = {
-			tag = ENG
-			tag = ENL
-		}
 		owns = 2509 #Auckland
 		has_global_flag = treaty_of_waitangi
 		year = 1845
-		NOT = { exists = NZL }
 	}
 
 	fire_only_once = yes
@@ -1900,7 +1895,7 @@ country_event = {
 		}
 	}
 }
-
+#The Fencibles
 country_event = {
 	
 	id = 36942
@@ -1911,13 +1906,16 @@ country_event = {
 	fire_only_once = yes
 
 	trigger = {
-		OR = {
-			tag = ENG
-			tag = ENL
+		2509 = {
+			owned_by = THIS
+			is_colonial = yes 
 		}
+		war = no
+		owns = 2510
+		owns = 2511
+		owns = 2512
 		NZL = {
 			exists = no
-			all_core = { owned_by = THIS }
 		}
 	}
 
@@ -1944,9 +1942,10 @@ country_event = {
 	}
 }
 
+#The Danish Gold Coast
 country_event = {
 	id = 36950
-	title = "EVTNAME36950" #The Danish Gold Coast
+	title = "EVTNAME36950"
 	desc = "EVTDESC36950"
 	picture = "administration"
 
@@ -2036,6 +2035,7 @@ country_event = {
 		is_greater_power = yes
 		nationalism_n_imperialism = 1
 		NOT = { has_global_flag = berlin_conference }
+		NOT = { has_global_flag = eic_spawned }
 		BUR = {
 			war = no
 			civilized = no
@@ -2335,6 +2335,7 @@ country_event = {
 				war = no
 				civilized = no
 				slavery = yes_slavery
+				ai = yes
 				OR = {
 					part_of_sphere = no
 					in_sphere = ENG
@@ -2385,7 +2386,7 @@ country_event = {
 	option = {
 		name = "EVT36966OPTA"
 		prestige = -10
-		relation = { who = FROM value = -50 }
+		relation = { who = FROM value = -400 }
 		any_pop = { militancy = 3 }
 		ai_chance = {
 			factor = 90
@@ -2680,7 +2681,7 @@ country_event = {
 		2070 = { secede_province = THIS life_rating = 25 }
 		2635 = { secede_province = THIS life_rating = 25 }
 		2068 = { secede_province = THIS life_rating = 25 }
-		2068 = { change_province_name = "Salisbury" }
+		#2068 = { change_province_name = "Salisbury" }
 		2087 = { any_pop = { limit = { type = soldiers culture = british } move_pop = 2068 } }
 		2087 = { any_pop = { limit = { type = artisans culture = british } pop_type = soldiers } }
 	}

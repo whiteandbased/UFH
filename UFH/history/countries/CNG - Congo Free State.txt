@@ -1,14 +1,15 @@
 capital = 1982
 primary_culture = bakongo
 culture = mongo
-culture = lunda
-culture = luba
-culture = lendu
-culture = kuba
 culture = kingwana
+culture = lunda
+culture = kuba
+culture = lendu
+culture = luba
 culture = azande
 culture = chokwe
 culture = african_minor
+culture = ruanda
 religion = catholic
 government = absolute_monarchy
 plurality = 0.0
@@ -42,6 +43,8 @@ child_labor = child_labor_legal
 citizens_rights = primary_culture_only
 border_policy = open_borders
 
+set_country_flag = catholic_country
+
 set_country_flag = post_colonial_country
 
 govt_flag = {
@@ -49,7 +52,7 @@ govt_flag = {
 	flag = theocracy
 }
 
-ruling_party = CNG_conservative
+ruling_party = CNG_reactionary
 
 upper_house = {
 	fascist = 0

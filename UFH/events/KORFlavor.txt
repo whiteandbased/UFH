@@ -582,13 +582,12 @@ country_event = {
 	news_desc_long = "EVTDESC85020_NEWS_LONG"
 	news_desc_medium = "EVTDESC85020_NEWS_MEDIUM"
 	news_desc_short = "EVTDESC85020_NEWS_SHORT"
-	major = yes
 	picture = "tonghak_rebellion"
 	
 	trigger = {
 		tag = KOR
 		civilized = no
-		civilization_progress = 0.75
+		civilization_progress = 0.6
 		government = absolute_monarchy
 		OR = {
 			part_of_sphere = yes
@@ -621,19 +620,19 @@ country_event = {
 		}
 		modifier = {
 			factor = 0.5
+			civilization_progress = 0.7
+		}
+		modifier = {
+			factor = 0.5
+			civilization_progress = 0.75
+		}
+		modifier = {
+			factor = 0.5
 			civilization_progress = 0.8
 		}
 		modifier = {
 			factor = 0.5
 			civilization_progress = 0.85
-		}
-		modifier = {
-			factor = 0.5
-			civilization_progress = 0.9
-		}
-		modifier = {
-			factor = 0.5
-			civilization_progress = 0.95
 		}
 	}
 	

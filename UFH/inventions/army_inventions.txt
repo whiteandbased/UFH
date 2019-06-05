@@ -688,7 +688,7 @@ flintlock_rifle_armament = {
 
 #muzzle_loaded_rifles
 muzzle_loaded_rifle_armament = {
-	limit = { muzzle_loaded_rifles = 1 }
+	limit = { muzzle_loaded_rifles = 1 invention = flintlock_rifle_armament }
 	chance = {
 		base = 5
 		modifier = {
@@ -723,7 +723,7 @@ muzzle_loaded_rifle_armament = {
 
 #breech_loaded_rifles
 breech_loaded_rifle_armament = {
-	limit = { breech_loaded_rifles = 1 }
+	limit = { breech_loaded_rifles = 1 invention = muzzle_loaded_rifle_armament }
 	chance = {
 		base = 5
 		modifier = {
@@ -766,7 +766,7 @@ breech_loaded_rifle_armament = {
 
 #machine_guns
 machine_gun_armament = {
-	limit = { machine_guns = 1 }
+	limit = { machine_guns = 1 invention = breech_loaded_rifle_armament }
 	chance = {
 		base = 5
 		modifier = {
@@ -853,7 +853,7 @@ colonial_negotiations = {
 }
 #bolt_action_rifles
 bolt_action_rifle_armament = {
-	limit = { bolt_action_rifles = 1 }
+	limit = { bolt_action_rifles = 1 invention = machine_gun_armament }
 	chance = {
 		base = 5
 		modifier = {

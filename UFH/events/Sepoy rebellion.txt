@@ -16,6 +16,7 @@ country_event = {
 			tag = ENG
 			tag = ENL
 		}
+		NOT = { has_global_flag = eic_spawned }
 		year = 1857
 		OR = {
 			owns = 1236 #Delhi

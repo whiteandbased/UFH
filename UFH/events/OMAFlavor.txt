@@ -400,7 +400,7 @@ country_event = {
 		ZAN = { all_core = { remove_core = OMA } }
 		OMA = { capital = 1166 }
 
-		ZAN = { primary_culture = bedouin add_accepted_culture = swahili religion = ibadi }
+		ZAN = { primary_culture = bedouin add_accepted_culture = swahili religion = ibadi set_country_flag = ibadi_country clr_country_flag = sunni_country }
 		
 		random_owned = {
 			limit = { owner = { land_reform = yes_land_reform } }

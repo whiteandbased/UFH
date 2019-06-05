@@ -36,6 +36,8 @@ penal_system = capital_punishment
 child_labor = child_labor_legalcitizens_rights = primary_culture_only
 border_policy = open_borders
 
+set_country_flag = protestant_country
+
 ruling_party = TEX_liberal
 last_election = 1836.1.1
 upper_house = {
@@ -80,6 +82,8 @@ consciousness = 3
 nonstate_consciousness = 1
 
 oob = "TEX_oob.txt"
+
+set_country_flag = new_world_nation
 
 1861.1.1 = {
 # Technologies

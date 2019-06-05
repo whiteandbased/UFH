@@ -34,6 +34,8 @@ penal_system = capital_punishment
 child_labor = child_labor_legalcitizens_rights = culture_voting_only
 border_policy = open_borders
 
+set_country_flag = mahayana_country
+
 ruling_party = RYU_reactionary
 upper_house = {
 	fascist = 0
@@ -56,7 +58,7 @@ consciousness = 0
 nonstate_consciousness = 0
 
 # Inventions
-bottling_process = yes
+#bottling_process = yes
 modern_winemaking = yes
 
 oob = "RYU_oob.txt"

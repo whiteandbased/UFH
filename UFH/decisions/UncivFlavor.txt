@@ -256,7 +256,6 @@ political_decisions = {
 		
 		effect = {
 			set_country_flag = conquest_of_the_south
-			add_accepted_culture = sidama
 			1864 = { add_core = ETH secede_province = ETH any_pop = { literacy = -0.99 } life_rating = 21 }
 			1866 = { add_core = ETH secede_province = ETH any_pop = { literacy = -0.99 } life_rating = 21 }
 			1867 = { add_core = ETH secede_province = ETH any_pop = { literacy = -0.99 } life_rating = 21 }
@@ -638,14 +637,14 @@ political_decisions = {
 			NOT = { primary_culture = japanese }
 			NOT = { tag = HYD }
 			NOT = { tag = MUG }
-			NOT = { capital_scope = { pop_majority_religion = sunni } }
-			NOT = { capital_scope = { pop_majority_religion = shiite } }
-			NOT = { capital_scope = { pop_majority_religion = jewish } }
-			NOT = { capital_scope = { pop_majority_religion = catholic } }
-			NOT = { capital_scope = { pop_majority_religion = orthodox } }
-			NOT = { capital_scope = { pop_majority_religion = protestant } }
-			NOT = { capital_scope = { pop_majority_religion = ibadi } }
-			NOT = { capital_scope = { pop_majority_religion = coptic } }
+			NOT = { has_country_flag = sunni_country }
+			NOT = { has_country_flag = shiite_country }
+			NOT = { has_country_flag = ibadi_country }
+			NOT = { has_country_flag = jewish_country }
+			NOT = { has_country_flag = catholic_country }
+			NOT = { has_country_flag = orthodox_country }
+			NOT = { has_country_flag = protestant_country }
+			NOT = { has_country_flag = coptic_country }
 			NOT = { has_country_modifier = missionary_activity }
 			civilized = no
 			OR = {
@@ -702,8 +701,7 @@ political_decisions = {
 				limit = {
 					owner = {
 						part_of_sphere = no
-						has_country_flag = lacking_writing_system
-						capital_scope = { pop_majority_religion = animist }
+						has_country_flag = animist_country
 						NOT = { has_country_flag = changed_religion }
 					}
 				}

@@ -1,11 +1,18 @@
 capital = 1959
-primary_culture = british 
-culture = fang
+primary_culture = fang
+culture = tiv
 culture = african_minor
+culture = fulbe
+culture = hausa
+culture = baguirmi
+culture = bedouin
+culture = ibibio
+culture = sara
+culture = kanuri
 religion = protestant
 government = democracy
 plurality = 0.0
-nationalvalue = nv_order
+nationalvalue = nv_tradition
 literacy = 0.04
 
 # Political reforms
@@ -34,9 +41,11 @@ penal_system = capital_punishment
 child_labor = child_labor_legalcitizens_rights = primary_culture_only
 border_policy = open_borders
 
+set_country_flag = protestant_country
+
 set_country_flag = post_colonial_country
 
-ruling_party = SOK_conservative
+ruling_party = CMR_reactionary
 upper_house = {
 	fascist = 0
 	liberal = 16

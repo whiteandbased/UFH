@@ -42,6 +42,8 @@ penal_system = capital_punishment
 child_labor = child_labor_legalcitizens_rights = all_voting_pops
 border_policy = closed_borders
 
+set_country_flag = mahayana_country
+
 ruling_party = CHI_conservative
 upper_house = {
 	fascist = 0
@@ -56,7 +58,7 @@ upper_house = {
 # Technologies
 
 # Inventions
-bottling_process = yes
+#bottling_process = yes
 modern_winemaking = yes
 
 # Starting Consciousness
@@ -85,7 +87,7 @@ flintlock_rifles = 1
 military_staff_system = 1
 
 # Inventions
-bottling_process = yes
+#bottling_process = yes
 modern_winemaking = yes
 
 }

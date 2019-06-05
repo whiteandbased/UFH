@@ -1,6 +1,8 @@
 capital = 1880
 primary_culture = fulbe
 culture = african_minor
+culture = mande
+culture = dyula
 religion = sunni
 government = theocracy
 plurality = 0.0
@@ -44,6 +46,8 @@ upper_house = {
 	socialist = 0
 	communist = 0
 }
+
+set_country_flag = sunni_country
 
 # Technologies
 

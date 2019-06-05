@@ -1,9 +1,9 @@
 capital = 1818
-primary_culture = french 
-culture = sara
+primary_culture = sara
 culture = bedouin
 culture = teda
 culture = kanuri
+culture = baguirmi
 culture = fur
 culture = african_minor
 religion = sunni
@@ -38,9 +38,10 @@ penal_system = capital_punishment
 child_labor = child_labor_legalcitizens_rights = primary_culture_only
 border_policy = open_borders
 
+set_country_flag = sunni_country
 set_country_flag = post_colonial_country
 
-ruling_party = WAD_conservative
+ruling_party = CHD_conservative
 upper_house = {
 	fascist = 0
 	liberal = 16

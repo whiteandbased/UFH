@@ -4,12 +4,9 @@ political_decisions = {
 		picture = form_israel
 		potential = {
 			civilized = yes
-			NOT = { is_culture_group = arab	}
-			NOT = { is_culture_group = turko_semitic }
-			NOT = { is_culture_group = iranian_turanian }
-			NOT = { capital_scope = { pop_majority_religion = sunni } }
-			NOT = { capital_scope = { pop_majority_religion = shiite } }
-			NOT = { tag = OMA }
+			NOT = { has_country_flag = sunni_country }
+			NOT = { has_country_flag = shiite_country }
+			NOT = { has_country_flag = ibadi_country }
 			NOT = { has_global_flag = israel_has_her_cores }
 			916 = {
 				OR = {

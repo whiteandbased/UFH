@@ -10,50 +10,47 @@ political_decisions = {
 			1984 = { empty = yes }
 			any_owned_province = { port = yes }
 			NOT = { is_vassal = yes }
+			num_of_cities = 6
+			number_of_states = 2
 		}
 
 		allow = {
 			has_global_flag = berlin_conference
 			slavery = no_slavery
 			war = no
-			total_pops = 300000
-			num_of_cities = 6
-			number_of_states = 2
-			NOT = { capital_scope = { terrain = arctic } }
-			NOT = { capital_scope = { terrain = small_island } }
+			total_pops = 1000000
+			OR = {
+				AND = {
+					is_secondary_power = yes
+					is_greater_power = no
+				}
+				tag = BEL
+			}
 			OR = {
 				government = hms_government
 				government = prussian_constitutionalism
 				government = absolute_monarchy
 			}
 			OR = {
-				AND = {
-					is_secondary_power = yes
+				AND = {	
 					NOT = { badboy = 0.4 }
 					NOT = { num_of_vassals = 1 }
 					NOT = { any_owned_province = { is_colonial = yes } }
-					NOT = { any_owned_province = { continent = africa } }
-					invention = blue_water_school
 					blue_and_brown_water_schools = 1
 				}
 				AND = {
-					is_secondary_power = yes
 					NOT = { badboy = 0.2 }
 					NOT = { num_of_vassals = 1 }
 					NOT = { any_owned_province = { is_colonial = yes } }
-					NOT = { any_owned_province = { continent = africa } }
 					blue_and_brown_water_schools = 1
 				}
 				AND = {
-					is_secondary_power = yes
 					NOT = { badboy = 0.1 }
 					NOT = { any_owned_province = { continent = africa } }
-					raider_group_doctrine = 1
+					naval_logistics = 1
 					year = 1885
 				}
 				AND = {
-					is_greater_power = yes
-					tag = BEL
 					NOT = { badboy = 0.01 }
 					NOT = { any_owned_province = { continent = africa } }
 					NOT = { any_owned_province = { is_colonial = yes } }

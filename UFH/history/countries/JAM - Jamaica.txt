@@ -33,9 +33,11 @@ penal_system = capital_punishment
 child_labor = child_labor_legalcitizens_rights = culture_voting_only
 border_policy = open_borders
 
+set_country_flag = protestant_country
+
 ruling_party = JAM_liberal
 upper_house = {
-	fascist = 1
+	fascist = 0
 	liberal = 59
 	conservative = 29
 	reactionary = 12
@@ -43,6 +45,8 @@ upper_house = {
 	socialist = 0
 	communist = 0
 }
+
+set_country_flag = new_world_nation
 
 govt_flag = {
 	government = absolute_monarchy

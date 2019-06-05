@@ -2,7 +2,7 @@ color = { 86  114  143 }
 graphical_culture = AfricanGC
 
 party = {
-	name = "BUG_conservative"
+	name = "KNY_conservative"
 	start_date = 1800.1.1
 	end_date = 2000.1.1
 
@@ -17,7 +17,7 @@ party = {
 }
 
 party = {
-	name = "BUG_liberal"
+	name = "KNY_liberal"
 	start_date = 1820.1.1
 	end_date = 1936.1.1
 
@@ -32,7 +32,7 @@ party = {
 }
 
 party = {
-	name = "BUG_reactionary"
+	name = "KNY_reactionary"
 	start_date = 1820.1.1
 	end_date = 2000.1.1
 
@@ -47,7 +47,7 @@ party = {
 }
 
 party = {
-	name = "BUG_anarcho_liberal"
+	name = "KNY_anarcho_liberal"
 	start_date = 1830.1.1
 	end_date = 2000.1.1
 
@@ -62,7 +62,7 @@ party = {
 }
 
 party = {
-	name = "BUG_socialist"
+	name = "KNY_socialist"
 	start_date = 1848.1.1
 	end_date = 2000.1.1
 
@@ -77,7 +77,7 @@ party = {
 }
 
 party = {
-	name = "BUG_communist"
+	name = "KNY_communist"
 	start_date = 1848.1.1
 	end_date = 2000.1.1
 
@@ -92,7 +92,7 @@ party = {
 }
 
 party = {
-	name = "BUG_fascist"
+	name = "KNY_fascist"
 	start_date = 1900.1.1
 	end_date = 2000.1.1
 
@@ -108,23 +108,23 @@ party = {
 
 unit_names = {
 	dreadnought = {
-		Mwami Karyenda Nzambi Buganda Upemba Mwari Mulopwe Mulungu Mbonga Bambudye Mazendere Mboko Musikavanhu Mutorwa
+		Mwami Karyenda Nzambi KNYanda Upemba Mwari Mulopwe Mulungu Mbonga Bambudye Mazendere Mboko Musikavanhu Mutorwa
 		
 	}
 	ironclad = {
-		Mwami Karyenda Nzambi Buganda Upemba Mwari Mulopwe Mulungu Mbonga Bambudye Mazendere Mboko Musikavanhu Mutorwa
+		Mwami Karyenda Nzambi KNYanda Upemba Mwari Mulopwe Mulungu Mbonga Bambudye Mazendere Mboko Musikavanhu Mutorwa
 	}
 	manowar = {
-		Mwami Karyenda Nzambi Buganda Upemba Mwari Mulopwe Mulungu Mbonga Bambudye Mazendere Mboko Musikavanhu Mutorwa
+		Mwami Karyenda Nzambi KNYanda Upemba Mwari Mulopwe Mulungu Mbonga Bambudye Mazendere Mboko Musikavanhu Mutorwa
 	}
 	cruiser = {
-		Mwami Karyenda Nzambi Buganda Upemba Mwari Mulopwe Mulungu Mbonga Bambudye Mazendere Mboko Musikavanhu Mutorwa
+		Mwami Karyenda Nzambi KNYanda Upemba Mwari Mulopwe Mulungu Mbonga Bambudye Mazendere Mboko Musikavanhu Mutorwa
 	}
 	frigate = {
-		Mwami Karyenda Nzambi Buganda Upemba Mwari Mulopwe Mulungu Mbonga Bambudye Mazendere Mboko Musikavanhu Mutorwa
+		Mwami Karyenda Nzambi KNYanda Upemba Mwari Mulopwe Mulungu Mbonga Bambudye Mazendere Mboko Musikavanhu Mutorwa
 	}
 	monitor = {
-		Mwami Karyenda Nzambi Buganda Upemba Mwari Mulopwe Mulungu Mbonga Bambudye Mazendere Mboko Musikavanhu Mutorwa
+		Mwami Karyenda Nzambi KNYanda Upemba Mwari Mulopwe Mulungu Mbonga Bambudye Mazendere Mboko Musikavanhu Mutorwa
 	}
 	clipper_transport = {
 		
@@ -133,6 +133,6 @@ unit_names = {
 		
 	}
 	commerce_raider = {
-		Mwami Karyenda Nzambi Buganda Upemba Mwari Mulopwe Mulungu Mbonga Bambudye Mazendere Mboko Musikavanhu Mutorwa
+		Mwami Karyenda Nzambi KNYanda Upemba Mwari Mulopwe Mulungu Mbonga Bambudye Mazendere Mboko Musikavanhu Mutorwa
 	}
 }

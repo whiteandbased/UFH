@@ -1,6 +1,9 @@
 capital = 2108
 primary_culture = nguni
+culture = tswana
 culture = shona
+culture = sotho
+culture = southern_bantu
 religion = animist
 government = absolute_monarchy
 plurality = 0.0
@@ -33,6 +36,8 @@ debt_law = peonage
 penal_system = capital_punishment
 child_labor = child_labor_legalcitizens_rights = primary_culture_only
 border_policy = open_borders
+
+set_country_flag = animist_country
 
 ruling_party = MAT_conservative
 upper_house = {

@@ -5,24 +5,36 @@
 	aristocrats = {
 		culture = french
 		religion = catholic
-		size = 20.6
+		size = 20
 	}
 
-	clergymen = {
-		culture = african_minor
+	aristocrats = {
+		culture = kreol
 		religion = catholic
-		size = 30.900000000000002
+		size = 30
+	}
+	
+	soldiers = {
+		culture = kreol
+		religion = catholic
+		size = 30
+	}
+	
+	clergymen = {
+		culture = kreol
+		religion = catholic
+		size = 30
 	}
 
 	artisans = {
-		culture = african_minor
+		culture = kreol
 		religion = catholic
-		size = 77.25
+		size = 75
 	}
 
 	farmers = {
-		culture = african_minor
+		culture = kreol
 		religion = catholic
-		size = 1210.25
+		size = 1175
 	}
 }

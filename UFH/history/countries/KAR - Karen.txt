@@ -33,6 +33,8 @@ penal_system = capital_punishment
 child_labor = child_labor_legalcitizens_rights = primary_culture_only
 border_policy = open_borders
 
+set_country_flag = theravada_country
+
 ruling_party = BUR_conservative
 upper_house = {
 	fascist = 0
@@ -56,7 +58,7 @@ consciousness = 0
 nonstate_consciousness = 0
 
 # Inventions
-bottling_process = yes
+#bottling_process = yes
 modern_winemaking = yes
 
 oob = "BUR_oob.txt"

@@ -132,6 +132,7 @@ political_decisions = {
 			exists = BAH
 			exists = BRZ
 			NOT = { tag = BAH }
+			BAH = { ai = yes }
 		}
 		allow = {
 			war = no
@@ -158,6 +159,7 @@ political_decisions = {
 			exists = PNB
 			exists = BRZ
 			NOT = { tag = PNB }
+			PNB = { ai = yes }
 		}
 		allow = {
 			war = no
@@ -185,6 +187,7 @@ political_decisions = {
 			exists = RGS
 			exists = BRZ
 			NOT = { tag = RGS }
+			RGS = { ai = yes }
 		}
 		allow = {
 			war = no
@@ -294,226 +297,6 @@ political_decisions = {
 		}
 	}
 	
-	native_protection_act = {
-		picture = native_protection_act
-		potential = {
-			OR = {
-				capital_scope = { continent = north_america }
-				capital_scope = { continent = south_america }
-				capital_scope = { continent = australia_new_zealand }
-			}
-			OR = {
-				is_culture_group = latin_american_cultures
-				is_culture_group = american_cultures
-				primary_culture = australian
-				primary_culture = anglo_canadian
-				primary_culture = french_canadian
-			}
-			NOT = { has_country_flag = native_protection_act_enacted }
-			any_owned_province = {
-				any_core = {
-					any_pop = {
-						OR = {
-							has_pop_culture = zapotec
-							has_pop_culture = mayan
-							has_pop_culture = nahua
-							has_pop_culture = tarascan
-							has_pop_culture = quechua
-							has_pop_culture = guarani
-							has_pop_culture = aimara
-							has_pop_culture = amazonian
-							has_pop_culture = patagonian
-							has_pop_culture = guajiro
-							has_pop_culture = tupinamba
-							has_pop_culture = metis
-							has_pop_culture = dakota
-							has_pop_culture = cherokee
-							has_pop_culture = pueblo
-							has_pop_culture = inuit
-							has_pop_culture = cree
-							has_pop_culture = navajo
-							has_pop_culture = native_american_minor
-							has_pop_culture = aborigine
-							has_pop_culture = maori
-							has_pop_culture = polynesian
-							has_pop_culture = hawaiian
-							has_pop_culture = melanesian
-							has_pop_culture = micronesian
-						}
-					}
-				}
-			}
-		}
-	
-		allow = {
-			war = no
-			is_vassal = no
-			NOT = { ruling_party_ideology = reactionary }
-			NOT = { ruling_party_ideology = fascist }
-			NOT = { citizens_rights = primary_culture_only }
-			has_unclaimed_cores = no
-			all_core = { any_pop = { is_primary_culture = yes } }
-			citizenship_policy = full_citizenship
-			invention = social_anthropology
-			money = 50000
-			OR = {
-				upper_house = { ideology = socialist value = 0.3 }
-				upper_house = { ideology = liberal value = 0.3 }
-				AND = {
-					upper_house = { ideology = socialist value = 0.15 }
-					upper_house = { ideology = liberal value = 0.15 }
-				}
-			}
-		}
-		
-		effect = {
-			treasury = -50000
-			set_country_flag = native_protection_act_enacted
-			random_owned = {
-				limit = { OR = { continent = south_america continent = north_america } }
-				owner = {
-					any_pop = { limit = { NOT = { is_culture_group = native_american } }
-						scaled_militancy = { factor = 3 ideology = reactionary }
-						scaled_consciousness = { factor = 3 ideology = conservative }
-					}
-					
-					any_pop = { limit = { is_culture_group = native_american }
-						consciousness = 4
-						militancy = -2
-						dominant_issue = { factor = 0.5 value = full_citizenship }
-					}
-				}
-			}
-			
-			random_owned = {
-				limit = { OR = { continent = australia_new_zealand continent = polynesia } }
-				owner = {
-					any_pop = { limit = { NOT = { is_culture_group = oceanic } }
-						scaled_militancy = { factor = 3 ideology = reactionary }
-						scaled_consciousness = { factor = 3 ideology = conservative }
-					}
-					
-					any_pop = { limit = { is_culture_group = oceanic }
-						consciousness = 4
-						militancy = -2
-						dominant_issue = { factor = 0.5 value = full_citizenship }
-					}
-				}
-			}
-				
-			random_owned = {
-				limit = { is_core = THIS any_pop = { has_pop_culture = zapotec } NOT = { owner = { accepted_culture = zapotec } } }
-				owner = { add_accepted_culture = zapotec }
-			}
-			random_owned = {
-				limit = { is_core = THIS any_pop = { has_pop_culture = mayan } NOT = { owner = { accepted_culture = mayan } } }
-				owner = { add_accepted_culture = mayan }
-			}
-			random_owned = {
-				limit = { is_core = THIS any_pop = { has_pop_culture = nahua } NOT = { owner = { accepted_culture = nahua } } }
-				owner = { add_accepted_culture = nahua } 
-			}
-			random_owned = {
-				limit = { is_core = THIS any_pop = { has_pop_culture = tarascan } NOT = { owner = { accepted_culture = tarascan } } }
-				owner = { add_accepted_culture = tarascan } 
-			}
-			random_owned = {
-				limit = { is_core = THIS any_pop = { has_pop_culture = quechua } NOT = { owner = { accepted_culture = quechua } } }
-				owner = { add_accepted_culture = quechua } 
-			}
-			random_owned = {
-				limit = { is_core = THIS any_pop = { has_pop_culture = guarani } NOT = { owner = { accepted_culture = guarani } } }
-				owner = { add_accepted_culture = guarani } 
-			}
-			random_owned = {
-				limit = { is_core = THIS any_pop = { has_pop_culture = aimara } NOT = { owner = { accepted_culture = aimara } } }
-				owner = { add_accepted_culture = aimara }
-			}
-			random_owned = {
-				limit = { is_core = THIS any_pop = { has_pop_culture = amazonian } NOT = { owner = { accepted_culture = amazonian } } }
-				owner = { add_accepted_culture = amazonian }
-			}
-			random_owned = {
-				limit = { is_core = THIS any_pop = { has_pop_culture = patagonian } NOT = { owner = { accepted_culture = patagonian } } }
-				owner = { add_accepted_culture = patagonian }
-			}
-			random_owned = {
-				limit = { is_core = THIS any_pop = { has_pop_culture = guajiro } NOT = { owner = { accepted_culture = guajiro } } }
-				owner = { add_accepted_culture = guajiro }
-			}
-			random_owned = {
-				limit = { is_core = THIS any_pop = { has_pop_culture = tupinamba } NOT = { owner = { accepted_culture = tupinamba } } }
-				owner = { add_accepted_culture = tupinamba }
-			}
-			random_owned = {
-				limit = { is_core = THIS any_pop = { has_pop_culture = metis } NOT = { owner = { accepted_culture = metis } } }
-				owner = { add_accepted_culture = metis }
-			}
-			random_owned = {
-				limit = { is_core = THIS any_pop = { has_pop_culture = dakota } NOT = { owner = { accepted_culture = dakota } } }
-				owner = { add_accepted_culture = dakota }
-			}
-			random_owned = {
-				limit = { is_core = THIS any_pop = { has_pop_culture = cherokee } NOT = { owner = { accepted_culture = cherokee } } }
-				owner = { add_accepted_culture = cherokee }
-			}
-			random_owned = {
-				limit = { is_core = THIS any_pop = { has_pop_culture = pueblo } NOT = { owner = { accepted_culture = pueblo } } }
-				owner = { add_accepted_culture = pueblo }
-			}
-			random_owned = {
-				limit = { is_core = THIS any_pop = { has_pop_culture = inuit } NOT = { owner = { accepted_culture = inuit } } }
-				owner = { add_accepted_culture = inuit }
-			}
-			random_owned = {
-				limit = { is_core = THIS any_pop = { has_pop_culture = cree } NOT = { owner = { accepted_culture = cree } } }
-				owner = { add_accepted_culture = cree }
-			}
-			random_owned = {
-				limit = { is_core = THIS any_pop = { has_pop_culture = navajo } NOT = { owner = { accepted_culture = navajo } } }
-				owner = { add_accepted_culture = navajo }
-			}
-			random_owned = {
-				limit = { is_core = THIS any_pop = { has_pop_culture = native_american_minor } NOT = { owner = { accepted_culture = native_american_minor } } }
-				owner = { add_accepted_culture = native_american_minor }
-			}
-			random_owned = {
-				limit = { is_core = THIS any_pop = { has_pop_culture = aborigine } NOT = { owner = { accepted_culture = aborigine } } }
-				owner = { add_accepted_culture = aborigine }
-			}
-			random_owned = {
-				limit = { is_core = THIS any_pop = { has_pop_culture = maori } NOT = { owner = { accepted_culture = maori } } }
-				owner = { add_accepted_culture = maori }
-			}
-			random_owned = {
-				limit = { is_core = THIS any_pop = { has_pop_culture = polynesian } NOT = { owner = { accepted_culture = polynesian } } }
-				owner = { add_accepted_culture = polynesian }
-			}
-			random_owned = {
-				limit = { is_core = THIS any_pop = { has_pop_culture = hawaiian } NOT = { owner = { accepted_culture = hawaiian } } }
-				owner = { add_accepted_culture = hawaiian }
-			}
-			random_owned = {
-				limit = { is_core = THIS any_pop = { has_pop_culture = melanesian } NOT = { owner = { accepted_culture = melanesian } } }
-				owner = { add_accepted_culture = melanesian }
-			}
-			random_owned = {
-				limit = { is_core = THIS any_pop = { has_pop_culture = micronesian } NOT = { owner = { accepted_culture = micronesian } } }
-				owner = { add_accepted_culture = micronesian }
-			}
-		}
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 0
-				NOT = { year = 1915 }
-				OR = {
-					tag = USA
-					tag = CAN
-				}
-			}
-		}
-	}
 	
 	remove_central_american_cores = {
 		picture = map_central_america

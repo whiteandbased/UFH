@@ -551,25 +551,25 @@
 	}
 
 	clergymen = {
-		culture = guajiro
+		culture = amazonian #guajiro
 		religion = catholic
 		size = 50
 	}
 
 	artisans = {
-		culture = guajiro
+		culture = amazonian #guajiro
 		religion = catholic
 		size = 250
 	}
 
 	soldiers = {
-		culture = guajiro
+		culture = amazonian #guajiro
 		religion = catholic
 		size = 50
 	}
 
 	farmers = {
-		culture = guajiro
+		culture = amazonian #guajiro
 		religion = catholic
 		size = 2650
 	}
@@ -637,25 +637,25 @@
 	}
 
 	clergymen = {
-		culture = guajiro
+		culture = amazonian #guajiro
 		religion = catholic
 		size = 10
 	}
 
 	artisans = {
-		culture = guajiro
+		culture = amazonian #guajiro
 		religion = catholic
 		size = 50
 	}
 
 	soldiers = {
-		culture = guajiro
+		culture = amazonian #guajiro
 		religion = catholic
 		size = 10
 	}
 
 	farmers = {
-		culture = guajiro
+		culture = amazonian #guajiro
 		religion = catholic
 		size = 1430
 	}

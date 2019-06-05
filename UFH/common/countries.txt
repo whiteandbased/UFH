@@ -7,6 +7,7 @@ REB 	= 	"countries/rebels.txt"
 
 
 ##HPM
+ATC		="countries/Antillean Confederation.txt"
 MNP		="countries/Manipur.txt"
 BDK		="countries/Badakhshan.txt"
 PGG		="countries/Pingnan Guo.txt"
@@ -177,6 +178,12 @@ MAH		= "countries/Maharashtra.txt"
 RAJ		= "countries/Rajputana.txt"
 SRI		= "countries/Sri Lanka.txt"
 
+#HPM Africa
+BKF		="countries/Burkina Faso.txt"
+ZBW		="countries/Zimbabwe.txt"
+CMS		="countries/Comoros.txt"
+EQG		="countries/Equatorial Guinea.txt"
+#KHO		="countries/Khoisan.txt"
 #Africa
 AGC		= "countries/Angoche.txt"
 ANG		= "countries/Angola.txt"
@@ -293,6 +300,10 @@ AOT     = "countries/Aotearoa.txt"
 FIJ		= "countries/Fiji.txt"
 SNZ     = "countries/South Island.txt"
 TGA		= "countries/Tonga.txt"
+####HPM######
+PPG		= "countries/Papua New Guinea.txt"
+VTU		= "countries/Vanuatu.txt" 
+SMO		= "countries/Samoa.txt"
 
 ### END OF NEW NATIONS MOD ###
 
@@ -551,6 +562,11 @@ BAB		="countries/Babylonia.txt"
 
 #new for AHD
 TPG		="countries/Taiping.txt"
+
+##EIC
+EIC		="countries/East India Company.txt"
+UTI		="countries/Utility Tag.txt"
+##
 
 ##HoD Dominions
 dynamic_tags  = yes # any tags after this is considered dynamic dominions
